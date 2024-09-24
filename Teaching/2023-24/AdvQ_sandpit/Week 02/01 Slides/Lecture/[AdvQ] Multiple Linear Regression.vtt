@@ -1,0 +1,2576 @@
+WEBVTT
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/9-0
+00:00:11.063 --> 00:00:12.903
+<v Chao-Yo Cheng (Staff)>Hello test.How are you? </v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/28-0
+00:00:34.963 --> 00:00:39.572
+<v Chao-Yo Cheng (Staff)>Hi, I am Dr Chao-Yo Cheng. Welcome to Advanced Topics in</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/28-1
+00:00:39.572 --> 00:00:42.003
+<v Chao-Yo Cheng (Staff)>Quantitative Social Research.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/48-0
+00:00:44.373 --> 00:00:48.623
+<v Chao-Yo Cheng (Staff)>In this video, I'll provide a practical overview of multiple</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/48-1
+00:00:48.623 --> 00:00:53.015
+<v Chao-Yo Cheng (Staff)>linear regression building on what you have learned so far at</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/48-2
+00:00:53.015 --> 00:00:53.653
+<v Chao-Yo Cheng (Staff)>Birkbeck.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/69-0
+00:00:56.383 --> 00:01:00.984
+<v Chao-Yo Cheng (Staff)>I will start by using bivariate regression to go over</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/69-1
+00:01:00.984 --> 00:01:05.011
+<v Chao-Yo Cheng (Staff)>the core concepts and mathematical properties of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/69-2
+00:01:05.011 --> 00:01:06.983
+<v Chao-Yo Cheng (Staff)>linear regression model.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/111-0
+00:01:08.743 --> 00:01:12.687
+<v Chao-Yo Cheng (Staff)>I am also going to explain how, as quantitative social</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/111-1
+00:01:12.687 --> 00:01:17.524
+<v Chao-Yo Cheng (Staff)>researchers, we can view the data analytical objectives of linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/111-2
+00:01:17.524 --> 00:01:22.287
+<v Chao-Yo Cheng (Staff)>regression differently and how these different perspectives will</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/111-3
+00:01:22.287 --> 00:01:26.752
+<v Chao-Yo Cheng (Staff)>accordingly influence our understanding and reading of the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/111-4
+00:01:26.752 --> 00:01:31.143
+<v Chao-Yo Cheng (Staff)>results we get from conducting linear regression analysis.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/137-0
+00:01:33.383 --> 00:01:38.010
+<v Chao-Yo Cheng (Staff)>Our review of linear regression model will then briefly cover</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/137-1
+00:01:38.010 --> 00:01:42.563
+<v Chao-Yo Cheng (Staff)>the key assumptions we need, as well as the main principles of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/137-2
+00:01:42.563 --> 00:01:46.823
+<v Chao-Yo Cheng (Staff)>statistical inference when it comes to linear regression.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/151-0
+00:01:48.893 --> 00:01:52.660
+<v Chao-Yo Cheng (Staff)>Next, I'm going to discuss the underlying rationale for</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/151-1
+00:01:52.660 --> 00:01:54.373
+<v Chao-Yo Cheng (Staff)>multiple linear regression.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/202-0
+00:01:56.363 --> 00:01:59.915
+<v Chao-Yo Cheng (Staff)>We're going to talk about a number of questions, for</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/202-1
+00:01:59.915 --> 00:02:04.015
+<v Chao-Yo Cheng (Staff)>instance, why has multiple linear regression become the most</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/202-2
+00:02:04.015 --> 00:02:08.387
+<v Chao-Yo Cheng (Staff)>common way of understanding the social world among quantitative</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/202-3
+00:02:08.387 --> 00:02:12.145
+<v Chao-Yo Cheng (Staff)>social researchers? what issues do we have to take into</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/202-4
+00:02:12.145 --> 00:02:16.313
+<v Chao-Yo Cheng (Staff)>consideration when we try to build a multi linear regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/202-5
+00:02:16.313 --> 00:02:16.723
+<v Chao-Yo Cheng (Staff)>model? </v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/223-0
+00:02:19.163 --> 00:02:23.823
+<v Chao-Yo Cheng (Staff)>I'm going to end this part by discussing some basic principles</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/223-1
+00:02:23.823 --> 00:02:27.817
+<v Chao-Yo Cheng (Staff)>we can take to design and implement linear regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/223-2
+00:02:27.817 --> 00:02:28.483
+<v Chao-Yo Cheng (Staff)>analysis.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/236-0
+00:02:31.553 --> 00:02:36.453
+<v Chao-Yo Cheng (Staff)>The most important key takeaway from this lecture is to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/236-1
+00:02:36.453 --> 00:02:37.313
+<v Chao-Yo Cheng (Staff)>recognize</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/245-0
+00:02:38.373 --> 00:02:42.973
+<v Chao-Yo Cheng (Staff)>All statistical models are only approximations of the reality.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/254-0
+00:02:44.803 --> 00:02:49.363
+<v Chao-Yo Cheng (Staff)>There is no perfect statistical model, although we do have some</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/266-0
+00:02:50.243 --> 00:02:55.622
+<v Chao-Yo Cheng (Staff)>theoretical principles we can use to guide our decisions, such</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/266-1
+00:02:55.622 --> 00:02:55.883
+<v Chao-Yo Cheng (Staff)>as</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/278-0
+00:02:57.383 --> 00:03:01.029
+<v Chao-Yo Cheng (Staff)>how do we choose between different variables and how do we choose</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/278-1
+00:03:01.029 --> 00:03:02.823
+<v Chao-Yo Cheng (Staff)>different model specifications</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/296-0
+00:03:05.583 --> 00:03:10.024
+<v Chao-Yo Cheng (Staff)>And yet for quantitative social researchers, we still need to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/296-1
+00:03:10.024 --> 00:03:14.029
+<v Chao-Yo Cheng (Staff)>make a lot of decisions. We still have to take a lot of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/296-2
+00:03:14.029 --> 00:03:14.903
+<v Chao-Yo Cheng (Staff)>assumptions.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/310-0
+00:03:16.883 --> 00:03:21.131
+<v Chao-Yo Cheng (Staff)>And very often the decisions we have to make may not have a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/310-1
+00:03:21.131 --> 00:03:23.043
+<v Chao-Yo Cheng (Staff)>clear or compelling reason.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/313-0
+00:03:24.213 --> 00:03:25.053
+<v Chao-Yo Cheng (Staff)>or foundation.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/326-0
+00:03:26.503 --> 00:03:31.319
+<v Chao-Yo Cheng (Staff)>After all, as George Box put, all models are wrong, but</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/326-1
+00:03:31.319 --> 00:03:33.383
+<v Chao-Yo Cheng (Staff)>some of them are useful.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/350-0
+00:03:34.413 --> 00:03:38.876
+<v Chao-Yo Cheng (Staff)>Box is one of the most important statisticians of all time, and</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/350-1
+00:03:38.876 --> 00:03:43.481
+<v Chao-Yo Cheng (Staff)>this line has become one of the most important motto for all</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/350-2
+00:03:43.481 --> 00:03:45.253
+<v Chao-Yo Cheng (Staff)>quantitative researchers.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/354-0
+00:03:54.313 --> 00:03:55.753
+<v Chao-Yo Cheng (Staff)>Alright. So let's begin.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/380-0
+00:03:56.993 --> 00:04:00.934
+<v Chao-Yo Cheng (Staff)>Regression analysis is a very common statistical technique</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/380-1
+00:04:00.934 --> 00:04:05.142
+<v Chao-Yo Cheng (Staff)>because it allows us to describe and estimate the relationship</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/380-2
+00:04:05.142 --> 00:04:09.417
+<v Chao-Yo Cheng (Staff)>between different factors over variables in the social world or</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/380-3
+00:04:09.417 --> 00:04:10.353
+<v Chao-Yo Cheng (Staff)>human society.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/384-0
+00:04:12.503 --> 00:04:13.703
+<v Chao-Yo Cheng (Staff)>Linear regression model.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/393-0
+00:04:15.643 --> 00:04:19.083
+<v Chao-Yo Cheng (Staff)>is only one kind of regression techniques we can use.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/420-0
+00:04:21.273 --> 00:04:25.506
+<v Chao-Yo Cheng (Staff)>But it is perhaps the most widely used model estimator</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/420-1
+00:04:25.506 --> 00:04:29.738
+<v Chao-Yo Cheng (Staff)>because it provides us with a very straightforward and</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/420-2
+00:04:29.738 --> 00:04:33.433
+<v Chao-Yo Cheng (Staff)>intuitive framework to achieve a lot of things.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/433-0
+00:04:34.933 --> 00:04:40.733
+<v Chao-Yo Cheng (Staff)>In particular, linear regression allows us to use a linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/433-1
+00:04:40.733 --> 00:04:43.133
+<v Chao-Yo Cheng (Staff)>function to present the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/444-0
+00:04:43.333 --> 00:04:47.744
+<v Chao-Yo Cheng (Staff)>relationship between X and Y, namely our predictor and</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/444-1
+00:04:47.744 --> 00:04:49.133
+<v Chao-Yo Cheng (Staff)>outcome variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/451-0
+00:04:51.553 --> 00:04:54.113
+<v Chao-Yo Cheng (Staff)>Consider the linear function I put here.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/484-0
+00:04:55.913 --> 00:05:00.095
+<v Chao-Yo Cheng (Staff)>We're going to talk more about multiple linear regression in a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/484-1
+00:05:00.095 --> 00:05:03.746
+<v Chao-Yo Cheng (Staff)>moment, but let us focus on bivariate linear regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/484-2
+00:05:03.746 --> 00:05:07.662
+<v Chao-Yo Cheng (Staff)>because the basic ideas can be extended to multiple linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/484-3
+00:05:07.662 --> 00:05:08.393
+<v Chao-Yo Cheng (Staff)>regression.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/497-0
+00:05:10.323 --> 00:05:14.040
+<v Chao-Yo Cheng (Staff)>By definition bivariate linear regression only has one</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/497-1
+00:05:14.040 --> 00:05:16.323
+<v Chao-Yo Cheng (Staff)>predictor or independent variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/539-0
+00:05:18.963 --> 00:05:24.326
+<v Chao-Yo Cheng (Staff)>In the linear function, we can use X to represent the predictor</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/539-1
+00:05:24.326 --> 00:05:29.264
+<v Chao-Yo Cheng (Staff)>and Y to represent the outcome over dependent variable of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/539-2
+00:05:29.264 --> 00:05:34.373
+<v Chao-Yo Cheng (Staff)>interest. Some researchers, like psychologists, sometimes also</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/539-3
+00:05:34.373 --> 00:05:37.523
+<v Chao-Yo Cheng (Staff)>call Y the response variable of X.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/574-0
+00:05:38.763 --> 00:05:43.275
+<v Chao-Yo Cheng (Staff)>For this particular linear function, we can also say Y</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/574-1
+00:05:43.275 --> 00:05:48.433
+<v Chao-Yo Cheng (Staff)>is a function of X because we can use the value of X to infer</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/574-2
+00:05:48.433 --> 00:05:53.187
+<v Chao-Yo Cheng (Staff)>or derive the corresponding value of Y. Suppose we know the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/574-3
+00:05:53.187 --> 00:05:55.283
+<v Chao-Yo Cheng (Staff)>value of alpha and beta.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/581-0
+00:06:03.263 --> 00:06:05.583
+<v Chao-Yo Cheng (Staff)>So now you know some basic setup.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/599-0
+00:06:06.863 --> 00:06:11.567
+<v Chao-Yo Cheng (Staff)>of a linear function or a linear model. We can now go over other</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/599-1
+00:06:11.567 --> 00:06:14.223
+<v Chao-Yo Cheng (Staff)>parts in a linear function more carefully.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/624-0
+00:06:16.713 --> 00:06:20.562
+<v Chao-Yo Cheng (Staff)>When we carry our linear regression analysis, the idea is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/624-1
+00:06:20.562 --> 00:06:25.020
+<v Chao-Yo Cheng (Staff)>to use one or more predictors or independent variables to predict</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/624-2
+00:06:25.020 --> 00:06:26.033
+<v Chao-Yo Cheng (Staff)>the value of Y.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/648-0
+00:06:27.323 --> 00:06:32.660
+<v Chao-Yo Cheng (Staff)>Once we use our data to derive or estimate the values of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/648-1
+00:06:32.660 --> 00:06:38.279
+<v Chao-Yo Cheng (Staff)>intercept and the slope, then we can use the data we have to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/648-2
+00:06:38.279 --> 00:06:39.403
+<v Chao-Yo Cheng (Staff)>predict Y.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/651-0
+00:06:40.873 --> 00:06:42.113
+<v Chao-Yo Cheng (Staff)>Most specifically speaking,m</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/660-0
+00:06:44.083 --> 00:06:47.523
+<v Chao-Yo Cheng (Staff)>On the right hand side, you can see there is an</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/664-0
+00:06:48.313 --> 00:06:50.193
+<v Chao-Yo Cheng (Staff)>error term at the end,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/684-0
+00:06:51.303 --> 00:06:55.808
+<v Chao-Yo Cheng (Staff)>which is something we use to capture the random noise that</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/684-1
+00:06:55.808 --> 00:07:00.466
+<v Chao-Yo Cheng (Staff)>otherwise cannot be captured given our predictors or current</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/684-2
+00:07:00.466 --> 00:07:01.383
+<v Chao-Yo Cheng (Staff)>model setup.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/724-0
+00:07:02.633 --> 00:07:07.853
+<v Chao-Yo Cheng (Staff)>For instance, if you want to come out with a model to predict</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/724-1
+00:07:07.853 --> 00:07:13.073
+<v Chao-Yo Cheng (Staff)>someone's income, a person's luck may or can only be included using</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/724-2
+00:07:13.073 --> 00:07:17.961
+<v Chao-Yo Cheng (Staff)>the error term unless we can come up with a systematic and</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/724-3
+00:07:17.961 --> 00:07:21.193
+<v Chao-Yo Cheng (Staff)>reliable and replicable measure of luck.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/736-0
+00:07:22.633 --> 00:07:27.885
+<v Chao-Yo Cheng (Staff)>Formerly speaking the error or disturbance, is defined as the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/736-1
+00:07:27.885 --> 00:07:28.833
+<v Chao-Yo Cheng (Staff)>difference</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/745-0
+00:07:29.843 --> 00:07:35.003
+<v Chao-Yo Cheng (Staff)>or distance between the actual and predicted outcome values.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/776-0
+00:07:38.123 --> 00:07:43.183
+<v Chao-Yo Cheng (Staff)>If we put the error term aside, in the same function, we can also</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/776-1
+00:07:43.183 --> 00:07:47.848
+<v Chao-Yo Cheng (Staff)>see the model is defined by the intercept and the slope in</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/776-2
+00:07:47.848 --> 00:07:51.643
+<v Chao-Yo Cheng (Staff)>addition to the predictor and outcome variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/801-0
+00:07:53.713 --> 00:07:58.673
+<v Chao-Yo Cheng (Staff)>On the one hand, the intercept of a linear function will tell us</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/801-1
+00:07:58.673 --> 00:08:03.245
+<v Chao-Yo Cheng (Staff)>the corresponding value of Y when we set the value of X at</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/801-2
+00:08:03.245 --> 00:08:03.633
+<v Chao-Yo Cheng (Staff)>zero.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/807-0
+00:08:04.533 --> 00:08:06.253
+<v Chao-Yo Cheng (Staff)>The slope, on the other hand.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/826-0
+00:08:07.383 --> 00:08:12.367
+<v Chao-Yo Cheng (Staff)>indicates the corresponding change and the value of Y when</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/826-1
+00:08:12.367 --> 00:08:17.183
+<v Chao-Yo Cheng (Staff)>we increase the value of X by one, say from zero to one.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/832-0
+00:08:18.903 --> 00:08:20.783
+<v Chao-Yo Cheng (Staff)>You will see this more clearly in the next slide.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/847-0
+00:08:26.513 --> 00:08:31.475
+<v Chao-Yo Cheng (Staff)>So in this slide, you can see what a typical bivariate linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/847-1
+00:08:31.475 --> 00:08:33.753
+<v Chao-Yo Cheng (Staff)>regression model looks like.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/863-0
+00:08:35.513 --> 00:08:40.282
+<v Chao-Yo Cheng (Staff)>This model uses beta zero and one to represent the intercept</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/863-1
+00:08:40.282 --> 00:08:42.393
+<v Chao-Yo Cheng (Staff)>and the slope, respectively.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/875-0
+00:08:44.213 --> 00:08:47.986
+<v Chao-Yo Cheng (Staff)>The figure is very helpful because it clearly shows where</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/875-1
+00:08:47.986 --> 00:08:49.613
+<v Chao-Yo Cheng (Staff)>the intercept is located.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/895-0
+00:08:50.513 --> 00:08:56.081
+<v Chao-Yo Cheng (Staff)>Once again, they intercept is the value of our dependent variable</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/895-1
+00:08:56.081 --> 00:09:00.193
+<v Chao-Yo Cheng (Staff)>when we set the value of our predictor at zero.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/910-0
+00:09:02.153 --> 00:09:09.400
+<v Chao-Yo Cheng (Staff)>The slope or beta one shows the corresponding changes in Y over</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/910-1
+00:09:09.400 --> 00:09:10.873
+<v Chao-Yo Cheng (Staff)>changes in X.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/919-0
+00:09:13.543 --> 00:09:17.623
+<v Chao-Yo Cheng (Staff)>When the denominator is one, then the slope again tells us</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/936-0
+00:09:19.843 --> 00:09:23.961
+<v Chao-Yo Cheng (Staff)>how much our dependent variable will change when we increase the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/936-1
+00:09:23.961 --> 00:09:26.243
+<v Chao-Yo Cheng (Staff)>value of our predictor by one unit.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/949-0
+00:09:36.493 --> 00:09:41.179
+<v Chao-Yo Cheng (Staff)>Here is a more realistic example of a bivariate linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/949-1
+00:09:41.179 --> 00:09:42.053
+<v Chao-Yo Cheng (Staff)>regression.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/975-0
+00:09:43.633 --> 00:09:47.753
+<v Chao-Yo Cheng (Staff)>What we have here is a scatter plot containing both the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/975-1
+00:09:47.753 --> 00:09:52.388
+<v Chao-Yo Cheng (Staff)>predictor on the horizontal axis and the dependent variable on</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/975-2
+00:09:52.388 --> 00:09:53.713
+<v Chao-Yo Cheng (Staff)>the vertical axis.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/993-0
+00:09:54.693 --> 00:09:59.092
+<v Chao-Yo Cheng (Staff)>The predictor in this case is voters' perception of competence</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/993-1
+00:09:59.092 --> 00:10:02.853
+<v Chao-Yo Cheng (Staff)>for politicians from the Democratic Party in the US.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1018-0
+00:10:04.853 --> 00:10:08.694
+<v Chao-Yo Cheng (Staff)>The competence score is constructed by the researchers</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1018-1
+00:10:08.694 --> 00:10:12.821
+<v Chao-Yo Cheng (Staff)>ranging between zero and one, with higher value suggesting</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1018-2
+00:10:12.821 --> 00:10:14.813
+<v Chao-Yo Cheng (Staff)>higher perceived competence.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1045-0
+00:10:17.133 --> 00:10:20.927
+<v Chao-Yo Cheng (Staff)>The dependent variable is how much percentage of votes</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1045-1
+00:10:20.927 --> 00:10:24.922
+<v Chao-Yo Cheng (Staff)>democratic candidates can win relative to the vote share of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1045-2
+00:10:24.922 --> 00:10:26.853
+<v Chao-Yo Cheng (Staff)>their Republican competitors.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1072-0
+00:10:28.013 --> 00:10:31.846
+<v Chao-Yo Cheng (Staff)>Each small circle in a scatter plot represents an</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1072-1
+00:10:31.846 --> 00:10:36.369
+<v Chao-Yo Cheng (Staff)>observation, and you should be able to see that the unit of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1072-2
+00:10:36.369 --> 00:10:41.123
+<v Chao-Yo Cheng (Staff)>observations in the data set is a democratic candidate in the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1072-3
+00:10:41.123 --> 00:10:41.813
+<v Chao-Yo Cheng (Staff)>election.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1094-0
+00:10:44.443 --> 00:10:48.291
+<v Chao-Yo Cheng (Staff)>Suppose now we carry out linear regression analysis and are</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1094-1
+00:10:48.291 --> 00:10:51.883
+<v Chao-Yo Cheng (Staff)>using some data collecting from the previous elections.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1109-0
+00:10:53.603 --> 00:10:57.551
+<v Chao-Yo Cheng (Staff)>And we use the data to derive the estimated coefficients for</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1109-1
+00:10:57.551 --> 00:10:59.363
+<v Chao-Yo Cheng (Staff)>the intercept and the slope.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1143-0
+00:11:00.903 --> 00:11:04.755
+<v Chao-Yo Cheng (Staff)>Looking at the regression line, given that a slope is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1143-1
+00:11:04.755 --> 00:11:09.043
+<v Chao-Yo Cheng (Staff)>positive, it is apparent that Democratic politicians can win</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1143-2
+00:11:09.043 --> 00:11:13.403
+<v Chao-Yo Cheng (Staff)>more votes relative to their Republican rivals, when voters</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1143-3
+00:11:13.403 --> 00:11:17.183
+<v Chao-Yo Cheng (Staff)>consider these Democratic candidates more competent.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1162-0
+00:11:19.873 --> 00:11:24.392
+<v Chao-Yo Cheng (Staff)>This scatter plot also shows where the intercept is located, right?</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1162-1
+00:11:24.392 --> 00:11:27.673
+<v Chao-Yo Cheng (Staff)>Since the intercept is negative, it tells us</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1182-0
+00:11:29.443 --> 00:11:33.634
+<v Chao-Yo Cheng (Staff)>when voters consider democratic politicians having no competence</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1182-1
+00:11:33.634 --> 00:11:36.922
+<v Chao-Yo Cheng (Staff)>at all, they will lose votes against the Republican</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1182-2
+00:11:36.922 --> 00:11:38.083
+<v Chao-Yo Cheng (Staff)>politicians -- a lot.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1193-0
+00:11:40.273 --> 00:11:44.239
+<v Chao-Yo Cheng (Staff)>In the same scatter plot, you can see there is a small hat</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1193-1
+00:11:44.239 --> 00:11:45.033
+<v Chao-Yo Cheng (Staff)>above alpha.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1207-0
+00:11:46.073 --> 00:11:50.881
+<v Chao-Yo Cheng (Staff)>This is a very common notation we use to represent some</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1207-1
+00:11:50.881 --> 00:11:52.513
+<v Chao-Yo Cheng (Staff)>statistical metric</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1213-0
+00:11:53.393 --> 00:11:55.313
+<v Chao-Yo Cheng (Staff)>estimated based on the data we have.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1225-0
+00:11:56.473 --> 00:12:01.672
+<v Chao-Yo Cheng (Staff)>The standard way to read alpha hat here is "the estimated</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1225-1
+00:12:01.672 --> 00:12:02.553
+<v Chao-Yo Cheng (Staff)>intercept."</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1249-0
+00:12:05.063 --> 00:12:09.463
+<v Chao-Yo Cheng (Staff)>Likewise, in the scatter plot, you can also see the authors use</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1249-1
+00:12:09.463 --> 00:12:13.503
+<v Chao-Yo Cheng (Staff)>one of the data points or observations to remind us of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1276-0
+00:12:15.843 --> 00:12:21.507
+<v Chao-Yo Cheng (Staff)>what a residual really means. We can also see small hats being</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1276-1
+00:12:21.507 --> 00:12:27.171
+<v Chao-Yo Cheng (Staff)>placed above a predicted Y and residual epsilon. Residual can</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1276-2
+00:12:27.171 --> 00:12:30.003
+<v Chao-Yo Cheng (Staff)>also be understood, as a result,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1284-0
+00:12:30.943 --> 00:12:34.783
+<v Chao-Yo Cheng (Staff)>as the estimated error or a estimated disturbance.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1308-0
+00:12:36.383 --> 00:12:40.908
+<v Chao-Yo Cheng (Staff)>Some researchers have a more nuanced understanding of the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1308-1
+00:12:40.908 --> 00:12:45.200
+<v Chao-Yo Cheng (Staff)>definitions of error and residual, and I will explain</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1308-2
+00:12:45.200 --> 00:12:47.463
+<v Chao-Yo Cheng (Staff)>this more carefully in class.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1333-0
+00:12:49.123 --> 00:12:54.871
+<v Chao-Yo Cheng (Staff)>Before I move on, here's one very interesting mathematical fact of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1333-1
+00:12:54.871 --> 00:12:59.923
+<v Chao-Yo Cheng (Staff)>regression line You may have noticed: The mean or average</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1350-0
+00:13:00.973 --> 00:13:05.902
+<v Chao-Yo Cheng (Staff)>values of the predictor and the dependent variable will always</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1350-1
+00:13:05.902 --> 00:13:08.093
+<v Chao-Yo Cheng (Staff)>fall on the regression line.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1375-0
+00:13:15.563 --> 00:13:20.152
+<v Chao-Yo Cheng (Staff)>Again linear regression is a very convenient technique for us</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1375-1
+00:13:20.152 --> 00:13:24.446
+<v Chao-Yo Cheng (Staff)>to infer the statistical relationship between the outcome</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1375-2
+00:13:24.446 --> 00:13:26.963
+<v Chao-Yo Cheng (Staff)>and the predictors of our choice.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1391-0
+00:13:28.073 --> 00:13:32.373
+<v Chao-Yo Cheng (Staff)>To summarize our discussions so far, the main objective of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1391-1
+00:13:32.373 --> 00:13:34.953
+<v Chao-Yo Cheng (Staff)>using linear regression is twofold.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1417-0
+00:13:36.683 --> 00:13:41.200
+<v Chao-Yo Cheng (Staff)>First, linear regression is a statistical technique; we can use </v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1417-1
+00:13:41.200 --> 00:13:45.644
+<v Chao-Yo Cheng (Staff)>a linear function to represent correlation or causation</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1417-2
+00:13:45.644 --> 00:13:48.923
+<v Chao-Yo Cheng (Staff)>between our predictors and outcome variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1443-0
+00:13:50.513 --> 00:13:54.740
+<v Chao-Yo Cheng (Staff)>This is probably way too obvious, but still this is a very</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1443-1
+00:13:54.740 --> 00:13:58.893
+<v Chao-Yo Cheng (Staff)>important thing to keep in mind. Second, and this is where</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1443-2
+00:13:58.893 --> 00:14:01.153
+<v Chao-Yo Cheng (Staff)>things become more interesting.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1463-0
+00:14:02.063 --> 00:14:06.655
+<v Chao-Yo Cheng (Staff)>The least squares linear regression will allow us to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1463-1
+00:14:06.655 --> 00:14:11.095
+<v Chao-Yo Cheng (Staff)>estimate the values of intercept and the slopes with some</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1463-2
+00:14:11.095 --> 00:14:12.703
+<v Chao-Yo Cheng (Staff)>desirable properties.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1483-0
+00:14:14.943 --> 00:14:18.716
+<v Chao-Yo Cheng (Staff)>I will discuss these properties in a moment, but before I do</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1483-1
+00:14:18.716 --> 00:14:22.364
+<v Chao-Yo Cheng (Staff)>that, we need to discuss some addition and nuances when it</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1483-2
+00:14:22.364 --> 00:14:24.063
+<v Chao-Yo Cheng (Staff)>comes to linear regression.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1509-0
+00:14:27.333 --> 00:14:33.441
+<v Chao-Yo Cheng (Staff)>You may have heard researchers use different names to call X</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1509-1
+00:14:33.441 --> 00:14:39.750
+<v Chao-Yo Cheng (Staff)>and Y. So far, we have been using predictor to call X, but doing so</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1509-2
+00:14:39.750 --> 00:14:41.453
+<v Chao-Yo Cheng (Staff)>actually implies</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1526-0
+00:14:42.513 --> 00:14:46.589
+<v Chao-Yo Cheng (Staff)>an interesting assumption about why we need a linear regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1526-1
+00:14:46.589 --> 00:14:49.113
+<v Chao-Yo Cheng (Staff)>and what we use linear regression for.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1527-0
+00:14:50.713 --> 00:14:51.193
+<v Chao-Yo Cheng (Staff)>First,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1557-0
+00:14:52.193 --> 00:14:57.356
+<v Chao-Yo Cheng (Staff)>also in line with scholars who invented the basic techniques of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1557-1
+00:14:57.356 --> 00:15:01.793
+<v Chao-Yo Cheng (Staff)>linear regression about a hundred years ago, we can use</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1557-2
+00:15:01.793 --> 00:15:06.473
+<v Chao-Yo Cheng (Staff)>linear regression module for the purpose of forecasting.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1593-0
+00:15:08.353 --> 00:15:12.572
+<v Chao-Yo Cheng (Staff)>Using the same casewe have just gone through in the previous</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1593-1
+00:15:12.572 --> 00:15:16.860
+<v Chao-Yo Cheng (Staff)>slide, it is very tempting that we can use voters' perception of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1593-2
+00:15:16.860 --> 00:15:20.671
+<v Chao-Yo Cheng (Staff)>politicians' competence to predict how these politicians</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1593-3
+00:15:20.671 --> 00:15:22.713
+<v Chao-Yo Cheng (Staff)>will perform in the elections.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1603-0
+00:15:23.753 --> 00:15:27.009
+<v Chao-Yo Cheng (Staff)>Of course, this is a very unrealistic</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1603-1
+00:15:27.009 --> 00:15:29.033
+<v Chao-Yo Cheng (Staff)>scenario, right? because</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1612-0
+00:15:29.093 --> 00:15:32.693
+<v Chao-Yo Cheng (Staff)>a politician's vote or performance in the elections.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1620-0
+00:15:35.143 --> 00:15:38.463
+<v Chao-Yo Cheng (Staff)>is by no means just a simple function of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1625-0
+00:15:40.113 --> 00:15:43.033
+<v Chao-Yo Cheng (Staff)>a single factor or variable</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1649-0
+00:15:44.193 --> 00:15:48.440
+<v Chao-Yo Cheng (Staff)>Sometimes elections may just be influenced by random disturbance</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1649-1
+00:15:48.440 --> 00:15:52.753
+<v Chao-Yo Cheng (Staff)>that we do not know or factors we really cannot major tangibly.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1676-0
+00:15:53.593 --> 00:15:57.677
+<v Chao-Yo Cheng (Staff)>For instance, in the case of Japan, a lot of people say, you</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1676-1
+00:15:57.677 --> 00:16:01.550
+<v Chao-Yo Cheng (Staff)>know, the leading part is what share will be determined</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1676-2
+00:16:01.550 --> 00:16:05.353
+<v Chao-Yo Cheng (Staff)>actually by the waiter on the voting day, if there is.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1707-0
+00:16:07.243 --> 00:16:10.848
+<v Chao-Yo Cheng (Staff)>if there's some rain or if the weather is not</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1707-1
+00:16:10.848 --> 00:16:14.897
+<v Chao-Yo Cheng (Staff)>permitting -- a lot of people would not just go to vote and as</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1707-2
+00:16:14.897 --> 00:16:18.123
+<v Chao-Yo Cheng (Staff)>a result the leading party is more likely to lose.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1733-0
+00:16:19.573 --> 00:16:24.053
+<v Chao-Yo Cheng (Staff)>In any case, if you believe the main objective of linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1733-1
+00:16:24.053 --> 00:16:28.933
+<v Chao-Yo Cheng (Staff)>regression is forecasting, then X should be understood as the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1733-2
+00:16:28.933 --> 00:16:32.773
+<v Chao-Yo Cheng (Staff)>predictor of our outcome or dependent variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1735-0
+00:16:36.363 --> 00:16:37.083
+<v Chao-Yo Cheng (Staff)>Similarly,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1785-0
+00:16:39.783 --> 00:16:44.461
+<v Chao-Yo Cheng (Staff)>Some researchers believe we can use linear regression to "explain"</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1785-1
+00:16:44.461 --> 00:16:48.851
+<v Chao-Yo Cheng (Staff)>the outcome of our interest. Using the same same example from</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1785-2
+00:16:48.851 --> 00:16:53.458
+<v Chao-Yo Cheng (Staff)>the previous slide. We can say it may as well be the case that a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1785-3
+00:16:53.458 --> 00:16:58.064
+<v Chao-Yo Cheng (Staff)>politician's competence may not reliably predict how many votes</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1785-4
+00:16:58.064 --> 00:17:02.383
+<v Chao-Yo Cheng (Staff)>they are going to get, but it does help researchers explain</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1790-0
+00:17:03.283 --> 00:17:04.963
+<v Chao-Yo Cheng (Staff)>their performance in the elections.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1828-0
+00:17:05.803 --> 00:17:10.769
+<v Chao-Yo Cheng (Staff)>In this case, we do not really care much about using perception</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1828-1
+00:17:10.769 --> 00:17:15.894
+<v Chao-Yo Cheng (Staff)>of competence as a predictor, but we can treat this as one of the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1828-2
+00:17:15.894 --> 00:17:20.387
+<v Chao-Yo Cheng (Staff)>key factors we can use to understand voting behaviors in</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1828-3
+00:17:20.387 --> 00:17:22.043
+<v Chao-Yo Cheng (Staff)>democratic elections.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1830-0
+00:17:23.673 --> 00:17:24.473
+<v Chao-Yo Cheng (Staff)>In this case,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1840-0
+00:17:26.213 --> 00:17:30.133
+<v Chao-Yo Cheng (Staff)>X is better to be understood as an explanatory variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1860-0
+00:17:33.433 --> 00:17:37.611
+<v Chao-Yo Cheng (Staff)>Before I move on to the discussion on the statistical</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1860-1
+00:17:37.611 --> 00:17:42.331
+<v Chao-Yo Cheng (Staff)>inference of linear regression, I want to make two additional</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1860-2
+00:17:42.331 --> 00:17:42.873
+<v Chao-Yo Cheng (Staff)>points.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1865-0
+00:17:46.913 --> 00:17:49.673
+<v Chao-Yo Cheng (Staff)>First again, the slope we</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1893-0
+00:17:51.743 --> 00:17:56.079
+<v Chao-Yo Cheng (Staff)>estimate using different regression techniques, including</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1893-1
+00:17:56.079 --> 00:18:00.262
+<v Chao-Yo Cheng (Staff)>the least squares is only one way for us to measure the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1893-2
+00:18:00.262 --> 00:18:04.903
+<v Chao-Yo Cheng (Staff)>correlation or the quantify the correlation between X and Y.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1906-0
+00:18:06.113 --> 00:18:10.843
+<v Chao-Yo Cheng (Staff)>And also with certain assumptions or under some</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1906-1
+00:18:10.843 --> 00:18:12.913
+<v Chao-Yo Cheng (Staff)>conditions, the slope.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1914-0
+00:18:13.793 --> 00:18:17.433
+<v Chao-Yo Cheng (Staff)>can tell us the causal effect of X on Y.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1940-0
+00:18:18.443 --> 00:18:21.954
+<v Chao-Yo Cheng (Staff)>We will talk more about this later this term, especially</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1940-1
+00:18:21.954 --> 00:18:25.713
+<v Chao-Yo Cheng (Staff)>after Reading Week. But in the field of causal inference, X is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1940-2
+00:18:25.713 --> 00:18:29.163
+<v Chao-Yo Cheng (Staff)>usually understood as the causal or treatment variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1980-0
+00:18:43.513 --> 00:18:47.799
+<v Chao-Yo Cheng (Staff)>Now, given that we're all clear about a basic setup and the data</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1980-1
+00:18:47.799 --> 00:18:52.152
+<v Chao-Yo Cheng (Staff)>analytical objectives of linear regression, it is time to address</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1980-2
+00:18:52.152 --> 00:18:56.104
+<v Chao-Yo Cheng (Staff)>a number of questions regarding statistical inference. That</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1980-3
+00:18:56.104 --> 00:18:59.854
+<v Chao-Yo Cheng (Staff)>is, how do we estimate the intercept and the slope using</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/1980-4
+00:18:59.854 --> 00:19:00.993
+<v Chao-Yo Cheng (Staff)>the data we have? </v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2006-0
+00:19:01.913 --> 00:19:06.032
+<v Chao-Yo Cheng (Staff)>How can we know to intercept and slopes We estimate based on the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2006-1
+00:19:06.032 --> 00:19:09.644
+<v Chao-Yo Cheng (Staff)>data we have are the best at once? And what can we really</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2006-2
+00:19:09.644 --> 00:19:13.256
+<v Chao-Yo Cheng (Staff)>learn from our regression coefficients for the intercept</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2006-3
+00:19:13.256 --> 00:19:13.953
+<v Chao-Yo Cheng (Staff)>and slopes? </v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2014-0
+00:19:17.913 --> 00:19:21.753
+<v Chao-Yo Cheng (Staff)>The ordinary least squares or OLS</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2022-0
+00:19:22.673 --> 00:19:25.233
+<v Chao-Yo Cheng (Staff)>is one of the most common techniques we use</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2051-0
+00:19:26.893 --> 00:19:31.617
+<v Chao-Yo Cheng (Staff)>to estimate the intercept and slopes. The intercept and slopes</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2051-1
+00:19:31.617 --> 00:19:36.342
+<v Chao-Yo Cheng (Staff)>estimated using OLS have some very nice properties and one of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2051-2
+00:19:36.342 --> 00:19:38.933
+<v Chao-Yo Cheng (Staff)>the most important properties is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2063-0
+00:19:40.153 --> 00:19:45.653
+<v Chao-Yo Cheng (Staff)>OLS can produce unbiased point estimates or regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2063-1
+00:19:45.653 --> 00:19:46.953
+<v Chao-Yo Cheng (Staff)>coefficients.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2080-0
+00:19:48.213 --> 00:19:52.951
+<v Chao-Yo Cheng (Staff)>Which means OLS can give us the estimated intercept and</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2080-1
+00:19:52.951 --> 00:19:55.133
+<v Chao-Yo Cheng (Staff)>slopes close to the real one.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2085-0
+00:19:56.843 --> 00:19:58.523
+<v Chao-Yo Cheng (Staff)>At least theoretical speaking.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2111-0
+00:20:00.223 --> 00:20:04.784
+<v Chao-Yo Cheng (Staff)>Remember our data is always a sample of some well defined or</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2111-1
+00:20:04.784 --> 00:20:09.496
+<v Chao-Yo Cheng (Staff)>unknown underlying population and with some assumptions or conditions</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2111-2
+00:20:09.496 --> 00:20:12.263
+<v Chao-Yo Cheng (Staff)>we can be more or less certain that</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2141-0
+00:20:13.043 --> 00:20:17.372
+<v Chao-Yo Cheng (Staff)>the estimated intercept and slopes produced by OLS will</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2141-1
+00:20:17.372 --> 00:20:21.627
+<v Chao-Yo Cheng (Staff)>be very similar to, if not exactly identical with, the true</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2141-2
+00:20:21.627 --> 00:20:25.883
+<v Chao-Yo Cheng (Staff)>intercept and slopes that we will never know for sure.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2150-0
+00:20:29.913 --> 00:20:32.793
+<v Chao-Yo Cheng (Staff)>So the first condition linearity.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2156-0
+00:20:33.773 --> 00:20:37.013
+<v Chao-Yo Cheng (Staff)>is very straightforward and self-explanatory.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2172-0
+00:20:38.693 --> 00:20:42.938
+<v Chao-Yo Cheng (Staff)>To use linear regression is to say, we assume there is a linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2172-1
+00:20:42.938 --> 00:20:44.893
+<v Chao-Yo Cheng (Staff)>relationship between X and Y.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2187-0
+00:20:46.323 --> 00:20:50.189
+<v Chao-Yo Cheng (Staff)>Next, we need the error of each observation to be independent</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2187-1
+00:20:50.189 --> 00:20:51.203
+<v Chao-Yo Cheng (Staff)>from each other.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2228-0
+00:20:52.723 --> 00:20:58.286
+<v Chao-Yo Cheng (Staff)>For instance, if we are trying to use the number of hours students</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2228-1
+00:20:58.286 --> 00:21:03.343
+<v Chao-Yo Cheng (Staff)>study for a school test to predict their performance in the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2228-2
+00:21:03.343 --> 00:21:07.894
+<v Chao-Yo Cheng (Staff)>test, then the residual or the estimated error of one</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2228-3
+00:21:07.894 --> 00:21:13.204
+<v Chao-Yo Cheng (Staff)>particular student should not depend on the residuals of other</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2228-4
+00:21:13.204 --> 00:21:13.963
+<v Chao-Yo Cheng (Staff)>students.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2238-0
+00:21:15.743 --> 00:21:19.096
+<v Chao-Yo Cheng (Staff)>And that should be the case for every single student in the data</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2238-1
+00:21:19.096 --> 00:21:19.303
+<v Chao-Yo Cheng (Staff)>set.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2256-0
+00:21:22.813 --> 00:21:28.049
+<v Chao-Yo Cheng (Staff)>Moreover, we also need the value of actual Y to be normally</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2256-1
+00:21:28.049 --> 00:21:31.333
+<v Chao-Yo Cheng (Staff)>distributed across different levels</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2294-0
+00:21:32.663 --> 00:21:37.537
+<v Chao-Yo Cheng (Staff)>or values of X -- that is, the value of actual Y recorded in</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2294-1
+00:21:37.537 --> 00:21:42.579
+<v Chao-Yo Cheng (Staff)>our data set, given a specific value or level of X, should be</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2294-2
+00:21:42.579 --> 00:21:47.622
+<v Chao-Yo Cheng (Staff)>included in a corresponding normal distribution of Y at the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2294-3
+00:21:47.622 --> 00:21:49.303
+<v Chao-Yo Cheng (Staff)>same value</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2297-0
+00:21:50.643 --> 00:21:51.843
+<v Chao-Yo Cheng (Staff)>or level of X.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2299-0
+00:21:53.313 --> 00:21:54.113
+<v Chao-Yo Cheng (Staff)>Finally,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2315-0
+00:21:55.123 --> 00:21:59.582
+<v Chao-Yo Cheng (Staff)>We also need the variance or standard error of our Y to be equal</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2315-1
+00:21:59.582 --> 00:22:03.683
+<v Chao-Yo Cheng (Staff)>across different values or levels of the predictor.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2331-0
+00:22:05.343 --> 00:22:09.490
+<v Chao-Yo Cheng (Staff)>In a textbook, the call this condition "equal variance" and a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2331-1
+00:22:09.490 --> 00:22:12.983
+<v Chao-Yo Cheng (Staff)>more technical term for that is homoscedasticity .</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2336-0
+00:22:15.083 --> 00:22:17.523
+<v Chao-Yo Cheng (Staff)>So keep in mind, before I continue,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2347-0
+00:22:19.533 --> 00:22:22.563
+<v Chao-Yo Cheng (Staff)>These are the conditions for the estimated regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2347-1
+00:22:22.563 --> 00:22:23.293
+<v Chao-Yo Cheng (Staff)>coefficients</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2361-0
+00:22:24.273 --> 00:22:28.087
+<v Chao-Yo Cheng (Staff)>to be unbiased, which means they are close to or nearly the same</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2361-1
+00:22:28.087 --> 00:22:30.233
+<v Chao-Yo Cheng (Staff)>as the true ones in the population.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2385-0
+00:22:31.223 --> 00:22:35.833
+<v Chao-Yo Cheng (Staff)>The conditions we have gone through above do not necessarily</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2385-1
+00:22:35.833 --> 00:22:40.671
+<v Chao-Yo Cheng (Staff)>allow OLS to produce efficient coefficients or point estimates</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2385-2
+00:22:40.671 --> 00:22:42.863
+<v Chao-Yo Cheng (Staff)>for the intercept and slopes.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2425-0
+00:22:44.553 --> 00:22:49.102
+<v Chao-Yo Cheng (Staff)>To say a point estimate or a regression coefficient is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2425-1
+00:22:49.102 --> 00:22:53.982
+<v Chao-Yo Cheng (Staff)>efficient is to say these coefficients or estimates have a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2425-2
+00:22:53.982 --> 00:22:59.193
+<v Chao-Yo Cheng (Staff)>relatively small variance or a standard error, and the variance</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2425-3
+00:22:59.193 --> 00:23:03.411
+<v Chao-Yo Cheng (Staff)>or standard error of our coefficients or estimates</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2425-4
+00:23:03.411 --> 00:23:04.073
+<v Chao-Yo Cheng (Staff)>usually</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2439-0
+00:23:05.113 --> 00:23:09.345
+<v Chao-Yo Cheng (Staff)>has more to do with the statistical power of our</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2439-1
+00:23:09.345 --> 00:23:12.113
+<v Chao-Yo Cheng (Staff)>analysis or the sample size. Very often</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2453-0
+00:23:12.593 --> 00:23:16.525
+<v Chao-Yo Cheng (Staff)>we can reduce the variance or standard error of our regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2453-1
+00:23:16.525 --> 00:23:19.353
+<v Chao-Yo Cheng (Staff)>estimates by increasing our sample size.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2466-0
+00:23:28.283 --> 00:23:32.884
+<v Chao-Yo Cheng (Staff)>This scatter plot summarizes the conditions we have listed in the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2466-1
+00:23:32.884 --> 00:23:33.963
+<v Chao-Yo Cheng (Staff)>previous slide.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2485-0
+00:23:34.983 --> 00:23:40.682
+<v Chao-Yo Cheng (Staff)>Again, this is a bivariate linear regression, each small black dot in the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2485-1
+00:23:40.682 --> 00:23:44.663
+<v Chao-Yo Cheng (Staff)>scatter plot is a data point or observation.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2508-0
+00:23:46.443 --> 00:23:50.065
+<v Chao-Yo Cheng (Staff)>The thick blue straight line says the values of Y can be</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2508-1
+00:23:50.065 --> 00:23:53.496
+<v Chao-Yo Cheng (Staff)>approximated by the linear function of X, which is the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2508-2
+00:23:53.496 --> 00:23:55.403
+<v Chao-Yo Cheng (Staff)>linearity assumption.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2551-0
+00:23:57.283 --> 00:24:01.292
+<v Chao-Yo Cheng (Staff)>Next, although it is a bit hard to see here, the distance between</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2551-1
+00:24:01.292 --> 00:24:04.926
+<v Chao-Yo Cheng (Staff)>each black dot and the blue regression line does not have a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2551-2
+00:24:04.926 --> 00:24:08.811
+<v Chao-Yo Cheng (Staff)>clear pattern or certainly does not depend on each other. That</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2551-3
+00:24:08.811 --> 00:24:12.131
+<v Chao-Yo Cheng (Staff)>is, the residual of one observation has nothing to do</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2551-4
+00:24:12.131 --> 00:24:14.763
+<v Chao-Yo Cheng (Staff)>with the residual of another observation.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2558-0
+00:24:15.603 --> 00:24:19.043
+<v Chao-Yo Cheng (Staff)>This condition is the independence assumption.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2586-0
+00:24:22.813 --> 00:24:27.084
+<v Chao-Yo Cheng (Staff)>Furthermore, you can see across different levels of X the values</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2586-1
+00:24:27.084 --> 00:24:31.089
+<v Chao-Yo Cheng (Staff)>of Y follow the same normal distribution and the red curves</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2586-2
+00:24:31.089 --> 00:24:34.093
+<v Chao-Yo Cheng (Staff)>in the scatter plot show the normality distribution.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2590-0
+00:24:36.903 --> 00:24:40.263
+<v Chao-Yo Cheng (Staff)>Finally, given that these.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2622-0
+00:24:42.683 --> 00:24:47.221
+<v Chao-Yo Cheng (Staff)>actual Y follow the same normal distribution at the same mean</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2622-1
+00:24:47.221 --> 00:24:51.990
+<v Chao-Yo Cheng (Staff)>values as we increase the value of X, it means the errors have</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2622-2
+00:24:51.990 --> 00:24:56.837
+<v Chao-Yo Cheng (Staff)>the same variance or send the error across different levels or</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2622-3
+00:24:56.837 --> 00:24:57.683
+<v Chao-Yo Cheng (Staff)>value of X.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2631-0
+00:24:58.653 --> 00:25:01.573
+<v Chao-Yo Cheng (Staff)>This is the homoscedasticity assumption.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2635-0
+00:25:03.303 --> 00:25:04.983
+<v Chao-Yo Cheng (Staff)>The reason was to say</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2661-0
+00:25:06.493 --> 00:25:09.889
+<v Chao-Yo Cheng (Staff)>this is because a normal distribution is defined by its</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2661-1
+00:25:09.889 --> 00:25:13.042
+<v Chao-Yo Cheng (Staff)>mean and variance. To say two normal distributions at</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2661-2
+00:25:13.042 --> 00:25:16.378
+<v Chao-Yo Cheng (Staff)>different mean value are identical is also saying they</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2661-3
+00:25:16.378 --> 00:25:17.773
+<v Chao-Yo Cheng (Staff)>have the same variance.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2672-0
+00:25:22.163 --> 00:25:27.363
+<v Chao-Yo Cheng (Staff)>To summarize our discussions about these assumptions is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2723-0
+00:25:31.953 --> 00:25:36.819
+<v Chao-Yo Cheng (Staff)>is to say -- to remind you, often scholars will combine the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2723-1
+00:25:36.819 --> 00:25:41.772
+<v Chao-Yo Cheng (Staff)>independence, normality and homoscedastic assumptions to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2723-2
+00:25:41.772 --> 00:25:46.639
+<v Chao-Yo Cheng (Staff)>say the outcome variable of Y must be independently and</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2723-3
+00:25:46.639 --> 00:25:52.287
+<v Chao-Yo Cheng (Staff)>identically normally distributed across all levels and values of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2723-4
+00:25:52.287 --> 00:25:57.936
+<v Chao-Yo Cheng (Staff)>the predictor, which is the case we see here. This is known as the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2723-5
+00:25:57.936 --> 00:25:59.153
+<v Chao-Yo Cheng (Staff)>i.i.d. condition.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2776-0
+00:26:07.413 --> 00:26:11.363
+<v Chao-Yo Cheng (Staff)>So these assumptions and conditions are surely important</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2776-1
+00:26:11.363 --> 00:26:15.660
+<v Chao-Yo Cheng (Staff)>as we hope to obtain unbiased estimates for the intercept and</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2776-2
+00:26:15.660 --> 00:26:19.887
+<v Chao-Yo Cheng (Staff)>slopes of our linear regression model. But I want to make one</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2776-3
+00:26:19.887 --> 00:26:24.184
+<v Chao-Yo Cheng (Staff)>thing clear, the violation of these assumptions is by no means</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2776-4
+00:26:24.184 --> 00:26:25.293
+<v Chao-Yo Cheng (Staff)>the end of the world.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2779-0
+00:26:26.523 --> 00:26:27.643
+<v Chao-Yo Cheng (Staff)>As you can see here</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2791-0
+00:26:28.533 --> 00:26:32.414
+<v Chao-Yo Cheng (Staff)>econometricians, statistician and quant researchers in other</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2791-1
+00:26:32.414 --> 00:26:32.853
+<v Chao-Yo Cheng (Staff)>fields</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2820-0
+00:26:33.673 --> 00:26:38.459
+<v Chao-Yo Cheng (Staff)>have spent a lot of effort developing different statistical</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2820-1
+00:26:38.459 --> 00:26:43.645
+<v Chao-Yo Cheng (Staff)>techniques we can use to correct or adjust our estimates or standard</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2820-2
+00:26:43.645 --> 00:26:48.033
+<v Chao-Yo Cheng (Staff)>errors when one or more assumptions are not satisfied.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2834-0
+00:26:49.273 --> 00:26:53.824
+<v Chao-Yo Cheng (Staff)>For instance, generalized linear models can be quite useful if</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2834-1
+00:26:53.824 --> 00:26:55.513
+<v Chao-Yo Cheng (Staff)>our data do not follow</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2838-0
+00:26:56.613 --> 00:26:57.973
+<v Chao-Yo Cheng (Staff)>the linearity assumption.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2842-0
+00:26:58.733 --> 00:26:59.813
+<v Chao-Yo Cheng (Staff)>So after all,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2856-0
+00:27:00.683 --> 00:27:05.772
+<v Chao-Yo Cheng (Staff)>The relationship between X and Y is not those linear -- it just part</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2856-1
+00:27:05.772 --> 00:27:07.083
+<v Chao-Yo Cheng (Staff)>of the real life.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2873-0
+00:27:08.683 --> 00:27:12.537
+<v Chao-Yo Cheng (Staff)>There are also other statistical tools we can use to relax other</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2873-1
+00:27:12.537 --> 00:27:15.443
+<v Chao-Yo Cheng (Staff)>assumptions when we conduct regression analysis.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2882-0
+00:27:17.973 --> 00:27:22.533
+<v Chao-Yo Cheng (Staff)>For this module, we will not have time to cover all these</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2882-1
+00:27:22.533 --> 00:27:23.413
+<v Chao-Yo Cheng (Staff)>techniques.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2905-0
+00:27:25.133 --> 00:27:29.283
+<v Chao-Yo Cheng (Staff)>But if necessary, you are very welcome to request additional</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2905-1
+00:27:29.283 --> 00:27:33.571
+<v Chao-Yo Cheng (Staff)>tutorials and references if you are interested in any of these</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2905-2
+00:27:33.571 --> 00:27:35.093
+<v Chao-Yo Cheng (Staff)>particular techniques.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2918-0
+00:27:41.993 --> 00:27:45.438
+<v Chao-Yo Cheng (Staff)>Now we are clear about the
+assumptions at this time for us</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2918-1
+00:27:45.438 --> 00:27:47.833
+<v Chao-Yo Cheng (Staff)>to discuss the more important
+issues of.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2946-0
+00:27:48.973 --> 00:27:53.562
+<v Chao-Yo Cheng (Staff)>Regression analysis, how do we obtain useful information from</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2946-1
+00:27:53.562 --> 00:27:58.075
+<v Chao-Yo Cheng (Staff)>our analysis? Sure, the regression analysis, especially least</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2946-2
+00:27:58.075 --> 00:28:02.213
+<v Chao-Yo Cheng (Staff)>squares, may produce unbiased regression coefficients.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2971-0
+00:28:04.113 --> 00:28:08.522
+<v Chao-Yo Cheng (Staff)>But it is still very crucial for us to review some of the key</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2971-1
+00:28:08.522 --> 00:28:13.073
+<v Chao-Yo Cheng (Staff)>principles when it comes to the task of statistical inferences.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2993-0
+00:28:15.553 --> 00:28:19.881
+<v Chao-Yo Cheng (Staff)>In this lecture, I'm going to focus on two issues related to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/2993-1
+00:28:19.881 --> 00:28:23.993
+<v Chao-Yo Cheng (Staff)>statistical inference of least squares linear regression.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3011-0
+00:28:25.743 --> 00:28:30.724
+<v Chao-Yo Cheng (Staff)>One concerns the question of statistical significance and the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3011-1
+00:28:30.724 --> 00:28:35.063
+<v Chao-Yo Cheng (Staff)>other is about a question of regression model fit.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3073-0
+00:28:40.933 --> 00:28:45.362
+<v Chao-Yo Cheng (Staff)>First, after we carry out any linear regression analysis,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3073-1
+00:28:45.362 --> 00:28:50.109
+<v Chao-Yo Cheng (Staff)>including OLS, we are keen to find out if the point estimate</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3073-2
+00:28:50.109 --> 00:28:54.776
+<v Chao-Yo Cheng (Staff)>or regression coefficient is significant or not. Given that</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3073-3
+00:28:54.776 --> 00:28:59.364
+<v Chao-Yo Cheng (Staff)>the intercept usually does not deliver much substantive</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3073-4
+00:28:59.364 --> 00:29:04.268
+<v Chao-Yo Cheng (Staff)>implications. At this moment, we are going to focus more on the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3073-5
+00:29:04.268 --> 00:29:09.173
+<v Chao-Yo Cheng (Staff)>regression coefficient for the estimated slope, namely beta.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3126-0
+00:29:11.993 --> 00:29:16.663
+<v Chao-Yo Cheng (Staff)>To determine whether the estimate of slope is statistically</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3126-1
+00:29:16.663 --> 00:29:21.737
+<v Chao-Yo Cheng (Staff)>significant, we will have to conduct hypothesis testing. You should</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3126-2
+00:29:21.737 --> 00:29:26.246
+<v Chao-Yo Cheng (Staff)>have learned the underlying rationale and procedures of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3126-3
+00:29:26.246 --> 00:29:31.078
+<v Chao-Yo Cheng (Staff)>hypothesis testing in other modules by this moment. But just</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3126-4
+00:29:31.078 --> 00:29:35.990
+<v Chao-Yo Cheng (Staff)>as a reminder, the hypothesis testing for OLS is a two tailed</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3126-5
+00:29:35.990 --> 00:29:36.393
+<v Chao-Yo Cheng (Staff)>test.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3150-0
+00:29:37.713 --> 00:29:42.106
+<v Chao-Yo Cheng (Staff)>As we want to use OLS to estimate the slope or the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3150-1
+00:29:42.106 --> 00:29:46.891
+<v Chao-Yo Cheng (Staff)>correlation between X and Y the null hypothesis is always beta</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3150-2
+00:29:46.891 --> 00:29:47.833
+<v Chao-Yo Cheng (Staff)>equals zero.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3164-0
+00:29:49.693 --> 00:29:54.293
+<v Chao-Yo Cheng (Staff)>And the alternative hypothesis will be beta is not zero.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3183-0
+00:29:57.123 --> 00:30:02.622
+<v Chao-Yo Cheng (Staff)>By saying our estimated slope or regression coefficient for beta</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3183-1
+00:30:02.622 --> 00:30:06.683
+<v Chao-Yo Cheng (Staff)>is statistically significant is basically to say</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3199-0
+00:30:08.003 --> 00:30:12.198
+<v Chao-Yo Cheng (Staff)>the regression coefficient is statistically different from</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3199-1
+00:30:12.198 --> 00:30:15.683
+<v Chao-Yo Cheng (Staff)>zero for us to say we can reject the null hypothesis.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3212-0
+00:30:19.873 --> 00:30:22.816
+<v Chao-Yo Cheng (Staff)>To determine whether our estimated betas are</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3212-1
+00:30:22.816 --> 00:30:25.433
+<v Chao-Yo Cheng (Staff)>statistically significant in this case,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3219-0
+00:30:26.393 --> 00:30:29.433
+<v Chao-Yo Cheng (Staff)>we can either use p-value or confidence intervals.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3233-0
+00:30:30.913 --> 00:30:35.074
+<v Chao-Yo Cheng (Staff)>If you use the p-value, which is defined as the conditional</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3233-1
+00:30:35.074 --> 00:30:36.273
+<v Chao-Yo Cheng (Staff)>probability that</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3298-0
+00:30:38.543 --> 00:30:42.985
+<v Chao-Yo Cheng (Staff)>we observe the pattern or the regression coefficient based on</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3298-1
+00:30:42.985 --> 00:30:47.427
+<v Chao-Yo Cheng (Staff)>the data given the null hypothesis is true, we'll need this</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3298-2
+00:30:47.427 --> 00:30:51.009
+<v Chao-Yo Cheng (Staff)>probability to be really, really, really low for us</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3298-3
+00:30:51.009 --> 00:30:55.523
+<v Chao-Yo Cheng (Staff)>to say the null hypothesis is so unlikely that we have to reject</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3298-4
+00:30:55.523 --> 00:30:59.606
+<v Chao-Yo Cheng (Staff)>it, and as you may know, the conventional threshold for P</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3298-5
+00:30:59.606 --> 00:31:01.183
+<v Chao-Yo Cheng (Staff)>value is .05.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3314-0
+00:31:03.813 --> 00:31:07.852
+<v Chao-Yo Cheng (Staff)>If you think the idea of p-value is very convoluted, which is very</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3314-1
+00:31:07.852 --> 00:31:08.893
+<v Chao-Yo Cheng (Staff)>much of the case,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3320-0
+00:31:10.993 --> 00:31:12.953
+<v Chao-Yo Cheng (Staff)>the alternative to find out</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3333-0
+00:31:14.573 --> 00:31:18.668
+<v Chao-Yo Cheng (Staff)>Whether or not beta is significant is to use confidence</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3333-1
+00:31:18.668 --> 00:31:19.413
+<v Chao-Yo Cheng (Staff)>intervals.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3372-0
+00:31:21.713 --> 00:31:25.871
+<v Chao-Yo Cheng (Staff)>We'll have to assume the sampling distribution of our</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3372-1
+00:31:25.871 --> 00:31:30.877
+<v Chao-Yo Cheng (Staff)>regression coefficient to be normal and the user standard</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3372-2
+00:31:30.877 --> 00:31:35.729
+<v Chao-Yo Cheng (Staff)>error of these coefficients to construct the intervals. The key</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3372-3
+00:31:35.729 --> 00:31:40.273
+<v Chao-Yo Cheng (Staff)>idea here is to make sure our confidence intervals, which</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3393-0
+00:31:41.863 --> 00:31:46.008
+<v Chao-Yo Cheng (Staff)>show the range of our point estimates and regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3393-1
+00:31:46.008 --> 00:31:50.225
+<v Chao-Yo Cheng (Staff)>coefficients, does not include zero so we can reject the null</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3393-2
+00:31:50.225 --> 00:31:51.583
+<v Chao-Yo Cheng (Staff)>hypothesis that</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3397-0
+00:31:53.813 --> 00:31:54.933
+<v Chao-Yo Cheng (Staff)>beta equal zero.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3407-0
+00:31:56.753 --> 00:32:00.553
+<v Chao-Yo Cheng (Staff)>Before I continue, I want to make one thing very, very clear.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3434-0
+00:32:02.173 --> 00:32:07.476
+<v Chao-Yo Cheng (Staff)>Statistical significance is neither the only or the most crucial</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3434-1
+00:32:07.476 --> 00:32:12.431
+<v Chao-Yo Cheng (Staff)>aspect of regression analysis. In addition to statistical</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3434-2
+00:32:12.431 --> 00:32:17.213
+<v Chao-Yo Cheng (Staff)>significance, we should also pay attention to the sign</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3442-0
+00:32:18.433 --> 00:32:21.393
+<v Chao-Yo Cheng (Staff)>and the size of our regression coefficient.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3468-0
+00:32:23.173 --> 00:32:27.383
+<v Chao-Yo Cheng (Staff)>A statistically significant coefficient for the slope may be</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3468-1
+00:32:27.383 --> 00:32:31.387
+<v Chao-Yo Cheng (Staff)>so small that in the end, our predictor only has a trivial</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3468-2
+00:32:31.387 --> 00:32:35.253
+<v Chao-Yo Cheng (Staff)>correlation or causal impact on the outcome variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3485-0
+00:32:41.333 --> 00:32:45.004
+<v Chao-Yo Cheng (Staff)>So, in addition to statistical significance, we should also pay</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3485-1
+00:32:45.004 --> 00:32:47.373
+<v Chao-Yo Cheng (Staff)>attention to the question of model fit.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3501-0
+00:32:48.773 --> 00:32:52.418
+<v Chao-Yo Cheng (Staff)>There are many different techniques we can use to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3501-1
+00:32:52.418 --> 00:32:55.773
+<v Chao-Yo Cheng (Staff)>evaluate if the proposed model is a good fit.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3519-0
+00:32:56.943 --> 00:33:01.866
+<v Chao-Yo Cheng (Staff)>And which one we should use will demand a clear conceptualization</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3519-1
+00:33:01.866 --> 00:33:05.223
+<v Chao-Yo Cheng (Staff)>and operationalization of goodness-of-fit.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3545-0
+00:33:06.873 --> 00:33:10.940
+<v Chao-Yo Cheng (Staff)>A very common indicator for goodness of fit is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3545-1
+00:33:10.940 --> 00:33:16.004
+<v Chao-Yo Cheng (Staff)>R-squared, which can be casually defined as a fraction of the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3545-2
+00:33:16.004 --> 00:33:18.993
+<v Chao-Yo Cheng (Staff)>variance of predicted outcome over</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3552-0
+00:33:19.813 --> 00:33:22.613
+<v Chao-Yo Cheng (Staff)>The various of the actual outcome in the data</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3560-0
+00:33:23.763 --> 00:33:27.283
+<v Chao-Yo Cheng (Staff)>If our model is a good fit of the data we have</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3586-0
+00:33:29.693 --> 00:33:34.449
+<v Chao-Yo Cheng (Staff)>Then the idea here is to see the fraction close to one so we can</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3586-1
+00:33:34.449 --> 00:33:38.912
+<v Chao-Yo Cheng (Staff)>say the model has done a good job explaining or accounting</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3586-2
+00:33:38.912 --> 00:33:41.693
+<v Chao-Yo Cheng (Staff)>for the outcome variable of interest.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3612-0
+00:33:44.163 --> 00:33:48.345
+<v Chao-Yo Cheng (Staff)>Alternatively, we can also calculate the sum of squared</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3612-1
+00:33:48.345 --> 00:33:52.528
+<v Chao-Yo Cheng (Staff)>residues to see if the model performs well by reliably</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3612-2
+00:33:52.528 --> 00:33:56.483
+<v Chao-Yo Cheng (Staff)>predicting the actual values of our of convertible</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3628-0
+00:33:57.433 --> 00:34:01.863
+<v Chao-Yo Cheng (Staff)>which requires the residual of each observation or data point</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3628-1
+00:34:01.863 --> 00:34:03.793
+<v Chao-Yo Cheng (Staff)>to be as small as possible.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3651-0
+00:34:06.553 --> 00:34:10.763
+<v Chao-Yo Cheng (Staff)>The least squares linear regression or OLS is known to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3651-1
+00:34:10.763 --> 00:34:15.433
+<v Chao-Yo Cheng (Staff)>produce estimated coefficients for the intercept and slopes</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3676-0
+00:34:16.783 --> 00:34:22.348
+<v Chao-Yo Cheng (Staff)>that lead to the smallest sum of squared procedures. This is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3676-1
+00:34:22.348 --> 00:34:27.229
+<v Chao-Yo Cheng (Staff)>where the name of least squares came from in the first</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3676-2
+00:34:27.229 --> 00:34:27.743
+<v Chao-Yo Cheng (Staff)>place.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3727-0
+00:34:37.353 --> 00:34:41.422
+<v Chao-Yo Cheng (Staff)>So far we have used bivariate linear regression to go over</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3727-1
+00:34:41.422 --> 00:34:45.630
+<v Chao-Yo Cheng (Staff)>some of the key concepts and principles of linear regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3727-2
+00:34:45.630 --> 00:34:49.699
+<v Chao-Yo Cheng (Staff)>analysis, because many things we have learned so far can be</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3727-3
+00:34:49.699 --> 00:34:53.700
+<v Chao-Yo Cheng (Staff)>extended to multiple linear regression, which means linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3727-4
+00:34:53.700 --> 00:34:57.424
+<v Chao-Yo Cheng (Staff)>regression model including more than one predictor or</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3727-5
+00:34:57.424 --> 00:34:58.873
+<v Chao-Yo Cheng (Staff)>independent variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3751-0
+00:35:00.233 --> 00:35:04.459
+<v Chao-Yo Cheng (Staff)>There is a number of additional notable distinctions between</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3751-1
+00:35:04.459 --> 00:35:08.477
+<v Chao-Yo Cheng (Staff)>bivariate and multiple linear regression, and I'm going to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3751-2
+00:35:08.477 --> 00:35:10.833
+<v Chao-Yo Cheng (Staff)>discuss them more carefully here.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3768-0
+00:35:12.663 --> 00:35:16.700
+<v Chao-Yo Cheng (Staff)>Again, multiple linear regression using the least squares has</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3768-1
+00:35:16.700 --> 00:35:19.863
+<v Chao-Yo Cheng (Staff)>become the most powerful regression technique,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3801-0
+00:35:21.543 --> 00:35:25.048
+<v Chao-Yo Cheng (Staff)>as it provides us with the means to present and study</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3801-1
+00:35:25.048 --> 00:35:28.879
+<v Chao-Yo Cheng (Staff)>nuanced, complicated, interactive dynamics between different</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3801-2
+00:35:28.879 --> 00:35:32.904
+<v Chao-Yo Cheng (Staff)>predictors with respect to the outcome or dependent variables</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3801-3
+00:35:32.904 --> 00:35:33.943
+<v Chao-Yo Cheng (Staff)>of our interest.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3814-0
+00:35:36.673 --> 00:35:39.526
+<v Chao-Yo Cheng (Staff)>We can formally or mathematically specify a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3814-1
+00:35:39.526 --> 00:35:42.833
+<v Chao-Yo Cheng (Staff)>multiple linear regression in many different ways,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3836-0
+00:35:44.253 --> 00:35:49.433
+<v Chao-Yo Cheng (Staff)>one of which requires some knowledge of calculus and linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3836-1
+00:35:49.433 --> 00:35:52.973
+<v Chao-Yo Cheng (Staff)>algebra. To simplify our
+discussion here.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3839-0
+00:35:54.513 --> 00:35:56.033
+<v Chao-Yo Cheng (Staff)>This is a quick</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3854-0
+00:35:57.123 --> 00:36:01.092
+<v Chao-Yo Cheng (Staff)>algebraic representation without using any complicated</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3854-1
+00:36:01.092 --> 00:36:03.763
+<v Chao-Yo Cheng (Staff)>mathematical notations and concepts.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3872-0
+00:36:04.683 --> 00:36:10.526
+<v Chao-Yo Cheng (Staff)>The only notation that may look a little bit unfamiliar to you</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3872-1
+00:36:10.526 --> 00:36:15.443
+<v Chao-Yo Cheng (Staff)>is the subscript(s) attached to each predictor.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3909-0
+00:36:17.123 --> 00:36:21.192
+<v Chao-Yo Cheng (Staff)>Here the number means different predictors. For instance, X one</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3909-1
+00:36:21.192 --> 00:36:24.671
+<v Chao-Yo Cheng (Staff)>means the first predictor and beta one is a slope or</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3909-2
+00:36:24.671 --> 00:36:27.888
+<v Chao-Yo Cheng (Staff)>regression coefficient associated with the first</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3909-3
+00:36:27.888 --> 00:36:29.923
+<v Chao-Yo Cheng (Staff)>predictor we have in the model.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3917-0
+00:36:38.063 --> 00:36:41.417
+<v Chao-Yo Cheng (Staff)>For any regression coefficient, as I have explained</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3917-1
+00:36:41.417 --> 00:36:41.943
+<v Chao-Yo Cheng (Staff)>earlier,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3949-0
+00:36:43.623 --> 00:36:47.656
+<v Chao-Yo Cheng (Staff)>They can be understood in many different ways, such as</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3949-1
+00:36:47.656 --> 00:36:54.080
+<v Chao-Yo Cheng (Staff)>forecasting, prediction, causation, correlation. Although the underlying idea of multiple</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3949-2
+00:36:54.080 --> 00:36:58.561
+<v Chao-Yo Cheng (Staff)>linear regression is not so different from bivariate linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3949-3
+00:36:58.561 --> 00:36:59.383
+<v Chao-Yo Cheng (Staff)>regression,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3961-0
+00:37:00.903 --> 00:37:03.846
+<v Chao-Yo Cheng (Staff)>we still have to consider the meaning of slopes with a bit of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3961-1
+00:37:03.846 --> 00:37:04.463
+<v Chao-Yo Cheng (Staff)>more caution.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3979-0
+00:37:06.343 --> 00:37:10.428
+<v Chao-Yo Cheng (Staff)>Um, but I'm not intended to go over the formal definition in</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/3979-1
+00:37:10.428 --> 00:37:12.743
+<v Chao-Yo Cheng (Staff)>detail, but here is the intuition.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4001-0
+00:37:13.683 --> 00:37:18.197
+<v Chao-Yo Cheng (Staff)>In the case of multiple linear regression, given that we have</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4001-1
+00:37:18.197 --> 00:37:22.120
+<v Chao-Yo Cheng (Staff)>more than one slope, each estimated coefficient for a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4001-2
+00:37:22.120 --> 00:37:26.043
+<v Chao-Yo Cheng (Staff)>corresponding slope should be understood as follows.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4022-0
+00:37:28.203 --> 00:37:32.063
+<v Chao-Yo Cheng (Staff)>That is, we are using the estimated coefficient to study</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4022-1
+00:37:32.063 --> 00:37:36.062
+<v Chao-Yo Cheng (Staff)>the correlation between a given predictor and the outcome</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4022-2
+00:37:36.062 --> 00:37:36.683
+<v Chao-Yo Cheng (Staff)>variable</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4043-0
+00:37:41.273 --> 00:37:44.917
+<v Chao-Yo Cheng (Staff)>and at the same time, we are taking to account the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4043-1
+00:37:44.917 --> 00:37:48.854
+<v Chao-Yo Cheng (Staff)>correlation and the impact of other competing arrival</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4043-2
+00:37:48.854 --> 00:37:52.353
+<v Chao-Yo Cheng (Staff)>predictors in relation to our outcome variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4046-0
+00:37:54.363 --> 00:37:55.243
+<v Chao-Yo Cheng (Staff)>So to put this</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4051-0
+00:37:56.853 --> 00:37:59.893
+<v Chao-Yo Cheng (Staff)>in a more concrete way -- consider this example.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4077-0
+00:38:02.933 --> 00:38:06.214
+<v Chao-Yo Cheng (Staff)>When we try to investigate the correlation between a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4077-1
+00:38:06.214 --> 00:38:09.680
+<v Chao-Yo Cheng (Staff)>politician's perceived competence and their performance</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4077-2
+00:38:09.680 --> 00:38:13.333
+<v Chao-Yo Cheng (Staff)>in the elections -- say we want to include another predictor</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4095-0
+00:38:14.383 --> 00:38:19.634
+<v Chao-Yo Cheng (Staff)>in a model and this variable can be the economic situation of the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4095-1
+00:38:19.634 --> 00:38:21.623
+<v Chao-Yo Cheng (Staff)>politicians constituency.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4146-0
+00:38:22.413 --> 00:38:26.062
+<v Chao-Yo Cheng (Staff)>Once we include both predictors, then the estimate is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4146-1
+00:38:26.062 --> 00:38:30.124
+<v Chao-Yo Cheng (Staff)>slope of the competence variable should be understood as a</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4146-2
+00:38:30.124 --> 00:38:34.461
+<v Chao-Yo Cheng (Staff)>correlation between competence and electric performance, and at</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4146-3
+00:38:34.461 --> 00:38:38.386
+<v Chao-Yo Cheng (Staff)>the same time we also consider the influence of economic</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4146-4
+00:38:38.386 --> 00:38:42.585
+<v Chao-Yo Cheng (Staff)>situation and these politicians constituency on the election</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4146-5
+00:38:42.585 --> 00:38:45.133
+<v Chao-Yo Cheng (Staff)>outcomes in our regression analysis.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4169-0
+00:38:47.123 --> 00:38:51.111
+<v Chao-Yo Cheng (Staff)>It is very possible when we try to consider more than one</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4169-1
+00:38:51.111 --> 00:38:54.825
+<v Chao-Yo Cheng (Staff)>predictor, a politician's perceived competence will</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4169-2
+00:38:54.825 --> 00:38:58.883
+<v Chao-Yo Cheng (Staff)>have little to do with their performance in the elections.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4203-0
+00:39:02.613 --> 00:39:07.763
+<v Chao-Yo Cheng (Staff)>A very similar concept you may have heard in other modules is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4203-1
+00:39:07.763 --> 00:39:11.833
+<v Chao-Yo Cheng (Staff)>intersectionality because the underlying idea of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4203-2
+00:39:11.833 --> 00:39:16.816
+<v Chao-Yo Cheng (Staff)>intersectionality is to say a person's race and gender can</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4203-3
+00:39:16.816 --> 00:39:21.053
+<v Chao-Yo Cheng (Staff)>have non trivial impact on their various outcomes</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4205-0
+00:39:22.183 --> 00:39:22.783
+<v Chao-Yo Cheng (Staff)>in the life.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4227-0
+00:39:30.973 --> 00:39:34.309
+<v Chao-Yo Cheng (Staff)>So when we know it is possible to include more than one</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4227-1
+00:39:34.309 --> 00:39:37.645
+<v Chao-Yo Cheng (Staff)>predictors in the linear model, we will need to consider</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4227-2
+00:39:37.645 --> 00:39:39.373
+<v Chao-Yo Cheng (Staff)>two questions more carefully.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4245-0
+00:39:40.683 --> 00:39:44.846
+<v Chao-Yo Cheng (Staff)>First, which variables we should include and how</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4245-1
+00:39:44.846 --> 00:39:48.203
+<v Chao-Yo Cheng (Staff)>these variables relate to each other in the model.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4276-0
+00:39:50.063 --> 00:39:54.616
+<v Chao-Yo Cheng (Staff)>Many quantitative researchers dedicate their entire career to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4276-1
+00:39:54.616 --> 00:39:58.468
+<v Chao-Yo Cheng (Staff)>studying the statistical techniques and tools of model</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4276-2
+00:39:58.468 --> 00:40:02.601
+<v Chao-Yo Cheng (Staff)>and the variable selection. Even though model comparison is</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4276-3
+00:40:02.601 --> 00:40:04.703
+<v Chao-Yo Cheng (Staff)>indeed a very important topic.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4308-0
+00:40:07.583 --> 00:40:11.587
+<v Chao-Yo Cheng (Staff)>This will not be our focus here as model comparison techniques</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4308-1
+00:40:11.587 --> 00:40:15.083
+<v Chao-Yo Cheng (Staff)>often require more assumptions and subject to a lot of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4308-2
+00:40:15.083 --> 00:40:18.961
+<v Chao-Yo Cheng (Staff)>debates, and you should have learned some of these techniques</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4308-3
+00:40:18.961 --> 00:40:20.423
+<v Chao-Yo Cheng (Staff)>in other modules already.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4321-0
+00:40:22.343 --> 00:40:27.241
+<v Chao-Yo Cheng (Staff)>So whenever it comes to variable selection, the key thing is to</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4321-1
+00:40:27.241 --> 00:40:28.303
+<v Chao-Yo Cheng (Staff)>keep in mind</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4401-0
+00:40:30.343 --> 00:40:34.822
+<v Chao-Yo Cheng (Staff)>we should always avoid omitting or forgetting to include any</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4401-1
+00:40:34.822 --> 00:40:39.012
+<v Chao-Yo Cheng (Staff)>important predictors regarding the dependent variable of interest</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4401-2
+00:40:39.012 --> 00:40:43.492
+<v Chao-Yo Cheng (Staff)>because the result of doing so is our estimated coefficients can</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4401-3
+00:40:43.492 --> 00:40:47.971
+<v Chao-Yo Cheng (Staff)>become really small or become biased in terms of the size and</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4401-4
+00:40:47.971 --> 00:40:52.595
+<v Chao-Yo Cheng (Staff)>will no longer be statistically significant once we account for</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4401-5
+00:40:52.595 --> 00:40:56.208
+<v Chao-Yo Cheng (Staff)>other predictors. Quant scholars who focus on</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4401-6
+00:40:56.208 --> 00:41:00.615
+<v Chao-Yo Cheng (Staff)>statistical learning and causal inference have also proposed</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4401-7
+00:41:00.615 --> 00:41:05.167
+<v Chao-Yo Cheng (Staff)>some criteria for us to select the variables in the regression</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4401-8
+00:41:05.167 --> 00:41:09.863
+<v Chao-Yo Cheng (Staff)>model. And I'm going (or hoping) to talk more about this in the coming weeks.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4424-0
+00:41:15.433 --> 00:41:18.521
+<v Chao-Yo Cheng (Staff)>As we include more than one variables in the linear</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4424-1
+00:41:18.521 --> 00:41:22.381
+<v Chao-Yo Cheng (Staff)>regression model, it is also very important we do not include two</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4424-2
+00:41:22.381 --> 00:41:25.113
+<v Chao-Yo Cheng (Staff)>predictors highly correlated with each other.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4429-0
+00:41:26.293 --> 00:41:28.573
+<v Chao-Yo Cheng (Staff)>Because doing so will make</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4468-0
+00:41:31.023 --> 00:41:36.099
+<v Chao-Yo Cheng (Staff)>our estimated coefficients are misleading and unreliable. This</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4468-1
+00:41:36.099 --> 00:41:40.110
+<v Chao-Yo Cheng (Staff)>is something we call collinearity and we can use</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4468-2
+00:41:40.110 --> 00:41:45.350
+<v Chao-Yo Cheng (Staff)>variance inflation factor (VIF) as a possible benchmark to detect the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4468-3
+00:41:45.350 --> 00:41:48.543
+<v Chao-Yo Cheng (Staff)>presence of collinearity in the model.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4502-0
+00:41:48.663 --> 00:41:52.636
+<v Chao-Yo Cheng (Staff)>Or, we can just check the pairwise Pearson correlation of</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4502-1
+00:41:52.636 --> 00:41:57.167
+<v Chao-Yo Cheng (Staff)>all predictors. If two predictors are highly correlated with each</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4502-2
+00:41:57.167 --> 00:42:00.583
+<v Chao-Yo Cheng (Staff)>other, the usual practice is to drop one of them.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4541-0
+00:42:05.683 --> 00:42:10.633
+<v Chao-Yo Cheng (Staff)>It is also very important to highlight, sometimes having more</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4541-1
+00:42:10.633 --> 00:42:15.503
+<v Chao-Yo Cheng (Staff)>predictors may artificially increase the value of R-squared</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4541-2
+00:42:15.503 --> 00:42:20.859
+<v Chao-Yo Cheng (Staff)>to the moment that R-squared can no longer serve as an informative</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4541-3
+00:42:20.859 --> 00:42:22.483
+<v Chao-Yo Cheng (Staff)>metric of model fit.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4613-0
+00:42:25.693 --> 00:42:30.608
+<v Chao-Yo Cheng (Staff)>Adjusted R-squared is useful to address this issue because it</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4613-1
+00:42:30.608 --> 00:42:35.365
+<v Chao-Yo Cheng (Staff)>includes one additional term in the formula to penalize the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4613-2
+00:42:35.365 --> 00:42:40.439
+<v Chao-Yo Cheng (Staff)>inclusion of too many variables in your model. In other words, if</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4613-3
+00:42:40.439 --> 00:42:43.690
+<v Chao-Yo Cheng (Staff)>we use adjusted R-squared, including more</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4613-4
+00:42:43.690 --> 00:42:48.923
+<v Chao-Yo Cheng (Staff)>predictors may in the end shrink the value of your R-squared and the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4613-5
+00:42:48.923 --> 00:42:53.442
+<v Chao-Yo Cheng (Staff)>marginal utility of adding one additional predictor will</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4613-6
+00:42:53.442 --> 00:42:56.693
+<v Chao-Yo Cheng (Staff)>decline as you include more predictors.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4663-0
+00:43:03.553 --> 00:43:08.070
+<v Chao-Yo Cheng (Staff)>The inclusion of more than one predictor in the model can also</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4663-1
+00:43:08.070 --> 00:43:11.439
+<v Chao-Yo Cheng (Staff)>allow us to model more complicated statistical</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4663-2
+00:43:11.439 --> 00:43:15.670
+<v Chao-Yo Cheng (Staff)>relationships, some of which can actually be nonlinear. More</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4663-3
+00:43:15.670 --> 00:43:19.900
+<v Chao-Yo Cheng (Staff)>specifically, we can try to model nonlinear data generation</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4663-4
+00:43:19.900 --> 00:43:24.345
+<v Chao-Yo Cheng (Staff)>process of our outcome variables by including the interaction</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4663-5
+00:43:24.345 --> 00:43:26.353
+<v Chao-Yo Cheng (Staff)>term or the polynomial term.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4722-0
+00:43:28.963 --> 00:43:33.091
+<v Chao-Yo Cheng (Staff)>A linear function with interaction term will allow us</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4722-1
+00:43:33.091 --> 00:43:37.754
+<v Chao-Yo Cheng (Staff)>to introduce some dependency between different predictors, so</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4722-2
+00:43:37.754 --> 00:43:41.882
+<v Chao-Yo Cheng (Staff)>the estimated slope of one predictor can change under</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4722-3
+00:43:41.882 --> 00:43:46.163
+<v Chao-Yo Cheng (Staff)>different conditions. For instance, maybe the correlation</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4722-4
+00:43:46.163 --> 00:43:50.903
+<v Chao-Yo Cheng (Staff)>between political components and electric results will change</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4722-5
+00:43:50.903 --> 00:43:55.490
+<v Chao-Yo Cheng (Staff)>when we consider the industrial structure of a constituency</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4722-6
+00:43:55.490 --> 00:43:59.083
+<v Chao-Yo Cheng (Staff)>which can either be agricultural or industrial</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4735-0
+00:44:00.773 --> 00:44:04.133
+<v Chao-Yo Cheng (Staff)>There is a good example in a textbook for you to consider.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4759-0
+00:44:06.883 --> 00:44:10.011
+<v Chao-Yo Cheng (Staff)>A linear function with polynomial terms basically</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4759-1
+00:44:10.011 --> 00:44:13.953
+<v Chao-Yo Cheng (Staff)>allows the predictor to have a nonlinear relationship with the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4759-2
+00:44:13.953 --> 00:44:17.707
+<v Chao-Yo Cheng (Staff)>dependent variable, and you will see one example in the next</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4759-3
+00:44:17.707 --> 00:44:18.083
+<v Chao-Yo Cheng (Staff)>slide.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4790-0
+00:44:23.093 --> 00:44:28.478
+<v Chao-Yo Cheng (Staff)>Here is one quick example of a linear function with quadratic</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4790-1
+00:44:28.478 --> 00:44:33.863
+<v Chao-Yo Cheng (Staff)>terms. In this case, we set the intercept at one and the slopes</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4790-2
+00:44:33.863 --> 00:44:38.293
+<v Chao-Yo Cheng (Staff)>of X and X-squared at two and 0.5 respectively.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4800-0
+00:44:43.003 --> 00:44:48.003
+<v Chao-Yo Cheng (Staff)>Here's one interesting question you should ask for yourself.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4832-0
+00:44:48.083 --> 00:44:51.474
+<v Chao-Yo Cheng (Staff)>If multiple linear regression allows us to include more</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4832-1
+00:44:51.474 --> 00:44:54.683
+<v Chao-Yo Cheng (Staff)>complicated and nuanced interactive dynamics between</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4832-2
+00:44:54.683 --> 00:44:58.317
+<v Chao-Yo Cheng (Staff)>different predictors, such that the statistical relationship</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4832-3
+00:44:58.317 --> 00:45:01.163
+<v Chao-Yo Cheng (Staff)>between predictors and the dependent variable</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4866-0
+00:45:02.243 --> 00:45:06.807
+<v Chao-Yo Cheng (Staff)>doesn't have to be linear, then why do we need generalized</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4866-1
+00:45:06.807 --> 00:45:11.592
+<v Chao-Yo Cheng (Staff)>linear model? Like logit? We can talk more about this when we see</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4866-2
+00:45:11.592 --> 00:45:16.009
+<v Chao-Yo Cheng (Staff)>each other in class, but we will address the issue in more detail</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4866-3
+00:45:16.009 --> 00:45:17.923
+<v Chao-Yo Cheng (Staff)>again in the coming weeks.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4884-0
+00:45:19.783 --> 00:45:24.894
+<v Chao-Yo Cheng (Staff)>The hint is generalized linear model allows us to relax</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4884-1
+00:45:24.894 --> 00:45:28.983
+<v Chao-Yo Cheng (Staff)>more sanctions of OLS in addition to linearity</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4888-0
+00:45:29.903 --> 00:45:30.983
+<v Chao-Yo Cheng (Staff)>assumption.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4899-0
+00:45:36.423 --> 00:45:40.160
+<v Chao-Yo Cheng (Staff)>So now this concludes our practical review of multiple</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4899-1
+00:45:40.160 --> 00:45:41.383
+<v Chao-Yo Cheng (Staff)>linear regression.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4934-0
+00:45:42.693 --> 00:45:47.949
+<v Chao-Yo Cheng (Staff)>Again, multiple linear regression is a very convenient tool, but by</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4934-1
+00:45:47.949 --> 00:45:53.047
+<v Chao-Yo Cheng (Staff)>now I hope it should be clear to you: There is no guarantee that</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4934-2
+00:45:53.047 --> 00:45:58.224
+<v Chao-Yo Cheng (Staff)>our statistical analysis or our quant research will be a hundred</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4934-3
+00:45:58.224 --> 00:46:00.773
+<v Chao-Yo Cheng (Staff)>percent perfect or scientific.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4947-0
+00:46:01.823 --> 00:46:07.098
+<v Chao-Yo Cheng (Staff)>Because regression analysis is really not a simple black and</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4947-1
+00:46:07.098 --> 00:46:08.223
+<v Chao-Yo Cheng (Staff)>white matter.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4983-0
+00:46:09.513 --> 00:46:13.409
+<v Chao-Yo Cheng (Staff)>When we try to carry out the analysis, there will be many</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4983-1
+00:46:13.409 --> 00:46:17.851
+<v Chao-Yo Cheng (Staff)>decisions we have to responsibly make and many decisions we have</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4983-2
+00:46:17.851 --> 00:46:21.132
+<v Chao-Yo Cheng (Staff)>to make may not have a clear theoretical reason</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/4983-3
+00:46:21.132 --> 00:46:23.593
+<v Chao-Yo Cheng (Staff)>underneath. Regardless of the model</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5002-0
+00:46:24.653 --> 00:46:28.731
+<v Chao-Yo Cheng (Staff)>or regression techniques we use, we are bound to take so many</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5002-1
+00:46:28.731 --> 00:46:32.943
+<v Chao-Yo Cheng (Staff)>assumptions and some of these assumptions can be controversial</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5002-2
+00:46:32.943 --> 00:46:34.013
+<v Chao-Yo Cheng (Staff)>and unrealistic.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5027-0
+00:46:35.713 --> 00:46:40.561
+<v Chao-Yo Cheng (Staff)>And eventually doing quant social research were demand a solid</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5027-1
+00:46:40.561 --> 00:46:45.333
+<v Chao-Yo Cheng (Staff)>knowledge of the subject matter per se, which often can only be</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5027-2
+00:46:45.333 --> 00:46:48.591
+<v Chao-Yo Cheng (Staff)>obtained with high quality qualitative</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5027-3
+00:46:48.591 --> 00:46:49.273
+<v Chao-Yo Cheng (Staff)>research.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5063-0
+00:46:50.843 --> 00:46:54.867
+<v Chao-Yo Cheng (Staff)>You need to come up with a good substantive reason for your</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5063-1
+00:46:54.867 --> 00:46:58.690
+<v Chao-Yo Cheng (Staff)>model setup, including the predictors you wish to include</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5063-2
+00:46:58.690 --> 00:47:02.982
+<v Chao-Yo Cheng (Staff)>and how this predictors will be combined to inform a reasonable</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5063-3
+00:47:02.982 --> 00:47:06.403
+<v Chao-Yo Cheng (Staff)>data generation process of the dependent variable.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5066-0
+00:47:09.573 --> 00:47:10.453
+<v Chao-Yo Cheng (Staff)>In this slide,</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5097-0
+00:47:11.353 --> 00:47:16.143
+<v Chao-Yo Cheng (Staff)>I have already listed some principles or steps you can</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5097-1
+00:47:16.143 --> 00:47:21.718
+<v Chao-Yo Cheng (Staff)>take.I'm not going to read them out one by one, but the key lesson</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5097-2
+00:47:21.718 --> 00:47:26.073
+<v Chao-Yo Cheng (Staff)>is: Remember, there is no perfect model; nonetheless</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5115-0
+00:47:27.593 --> 00:47:31.527
+<v Chao-Yo Cheng (Staff)>knowing this by no means invalidates the analytical value</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5115-1
+00:47:31.527 --> 00:47:35.666
+<v Chao-Yo Cheng (Staff)>or need of using statistical models to understand the social</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5115-2
+00:47:35.666 --> 00:47:36.073
+<v Chao-Yo Cheng (Staff)>world.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5145-0
+00:47:37.693 --> 00:47:42.321
+<v Chao-Yo Cheng (Staff)>Meanwhile, we should be prepared that any solid quantum research</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5145-1
+00:47:42.321 --> 00:47:46.949
+<v Chao-Yo Cheng (Staff)>will require us to use multiple statistical techniques based on</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5145-2
+00:47:46.949 --> 00:47:51.143
+<v Chao-Yo Cheng (Staff)>a good understanding of both quantitative and qualitative</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5145-3
+00:47:51.143 --> 00:47:52.373
+<v Chao-Yo Cheng (Staff)>social research.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5160-0
+00:47:53.533 --> 00:47:58.277
+<v Chao-Yo Cheng (Staff)>A table with one regression model containing all predictors</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5160-1
+00:47:58.277 --> 00:48:00.413
+<v Chao-Yo Cheng (Staff)>would not get you very far.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5171-0
+00:48:02.803 --> 00:48:06.443
+<v Chao-Yo Cheng (Staff)>I would like to end this review by quoting George box again.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5188-0
+00:48:07.403 --> 00:48:11.925
+<v Chao-Yo Cheng (Staff)>All models are wrong, but some of them are useful, and the</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5188-1
+00:48:11.925 --> 00:48:16.083
+<v Chao-Yo Cheng (Staff)>statistical models are only approximations of real life.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5193-0
+00:48:19.173 --> 00:48:21.853
+<v Chao-Yo Cheng (Staff)>This is Dr Chao-Yo Cheng. See you in class.</v>
+
+b23526b9-bc82-47dc-8c0b-83512bd7a5ff/5194-0
+00:48:23.553 --> 00:48:23.913
+<v Chao-Yo Cheng (Staff)>Uh huh.</v>

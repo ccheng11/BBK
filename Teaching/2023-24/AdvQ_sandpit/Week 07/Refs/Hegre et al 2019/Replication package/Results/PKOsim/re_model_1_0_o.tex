@@ -1,0 +1,37 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{1}{cc}}
+\hline\hline
+            &\multicolumn{2}{c}{(1)}           \\
+            &\multicolumn{2}{c}{inc}           \\
+\hline
+inc         &                     &            \\
+c1          &      -2.024         &     (-1.57)\\
+c2          &      -5.434\sym{**} &     (-2.60)\\
+ltsc0       &      -0.252         &     (-0.60)\\
+nc          &      -0.789\sym{*}  &     (-2.41)\\
+ncc1        &       0.610         &      (1.63)\\
+ncc2        &      -0.299         &     (-0.54)\\
+ltsnc       &     -0.0371         &     (-0.61)\\
+ncts0       &     -0.0360         &     (-0.27)\\
+lpop        &      -0.306\sym{***}&     (-4.35)\\
+lGDPcap     &       0.185         &      (1.25)\\
+lGDPcap\_c1  &      -0.153         &     (-0.98)\\
+lGDPcap\_c2  &       0.209         &      (0.81)\\
+lGDPcap\_ltsc0&      0.0891         &      (1.66)\\
+ltimeindep  &      -0.124         &     (-1.56)\\
+lPKOtrad    &       0.139         &      (0.30)\\
+lPKOtrans   &       0.203         &      (0.29)\\
+llPKObudget &     -0.0144         &     (-0.13)\\
+lPKOneighbor&       0.140         &      (0.65)\\
+\_cons      &       4.627\sym{***}&      (3.49)\\
+\hline
+var(\_cons[gwno])&                     &            \\
+\_cons      &       0.687\sym{***}&      (3.73)\\
+\hline
+\(N\)       &        7591         &            \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}

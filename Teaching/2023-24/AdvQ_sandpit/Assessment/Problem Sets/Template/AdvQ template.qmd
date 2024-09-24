@@ -1,0 +1,37 @@
+---
+title: "Advanced Quantitative Social Research"
+subtitle: "Problem Set: [Put Topic Here]"
+author: "[Your Name Here]"
+date: "[Date Here]"
+fontsize: 11pt
+linestretch: "1.1"
+indent: false
+papersize: a4paper
+format:
+  pdf:
+    keep-tex: false
+    number-sections: false
+    shift-heading-level-by: 0
+    toc: false
+    pdf-engine: "xelatex"
+---
+
+# Question 1
+
+## Part (a)
+
+Start your answer here
+
+# Question 2
+
+## Part (a)
+
+Start your answer here
+
+\newpage
+
+# Appendix: `R` Script
+
+```{r, echo=T, eval=F, message=F}
+"Present your R code here"
+```

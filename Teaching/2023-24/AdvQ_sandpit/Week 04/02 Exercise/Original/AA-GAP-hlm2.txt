@@ -1,0 +1,66 @@
+model {
+	for (i in 1:N) {
+		y[i] ~ dnorm(mu[i],tau.y)
+		mu[i] <- b.country[cnum[i]] + b.pious[cnum[i]]*pious[i] 
+												+ b.news[cnum[i]]*news[i]
+												+ b.age[cnum[i]]*age[i]
+												+ b.male[cnum[i]]*male[i]
+												+ b.ses[cnum[i]]*ses[i]
+												+ b.ed2[cnum[i]]*ed2[i]
+												+ b.ed3[cnum[i]]*ed3[i]
+												+ b.satis[cnum[i]]*satis[i]
+		# for missing data
+		pious[i] ~ dbern(p.pious)
+		news[i] ~ dbern(p.news)
+		age[i] ~ dnorm(36,0.01)
+		ses[i] ~ dnorm(0.5,100)
+		ed2[i] ~ dbern(p.ed2)
+		ed3[i] ~ dbern(p.ed3)
+		satis[i] ~ dnorm(0.5,100)
+	}
+
+	for (j in 1:ncountry) {
+		b.country[j] ~ dnorm(mu.country[j],tau.b[1])
+		mu.country[j] <- g.country[1] + g.country[2]*z1[j]
+												+ g.country[3]*z2[j]
+												+ g.country[4]*z3[j]
+
+		b.pious[j] ~ dnorm(mu.pious,tau.b[2])
+		b.news[j]  ~ dnorm(mu.news,tau.b[3])
+		b.age[j]   ~ dnorm(mu.age,tau.b[4])
+		b.male[j]  ~ dnorm(mu.male,tau.b[5])
+		b.ses[j]   ~ dnorm(mu.ses,tau.b[6])
+		b.ed2[j]   ~ dnorm(mu.ed2,tau.b[7])
+		b.ed3[j]   ~ dnorm(mu.ed3,tau.b[8])
+		b.satis[j] ~ dnorm(mu.satis,tau.b[9])
+
+		z1[j] ~ dbeta(1,1)
+	}
+
+	mu.pious ~ dnorm(0,0.0001)
+	mu.news ~ dnorm(0,0.0001)
+	mu.age ~ dnorm(0,0.0001)
+	mu.male ~ dnorm(0,0.0001)
+	mu.ses ~ dnorm(0,0.0001)
+	mu.ed2 ~ dnorm(0,0.0001)
+	mu.ed3 ~ dnorm(0,0.0001)
+	mu.satis ~ dnorm(0,0.0001)
+
+	for (j in 1:9) {
+		tau.b[j] <- pow(sd.b[j],-2)
+		sd.b[j] ~ dunif(0,10)
+	}
+
+	for (j in 1:4) {
+		g.country[j] ~ dnorm(0,0.0001)
+		g.pious[j] ~ dnorm(0,0.0001)
+	}
+
+	tau.y <- pow(sd.y,-2)
+	sd.y ~ dunif(0,10)
+	p.pious ~ dbeta(1,1)
+	p.news ~ dbeta(1,1)
+	p.ed2 ~ dbeta(1,1)
+	p.ed3 ~ dbeta(1,1)
+}
+

@@ -1,0 +1,19 @@
+# Extra: Alternative Ways of Interpreting Results from Logit Regression
+
+This section shows you additional options to interpret results from logit regression in addition to the options we discussed in Sections 3.3.
+
+## Option 1: Interpret $\hat{\beta}$ Directly
+
+From the output, we can see that $\hat{\beta}=1.17470$ is how the (expected) log-odds will change when we increase religion's degree of importance by 1. You can use the `confint()` function to extract the upper and lower bounds of the confidence intervals for $\hat{\beta}$.
+
+```{r, echo=T, eval=T}
+coef(mod_religion) # extract coefficients
+```  
+
+## Option 2: The *Divide-by-4* Rule
+
+Third, use the *divide-by-4* rule, we can derive the largest possible change in the probability of opposing abortion.
+
+```{r, echo=T, eval=T}
+coef(mod_religion)[2]/4 # extract the "religion" coefficient 
+```  

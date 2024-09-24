@@ -1,0 +1,172 @@
+---
+title: IQSR Multilevel/Hierarchical Modeling (Part I)
+author:
+  - Chao-Yo Cheng
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+fontsize: 10pt
+---
+
+## Plan ahead
+
+\begin{itemize}
+  \item Week 3: Thinking about your project
+  \vspace{0.2cm}
+  \item Weeks 4 and 5: Analyzing survey data
+  \vspace{0.2cm}
+  \item Weeks 8 and 9: Multilevel and hierarchical modeling
+  \begin{small}
+  \begin{itemize}
+    \item \textbf{Week 8: The fundamentals}
+    \item Week 9: Assumptions and diagnostics
+  \end{itemize}
+  \end{small}
+  \vspace{0.2cm}
+  \item Week 10: Concluding remarks, Q\&A, and post-term activities (TBD)
+\end{itemize}
+
+## IQSR: Linear regression and its extension
+
+\begin{itemize}
+  \item What is linear regression ($Y=\alpha+\beta X+\epsilon$)?
+  \item What can linear regression do?
+  \begin{itemize}
+    \item For \textbf{prediction}: The main concern is $\widehat{Y}$; 
+    \item To show the marginal effect of $X$ on $Y$: The main concern is to identify the conditions under which $\widehat{\beta}$ is causally valid; 
+    \item Searching for the "best" \textbf{data generation process} (DGP) of $Y$: The main concern is the functional form; go for \textbf{non-linear} and {multilevel} modeling.
+  \end{itemize}
+  \item What are the key assumptions? Why do we need them? Which assumptions are the most (or least) important ones? How should we test these assumptions -- can we and should we? What will happen if we relax (any of) the assumptions?
+\end{itemize}
+
+## IQSR: Linear regression and its extension
+
+\begin{itemize}
+  \item For \textbf{prediction}: Go for \textbf{maching learning} (forecasting, pattern recognition and classification).
+  \item To show the marginal effect of $X$ on $Y$: Go for \textbf{causal inference}.
+  \item Searching for the "best" \textbf{data generation process} (DGP) of $Y$: Go for \textbf{non-linear} and {multilevel} modeling.
+  \begin{itemize}
+    \item Linear regression with polynomial terms, say $$Y=\alpha+\beta_1X+\beta_2X^2+\epsilon.$$
+    \item Generalized linear models for discrete and categorical variables, say $$\log\left(\frac{p}{1-p}\right)=\alpha+\beta_1X+\epsilon.$$
+    \item Multilevel (aka hierarchical aka mixed effects) models for when we have \textbf{nested data}.
+  \end{itemize}
+\end{itemize}
+
+## Why multilevel modeling
+
+\begin{itemize}
+  \item Very often, we can detect some nuanced (not necessarily complicated) structure in our data. Say:
+  \begin{itemize}
+    \item Vote choices across different respondents in a national survey can be grouped by state.
+    \item Exam marks across different students in a secondary school can be grouped by teacher.
+    \item Local public goods provision records across different villages can be grouped by constituency.
+    \item ...What else?
+  \end{itemize}
+  \pause
+  \item How does multilevel modeling matter or come to rescue?
+   \begin{itemize}
+    \item \textbf{Practical motivation}: The underlying intercept and slope we try to uncover via OLS may depend on the group of focus.
+    \item \textbf{Theoretical motivation}: Nested data may and can violate the basic assumptions of linear regression (esp. equal variance and independence of errors).
+  \end{itemize}
+\end{itemize}
+
+## Prototypes of multilevel models
+
+\begin{itemize}
+  \item We want to know whether race influences individual's approval rating (0-100 pts) for the President of the United States.
+  \begin{itemize}
+    \item Predictor ($X$): `race` (e.g., Asian American, etc).
+    \item Outcome ($Y$): `approval`.
+    \item Grouping: `state` (e.g., California).
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Let's consider several modeling choices.
+\end{itemize}
+
+## Prototypes of multilevel models
+
+|                                    | Formal expression             |
+|------------------------------------|--------------------|
+| Linear (fixed $\alpha$ and $\beta$) | $Y=\alpha+\beta X+\epsilon$ |
+| Linear Multilevel (varying $\alpha$ only) | $Y=\alpha_i+\beta X+\epsilon$ |
+| Linear Multilevel (varying $\beta$ only) | $Y=\alpha+\beta_i X+\epsilon$ |
+| Linear Multilevel (varying $\alpha$ and $\beta$ only) | $Y=\alpha_i+\beta_i X+\epsilon$ |
+
+|                                     | `R` code              |
+|-------------------------------------|-----------------------|
+| Linear (fixed $\alpha$ and $\beta$) | `lm(y~x)`             |
+| Linear Multilevel (varying $\alpha$)| `lmer(y~x+(1|state))` |
+| Linear Multilevel (varying $\beta$) | `lmer(y~x+(0+x|state))` |
+| Linear Multilevel (varying $\alpha$ and $\beta$) | `lmer(y~x+(1+x|state))` |
+
+## Why different names?
+
+\begin{itemize}
+  \item Multilevel or hierarchical models: Used to highlight the fact that that we are trying to analyze \textbf{nested} data.
+  \vspace{0.5cm}
+  \item Mixed-effect models: Used to highlight the fact that $\alpha$ and $\beta$ can "vary" by group, depending on how we set up the model.
+  \begin{itemize}
+    \item The varying $\alpha$ consists of a fixed element (same for all groups) and a random element (each group has a different value).
+    \item The varying $\beta$ consists of a fixed element (same for all groups) and a random element (each group has a different value).
+  \end{itemize}
+\end{itemize}
+
+## Visualization of (linear) multilevel models
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/animation.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{http://mfviz.com/hierarchical-models/}
+\end{scriptsize}
+\end{center}
+
+## Visualization of (linear) multilevel models
+
+```{r echo=FALSE, out.width="105%", fig.align="center"}
+knitr::include_graphics("Figs/marju.pdf")
+```
+
+## Some additiional modeling considerations
+
+\begin{itemize}
+  \item Should we include \textbf{group}-level predictors? Short answer: Yes (many researchers do so).
+  \vspace{0.1cm}
+  \item Should we use \textbf{linear} multilevel models? Short answer: Of course (there is logit multilevel regression).
+  \vspace{0.1cm}
+  \item What if there are \textbf{multiple} levels or many alternative ways of grouping observations, such as \textbf{time} and \textbf{location}? Short answer: Be my guest (but you want to think about the trade-off).
+  \vspace{0.1cm}
+  \item Can we use multilevel modeling for \textbf{longitudinal data analysis}? Short answer: Yes (but be extremely cautious -- you may be entering a territory where few people are in now).
+\end{itemize}
+
+## Caveats
+
+\begin{itemize}
+  \item As in the case of all other modeling techniques, we should keep the following caveats in mind:
+  \begin{itemize}
+    \item Hypothesis testing is a headache, if not impossible -- rigorous thinking is needed to derive the p-values and their corresponding levels of statistical significance. Potential solution: \textbf{Bayesian} multilevel modeling.
+    \item The results may be driven by influential observations or outliers when the number of observations varies too much across different groups.
+    \item The model may become unnecessarily intractable (formally and computationally) when it gets too complicated.
+    \item It may not be easy to have a set of clear priors to make a decision which model performs or works better -- again, what does that mean to say a model is "better" than other alternatives?
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Extra: For more discussion, see \textbf{Gelman and Hill} (2007) -- focus on Chapters 11-13.
+\end{itemize}
+
+## Looking ahead
+
+\begin{itemize}
+  \item Today in tutorial:
+  \begin{itemize}
+    \item We will use \textbf{World Values Survey} (Wave 7) to study how \textbf{education} is related to \textbf{happiness}.
+    \item We will group the respondents by the \textbf{type of political regimes} (e.g., autocracy, anocracy, and democracy).
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Next week, we will use the assumptions of linear regression to motivate why multilevel or hierarchical modeling \textit{theoretically}.
+  \vspace{0.2cm}
+  \item We may be able to discuss a real example of multilevel modeling.
+\end{itemize}
