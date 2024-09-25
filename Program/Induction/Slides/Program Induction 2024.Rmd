@@ -92,18 +92,19 @@ knitr::include_graphics("Figs/com.pdf")
     \item November: Workshop on how to get started
     \item Preliminary meetings with me and/or potential supervisor
   \end{itemize}
-  \vspace{0.7cm}
+  \vspace{0.1cm}
   \item Spring (Term 2)
   \begin{itemize}
     \item January-February: Submit your proposal form (20 January) and supervisor allocation
     \item March: Workshop on literature review and research ethics
   \end{itemize}
-  \vspace{0.7cm}
+  \vspace{0.1cm}
   \item Summer (Term 3)
   \begin{itemize}
     \item June: Dissertation Fairs through Masterclass in Social Research
     \item July: Workshop on writing up your dissertation (optional)
   \end{itemize}
+  \vspace{0.1cm}
   \item September: Submit dissertation (September 15) or request deferral (TBA)
 \end{itemize}
 
@@ -133,7 +134,7 @@ knitr::include_graphics("Figs/masterclass.pdf")
 
 ---
 
-```{r echo=FALSE, out.width="90%", fig.align="center"}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/services.pdf")
 ```
 
