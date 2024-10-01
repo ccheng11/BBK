@@ -17,6 +17,24 @@ output:
 fontsize: 10pt
 ---
 
+# Plan for today
+
+\begin{itemize}
+	\item Module introduction
+	\vspace{0.3cm}
+	\item Lecture
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Why political research
+		\item An overview of research design
+		\item Qulitative, quantitative and mixed
+	\end{itemize}
+	\vspace{0.3cm}
+	\item Class discussion
+\end{itemize}
+
+---
+
 \vspace{0.2cm}
 ```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/es.pdf")
