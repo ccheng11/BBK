@@ -1,0 +1,58 @@
+---
+title: |
+  |
+  |
+  | Doing Political and Social Research
+  |
+  |
+author: |
+  | Week 1: Welcome and Introduction
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/es.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/xinjiang.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/india.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/energy.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="75%", fig.align="center"}
+knitr::include_graphics("Figs/cr.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/compare.pdf")
+```
