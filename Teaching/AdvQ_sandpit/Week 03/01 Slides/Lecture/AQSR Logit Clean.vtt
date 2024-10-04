@@ -1,0 +1,2545 @@
+WEBVTT
+
+d08e878d-30d9-4db1-864d-390e16f19e25/10-0
+00:00:20.285 --> 00:00:22.805
+Hello, how are you?
+
+d08e878d-30d9-4db1-864d-390e16f19e25/21-0
+00:01:01.525 --> 00:01:01.875
+Hi
+
+d08e878d-30d9-4db1-864d-390e16f19e25/37-0
+00:01:02.225 --> 00:01:06.151
+I'm Dr Chao-Yo Cheng. I am the
+lecturer in Quantitative Social
+
+d08e878d-30d9-4db1-864d-390e16f19e25/37-1
+00:01:06.151 --> 00:01:07.695
+Research at Birkbeck.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/55-0
+00:01:10.725 --> 00:01:14.230
+In this video, we will discuss
+some fundamentals of logit
+
+d08e878d-30d9-4db1-864d-390e16f19e25/55-1
+00:01:14.230 --> 00:01:14.895
+regression,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/90-0
+00:01:15.715 --> 00:01:19.623
+one of the most widely used
+regression techniques among
+
+d08e878d-30d9-4db1-864d-390e16f19e25/90-1
+00:01:19.623 --> 00:01:23.880
+quant social researchers when we
+have to analyze a dependent
+
+d08e878d-30d9-4db1-864d-390e16f19e25/90-2
+00:01:23.880 --> 00:01:28.347
+variable that can only take one
+of the two values, usually zero
+
+d08e878d-30d9-4db1-864d-390e16f19e25/90-3
+00:01:28.347 --> 00:01:28.835
+or one.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/149-0
+00:01:32.935 --> 00:01:37.813
+In Part I, I'm going to review
+some of the key fundamentals of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/149-1
+00:01:37.813 --> 00:01:42.541
+OLS to explain the reasons for
+many quant scholars to believe
+
+d08e878d-30d9-4db1-864d-390e16f19e25/149-2
+00:01:42.541 --> 00:01:46.668
+we must use a different
+regression approach to study a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/149-3
+00:01:46.668 --> 00:01:50.945
+response variable that can only
+take either zero or one.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/162-0
+00:01:51.295 --> 00:01:55.642
+Quant researchers usually call
+list type of variables binary or
+
+d08e878d-30d9-4db1-864d-390e16f19e25/162-1
+00:01:55.642 --> 00:01:56.235
+binomial.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/190-0
+00:01:59.995 --> 00:02:04.287
+In Part II, I'm going to cover
+the key concepts and the key
+
+d08e878d-30d9-4db1-864d-390e16f19e25/190-1
+00:02:04.287 --> 00:02:07.705
+rationale behind logit or
+logistic regression.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/212-0
+00:02:08.515 --> 00:02:13.722
+Our first task is to understand
+why logic regression allows us
+
+d08e878d-30d9-4db1-864d-390e16f19e25/212-1
+00:02:13.722 --> 00:02:17.855
+to model a binary or binomial
+dependent variable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/251-0
+00:02:19.945 --> 00:02:23.614
+We will also pay attention to
+some of the important practical
+
+d08e878d-30d9-4db1-864d-390e16f19e25/251-1
+00:02:23.614 --> 00:02:26.876
+issues when we try to apply
+logit regression to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/251-2
+00:02:26.876 --> 00:02:29.613
+infer the statistical
+relationship between our
+
+d08e878d-30d9-4db1-864d-390e16f19e25/251-3
+00:02:29.613 --> 00:02:32.175
+predictors and the binary
+outcome variable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/284-0
+00:02:37.825 --> 00:02:42.139
+At the same time I will also try
+to use logit regression to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/284-1
+00:02:42.139 --> 00:02:46.983
+highlight the broader rationale
+behind other generalized linear
+
+d08e878d-30d9-4db1-864d-390e16f19e25/284-2
+00:02:46.983 --> 00:02:48.345
+regression models.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/309-0
+00:02:50.015 --> 00:02:53.764
+We're not going to cover all
+generalized linear models in
+
+d08e878d-30d9-4db1-864d-390e16f19e25/309-1
+00:02:53.764 --> 00:02:56.285
+Advanced Quantitative Social
+Research.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/345-0
+00:02:57.075 --> 00:03:02.025
+However, I hope today's video
+will give you some basic ideas
+
+d08e878d-30d9-4db1-864d-390e16f19e25/345-1
+00:03:02.025 --> 00:03:06.732
+and you can bring these ideas
+further to learn other more
+
+d08e878d-30d9-4db1-864d-390e16f19e25/345-2
+00:03:06.732 --> 00:03:11.925
+advanced modeling techniques in
+other modules or other courses.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/385-0
+00:03:18.445 --> 00:03:22.647
+So by now you should be
+relatively familiar with the key
+
+d08e878d-30d9-4db1-864d-390e16f19e25/385-1
+00:03:22.647 --> 00:03:26.997
+fundamentals of the least
+squares linear regression or OLS.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/385-2
+00:03:26.997 --> 00:03:30.535
+Depending on the number
+of predictors,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/406-0
+00:03:30.655 --> 00:03:34.095
+you can either specify a
+bivariate linear regression
+
+d08e878d-30d9-4db1-864d-390e16f19e25/406-1
+00:03:34.095 --> 00:03:37.015
+model or a multiple linear
+regression model.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/462-0
+00:03:38.845 --> 00:03:43.994
+In practice, we usually only use
+multiple linear regression model
+
+d08e878d-30d9-4db1-864d-390e16f19e25/462-1
+00:03:43.994 --> 00:03:48.831
+in research because it is very
+unlikely to imagine a scenario
+
+d08e878d-30d9-4db1-864d-390e16f19e25/462-2
+00:03:48.831 --> 00:03:53.434
+such that we can only -- or we only
+need one single predictor or
+
+d08e878d-30d9-4db1-864d-390e16f19e25/462-3
+00:03:53.434 --> 00:03:58.349
+independent variable to generate
+any insightful understandings
+
+d08e878d-30d9-4db1-864d-390e16f19e25/462-4
+00:03:58.349 --> 00:04:01.625
+are with respect to our outcome
+variable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/514-0
+00:04:03.725 --> 00:04:07.999
+What is more important here
+is if we exclude any important
+
+d08e878d-30d9-4db1-864d-390e16f19e25/514-1
+00:04:07.999 --> 00:04:11.446
+predictors or independent
+variables in our linear
+
+d08e878d-30d9-4db1-864d-390e16f19e25/514-2
+00:04:11.446 --> 00:04:15.582
+regression model, it's very
+likely we are going to get very
+
+d08e878d-30d9-4db1-864d-390e16f19e25/514-3
+00:04:15.582 --> 00:04:19.925
+biased results in terms of the
+estimated intercept and slopes
+
+d08e878d-30d9-4db1-864d-390e16f19e25/543-0
+00:04:22.885 --> 00:04:26.617
+And keep in mind a relatively
+good model specification
+
+d08e878d-30d9-4db1-864d-390e16f19e25/543-1
+00:04:26.617 --> 00:04:30.620
+requires a solid understanding
+of the topic or the subject
+
+d08e878d-30d9-4db1-864d-390e16f19e25/543-2
+00:04:30.620 --> 00:04:31.095
+matter.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/608-0
+00:04:32.175 --> 00:04:36.374
+It is also very important that
+we avoid some common pitfalls
+
+d08e878d-30d9-4db1-864d-390e16f19e25/608-1
+00:04:36.374 --> 00:04:40.504
+that we have highlighted in
+other lectures and the modules.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/608-2
+00:04:40.504 --> 00:04:44.772
+For one thing we should avoid
+when we are trying to specify a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/608-3
+00:04:44.772 --> 00:04:48.833
+multiple linear regression
+model, including two predictors
+
+d08e878d-30d9-4db1-864d-390e16f19e25/608-4
+00:04:48.833 --> 00:04:52.757
+that are collinear with each
+other, which is should also
+
+d08e878d-30d9-4db1-864d-390e16f19e25/608-5
+00:04:52.757 --> 00:04:55.235
+avoid the depending on our
+squares.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/668-0
+00:04:58.435 --> 00:05:02.682
+We should also avoid depending
+on R-squared as the main
+
+d08e878d-30d9-4db1-864d-390e16f19e25/668-1
+00:05:02.682 --> 00:05:07.515
+metric of model fit as a generic
+R-squared may be artificially
+
+d08e878d-30d9-4db1-864d-390e16f19e25/668-2
+00:05:07.515 --> 00:05:11.836
+inflated as we include more than
+one predictor when we use
+
+d08e878d-30d9-4db1-864d-390e16f19e25/668-3
+00:05:11.836 --> 00:05:16.230
+multiple linear regression
+analysis, we can instead say use
+
+d08e878d-30d9-4db1-864d-390e16f19e25/668-4
+00:05:16.230 --> 00:05:19.305
+adjusted R-squared to evaluate
+model fit.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/689-0
+00:05:19.735 --> 00:05:23.409
+Although it is very important to
+know, we should still take
+
+d08e878d-30d9-4db1-864d-390e16f19e25/689-1
+00:05:23.409 --> 00:05:26.225
+adjusted R-squared on with a
+grain of salt.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/714-0
+00:05:29.705 --> 00:05:33.521
+And at the same time we can also use
+ANOVA to compare the performance
+
+d08e878d-30d9-4db1-864d-390e16f19e25/714-1
+00:05:33.521 --> 00:05:35.775
+across different model
+specifications.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/723-0
+00:05:37.705 --> 00:05:40.105
+Finally, before I conclude this slide,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/745-0
+00:05:40.565 --> 00:05:44.121
+Uh, when we try to use different
+combinations of predictors to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/745-1
+00:05:44.121 --> 00:05:45.645
+study our outcome variable
+
+d08e878d-30d9-4db1-864d-390e16f19e25/758-0
+00:05:47.135 --> 00:05:49.505
+It is very common for
+scholars to call 
+
+d08e878d-30d9-4db1-864d-390e16f19e25/778-0
+00:05:49.515 --> 00:05:52.778
+different model
+specifications as the data
+
+d08e878d-30d9-4db1-864d-390e16f19e25/778-1
+00:05:52.778 --> 00:05:56.245
+generating process or DGP of the
+outcome variable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/810-0
+00:06:09.585 --> 00:06:13.821
+And again, with certain
+assumptions, OLS is very
+
+d08e878d-30d9-4db1-864d-390e16f19e25/810-1
+00:06:13.821 --> 00:06:17.977
+powerful and can produce
+unbiased estimates for the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/810-2
+00:06:17.977 --> 00:06:19.655
+intercept and slopes.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/860-0
+00:06:20.125 --> 00:06:24.848
+The fitted regression line based
+on the estimated intercept and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/860-1
+00:06:24.848 --> 00:06:29.497
+the slopes can also produce the
+smallest sum of squared errors
+
+d08e878d-30d9-4db1-864d-390e16f19e25/860-2
+00:06:29.497 --> 00:06:33.924
+or squared residuals, which
+means the least squares linear
+
+d08e878d-30d9-4db1-864d-390e16f19e25/860-3
+00:06:33.924 --> 00:06:37.245
+regression can provide us with
+the unbiased
+
+d08e878d-30d9-4db1-864d-390e16f19e25/869-0
+00:06:37.425 --> 00:06:41.865
+results, first, with smallest errors
+or residuals,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/881-0
+00:06:41.875 --> 00:06:46.750
+second. These are the two very
+attractive properties of OLS
+
+d08e878d-30d9-4db1-864d-390e16f19e25/881-1
+00:06:46.750 --> 00:06:48.485
+regression technique.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/892-0
+00:06:51.665 --> 00:06:53.195
+OLS, at the same time.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/936-0
+00:06:53.205 --> 00:06:57.310
+is also powerful because it
+can model or describe more
+
+d08e878d-30d9-4db1-864d-390e16f19e25/936-1
+00:06:57.310 --> 00:07:00.910
+complicated data generating
+process such that the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/936-2
+00:07:00.910 --> 00:07:05.519
+statistical relationship between
+the outcome and our predictors
+
+d08e878d-30d9-4db1-864d-390e16f19e25/936-3
+00:07:05.519 --> 00:07:08.255
+may not be as a simple straight
+line.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/962-0
+00:07:08.625 --> 00:07:14.005
+We can do this when we include
+some very unique terms in
+
+d08e878d-30d9-4db1-864d-390e16f19e25/962-1
+00:07:14.005 --> 00:07:19.101
+regression model such as
+interaction or quadratic and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/962-2
+00:07:19.101 --> 00:07:20.705
+polynomial terms.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1013-0
+00:07:29.455 --> 00:07:33.132
+Sometimes you may have heard
+people saying we need to use
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1013-1
+00:07:33.132 --> 00:07:36.303
+generalized linear models to
+study statistical
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1013-2
+00:07:36.303 --> 00:07:40.043
+relationship, which can either
+be correlation or causality
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1013-3
+00:07:40.043 --> 00:07:43.784
+depending on the assumptions or
+the conditions or the data
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1013-4
+00:07:43.784 --> 00:07:44.925
+structure we have.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1022-0
+00:07:45.355 --> 00:07:48.025
+But it is only part of the
+story.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1042-0
+00:07:48.835 --> 00:07:52.279
+The least squares linear
+regression can actually model
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1042-1
+00:07:52.279 --> 00:07:55.535
+nonlinear statistical relationship
+as I just mentioned.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1045-0
+00:07:56.675 --> 00:07:58.715
+To demonstrate why
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1053-0
+00:07:59.025 --> 00:08:01.905
+OLS can fail or can.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1107-0
+00:08:05.135 --> 00:08:10.102
+To demonstrate why, OLS can fail or can no longer be our
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1107-1
+00:08:10.102 --> 00:08:14.675
+ideal modeling choice when it
+comes to binary or binomial
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1107-2
+00:08:14.675 --> 00:08:19.405
+dependent variables, we can
+start by considering a scenario
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1107-3
+00:08:19.405 --> 00:08:24.135
+To demonstrate why OLS may not be
+our ideal modeling choice
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1133-0
+00:08:24.235 --> 00:08:28.399
+we can start by considering a
+scenario in which we are trying
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1133-1
+00:08:28.399 --> 00:08:32.765
+to study a by binary or binomial
+response/dependent variable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1173-0
+00:08:36.945 --> 00:08:42.836
+A binary variable is a variable
+that can only take the value of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1173-1
+00:08:42.836 --> 00:08:48.175
+zero or one to represent either
+yes/no or a success/fail
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1173-2
+00:08:48.175 --> 00:08:49.095
+situation.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1211-0
+00:08:49.725 --> 00:08:53.638
+Voter turnout is an excellent
+example in this regard, because
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1211-1
+00:08:53.638 --> 00:08:57.614
+a voter can either vote in the
+elections or stay home and does not
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1211-2
+00:08:57.614 --> 00:08:59.255
+vote in the elections.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1230-0
+00:08:59.675 --> 00:09:03.275
+In this case, a binary variable
+essentially is a nominal or
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1230-1
+00:09:03.275 --> 00:09:04.535
+categorical variable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1236-0
+00:09:06.745 --> 00:09:08.175
+A binomial variable, in contrast,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1276-0
+00:09:08.585 --> 00:09:12.729
+A binomial variable, in contrast, is a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1276-1
+00:09:12.729 --> 00:09:17.909
+variable calculating the number
+of yeses or successes in several
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1276-2
+00:09:17.909 --> 00:09:22.690
+identical, independent trials
+with a constant probability of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1276-3
+00:09:22.690 --> 00:09:23.885
+having success
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1298-0
+00:09:23.895 --> 00:09:27.496
+or yes. We'll talk more about
+probability in the moment, but
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1298-1
+00:09:27.496 --> 00:09:30.565
+usually a probability will be
+between zero and one.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1326-0
+00:09:30.905 --> 00:09:36.678
+Say if based on our data in a
+constituency, we see five out of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1326-1
+00:09:36.678 --> 00:09:40.801
+10 eligible voters went to
+cast their vote
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1326-2
+00:09:40.801 --> 00:09:42.175
+conventionally,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1369-0
+00:09:42.185 --> 00:09:47.083
+we can say 50% of voters turned
+out in the elections, but using
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1369-1
+00:09:47.083 --> 00:09:51.829
+the jargon of probability, we
+can also say the probability of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1369-2
+00:09:51.829 --> 00:09:53.895
+a voter turning out is 0.5,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1393-0
+00:09:54.505 --> 00:09:58.100
+using the data we just described.
+As a result, a binomial
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1393-1
+00:09:58.100 --> 00:10:02.129
+variable can be considered as a
+continuous variable between zero
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1393-2
+00:10:02.129 --> 00:10:02.625
+and one.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1431-0
+00:10:08.925 --> 00:10:12.078
+Conceptually, binary and
+binomial variables are not
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1431-1
+00:10:12.078 --> 00:10:15.534
+really the same, but to
+understand the binomial variable
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1431-2
+00:10:15.534 --> 00:10:18.991
+will require some basic
+understanding of the probability
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1431-3
+00:10:18.991 --> 00:10:19.415
+theory.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1460-0
+00:10:21.045 --> 00:10:25.168
+Also, from the data analytical
+point of view, binary and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1460-1
+00:10:25.168 --> 00:10:29.435
+binomial variables are not that
+much different. Let's
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1460-2
+00:10:29.435 --> 00:10:30.375
+use voter
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1467-0
+00:10:30.385 --> 00:10:32.315
+turnout as an example to illustrate
+this point.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1488-0
+00:10:34.565 --> 00:10:37.979
+Although conceptually we can
+define voter turnout as a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1488-1
+00:10:37.979 --> 00:10:39.685
+binary or binomial variable,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1551-0
+00:10:45.665 --> 00:10:49.952
+in practice, we will have to
+create a binary variable in our
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1551-1
+00:10:49.952 --> 00:10:54.239
+dataset and use 1 and 0 to
+indicate whether or not voters
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1551-2
+00:10:54.239 --> 00:10:58.034
+on voted or did not vote,
+respectively, and using the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1551-3
+00:10:58.034 --> 00:11:01.689
+binary variable of voter turnout as our response
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1551-4
+00:11:01.689 --> 00:11:05.835
+variable in the regression,
+especially in logit regression.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1565-0
+00:11:06.255 --> 00:11:09.291
+As such, I will use binary
+variable for the following
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1565-1
+00:11:09.291 --> 00:11:09.965
+discussions.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1580-0
+00:11:32.175 --> 00:11:35.365
+Before I continue, I must also
+highlight two caveats.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1611-0
+00:11:35.475 --> 00:11:40.210
+First, treating voter turnout
+as a binomial variable requires
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1611-1
+00:11:40.210 --> 00:11:44.794
+us to assume some situations
+that can be very implausible in
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1611-2
+00:11:44.794 --> 00:11:45.545
+real life.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1635-0
+00:11:46.985 --> 00:11:52.107
+First, we have to assume each
+voter's decision to turn out is
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1635-1
+00:11:52.107 --> 00:11:54.255
+independent of each other.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1659-0
+00:11:54.565 --> 00:11:58.034
+In other words, my decision to
+vote in one election has nothing
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1659-1
+00:11:58.034 --> 00:12:01.395
+to do with your decision to vote
+in this particular election.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1668-0
+00:12:01.725 --> 00:12:04.495
+And this assumption is obviously
+not very
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1726-0
+00:12:06.635 --> 00:12:11.791
+not very realistic as our voting
+behavior, including our vote
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1726-1
+00:12:11.791 --> 00:12:16.364
+choices, can be easily
+influenced by our relatives and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1726-2
+00:12:16.364 --> 00:12:21.603
+friends, or even colleagues. Next,
+even if each voter's decision to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1726-3
+00:12:21.603 --> 00:12:26.675
+turn out is independent of each
+other, we're also have to assume
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1738-0
+00:12:26.915 --> 00:12:31.279
+everybody turns out with the
+same probability, which again is
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1738-1
+00:12:31.279 --> 00:12:32.475
+very unrealistic.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1759-0
+00:12:33.145 --> 00:12:36.953
+We will return to the discussion
+on these assumptions at the end
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1759-1
+00:12:36.953 --> 00:12:37.905
+of this lecture.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1762-0
+00:12:43.355 --> 00:12:43.795
+Second,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1800-0
+00:12:46.065 --> 00:12:49.541
+You saw that I was using the
+example that five out of 10
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1800-1
+00:12:49.541 --> 00:12:52.957
+voters turned out to vote to
+infer the probability of a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1800-2
+00:12:52.957 --> 00:12:54.725
+voter's decision to turn out.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1822-0
+00:12:55.755 --> 00:12:59.544
+This is actually a very specific
+way to understanding and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1822-1
+00:12:59.544 --> 00:13:01.895
+describing probability and some
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1829-0
+00:13:01.905 --> 00:13:04.485
+quantitative scholars may not
+agree with this.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1874-0
+00:13:05.625 --> 00:13:09.067
+We're not going to cover very
+much about the debate here, but
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1874-1
+00:13:09.067 --> 00:13:12.453
+the only thing you should know
+is we may need to use another
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1874-2
+00:13:12.453 --> 00:13:15.728
+statistical paradigm if we
+formulate a probability in a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1874-3
+00:13:15.728 --> 00:13:16.505
+different way.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1944-0
+00:13:28.585 --> 00:13:32.914
+So now after we explain the
+definition of binary and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1944-1
+00:13:32.914 --> 00:13:37.732
+binomial variable, we can now
+disturb after we explained the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1944-2
+00:13:37.732 --> 00:13:42.632
+after we explained the definition of binary and the
+binomial variables, we can now
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1944-3
+00:13:42.632 --> 00:13:46.715
+demonstrate why the linear
+regression will become
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1944-4
+00:13:46.715 --> 00:13:51.370
+problematic when we have a
+binary variable that can only
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1944-5
+00:13:51.370 --> 00:13:53.085
+take the value of 0 and 1.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1971-0
+00:13:54.415 --> 00:13:59.417
+Here I'm going to provide two
+most intuitive reasons and in
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1971-1
+00:13:59.417 --> 00:14:03.863
+the following two slides I will
+also provide visualized
+
+d08e878d-30d9-4db1-864d-390e16f19e25/1971-2
+00:14:03.863 --> 00:14:04.895
+illustration.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2004-0
+00:14:08.215 --> 00:14:12.351
+But first, the reason why OLS can fail is because
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2004-1
+00:14:12.351 --> 00:14:16.354
+a linear function of a binary
+response variable can produce
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2004-2
+00:14:16.354 --> 00:14:18.355
+unrealistic predicted outcome.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2040-0
+00:14:20.545 --> 00:14:25.096
+To put that in a different way,
+if we use OLS to study a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2040-1
+00:14:25.096 --> 00:14:29.718
+binary outcome, the fitted line
+will include values below 0 and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2040-2
+00:14:29.718 --> 00:14:31.885
+above 1 along with the Y axis.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2078-0
+00:14:34.605 --> 00:14:38.707
+The second reason is we can no
+longer satisfy the assumptions
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2078-1
+00:14:38.707 --> 00:14:42.479
+we need for the least squares
+linear regression when the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2078-2
+00:14:42.479 --> 00:14:45.125
+outcome variable is either zero
+or one.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2109-0
+00:14:46.965 --> 00:14:51.910
+That is because the variance of Y
+the outcome variable will no
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2109-1
+00:14:51.910 --> 00:14:56.474
+longer be the same across all
+levels and values of X, our
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2109-2
+00:14:56.474 --> 00:14:57.235
+predictor.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2127-0
+00:15:00.425 --> 00:15:03.875
+Consider the scatterplot with
+two different regression lines.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2157-0
+00:15:04.275 --> 00:15:08.840
+The straight line is the fitted
+line given by the least squares
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2157-1
+00:15:08.840 --> 00:15:13.119
+linear regression and a dash
+line is a fitted line provided
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2157-2
+00:15:13.119 --> 00:15:14.545
+by logit regression.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2176-0
+00:15:15.695 --> 00:15:19.625
+A quick a quick look, a quick
+comparison between these two
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2176-1
+00:15:19.625 --> 00:15:22.555
+regression lines can already
+tell us logit
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2198-0
+00:15:22.565 --> 00:15:26.867
+regression provides a better fit
+to the data when for each
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2198-1
+00:15:26.867 --> 00:15:30.585
+observation of the dependent
+variable can only be 01.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2228-0
+00:15:33.975 --> 00:15:38.468
+But if we take a closer look at
+a straight line, you can also
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2228-1
+00:15:38.468 --> 00:15:43.105
+see that OLS can generate
+predicted outcome, or predicted Y
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2244-0
+00:15:43.115 --> 00:15:48.282
+above 1 and below 0, which
+in this case makes no sense at
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2244-1
+00:15:48.282 --> 00:15:48.605
+all
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2275-0
+00:15:52.505 --> 00:15:55.997
+Likewise, you can also see the
+variance of Y is not the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2275-1
+00:15:55.997 --> 00:15:58.615
+same across different levels of
+values of X.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2309-0
+00:15:58.785 --> 00:16:03.865
+The variance of Y is quite small
+when X is close to either minus
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2309-1
+00:16:03.865 --> 00:16:09.106
+five or positive 10 and will get
+bigger when we move close to the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2309-2
+00:16:09.106 --> 00:16:10.315
+midpoint of X.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2344-0
+00:16:10.425 --> 00:16:14.198
+In other words, now we can
+actually use the value of X to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2344-1
+00:16:14.198 --> 00:16:17.971
+predict the residuals, which is
+a clear violation of the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2344-2
+00:16:17.971 --> 00:16:21.810
+homoskedasticity assumption for
+the least squares linear
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2344-3
+00:16:21.810 --> 00:16:22.525
+regression.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2352-0
+00:16:31.915 --> 00:16:32.585
+Now we know
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2369-0
+00:16:32.595 --> 00:16:35.365
+OLS may not be the best of
+regression estimator
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2376-0
+00:16:35.715 --> 00:16:38.005
+we should use. In this part,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2398-0
+00:16:38.015 --> 00:16:41.964
+I'm going to use four steps to
+explain the basic setup of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2398-1
+00:16:41.964 --> 00:16:44.755
+logit regression, and how to
+interpret
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2412-0
+00:16:47.375 --> 00:16:51.195
+the estimated coefficients, or
+estimated slopes in particular.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2434-0
+00:16:54.045 --> 00:16:57.201
+In the first step, we will need
+to change the way we think about
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2434-1
+00:16:57.201 --> 00:16:58.415
+binary outcome variables.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2452-0
+00:16:58.725 --> 00:17:02.618
+More specifically, we would need
+to consider binary outcomes
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2452-1
+00:17:02.618 --> 00:17:04.535
+through the lens of probability.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2463-0
+00:17:05.945 --> 00:17:09.968
+Next, I will explain how to
+transform probability into log
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2463-1
+00:17:09.968 --> 00:17:10.315
+odds.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2513-0
+00:17:14.745 --> 00:17:18.778
+Before introducing logit
+regression, as a spoiler alert,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2513-1
+00:17:18.778 --> 00:17:23.680
+logit regression allows us to
+study binary outcome variable
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2513-2
+00:17:23.680 --> 00:17:28.028
+because they use a very specific
+function to transform
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2513-3
+00:17:28.028 --> 00:17:32.930
+probability into log odds and
+consider log odds as a linear
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2513-4
+00:17:32.930 --> 00:17:35.065
+function of our predictors.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2536-0
+00:17:40.635 --> 00:17:43.502
+As a result of this
+transformation process, the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2536-1
+00:17:43.502 --> 00:17:47.325
+interpretation of the estimated
+slopes can be very challenging.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2562-0
+00:17:47.915 --> 00:17:51.553
+So I will explain the process we
+have to take to read the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2562-1
+00:17:51.553 --> 00:17:55.505
+estimated slopes very carefully
+and slowly in the final step.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2578-0
+00:18:01.485 --> 00:18:03.715
+So I will explain the process we
+take
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2602-0
+00:18:04.385 --> 00:18:07.816
+So I will explain the process
+we have to take to read the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2602-1
+00:18:07.816 --> 00:18:11.304
+estimated slopes very carefully
+and the slowly in the final
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2602-2
+00:18:11.304 --> 00:18:11.595
+step.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2628-0
+00:18:21.065 --> 00:18:25.225
+Let us start by treating the
+binary variable, which can again
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2628-1
+00:18:25.225 --> 00:18:28.915
+take the value of either zero or
+one as a probability.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2652-0
+00:18:29.245 --> 00:18:33.418
+OK, can use lower p, more
+specifically, to present the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2652-1
+00:18:33.418 --> 00:18:37.275
+probability of our outcome takes
+the value of 1.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2670-0
+00:18:37.765 --> 00:18:42.994
+As you can see at the bottom of
+this slide, we can use capital P
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2670-1
+00:18:42.994 --> 00:18:45.005
+with parenthesis.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2700-0
+00:18:47.655 --> 00:18:52.760
+As you can see at the bottom of
+this slide, we can use capital P
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2700-1
+00:18:52.760 --> 00:18:56.765
+with parenthesis and put Y=1
+in the parentheses.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2732-0
+00:19:04.925 --> 00:19:12.388
+As you can see at the bottom of
+the slide I put on P (Y=1) to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2732-1
+00:19:12.388 --> 00:19:16.865
+represent on the probability of Y=1.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2770-0
+00:19:34.955 --> 00:19:40.199
+As you can see at the bottom of
+the slide, we can use capital P
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2770-1
+00:19:40.199 --> 00:19:45.361
+with parenthesis to put y = 1
+there to show the probability of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2770-2
+00:19:45.361 --> 00:19:45.525
+Y
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2777-0
+00:19:48.595 --> 00:19:50.085
+takes the value of 1.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2790-0
+00:20:00.265 --> 00:20:03.615
+To note to the probability of Y
+taking the value of 1
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2851-0
+00:20:05.935 --> 00:20:10.465
+The main objective, simply put,
+using logit regression is to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2851-1
+00:20:10.465 --> 00:20:14.692
+study our binary outcome
+variable as the probability of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2851-2
+00:20:14.692 --> 00:20:19.599
+Y taking the value of 1 or the
+probability of the event of our
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2851-3
+00:20:19.599 --> 00:20:23.977
+interest taking place because we
+use one to represent the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2851-4
+00:20:23.977 --> 00:20:28.507
+occurrence of the giving event.
+According to the probability
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2851-5
+00:20:28.507 --> 00:20:29.035
+axioms.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2891-0
+00:20:31.675 --> 00:20:35.999
+Keep in mind any probability can
+only be between zero and one,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2891-1
+00:20:35.999 --> 00:20:40.254
+and the sum of the probability
+of one event happening and the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2891-2
+00:20:40.254 --> 00:20:44.234
+probability of this particular
+event not happening should
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2891-3
+00:20:44.234 --> 00:20:45.195
+always be one.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2906-0
+00:20:46.425 --> 00:20:50.187
+These are the mathematical
+properties we need in a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2906-1
+00:20:50.187 --> 00:20:50.675
+minute.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2928-0
+00:20:55.945 --> 00:21:00.145
+So now we can convert the
+probability into log odds. log
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2928-1
+00:21:00.145 --> 00:21:02.995
+odds, by definition, is the log of
+odds.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2961-0
+00:21:05.835 --> 00:21:10.360
+If the probability of one event
+happening is denoted by lower
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2961-1
+00:21:10.360 --> 00:21:14.592
+p, then the odds of this
+event happening is divided is
+
+d08e878d-30d9-4db1-864d-390e16f19e25/2961-2
+00:21:14.592 --> 00:21:15.395
+defined by
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3013-0
+00:21:19.195 --> 00:21:24.092
+The odds of this event happening
+is defined as lower p divided by 1 minus
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3013-1
+00:21:24.092 --> 00:21:28.688
+lower p. The idea here is to get
+a sense of the chance of one
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3013-2
+00:21:28.688 --> 00:21:33.360
+event taking place relative to
+the opposite scenario, which is
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3013-3
+00:21:33.360 --> 00:21:35.695
+this event does not take place.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3024-0
+00:21:39.205 --> 00:21:41.605
+We can use one example to
+illustrate
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3033-0
+00:21:43.055 --> 00:21:46.655
+the difference between
+probability and odds.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3052-0
+00:21:49.785 --> 00:21:53.920
+So say today the probability of
+raining is .8, which is perhaps
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3052-1
+00:21:53.920 --> 00:21:54.695
+not unusual
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3072-0
+00:21:55.025 --> 00:21:59.313
+for London, then we know the
+probability of now raining is
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3072-1
+00:21:59.313 --> 00:21:59.535
+.2.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3100-0
+00:21:59.825 --> 00:22:05.805
+Using the axioms we just
+discussed in the previous slide,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3100-1
+00:22:05.805 --> 00:22:12.300
+the odds of raining today will
+then be 0.8 divided by 0.2, which equals
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3100-2
+00:22:12.300 --> 00:22:12.815
+4.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3123-0
+00:22:14.645 --> 00:22:18.581
+This number basically tells us
+it is four times more likely to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3123-1
+00:22:18.581 --> 00:22:20.705
+be rainy today, then not
+rainy.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3157-0
+00:22:29.135 --> 00:22:33.649
+We can then derive the log odds
+or the log of odds by taking the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3157-1
+00:22:33.649 --> 00:22:37.245
+natural log of these odds, which
+is 4. Natural log,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3183-0
+00:22:37.735 --> 00:22:42.945
+mathematically speaking, is a
+log transformation with the base
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3183-1
+00:22:42.945 --> 00:22:47.741
+of lower e here and lower e here
+refers to a mathematical
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3183-2
+00:22:47.741 --> 00:22:48.485
+constant
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3194-0
+00:22:48.615 --> 00:22:52.475
+we use a lot for log operations in algebra.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3221-0
+00:22:55.665 --> 00:22:59.493
+You may be wondering why we have
+to take so many steps to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3221-1
+00:22:59.493 --> 00:23:03.651
+transform the dependent variable
+from a binary variable to log
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3221-2
+00:23:03.651 --> 00:23:03.915
+odds
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3276-0
+00:23:04.805 --> 00:23:09.387
+You'll see that in a minute, but
+if we can show the relationship,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3276-1
+00:23:09.387 --> 00:23:13.692
+if we can show the relationship
+between a probability between
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3276-2
+00:23:13.692 --> 00:23:17.302
+zero and one and the
+corresponding log odds, you can
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3276-3
+00:23:17.302 --> 00:23:20.565
+see that transforming
+probability into log odds
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3276-4
+00:23:20.565 --> 00:23:21.815
+basically helps us
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3308-0
+00:23:26.085 --> 00:23:30.098
+You may be wondering why we have to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3308-1
+00:23:30.098 --> 00:23:34.048
+take so many steps to transform
+the dependent variable into log
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3308-2
+00:23:34.048 --> 00:23:34.295
+odds
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3339-0
+00:23:35.215 --> 00:23:40.753
+You'll see that in the next
+slide, but if we can visualize
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3339-1
+00:23:40.753 --> 00:23:46.010
+the relationship between a
+probability between zero and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3339-2
+00:23:46.010 --> 00:23:46.385
+one
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3427-0
+00:23:48.155 --> 00:23:51.669
+But if we can plot the relationship between a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3427-1
+00:23:51.669 --> 00:23:56.634
+probability between zero and one and
+the corresponding log odds, you
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3427-2
+00:23:56.634 --> 00:24:01.064
+can see that transforming
+probability into logouts allows
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3427-3
+00:24:01.064 --> 00:24:05.648
+us to get around one of the
+issues we just mentioned before
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3427-4
+00:24:05.648 --> 00:24:10.613
+that makes OLS failed for binary
+outcome variables. When a binary
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3427-5
+00:24:10.613 --> 00:24:14.127
+outcome variable or a
+probability can only be
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3427-6
+00:24:14.127 --> 00:24:18.862
+constrained between zero and
+one, which makes any predictions
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3427-7
+00:24:18.862 --> 00:24:21.765
+below one and above one
+unacceptable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3440-0
+00:24:23.575 --> 00:24:27.528
+Now log odds is no longer
+constrained between zero and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3440-1
+00:24:27.528 --> 00:24:27.805
+one.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3447-0
+00:24:27.895 --> 00:24:30.095
+If you take a look at the
+vertical axis.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3466-0
+00:24:43.455 --> 00:24:45.935
+And this is the magic of logit regression.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3484-0
+00:24:46.815 --> 00:24:50.327
+Intuitively speaking, logit regression allows us to use a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3484-1
+00:24:50.327 --> 00:24:52.385
+linear function to model log odds.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3500-0
+00:24:52.775 --> 00:24:56.537
+In other words, log odds can be represented as a linear function
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3500-1
+00:24:56.537 --> 00:24:57.595
+of our predictors.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3540-0
+00:24:59.795 --> 00:25:05.334
+The process or the function we use to transform our original
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3540-1
+00:25:05.334 --> 00:25:11.145
+binary variables in to log odds is the "logit link function" or
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3540-2
+00:25:11.145 --> 00:25:13.415
+the "logit function."
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3558-0
+00:25:13.425 --> 00:25:16.495
+Logit regression obtains its name
+because we will have to use the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3558-1
+00:25:16.495 --> 00:25:19.615
+logit function to transform the
+original dependent variable
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3571-0
+00:25:19.965 --> 00:25:22.813
+so it can be modeled or
+represented with a linear
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3571-1
+00:25:22.813 --> 00:25:23.325
+function.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3610-0
+00:25:25.955 --> 00:25:29.812
+In addition to larger
+regression, there are many other
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3610-1
+00:25:29.812 --> 00:25:33.347
+generalized linear models out
+there, but each of these
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3610-2
+00:25:33.347 --> 00:25:36.175
+generalized linear models shares
+one thing.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3640-0
+00:25:37.935 --> 00:25:40.888
+They use different link
+functions to transform the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3640-1
+00:25:40.888 --> 00:25:44.465
+outcome variable, so the outcome
+variables can be modeled as a
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3640-2
+00:25:44.465 --> 00:25:47.645
+linear function of our
+predictors. Using the same logic,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3662-0
+00:25:48.765 --> 00:25:53.092
+a generalized linear model where
+the corresponding link function
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3662-1
+00:25:53.092 --> 00:25:55.555
+keeps the original outcome
+variable
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3674-0
+00:25:55.565 --> 00:25:59.647
+the same is just the least
+squares linear function or
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3674-1
+00:25:59.647 --> 00:26:00.005
+OLS.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3694-0
+00:26:03.065 --> 00:26:08.284
+This tells you that OLS is
+actually one of the generalized
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3694-1
+00:26:08.284 --> 00:26:09.425
+linear models.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3763-0
+00:26:17.385 --> 00:26:21.705
+Although many researchers have
+been using the type of dependent
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3763-1
+00:26:21.705 --> 00:26:25.620
+variable to decide their
+modeling choices, which leads to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3763-2
+00:26:25.620 --> 00:26:29.805
+a very popular perception that
+we must use logit regression
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3763-3
+00:26:29.805 --> 00:26:34.125
+when our dependent variable
+is zero or one, it is still very
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3763-4
+00:26:34.125 --> 00:26:38.580
+crucial that we are transparent
+about the assumptions we have to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3763-5
+00:26:38.580 --> 00:26:40.335
+take for logit regression.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3788-0
+00:26:41.265 --> 00:26:44.408
+The textbook has used the
+different examples to discuss
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3788-1
+00:26:44.408 --> 00:26:47.608
+the assumptions of logit
+regression, and here I would
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3788-2
+00:26:47.608 --> 00:26:49.965
+just highlight three most
+important ones.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3816-0
+00:26:50.575 --> 00:26:54.777
+The reason why I want to
+highlight this assumptions is
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3816-1
+00:26:54.777 --> 00:26:58.826
+because these assumptions are no
+less unrealistic or
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3816-2
+00:26:58.826 --> 00:26:59.895
+controversial
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3834-0
+00:26:59.905 --> 00:27:04.485
+compared with the assumptions we
+need for the least squares
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3848-0
+00:27:04.495 --> 00:27:08.454
+linear regression. In
+particular, two assumptions here
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3848-1
+00:27:08.454 --> 00:27:10.545
+can be very, very contested.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3893-0
+00:27:10.995 --> 00:27:14.589
+For one thing, as we have
+discussed, using voter turnout
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3893-1
+00:27:14.589 --> 00:27:18.687
+as the example, it is very hard
+for us to imagine the occurrence
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3893-2
+00:27:18.687 --> 00:27:22.596
+of a particular event for all
+observations in the dataset is
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3893-3
+00:27:22.596 --> 00:27:24.235
+independent of each other.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3935-0
+00:27:25.955 --> 00:27:30.380
+Also, if you think about the third
+assumption more carefully, it
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3935-1
+00:27:30.380 --> 00:27:34.430
+can be a bit strong or
+unrealistic to assume the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3935-2
+00:27:34.430 --> 00:27:38.780
+log odds of a probability must be
+a linear function of our
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3935-3
+00:27:38.780 --> 00:27:39.605
+predictors.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3987-0
+00:27:44.725 --> 00:27:48.512
+Although logging regression
+provides us with a convenient
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3987-1
+00:27:48.512 --> 00:27:52.104
+modeling technique to study
+binary dependable 
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3987-2
+00:27:52.104 --> 00:27:56.217
+to study binary dependent variables, it
+can be very tricky to interpret
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3987-3
+00:27:56.217 --> 00:28:00.135
+the estimated coefficients,
+especially when it comes to the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/3987-4
+00:28:00.135 --> 00:28:01.245
+estimated slopes.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4030-0
+00:28:05.015 --> 00:28:09.861
+So here I'm going to demonstrate
+a process step by step and use
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4030-1
+00:28:09.861 --> 00:28:13.874
+one example in the end to
+illustrate how we
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4030-2
+00:28:13.874 --> 00:28:18.417
+should understand or interpret
+the estimated coefficients
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4030-3
+00:28:18.417 --> 00:28:20.385
+given by logit regression.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4065-0
+00:28:24.485 --> 00:28:28.553
+We're also going to use the
+problem sets to reinforce our
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4065-1
+00:28:28.553 --> 00:28:32.554
+understanding of the procedures we
+need to take to understand or
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4065-2
+00:28:32.554 --> 00:28:35.555
+report on the results from logit
+regression.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4074-0
+00:28:38.265 --> 00:28:40.435
+Now consider this simple
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4102-0
+00:28:40.445 --> 00:28:45.193
+bivariate logit regression. The
+lower p here again is the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4102-1
+00:28:45.193 --> 00:28:50.196
+probability that the outcome
+variable equals one. The logit
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4102-2
+00:28:50.196 --> 00:28:52.315
+link regression
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4124-0
+00:28:54.525 --> 00:28:58.424
+The logit link function allows
+us to transform this probability
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4124-1
+00:28:58.424 --> 00:29:01.105
+into log of odds of the
+dependent variable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4179-0
+00:29:06.265 --> 00:29:10.906
+The logit link function allows
+us to transform this probability
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4179-1
+00:29:10.906 --> 00:29:15.330
+into a log odds. Using the same
+logic we used to interpret the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4179-2
+00:29:15.330 --> 00:29:20.117
+estimated slope for least squares
+linear regression, which says
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4179-3
+00:29:20.117 --> 00:29:24.395
+the slope corresponds to the
+changes on the left hand side (i.e., Y).
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4220-0
+00:29:25.255 --> 00:29:29.977
+When we move the predictor by 1
+unit, say from zero to one OR
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4220-1
+00:29:29.977 --> 00:29:34.473
+from one to two (our initial
+starting point
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4220-2
+00:29:34.473 --> 00:29:38.745
+does not matter here so long
+as we move X by 1 unit).
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4248-0
+00:29:40.425 --> 00:29:45.715
+Therefore, we can see that our
+beta, the beta estimated by
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4248-1
+00:29:45.715 --> 00:29:50.647
+logit regression, should
+correspond to beta changes in
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4248-2
+00:29:50.647 --> 00:29:53.785
+log odds when we move X by 1
+unit.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4269-0
+00:29:55.995 --> 00:30:01.043
+Here we can use X equals 0 and 1
+for the purpose of illustration.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4269-1
+00:30:01.043 --> 00:30:02.245
+In other words,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4286-0
+00:30:04.515 --> 00:30:08.133
+beta should be considered as a
+difference between two different
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4286-1
+00:30:08.133 --> 00:30:08.585
+log odds.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4310-0
+00:30:08.675 --> 00:30:15.655
+One log odds is for X = 1 and
+the other log odds is for equals.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4317-0
+00:30:17.565 --> 00:30:19.955
+The other log odds is for X = 0.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4343-0
+00:30:20.385 --> 00:30:23.979
+The difference between two
+different log odds is the same as
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4343-1
+00:30:23.979 --> 00:30:26.375
+the log of one odds divided by the
+other (odds).
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4354-0
+00:30:26.705 --> 00:30:30.723
+This operation is possible
+using one basic rule of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4354-1
+00:30:30.723 --> 00:30:31.495
+logarithm.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4396-0
+00:30:34.745 --> 00:30:38.823
+And finally, using the basic
+rules of logarithm, again we can
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4396-1
+00:30:38.823 --> 00:30:42.902
+take the exponent of beta to
+derive the fraction in which one
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4396-2
+00:30:42.902 --> 00:30:44.875
+odds was divided by the other.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4414-0
+00:30:46.285 --> 00:30:52.246
+The right hand side of this
+very last equation is odds
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4414-1
+00:30:52.246 --> 00:30:53.005
+ratio.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4450-0
+00:30:54.385 --> 00:31:00.087
+Our interpretation will be based
+on this odds ratio, or simply
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4450-1
+00:31:00.087 --> 00:31:05.246
+put, the exponent of the
+estimated slope. And we can carry
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4450-2
+00:31:05.246 --> 00:31:08.685
+out the calculation very easily
+in R.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4464-0
+00:31:19.485 --> 00:31:22.355
+So let's use a real example to
+reinforce
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4467-0
+00:31:22.425 --> 00:31:23.215
+our understanding.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4536-0
+00:31:26.925 --> 00:31:31.588
+Say we have collected data from
+a political party in a country
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4536-1
+00:31:31.588 --> 00:31:35.807
+for the past 100 elections
+across different years
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4536-2
+00:31:35.807 --> 00:31:39.508
+and we want to understand the correlation
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4536-3
+00:31:39.508 --> 00:31:43.801
+between the number of hours or
+parties spent on televised
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4536-4
+00:31:43.801 --> 00:31:48.168
+campaign(s) and the election
+results, which can either be the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4536-5
+00:31:48.168 --> 00:31:51.055
+party winning or losing the
+elections.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4567-0
+00:31:51.945 --> 00:31:55.420
+In other words, we want to know
+if the number of hours for
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4567-1
+00:31:55.420 --> 00:31:58.776
+televised commercials is
+correlated with the probability
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4567-2
+00:31:58.776 --> 00:32:00.425
+that a party wins elections.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4601-0
+00:32:02.595 --> 00:32:07.879
+The predictor here is the number
+of hours the the party spends on TV
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4601-1
+00:32:07.879 --> 00:32:12.362
+campaigns and the outcome
+variable is a binary variable
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4601-2
+00:32:12.362 --> 00:32:15.965
+that takes the value of 1 if the
+party wins.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4658-0
+00:32:18.745 --> 00:32:25.398
+Suppose we obtain the estimated
+slope as 0.33 based on the data
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4658-1
+00:32:25.398 --> 00:32:30.804
+we have and based on the
+discussion in the previous
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4658-2
+00:32:30.804 --> 00:32:37.561
+slide, we know the odds ratio is
+the exponent of this particular
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4658-3
+00:32:37.561 --> 00:32:41.095
+number 0.33, which is about 1.39.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4664-0
+00:32:41.705 --> 00:32:42.995
+So here's the question.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4674-0
+00:32:43.485 --> 00:32:45.245
+What does this result tell us?
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4701-0
+00:32:45.805 --> 00:32:50.046
+Should we recommend a party
+spend more money on increasing
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4701-1
+00:32:50.046 --> 00:32:54.431
+the hours of televised campaigns
+to increase their chance of
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4701-2
+00:32:54.431 --> 00:32:55.725
+winning elections?
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4723-0
+00:33:02.085 --> 00:33:06.284
+Well, keep in mind the odds ratio is a ratio of two
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4723-1
+00:33:06.284 --> 00:33:07.495
+different odds.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4797-0
+00:33:08.035 --> 00:33:12.706
+The odds in that new the odds in
+a numeric the odds in a new
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4797-1
+00:33:12.706 --> 00:33:16.917
+The odds in the numerator can be considered as
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4797-2
+00:33:16.917 --> 00:33:21.358
+the odds of winning when the
+party spends one hour on TV
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4797-3
+00:33:21.358 --> 00:33:26.028
+campaigns and the odds in the
+denominator can be considered as
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4797-4
+00:33:26.028 --> 00:33:30.240
+the odds of winning when the
+party spends zero hour on TV
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4797-5
+00:33:30.240 --> 00:33:31.005
+campaigns.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4820-0
+00:33:40.325 --> 00:33:45.111
+Therefore, if the odds ratio is
+larger than one, it means that
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4820-1
+00:33:45.111 --> 00:33:48.775
+an the numerator is larger than
+the denominator.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4846-0
+00:33:59.085 --> 00:34:02.653
+Which means the odds of winning
+goes up when the party spends
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4846-1
+00:34:02.653 --> 00:34:05.185
+one additional hour of televised
+campaigns.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4869-0
+00:34:06.595 --> 00:34:10.535
+Therefore, in conclusion, we
+know the party definitely should
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4869-1
+00:34:10.535 --> 00:34:14.475
+spend more hours promoting their
+candidates or parties on TV.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4884-0
+00:34:16.755 --> 00:34:20.315
+The table here basically lists
+all three possible scenarios
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4922-0
+00:34:20.325 --> 00:34:24.874
+when we try to read any
+odds ratio, if the odds ratio is
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4922-1
+00:34:24.874 --> 00:34:30.141
+one, we will know increasing the
+hour of campaigning on TV by one
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4922-2
+00:34:30.141 --> 00:34:32.695
+hour does not really change
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4942-0
+00:34:32.705 --> 00:34:36.578
+the odds of winning. If the odds
+ratio is smaller than one, then
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4942-1
+00:34:36.578 --> 00:34:37.365
+we will know
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4961-0
+00:34:37.375 --> 00:34:41.287
+increasing the hour of campaigning
+by one will actually reduce the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4961-1
+00:34:41.287 --> 00:34:43.755
+odds of winning elections for
+the party.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/4967-0
+00:34:51.935 --> 00:34:53.155
+So far we have covered
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5005-0
+00:34:55.595 --> 00:34:59.138
+the basic setup of lottery
+regression and some key
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5005-1
+00:34:59.138 --> 00:35:03.099
+principles of statistical
+inference for logit regression
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5005-2
+00:35:03.099 --> 00:35:07.545
+before I conclude this lecture,
+let me wrap up some loose ends.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5007-0
+00:35:10.745 --> 00:35:11.085
+First
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5062-0
+00:35:13.765 --> 00:35:17.052
+we're going to work on the
+problem set to demonstrate how
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5062-1
+00:35:17.052 --> 00:35:20.395
+to conduct significant tests on
+outrageous, but the same
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5062-2
+00:35:20.395 --> 00:35:23.909
+statistical tools we use for
+linear regression, such as the p
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5062-3
+00:35:23.909 --> 00:35:26.855
+value or countless intervals,
+are still applicable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5079-0
+00:35:27.645 --> 00:35:30.665
+We can also use similar tools to
+carry out the model comparison.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5107-0
+00:35:31.675 --> 00:35:35.532
+However, it might be tricky to
+evaluate the model fit for logit
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5107-1
+00:35:35.532 --> 00:35:39.389
+and other nonlinear generalized models, and we will discuss
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5107-2
+00:35:39.389 --> 00:35:40.835
+this in detail in class.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5124-0
+00:35:42.945 --> 00:35:46.862
+Next odds ratios are for sure a
+very obscure and challenging
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5124-1
+00:35:46.862 --> 00:35:48.125
+statistical concept,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5150-0
+00:35:48.605 --> 00:35:52.574
+we will have to discuss how to
+use predicted probability as the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5150-1
+00:35:52.574 --> 00:35:55.985
+alternative to report your
+results from logit regression.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5179-0
+00:35:57.145 --> 00:36:00.509
+Finally, I would like to
+challenge the conventional
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5179-1
+00:36:00.509 --> 00:36:04.325
+wisdom that we can only use
+logit or probit regression to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5179-2
+00:36:04.325 --> 00:36:06.265
+study binary outcome variable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5209-0
+00:36:08.015 --> 00:36:11.794
+Probit regression is very
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5209-1
+00:36:11.794 --> 00:36:15.977
+similar to logit regression
+because it also involves
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5209-2
+00:36:15.977 --> 00:36:20.363
+using a different link function
+to transform the original binary
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5209-3
+00:36:20.363 --> 00:36:21.645
+dependent variable
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5227-0
+00:36:21.815 --> 00:36:26.455
+so we can still use the linear function to model (it).
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5242-0
+00:36:28.505 --> 00:36:31.095
+we can still use the linear function to model the outcome,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5244-0
+00:36:32.265 --> 00:36:33.325
+the transformed outcome.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5268-0
+00:36:37.635 --> 00:36:41.360
+So we can still use linear function to study or estimate or
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5268-1
+00:36:41.360 --> 00:36:45.395
+model the transformed outcome using the probit link function.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5304-0
+00:36:52.595 --> 00:36:56.091
+Quant scholars in some subject areas are very strict about
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5304-1
+00:36:56.091 --> 00:36:59.226
+using logit or probit regression when the outcome
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5304-2
+00:36:59.226 --> 00:37:01.275
+variable can only be zero or one.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5313-0
+00:37:01.405 --> 00:37:05.435
+But it is important to recognize now every quant researcher
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5334-0
+00:37:08.575 --> 00:37:11.821
+But it is very important to recognize not every single
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5334-1
+00:37:11.821 --> 00:37:13.945
+quant researcher shares this view.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5356-0
+00:37:14.515 --> 00:37:18.693
+For one thing, it has been very clear that logit
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5356-1
+00:37:18.693 --> 00:37:22.295
+regression can also have unrealistic assumptions.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5420-0
+00:37:22.485 --> 00:37:26.219
+Also, it is possible to use linear regression to study
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5420-1
+00:37:26.219 --> 00:37:30.293
+binary outcomes as we have come up with some other tools to
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5420-2
+00:37:30.293 --> 00:37:34.027
+address the pitfalls we highlighted before, especially
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5420-3
+00:37:34.027 --> 00:37:37.693
+the violation of the homoscedasticity assumption. When
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5420-4
+00:37:37.693 --> 00:37:41.359
+we use the linear regression model to to study binary
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5420-5
+00:37:41.359 --> 00:37:45.025
+outcomes, we will call it a linear probability model.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5444-0
+00:37:48.945 --> 00:37:53.873
+Finally, a recent review article by sociologists at Oxford
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5444-1
+00:37:53.873 --> 00:37:58.205
+University highlighted some other caveats
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5476-0
+00:38:01.795 --> 00:38:05.811
+Finally, a recent review article also highlighted some of the
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5476-1
+00:38:05.811 --> 00:38:10.022
+caveats when we use logit and other nonlinear regression
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5476-2
+00:38:10.022 --> 00:38:10.475
+models.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5493-0
+00:38:13.115 --> 00:38:16.285
+A recent review article also highlighted some other caveats
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5541-0
+00:38:16.295 --> 00:38:20.805
+when we use logit and other nonlinear regression models. The
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5541-1
+00:38:20.805 --> 00:38:24.945
+review article is quite technical, but the key takeaway
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5541-2
+00:38:24.945 --> 00:38:29.159
+lesson here is generalized linear models, especially for
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5541-3
+00:38:29.159 --> 00:38:33.742
+the nonlinear ones, can create very biased results compared with
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5541-4
+00:38:33.742 --> 00:38:36.995
+the linear regression model when the model
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5559-0
+00:38:39.855 --> 00:38:42.939
+does not include some very important predictors, which
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5559-1
+00:38:42.939 --> 00:38:45.125
+actually we will never know for sure.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5591-0
+00:38:45.425 --> 00:38:49.480
+And the set up for nonlinear
+models can make the estimated
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5591-1
+00:38:49.480 --> 00:38:53.536
+coefficients across different
+models using the same data not
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5591-2
+00:38:53.536 --> 00:38:54.255
+comparable.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5610-0
+00:39:00.395 --> 00:39:06.196
+So here is the list of some very common
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5610-1
+00:39:06.196 --> 00:39:09.045
+So here is the list of some very common generalized selenium models.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5646-0
+00:39:12.065 --> 00:39:16.323
+in practice or applied quant social research
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5646-1
+00:39:16.323 --> 00:39:20.287
+here is the list of some very common generalized linear models in
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5646-2
+00:39:20.287 --> 00:39:22.195
+practical or applied quant
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5687-0
+00:39:22.205 --> 00:39:25.680
+social Research, as I have
+mentioned, these generalized
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5687-1
+00:39:25.680 --> 00:39:29.714
+linear models use different link
+functions to transform different
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5687-2
+00:39:29.714 --> 00:39:33.748
+types of dependent variables, so
+they can be modeled by a linear
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5687-3
+00:39:33.748 --> 00:39:35.175
+function of predictors.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5733-0
+00:39:36.875 --> 00:39:41.465
+If you want to see how you can
+use R to apply these different
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5733-1
+00:39:41.465 --> 00:39:46.055
+models, the examples provided by
+UCLA Statistical Methods and
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5733-2
+00:39:46.055 --> 00:39:50.645
+Data Analytics initiative are very
+thorough and easy to follow.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5773-0
+00:39:51.575 --> 00:39:54.616
+If you want to learn more about underlying mathematical
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5773-1
+00:39:54.616 --> 00:39:57.605
+reasoning of these different
+models, please read the book
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5773-2
+00:39:57.605 --> 00:40:00.697
+written by a professor, Andrew
+Gelman, and his coauthors
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5773-3
+00:40:00.697 --> 00:40:02.295
+published in 2020.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5792-0
+00:40:06.175 --> 00:40:10.298
+Finally, please allow me to use
+George Box to conclude our
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5792-1
+00:40:10.298 --> 00:40:12.185
+discussion in this lecture.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5810-0
+00:40:12.785 --> 00:40:16.575
+These two sections are retrieved
+from his 1976 article.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5824-0
+00:40:17.535 --> 00:40:20.160
+These two sections are very
+relevant to the points that I've
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5824-1
+00:40:20.160 --> 00:40:20.375
+been
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5843-0
+00:40:22.135 --> 00:40:26.302
+making over and over again -- all
+models are wrong, but some
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5843-1
+00:40:26.302 --> 00:40:27.595
+models are useful.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5879-0
+00:40:27.915 --> 00:40:31.578
+The key is to know the pros and
+cons of different modeling
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5879-1
+00:40:31.578 --> 00:40:35.179
+choices and (be) clear about the
+assumptions you have to take,
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5879-2
+00:40:35.179 --> 00:40:38.655
+and it become a well informed
+quant social researchers.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5890-0
+00:40:41.265 --> 00:40:43.435
+Thank you very much for listening.
+
+d08e878d-30d9-4db1-864d-390e16f19e25/5897-0
+00:40:43.445 --> 00:40:44.545
+I'm going to see you in class.

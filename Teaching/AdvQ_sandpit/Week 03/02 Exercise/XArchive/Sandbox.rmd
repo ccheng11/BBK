@@ -1,0 +1,301 @@
+
+
+
+
+
+
+
+# Questions
+
+**Question 1** 
+
+Use `?glm` to see more information about `glm()`. What does the argument `family` do? What is the default for the option `family`? 
+
+**Question 2**
+
+In addition to the predictors we have considered, what else should we consider and include in our logit regression model? 
+
+\begin{itemize}
+  \item Read through the codebook provided by Beesley and Cooper and find one variable and add it to the specified model.
+  \item Interpret the odds ratio of the chosen predictor.
+  \item Use predicted probability to evaluate the marginal effect of the chosen predictor.
+  \item Calculate the mean squared error (MSE) to see if the new model with the chosen predictor performs better than the model without it.
+\end{itemize}
+
+
+
+_______
+
+
+*Note: The main objective of this section is to make sure everyone is on the same page with respect to logit and GLM before we move on to include weights in the analysis.*
+
+
+
+> *Question: Can you create a new binary variable such that it assigns the value of 1 (and 0 otherwise) to those living in the urban area?*
+
+
+
+We can show the **confidence interval** of the estimated log-odds, using the `confint()` function. These are the upper and lower bounds of the 95\% confidence intervals.
+
+```{r, echo=T, eval=T, message=F}
+coefs_ci <- confint(mod_intercept)
+coefs_ci
+``` 
+
+We can also Use the upper and lower bounds of log odds to calculate the upper and lower bounds of estimated odds and probabilities.*
+
+```{r, echo=T, eval=T, message=F}
+coefs_ci <- confint(mod_intercept)
+coefs_ci # CIs of log odds
+exp(coefs_ci) # CIs of odds
+exp(coefs_ci)/(1+exp(coefs_ci)) # CIs of probability
+``` 
+
+## 3.2 Logit Regression with One Predictor
+
+Let's add a predictor to the logit regression model.
+
+There is no variable like this, so let's create a new variable `religion`, using `importance`. Let's use `recode()` inside `mutate()`. Here we use higher numbers to refer to greater importance.
+
+```{r, echo=T, eval=T}
+ces_new <- ces_new %>% # update "ces_new" to include all new variables
+  mutate(religion = recode(importance,
+                           "very" = 4,
+                           "somewhat" = 3,
+                           "notvery" = 2,
+                           "not" = 1))
+table(ces_new$importance, ces_new$religion)
+```
+
+> *Question: Which of the two versions of the importance of religion variable would you use in your analysis? Why? Try to think of pros and cons for each.*
+
+With the predictor included, the log-odds of a respondent against abortion is $$\log\left(\frac{p}{1-p}\right)=\alpha + \beta(\text{religion}).$$ Let's run the analysis.
+
+```{r, echo=T, eval=T}
+mod_religion <- glm(against_abortion ~ religion, data = ces_new, family = binomial)
+summary(mod_religion)
+```
+
+The estimated coefficient for *religion* is 1.17470 and statistically significant. How do we interpret the results?
+
+### 3.2.1 Odds Ratio (OR)
+
+
+### 3.2.2 Use `predict()` Function (Recommended)
+
+The most intuitive way to use the **`predict()`** function. 
+
+We can plug the model we have just estimated into `predict()` to compute the predicted **log-odds** for each observation. Including `type="response"` will return the predicted **probabilities**. 
+
+```{r, echo=T, eval=T, message=F}
+fit_log_odds <- predict(mod_speak) # for predicted log odds
+fit_prob <- predict(mod_speak, type="response") # for predicted probabilities
+```  
+
+We can use the **`predict()`** function to estimate how the probability of respondents supporting secession will change depending on their language use at home.
+
+First, let's use `data.frame()` to create a new dataframe to include the unique values of `ukrspeakhome`.
+
+```{r, echo=T, eval=T, message=F}
+data_predict <- data.frame(ukrspeakhome = c(0:1))
+data_predict
+```
+
+Now let's obtain the predicted log-odds, odds, and probabilities when we vary the value of `ukrspeakhome`.
+
+```{r, echo=T, eval=T, message=F}
+fit_prob <- predict(mod_speak, newdata=data_predict, type="response")
+fit_log_odds <- predict(mod_speak, newdata=data_predict)
+fit_mod_s <- data.frame(religion = 1:4,
+                        fit_prob = as.matrix(fit_prob),
+                        fit_log_odds = as.matrix(fit_log_odds))
+fit_mod_s$fit_odds <- exp(fit_mod_s$fit_log_odds)
+fit_mod_s
+```
+
+We can see that the predicted probabilities of supporting secession for `ukrspeakhome`$=0$ and $=1$ are 0.22 and 0.07, respectively. Again, respondents who speak Ukrainian at home are **less** likely to support the secession of Donbas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r, echo=T, eval=T}
+fit_religion <- data.frame(religion = ces_new$religion, # use "religion" in "ces_new"
+                           importance = ces_new$importance)
+fit_religion <- fit_religion %>%
+  mutate(prob = predict(mod_religion, type="response"),
+         log_odds = predict(mod_religion)) %>%
+  mutate(odds = exp(log_odds)) # convert log-odds into odds
+head(fit_religion, 5)
+```  
+
+You will see that observations with the identical level of importance have the same predicted values. Let's clean the data frame a bit using `distinct()` and `arrange()`. 
+
+```{r, echo=T, eval=T}
+fit_religion <- fit_religion %>%
+  distinct() %>% # remove duplicates
+  arrange(religion) # arrange observations by religion
+fit_religion
+```  
+
+Now we have the corresponding predicted odds, log-odds, and probability for each level of `religion`. If we increase the importance of `religion` from 1 to 2, the corresponding change in log-odds and odds-ratio will be 
+
+```{r, echo=T, eval=T}
+fit_religion$log_odds[fit_religion$religion == 2] - fit_religion$log_odds[fit_religion$religion == 1]
+```
+
+```{r, echo=T, eval=T}
+fit_religion$odds[fit_religion$religion == 2]/fit_religion$odds[fit_religion$religion == 1]
+```
+
+The corresponding change in probability is
+
+```{r, echo=T, eval=T}
+fit_religion$prob[fit_religion$religion == 2] - fit_religion$prob[fit_religion$religion == 1]
+```
+
+They are identical with the results we get before. All in all, we know that a more religious person is more likely to go against abortion.
+
+To use `predict()` when the model includes more than one predictor, see *Section 4.4*.
+
+# 4 Fitting GLMs With Weights
+
+The `survey` package makes this very easy. The function `svyglm()` is identical to the conventional `glm()` function except that `svyglm()` use `design` (i.e., the survey object) instead of `data`.
+
+Type `?svyglm` for more information about the function. Alternatively, you can visit the `survey` package's vignette page. The section **Regression models** provides additional information.
+
+In this section, we will use the updated data frame `ces_new`, which should have included all the variables we have added so far, to carry out the following activities.
+
+  - Create a survey object. 
+  
+  - Use the `svyglm()` function to fit logit regression with two predictors.
+
+Before we start, let's check we have all the variables we need.
+
+```{r, echo=T, eval=T}
+ces_new <- ces %>%
+  mutate(against_abortion = if_else(abortion == "Yes", 1, 0),
+         urban = if_else(urban == "urban", 1, 0),
+         religion = recode(importance,
+                           "very" = 4,
+                           "somewhat" = 3,
+                           "notvery" = 2,
+                           "not" = 1))
+```
+
+## 4.1 Create a Survey Object
+
+As before, we can use `as_survey()` to create the `survey` object so we can use the useful functions in the packages.
+
+```{r, echo=T, eval=T}
+ces_s <- ces_new %>%
+  as_survey(ids = id,
+            strata = province,
+            fpc = population,
+            weights = weight)
+ces_s
+```
+
+## 4.2 Fit Logit Regression
+
+To carry out logit regression with weights included, we need to use `svyglm()` in the `survey` package. Let's include `religion` again. Again, here we have to use `ces_s` rather than `ces_new`. You can ignore the warning message.
+
+```{r, echo=T, eval=T, message=F}
+mod_s_religion <- svyglm(against_abortion ~ religion,
+                         design = ces_s, # be sure to use the survey object
+                         family = binomial)
+summary(mod_s_religion)
+```
+
+Let's take a look at the odds-ratio by taking the exponent of the `religion` coefficient.
+
+```{r, echo=T, eval=T, message=F}
+exp(coef(mod_s_religion))
+```
+
+## 4.3 Extra: Model Comparison and Diagnostics
+
+**Note: Please revisit Section 12 "Diagnostics" in "Tutorial: logistic regression as a GLM" by Dr Marju Kaps to see the functions you can use for model diagnostics.** 
+
+Let's conduct another logit regression but this time only includes the intercept.
+
+```{r, echo=T, eval=T}
+mod_s_intercept <- svyglm(against_abortion ~ 1,
+                          design = ces_s,
+                          family = binomial)
+summary(mod_s_intercept)
+```
+
+Use `anova()` to see whether or not including `religion` helps with explaining more variance in the outcome variable (or: does including `religion` statistically improve the model fit)?
+
+```{r, echo=T, eval=T}
+anova(mod_s_intercept, mod_s_religion, test="Chi")
+```
+
+> *Question: What is the `test` option here for? Use `?anova` to see more information.*\
+
+> *Question: You can also compare the finding we get from `glm()`.*\
+
+## 4.4 Extra: Get Predicted Log Odds and Probability With Multiple Predictors
+
+Say now if we include two predictors in the model.
+
+```{r, echo=T, eval=T, message=F}
+mod_s <- svyglm(against_abortion ~ religion + urban,
+                design = ces_s, # be sure to use the survey object
+                family = binomial)
+summary(mod_s)
+```
+
+We can still use the `predict()` function to get the predicted log-odds and probabilities. Given that the model includes two predictors, we have to carry out the predictions one by one. 
+
+We will start with the `religion` coefficient. This time, rather than putting the model into `predict()`, let's specify the exact levels of `religion`. Since we are interested in learning how the predicted log-odds and probabilities across different levels, we have to hold `urban` constant. In this sense, `urban` serves as a **control** variable for us so we can explore the following: *how will the attitudes against abortion change with one-unit increase in `religion`, when we hold `urban` constant?*
+
+Let's feed the `predict()` function two pieces of information:
+
+  - What are the unique levels of `religion``? The variable ranges from 1 to 4.
+  - What is the constant of `urban` we can use? Weighted mean is a good choice.
+
+```{r, echo=T, eval=T, message=F}
+ces_s %>%
+  summarise(urban_w_mean = survey_mean(urban, na.rm=T))
+```
+
+Put them together into a new data frame. Note the variable names have to be the same as those included in `svyglm()`. 
+
+```{r, echo=T, eval=T, message=F}
+data_predict <- data.frame(religion = 1:4,
+                           urban = 0.785)
+data_predict
+```
+
+Now let's obtain the predicted log-odds, odds, and probabilities when we vary the importance of `religion` while keeping `urban` at its weighted mean. 
+
+```{r, echo=T, eval=T, message=F}
+fit_prob <- predict(mod_s, newdata=data_predict, type="response")
+fit_log_odds <- predict(mod_s, newdata=data_predict)
+fit_mod_s <- data.frame(religion = 1:4,
+                        fit_prob = as.matrix(fit_prob),
+                        fit_log_odds = as.matrix(fit_log_odds))
+fit_mod_s$fit_odds <- exp(fit_mod_s$fit_log_odds)
+fit_mod_s
+```
+
+> *Question: Do the calculation similar to "Use predict() Function (Recommended). Discuss your observation.*\
+
+> *Question: Redo the same process, but this time, obtain the predicted log-odds, odds, and probabilities when we vary the levels of `urban` while holding `religion` at its weighted mean.*
+
+

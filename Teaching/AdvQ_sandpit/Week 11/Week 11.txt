@@ -1,0 +1,18 @@
+
+Causal learning
+
+Bayesian statistics
+
+Transparency and replicability
+
+Programming
+
+IQSR
+
+Road map
+
+
+		\item Bayesian statistics
+		\item Statistical programming
+		\item Causal and machine learning
+		\item Generalizability, transparency and replicability

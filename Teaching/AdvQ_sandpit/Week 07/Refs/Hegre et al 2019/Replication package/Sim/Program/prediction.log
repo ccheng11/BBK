@@ -1,0 +1,1021 @@
+----------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  E:\Work\haavarmn\Sim\Program\prediction.log
+  log type:  text
+ opened on:  27 Oct 2011, 11:34:24
+
+. clear all
+
+. set more off
+
+. set seed 1001
+
+. set mem 15g
+
+Current memory allocation
+
+                    current                                 memory usage
+    settable          value     description                 (1M = 1024k)
+    --------------------------------------------------------------------
+    set maxvar         5000     max. variables allowed           1.947M
+    set memory        15360M    max. data space             15,360.000M
+    set matsize        2000     max. RHS vars in models         30.685M
+                                                            -----------
+                                                            15,392.633M
+
+. set scheme s1mono
+
+. 
+. capture cd E:\Work\haavarmn\Prediction\OutofSampleTest\
+
+. 
+. 
+. ***************************************************
+. **Project: Prediction                     *********
+. **Purpose: this do file simulates,        *********
+. **         evaluates and analyses         *********
+. **         simulations                    *********
+. ** Log file: prediction.log               *********
+. ** Results: Found in figures and          *********
+. **                      Resulst           *********
+. ***************************************************
+. 
+. 
+. ****************************************************************
+. ***********Simulation Models  -- Simulation Assessment**********
+. ****************************************************************
+. 
+. 
+.         insheet using parameters_baseline_big.txt, clear
+(1 var, 82 obs)
+
+.         set obs 85
+obs was 82, now 85
+
+.         replace v1 = "SIMULATIONS; 50" if _n == 83
+(1 real change made)
+
+.         replace v1 = "ENDPARAMS; baseoutcome(0)" if _n == 84
+(1 real change made)
+
+.         replace v1 = "RESULTFILE; E:\Work\haavarmn\Prediction\OutofSampleTest\Results\Results2.txt" if _n == 85
+(1 real change made)
+
+.         outsheet using "E:\Work\haavarmn\Prediction\OutofSampleTest\params\parameters.txt", replace nonames noquote
+
+.         include SimuleringISQ_assess.do
+
+. *clear all
+. *set matsize 8700
+. *set more off
+. 
+. use "prediction2010.dta", clear
+
+. 
+. 
+. include "Data_manipulation.do"
+
+. /* Start of do-file: Data_manipulation.do */
+. /* Data manipulations for PKO paper */
+. 
+. capture drop _merge
+
+. gen m_year=year
+(53 missing values generated)
+
+. replace m_year=2000 if year>2000
+(8690 real changes made)
+
+. replace primkey=(gwno*10000)+m_year
+(8656 real changes made, 19 to missing)
+
+. sort primkey
+
+. merge primkey using "..\Data\negihbor.dta"
+(note: you are using old merge syntax; see [D] merge for new syntax)
+variable primkey does not uniquely identify observations in the master data
+
+. replace primkey=(gwno*10000)+year
+(9692 real changes made, 1055 to missing)
+
+. sort primkey
+
+. 
+. drop if limr==. & gwno!=811 
+(1828 observations deleted)
+
+. drop if you==.  & gwno!=811 
+(0 observations deleted)
+
+. drop if lpop==.  & gwno!=811 
+(0 observations deleted)
+
+. drop if edu ==.  & gwno!=811 
+(2112 observations deleted)
+
+. 
+. /* Merging the two neighborhood variables */
+. replace nc1 = nc1 + nc2
+(2002 real changes made)
+
+. replace nc1c1 = nc1c1 + nc2c1
+(326 real changes made)
+
+. /*
+> replace nc1c2 = nc1c2 + nc2c2
+> replace nc1ts0 = nc1ts0 + nc2ts0
+> */
+. replace nc1 = nc1 + nc2
+(2002 real changes made)
+
+. replace nc1c1 = nc1c1 + nc2c1
+(326 real changes made)
+
+. /*
+> replace nc1c2 = nc1c2 + nc2c2
+> replace nc1ts0 = nc1ts0 + nc2ts0
+> 
+> /* Merging three region variables */
+> replace r7 = r7 + r8 + r9
+> 
+> 
+> gen uniimog = 0
+> replace uniimog = 1 if un_mandate=="UNIIMOG"
+> foreach ds of varlist ds_* year_exp {
+>         replace `ds' = 0 if uniimog==1
+> }
+> gen untso = 0
+> replace untso = 1 if un_mandate=="UNTSO"
+> foreach ds of varlist ds_* year_exp {
+>         replace `ds' = 0 if untso==1
+> }
+> gen unikom = 0
+> replace unikom = 1 if un_mandate=="UNIKOM"
+> foreach ds of varlist ds_* year_exp {
+>         replace `ds' = 0 if unikom==1
+> }
+> gen unmee = 0
+> replace unmee = 1 if un_mandate=="UNMEE"
+> foreach ds of varlist ds_* year_exp {
+>         replace `ds' = 0 if unmee==1
+> }
+> gen unmogip = 0
+> replace unmogip = 1 if un_mandate=="UNMOGIP"
+> foreach ds of varlist ds_* year_exp {
+>         replace `ds' = 0 if unmogip==1
+> }
+> capture drop unef2
+> gen unef2 = 0
+> replace unef2 = 1 if un_mandate=="UNEF II"
+> foreach ds of varlist ds_* year_exp {
+>         replace `ds' = 0 if unef2==1
+> }
+> 
+> 
+> replace ds_ordinal = 0 if ds_ordinal ==.
+> replace ds_observe = 0 if ds_ordinal ==.
+> replace ds_tradpko = 0 if ds_ordinal ==.
+> replace ds_multipko = 0 if ds_ordinal ==.
+> replace ds_enforce = 0 if ds_ordinal ==.
+> replace protection_mandate = 0 if ds_ordinal ==.
+> ren protection_mandate pm
+> replace pm = 0 if pm==.
+> replace ds_observe = 0 if ds_observe ==.
+> replace ds_tradpko = 0 if ds_tradpko ==.
+> replace ds_multipko = 0 if ds_multipko ==.
+> replace ds_enforce = 0 if ds_enforce ==.
+> 
+> /* For missing yearly exp data, set it equal to the mean of the missions mandata */
+> 
+> replace year_exp = 44.22 if ds_ordinal == 1 & year_exp == -99
+> replace year_exp = 176.81 if ds_ordinal == 2 & year_exp == -99
+> replace year_exp = 159.27 if ds_ordinal == 3 & year_exp == -99
+> replace year_exp = 562.61 if ds_ordinal == 4 & year_exp == -99
+> replace year_exp = 0 if ds_ordinal == 0 & year_exp == -99
+> 
+> 
+> /* Create Categorical PKO Variable*/
+> 
+> 
+> gen pko_cat = 0
+> replace pko_cat=1 if ds_ordinal!=0
+> 
+> gen dso = ds_ordinal
+> 
+> ***
+> *gen temp = uniform()
+> *replace dso = dso + 1 if temp > 0.2
+> ****
+> 
+> /* Recode yearly expenditure data*/
+> 
+> replace year_exp = 0 if  year_exp == .
+> 
+> /* Log transform expenditure var */
+> 
+> gen le = ln(year_exp)
+> replace le=0 if le==.
+> gen le2 = le^2
+> 
+> /*Collapse enforcement and multidimensional operations into one category */
+> 
+> gen me = 0
+> replace me = 1 if ds_enforce==1
+> replace me = 1 if ds_multipko==1
+> 
+> 
+> /* Make interaction terms */
+> 
+> gen ds_observec1 = ds_observe*c1
+> gen ds_observec2 = ds_observe*c2
+> gen ds_observets0 = ds_observe*ltsc0
+> 
+> gen ds_tradpkoc1 = ds_tradpko*c1
+> gen ds_tradpkoc2 = ds_tradpko*c2
+> gen ds_tradpkots0 = ds_tradpko*ltsc0
+> 
+> gen ds_enforcec1 = ds_enforce*c1
+> gen ds_enforcec2 = ds_enforce*c2
+> gen ds_enforcets0 = ds_enforce*ltsc0
+> 
+> gen ds_multipkoc1 = ds_multipko*c1
+> gen ds_multipkoc2 = ds_multipko*c2
+> gen ds_multipkots0 = ds_multipko*ltsc0
+> 
+> gen dsoc1 = ds_ordinal*c1
+> gen dsoc2 = ds_ordinal*c2
+> gen dsos0 = ds_ordinal*ltsc0
+> 
+> gen pmc1 = pm*c1
+> gen pmc2 = pm*c2
+> gen pmts0 = pm*ltsc0
+> 
+> replace pmc1 = 0 if pmc1==.
+> replace pmc2 = 0 if pmc2==.
+> 
+> gen year_expc1 = year_exp*c1
+> gen year_expc2 = year_exp*c2
+> gen year_expts0 = year_exp*ltsc0
+>  
+> gen lec1 = le*c1
+> gen lec2 = le*c2
+> gen les0 =le*ltsc0
+> 
+> gen pko_catc1 = pko_cat*c1
+> gen pko_catc2 = pko_cat*c2
+> gen pko_catts0 =pko_cat*ltsc0
+> 
+> gen mec1 = me*c1
+> gen mec2 = me*c2
+> gen mets0 =me*ltsc0
+> */
+. 
+. /*Make oil and etdo4590 interactions*/
+. gen oilc1 = oil * c1 
+(40 missing values generated)
+
+. gen oilc2 = oil * c2
+(40 missing values generated)
+
+. gen oilts0 = oil * ltsc0
+
+. gen etdo4590c1 = etdo4590 * c1
+(40 missing values generated)
+
+. gen etdo4590c2 = etdo4590 * c2
+(40 missing values generated)
+
+. gen etdo4590ts0 = etdo4590 * ltsc0
+
+. /*
+> /* Temporary files */
+> 
+> gen le_temp = 0
+> 
+> 
+> /*Variables for specific pko scenarioes*/
+> 
+> /* Traditional (category 1 and 2) vs. transformational (category 3 and 4) */
+> gen ptd = 0 
+> replace ptd = 1 if ds_ordinal==1 | ds_ordinal==2
+> 
+> gen pts = 0
+> replace pts = 1 if ds_ordinal>=3 | ds_ordinal==4
+> 
+> /* Category 1-3 vs enforcement (category 4) */
+> gen p123 = 0
+> replace p123 = 1 if ds_ordinal >= 1 & ds_ordinal<=3 & ds_ordinal!=.
+> 
+> gen p4 = 0
+> replace p4 = 1 if ds_ordinal==4
+> 
+> 
+> gen pko_prot = 0 if ds_ordinal >= 1 & pm==0 & ds_ordinal!=.
+> replace pko_prot = 1 if pm==1 & ds_ordinal!=.
+> replace pko_prot = 0 if ds_ordinal==0
+> 
+> gen nopko = 0
+> replace nopko = 1 if (gwno == 2 | gwno == 200 | gwno == 220 | gwno == 365 | gwno == 710) ///
+> 
+> gen nopko2 = 0
+> replace nopko2 = 1 if (gwno == 2 | gwno == 70 | gwno == 140 | gwno == 200 | gwno == 220 ///
+>         | gwno == 365 | gwno == 475 | gwno == 710 | gwno == 740 | gwno == 750 | gwno == 770 ///
+>         | gwno == 771 | gwno == 850 ) ///
+> 
+> 
+> /*Lage nye tidsdummyer*/
+> 
+> replace td7086 = 0
+> replace td7086 = 1 if year >= 1970 & year<= 1988
+> replace td1c1 = td7086 * c1
+> replace td1c2 = td7086 * c2
+> replace td1ts0 = td7086 *ltsc0
+> 
+> replace td8701 = 0
+> replace td8701 = 1 if year >= 1989 & year<= 2000
+> replace td2c1 = td8701 * c1
+> replace td2c2 = td8701 * c2
+> replace td2ts0 = td8701 *ltsc0
+> */
+. 
+. 
+. /* End of do-file: Data_manipulation.do */
+. 
+. 
+. 
+. 
+. include "change_names.do"
+
+. /*Rename Variables to decrease string size*/
+. 
+. ren oil oi
+
+. ren oilc1 oic1
+
+. ren oilc2 oic2
+
+. ren oilts0 ois0
+
+. ren etdo4590c1 etc1
+
+. ren etdo4590c2 etc2
+
+. ren etdo4590ts0 ets0
+
+. ren etdo4590 et
+
+. ren limr li
+
+. *ren imrc1 imc1
+. *ren imrc2 imc2
+. *ren imrts0 ims0
+. ren you yo
+
+. *ren youc1 yoc1
+. *ren youc2 yoc2
+. *ren youts0 yos0
+. ren lpop lpo
+
+. *ren popc1 poc1
+. *ren popc2 poc2
+. *ren popts0 pos0
+. ren edu ed
+
+. *ren educ1 edc1
+. *ren educ2 edc2
+. *ren eduts0 eds0
+. *ren limrn lin
+. *ren edun edn
+. *ren youn yon
+. 
+. 
+. 
+. 
+. 
+. include "constraints_define.do"
+
+. /* Constraints for PKO paper */
+. constraint define 1 [1]ltsc2 = 0
+
+. constraint define 2 [2]ltsc1 = 0
+
+. constraint define 11 [1]let = [2]let
+
+. constraint define 12 [1]lyo = [2]lyo
+
+. constraint define 13 [1]lpos0 = [2]lpos0
+
+. constraint define 14 [1]leds0 = [2]leds0
+
+. constraint define 15 [1]lyon = [2]lyon
+
+. constraint define 16 [1]lnc1 = [2]lnc1
+
+. constraint define 17 [1]lnc1c1 = [2]lnc1c1
+
+. constraint define 18 [1]lnc1c2 = [2]lnc1c2
+
+. constraint define 19 [1]r4 = [2]r4
+
+. constraint define 20 [1]r7 = [2]r7
+
+. 
+. 
+. /* Constraints for history variables */
+. constraint define 99 [1]ltsc2 = 0
+
+. constraint define 100 [2]ltsc1 = 0
+
+. 
+. /*Constraints to make baseline model*/
+. /*
+> constraint define 103 [1]llimr = 0
+> constraint define 104 [2]llimr = 0
+> constraint define 105 [1]ledu = 0
+> constraint define 106 [2]ledu = 0
+> constraint define 107 [1]loil = 0
+> constraint define 108 [2]loil = 0
+> constraint define 109 [1]letdo4590 = 0
+> constraint define 110 [2]letdo4590 = 0
+> constraint define 111 [1]lyou = 0
+> constraint define 112 [2]lyou = 0
+> constraint define 113 [1]llpop = 0
+> constraint define 114 [2]llpop = 0
+> constraint define 115 [1]llimrn = 0
+> constraint define 116 [2]llimrn = 0
+> constraint define 117 [1]ledun = 0
+> constraint define 118 [2]ledun = 0
+> constraint define 119 [1]lyoun = 0
+> constraint define 120 [2]lyoun = 0
+> constraint define 121 [1]limrc1 = 0
+> constraint define 122 [2]limrc1 = 0
+> constraint define 123 [1]limrc2 = 0
+> constraint define 124 [2]limrc2 = 0
+> constraint define 125 [1]limrts0 = 0
+> constraint define 126 [2]limrts0 = 0
+> constraint define 127 [1]lyouc1 = 0
+> constraint define 128 [2]lyouc1 = 0
+> constraint define 129 [1]lyouc2 = 0
+> constraint define 130 [2]lyouc2 = 0
+> constraint define 131 [1]lyouts0 = 0
+> constraint define 132 [2]lyouts0 = 0
+> constraint define 133 [1]lpopc1 = 0
+> constraint define 134 [2]lpopc1 = 0
+> constraint define 135 [1]lpopc2 = 0
+> constraint define 136 [2]lpopc2 = 0
+> constraint define 137 [1]lpopts0 = 0
+> constraint define 138 [2]lpopts0 = 0
+> constraint define 139 [1]leduc1 = 0
+> constraint define 140 [2]leduc1 = 0
+> constraint define 141 [1]leduc2 = 0
+> constraint define 142 [2]leduc2 = 0
+> constraint define 143 [1]leduts0 = 0
+> constraint define 144 [2]leduts0 = 0
+> */
+. /*With changes names*/
+. /*Baseline Model*/
+. constraint define 103 [1]lli = 0
+
+. constraint define 104 [2]lli = 0
+
+. constraint define 105 [1]led = 0
+
+. constraint define 106 [2]led = 0
+
+. constraint define 107 [1]loi = 0
+
+. constraint define 108 [2]loi = 0
+
+. constraint define 109 [1]let = 0
+
+. constraint define 110 [2]let = 0
+
+. constraint define 111 [1]lyo = 0
+
+. constraint define 112 [2]lyo = 0
+
+. constraint define 113 [1]llpo = 0
+
+. constraint define 114 [2]llpo = 0
+
+. constraint define 115 [1]llin = 0
+
+. constraint define 116 [2]llin = 0
+
+. constraint define 117 [1]ledn = 0
+
+. constraint define 118 [2]ledn = 0
+
+. constraint define 119 [1]lyon = 0
+
+. constraint define 120 [2]lyon = 0
+
+. constraint define 121 [1]limc1 = 0
+
+. constraint define 122 [2]limc1 = 0
+
+. constraint define 123 [1]limc2 = 0
+
+. constraint define 124 [2]limc2 = 0
+
+. constraint define 125 [1]lims0 = 0
+
+. constraint define 126 [2]lims0 = 0
+
+. constraint define 127 [1]lyoc1 = 0
+
+. constraint define 128 [2]lyoc1 = 0
+
+. constraint define 129 [1]lyoc2 = 0
+
+. constraint define 130 [2]lyoc2 = 0
+
+. constraint define 131 [1]lyos0 = 0
+
+. constraint define 132 [2]lyos0 = 0
+
+. constraint define 133 [1]lpoc1 = 0
+
+. constraint define 134 [2]lpoc1 = 0
+
+. constraint define 135 [1]lpoc2 = 0
+
+. constraint define 136 [2]lpoc2 = 0
+
+. constraint define 137 [1]lpos0 = 0
+
+. constraint define 138 [2]lpos0 = 0
+
+. constraint define 139 [1]ledc1 = 0
+
+. constraint define 140 [2]ledc1 = 0
+
+. constraint define 141 [1]ledc2 = 0
+
+. constraint define 142 [2]ledc2 = 0
+
+. constraint define 143 [1]leds0 = 0
+
+. constraint define 144 [2]leds0 = 0
+
+. constraint define 145 [1]loic1 = 0
+
+. constraint define 146 [2]loic1 = 0
+
+. constraint define 147 [1]loic2 = 0
+
+. constraint define 148 [2]loic2 = 0
+
+. constraint define 149 [1]lois0 = 0
+
+. constraint define 150 [2]lois0 = 0
+
+. constraint define 151 [1]letc1 = 0
+
+. constraint define 152 [2]letc1 = 0
+
+. constraint define 153 [1]letc2 = 0
+
+. constraint define 154 [2]letc2 = 0
+
+. constraint define 155 [1]lets0 = 0
+
+. constraint define 156 [2]lets0 = 0
+
+. constraint define 157 [1]lnc1 = 0
+
+. constraint define 158 [2]lnc1 = 0
+
+. constraint define 159 [1]lnc1c1 = 0
+
+. constraint define 160 [2]lnc1c1 = 0
+
+. 
+. 
+. 
+. /*A) ALL INTERACTIONS*/
+. /*add limr 105-120 + 127-156*/
+. /*add edu 107-120 + 127-138 + 145 - 156*/
+. /*add youth 107 - 110 + 113-120 + 133-138 + 145-156*/
+. /*add lpop 107-110 + 115 - 120 + 145- 156 */ 
+. /*add limrn 107-110 + 117-120 + 145 - 156 */
+. /*add edun 107 - 110 + 119-120 + 145 - 156 */
+. /*add youn 107 - 110 + 145 - 156*/
+. /*add oil 109 - 110 + 151 - 156 */
+. /*add etdo4590 none*/
+. 
+. /*B) alle same in both equations*/
+. /*101-102*/
+. /*Limr*/
+. constraint define 180 [1]lli = [2]lli
+
+. constraint define 181 [1]limc1 = [2]limc1
+
+. constraint define 182 [1]limc2 = [2]limc2
+
+. constraint define 183 [1]lims0 = [2]lims0
+
+. /*youth*/
+. constraint define 185 [1]lyo = [2]lyo
+
+. constraint define 186 [1]lyoc1 = [2]lyoc1
+
+. constraint define 187 [1]lyoc2 = [2]lyoc2
+
+. constraint define 188 [1]lyos0 = [2]lyos0
+
+. /*lpop*/
+. constraint define 190 [1]llpo = [2]llpo
+
+. constraint define 191 [1]lpoc1 = [2]lpoc1
+
+. constraint define 192 [1]lpoc2 = [2]lpoc2
+
+. constraint define 193 [1]lpos0 = [2]lpos0
+
+. /*edu*/
+. constraint define 195 [1]led = [2]led
+
+. constraint define 196 [1]ledc1 = [2]ledc1
+
+. constraint define 197 [1]ledc2 = [2]ledc2
+
+. constraint define 198 [1]leds0 = [2]leds0
+
+. /*limrn*/
+. constraint define 200 [1]llin = [2]llin
+
+. /*edun*/
+. constraint define 201 [1]ledn = [2]ledn
+
+. /*youtn*/
+. constraint define 202 [1]lyon = [2]lyon
+
+. /*oil*/
+. constraint define 205 [1]loi = [2]loi
+
+. constraint define 206 [1]loic1 = [2]loic1
+
+. constraint define 207 [1]loic2 = [2]loic2
+
+. constraint define 208 [1]lois0 = [2]lois0
+
+. /*etdo4590*/
+. constraint define 210 [1]let = [2]let
+
+. constraint define 211 [1]letc1 = [2]letc1
+
+. constraint define 212 [1]letc2 = [2]letc2
+
+. constraint define 213 [1]lets0 = [2]lets0
+
+. /*neighbor*/
+. constraint define 214 [1]lnc1 = [2]lnc1
+
+. constraint define 215 [1]lnc1c1 = [2]lnc1c1
+
+. constraint define 216 [1]lnc1ts0 = [2]lnc1ts0
+
+. 
+. 
+. 
+. /*c) no interaction with c1, c2, lts0*/
+. /*limr*/
+. *121-126
+. 
+. /*youth*/
+. *127-132
+. 
+. /*lpop*/
+. *133-138
+. 
+. /*edu*/
+. *139-144
+. 
+. /*limrn*/
+. 
+. /*youtn*/
+. 
+. /*edun*/
+. 
+. //*oil*/
+. *145-150
+. 
+. /*etdo4590*/
+. *151-156
+. 
+. /*D) as C, but all equations the same*/
+. 
+. /*limr*/
+. *121-126 + 180
+. 
+. /*youth*/
+. *127-132 + 185
+. 
+. /*lpop*/
+. *133-138 + 190
+. 
+. /*edu*/
+. *139-144 + 195
+. 
+. /*limrn*/
+. *200
+. 
+. /*youtn*/
+. *201
+. /*edun*/
+. *202
+. 
+. /*oil*/
+. *145-150 + 205
+. 
+. /*etdo4590*/
+. *151-156 + 210
+. 
+. 
+. **************************************************
+. *******Post-evaluation baseline model*************
+. **************************************************
+. /*101-102*/
+. /*limr - uten int, like i begge ligninger*/
+. /*121-126 + 180*/
+. /*edu - uten int, like i begge ligninger*/
+. /* 139-144 + 195*/
+. /*pop - all int*/
+. /*none*/
+. /*youth - uten interaksjoner*/
+. /*127-132*/
+. /*limrn - all interaksojner*/
+. /*none*/
+. /*edun - alle interaksjoner*/
+. /*none*/
+. /*youn - alle int, like i begge ligninger*/
+. /*202*/
+. /*oil - alle interaksjoner*/
+. /*none*/
+. /*etdo4590 - aøøe interaksjon*/
+. /*none*/
+. 
+. **************************************
+. ********Reduce new baseline model*****
+. **************************************
+. 
+. 
+. 
+. /*
+> 
+> ********************************************************
+> *************PKO6 CONSTRAINTS****************************
+> ********************************************************
+> 
+> 
+> /* Constraining empty-cell odds ratios to be 0 */
+> constraint define 1 [no]llce = 0
+> constraint define 2 [ne]llno = 0
+> constraint define 3 [ne]llco = 0
+> constraint define 4 [cn]llne = 0
+> constraint define 5 [co]llne = 0
+> constraint define 6 [ce]llno = 0
+> /* Constraining large-odds ratios to be similar to each other */
+> /* Avoiding fixating 'diagonal' odds ratios */
+> constraint define 11 [ne]llce=[no]llno
+> constraint define 12 [no]llco=[no]llno
+> constraint define 13 [ce]llco=[no]llno
+> /* Including diagonal odds ratios */
+> constraint define 14 [ne]llcn=[no]llno
+> constraint define 15 [co]llco=[no]llno
+> constraint define 16 [ce]llce=[no]llno
+> constraint define 17 [ne]llne=[no]llno
+> 
+> /* Other parameters set to 0 */
+> constraint define 21 [no]llne = 0
+> constraint define 22 [ce]llne = 0
+> constraint define 23 [cn]llce = 0
+> constraint define 24 [co]llce = 0
+> 
+> /*Constraining history variables*/
+> constraint define 25 [ce]ltsc0  = [co]ltsc0
+> constraint define 26 [ne]lnc1 = [cn]lnc1
+> constraint define 27 [ne]lnc2 = [cn]lnc2
+> 
+> /*
+> /* Constraining regulating enforcement mission estimation */
+> constraint define 31 [ne]ecw=0
+> constraint define 32 [ce]ecw=0
+> */
+> 
+> /*END OF DO-FILE, Constraints*/
+> 
+
+. 
+. 
+. cd "E:\Work\haavarmn\Sim\Program"
+E:\Work\haavarmn\Sim\Program
+
+. 
+. Simulator "E:\Work\haavarmn\Prediction\OutofSampleTest\params\parameters.txt"
+//Parameters for estimation command and simulation
+// SIMPLE MODEL
+UNITID; gwno
+TIMEID; year
+DEP; conflict
+//When using nv() function it has to be calculated before use
+SUPPVAR; timeinstatus; if(lv(conflict)==nv(conflict)|lv(timeinstatus) + 1|1)
+//SUPPVAR; timesinceindependance; lv(timesinceindependance)+1
+//SUPPVAR; lnpop; edgecountf(conflict|2)
+//SUPPVAR; growthrate; umean(growthrate|lt)+(0.95*(lv(growthrate)-umean(growthrate|lt)))
+SUPPVAR; lts; ln(lv(timeinstatus))
+SUPPVAR; c0; if(lv(conflict)==0.0|1|0)
+IDEP; c1; if(lv(conflict)==1.0|1|0)
+IDEP; c2; if(lv(conflict)==2.0|1|0)
+IDEP; ltsc0; lv(lts)*lv(c0)
+IDEP; ltsc1; lv(lts)*lv(c1)
+IDEP; ltsc2; lv(lts)*lv(c2)
+//IDEP; td7086; 0
+//IDEP; td1c1 lagged; nv(td7086)*lv(c1)
+//IDEP; td1c2 lagged; nv(td7086)*lv(c2)
+//IDEP; td1ts0 lagged; nv(td7086)*lv(ltsc0)
+//IDEP; td8701; 0
+//IDEP; td2c1 lagged; nv(td8701)*lv(c1)
+//IDEP; td2c2 lagged; nv(td8701)*lv(c2)
+//IDEP; td2ts0 lagged; nv(td8701)*lv(ltsc0)
+//IDEP; oi lagged; lhv(oi)
+//IDEP; oic1 lagged; nv(oi)*lv(c1)
+//IDEP; oic2 lagged; nv(oi)*lv(c2)
+//IDEP; ois0 lagged; nv(oi)*lv(ltsc0)
+//IDEP; ef lagged; lhv(ef)
+//IDEP; et lagged; lhv(et)
+//IDEP; etc1 lagged; nv(et)*lv(c1)
+//IDEP; etc2 lagged; nv(et)*lv(c2)
+//IDEP; ets0 lagged; nv(et)*lv(ltsc0)
+IDEP; li lagged; lhv(li)
+//IDEP; imc1 lagged; lhv(li)*lv(c1)
+//IDEP; imc2 lagged; lhv(li)*lv(c2)
+//IDEP; ims0 lagged; lhv(li)*lv(ltsc0)
+//IDEP; yo lagged; lhv(yo)
+//IDEP; yoc1 lagged; lhv(yo)*lv(c1)
+//IDEP; yoc2 lagged; lhv(yo)*lv(c2)
+//IDEP; yos0 lagged; nv(yo)*lv(ltsc0)
+IDEP; lpo lagged; lhv(lpo)
+//IDEP; poc1 lagged; lhv(lpo)*lv(c1)
+//IDEP; poc2 lagged; lhv(lpo)*lv(c2)
+//IDEP; pos0 lagged; nv(lpo)*lv(ltsc0)
+//IDEP; ed lagged; lhv(ed)
+//IDEP; edc1 lagged; lhv(ed)*lv(c1)
+//IDEP; edc2 lagged; lhv(ed)*lv(c2)
+//IDEP; eds0 lagged; nv(ed)*lv(ltsc0)
+//IDEP; lin lagged; lhv(lin)
+//IDEP; imrnc1 lagged; lhv(limrn)*lv(c1)
+//IDEP; imrnc2 lagged; lhv(limrn)*lv(c2)
+//IDEP; imrnts0 lagged; lhv(limrn)*lv(ltsc0)
+//IDEP; edn lagged; lhv(edn)
+//IDEP; yon lagged; lhv(yon)
+IDEP; nc1 lagged; if(checkforedgevalue(conflict|1.0)==1.0|1|0)
+IDEP; nc1c1 lagged; lv(nc1)*lv(c1)
+IDEP; nc1c2 lagged; lv(nc1)*lv(c2)
+//IDEP; nc1ts0 lagged; lv(nc1)*lv(ltsc0)
+IDEP; nc2 lagged; if(checkforedgevalue(conflict|2.0)==1.0|1|0)
+//IDEP; nc2c1 lagged; lv(nc2)*lv(c1)
+//IDEP; nc2c2 lagged; lv(nc2)*lv(c2)
+//IDEP; nc2ts0 lagged; lv(nc2)*lv(ltsc0)
+//IDEP; r2; lhv(r2)
+//IDEP; r3; lhv(r3)
+IDEP; r4; lhv(r4)
+//IDEP; r4c1; lagged; nv(r4)*lv(c1)
+//IDEP; r4c2; lagged; nv(r4)*lv(c2)
+//IDEP; r4ts0; lagged; nv(r4)*lv(ltsc0)
+//IDEP; r5; lhv(r5)
+IDEP; r6; lhv(r6)
+IDEP; r7; lhv(r7)
+//IDEP; r8; lhv(r8)
+//IDEP; r9; lhv(r9)
+LINKS;neighbors
+IFS; if year >= 1970 & year <= 1995
+BETADRAWS; 1
+SPLIT; none
+ITERATIONS; 15
+STARTTIME; 1995
+LOGFILE; Log_constraints2.txt
+SIMULATIONS; 50
+ENDPARAMS; baseoutcome(0)
+RESULTFILE; E:\Work\haavarmn\Prediction\OutofSampleTest\Results\Results2.txt
+Testing data string length
+119
+(175 missing values generated)
+(175 missing values generated)
+(172 missing values generated)
+(212 missing values generated)
+(212 missing values generated)
+(172 missing values generated)
+
+. mlogit conflict  c1 c2 ltsc0 ltsc1 ltsc2 lli llpo lnc1 lnc1c1 lnc1c2 lnc2 r4 r6 r7 if year >= 1970 & year <= 1995 ,b
+> aseoutcome(0)
+
+Iteration 0:   log likelihood =  -2188.729
+Iteration 1:   log likelihood = -1518.8279
+Iteration 2:   log likelihood = -1332.3865  (backed up)
+Iteration 3:   log likelihood = -1155.9097
+Iteration 4:   log likelihood = -1016.0451
+Iteration 5:   log likelihood = -920.88892
+Iteration 6:   log likelihood = -912.31615
+Iteration 7:   log likelihood =  -911.6969
+Iteration 8:   log likelihood =  -911.6851
+Iteration 9:   log likelihood = -911.68508
+
+Multinomial logistic regression                   Number of obs   =       3709
+                                                  LR chi2(28)     =    2554.09
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -911.68508                       Pseudo R2       =     0.5835
+
+------------------------------------------------------------------------------
+    conflict |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+1            |
+          c1 |   2.626061   .3006665     8.73   0.000     2.036765    3.215356
+          c2 |   2.443668   .4540767     5.38   0.000     1.553694    3.333642
+       ltsc0 |  -.4902135    .099304    -4.94   0.000    -.6848458   -.2955812
+       ltsc1 |   .9143395   .1915058     4.77   0.000     .5389951    1.289684
+       ltsc2 |   .1247159    .356736     0.35   0.727    -.5744738    .8239057
+         lli |   .3321044    .118602     2.80   0.005     .0996486    .5645601
+        llpo |   .2510099   .0542795     4.62   0.000      .144624    .3573959
+        lnc1 |   .3650914    .237241     1.54   0.124    -.0998923    .8300751
+      lnc1c1 |  -.0816125   .1678418    -0.49   0.627    -.4105764    .2473513
+      lnc1c2 |   .7983825   .4764419     1.68   0.094    -.1354264    1.732191
+        lnc2 |  -.3131905    .367598    -0.85   0.394    -1.033669    .4072883
+          r4 |  -.5111565   .4803025    -1.06   0.287    -1.452532    .4302191
+          r6 |  -.2364653   .3035903    -0.78   0.436    -.8314913    .3585607
+          r7 |   .1974175    .251419     0.79   0.432    -.2953546    .6901896
+       _cons |  -6.094732   .7626341    -7.99   0.000    -7.589467   -4.599997
+-------------+----------------------------------------------------------------
+2            |
+          c1 |    4.06857   .7604335     5.35   0.000     2.578148    5.558992
+          c2 |    5.80875   .8062893     7.20   0.000     4.228452    7.389048
+       ltsc0 |  -.2205625   .2727205    -0.81   0.419    -.7550849    .3139598
+       ltsc1 |   .4033116   .2592466     1.56   0.120    -.1048024    .9114257
+       ltsc2 |   .6397619   .3343233     1.91   0.056    -.0154997    1.295023
+         lli |   .8588018   .2018132     4.26   0.000     .4632551    1.254348
+        llpo |   .2862344   .0856047     3.34   0.001     .1184522    .4540165
+        lnc1 |   .9120271   .4127552     2.21   0.027     .1030418    1.721012
+      lnc1c1 |  -.1928514    .219846    -0.88   0.380    -.6237417    .2380389
+      lnc1c2 |  -.1245767   .5537199    -0.22   0.822    -1.209848    .9606944
+        lnc2 |   -1.04655   .6063338    -1.73   0.084    -2.234943     .141842
+          r4 |    .424696   .6884014     0.62   0.537    -.9245459    1.773938
+          r6 |  -2.749457   1.076346    -2.55   0.011    -4.859057   -.6398566
+          r7 |  -.1301402   .3404656    -0.38   0.702    -.7974404    .5371601
+       _cons |  -11.46181   1.448564    -7.91   0.000    -14.30095    -8.62268
+------------------------------------------------------------------------------
+(conflict==0 is the base outcome)
+
+. 
+end of do-file
+Data:
+gwno year conflict timeinstatus lts c0 c1 c2 ltsc0 ltsc1 ltsc2 li lpo nc1 nc1c1 nc1c2 nc2 r4 r6 r7 splitpoint neighbor
+> s
+E:\Work\haavarmn\Sim\Program
+
+file ..\..\Prediction\ISQ\EstimationData\estimationdata.dta saved
+Expressions:
+if(lv(conflict)==nv(conflict)|lv(timeinstatus) + 1|1)lv(timesinceindependance)+1edgecountf(conflict|2)umean(growthrate
+> |lt)+(0.95*(lv(growthrate)-umean(growthrate|lt)))ln(lv(timeinstatus))if(lv(conflict)==0.0|1|0)if(lv(conflict)==1.0|1
+> |0)if(lv(c
+After extraction of betas. Number of columns:
+30
+Current content of cmd string:
+b30
+
+Current memory allocation
+
+                    current                                 memory usage
+    settable          value     description                 (1M = 1024k)
+    --------------------------------------------------------------------
+    set maxvar         5000     max. variables allowed           1.947M
+    set memory        15360M    max. data space             15,360.000M
+    set matsize        2000     max. RHS vars in models         30.685M
+                                                            -----------
+                                                            15,392.633M
+
+. drawnorm b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 
+> b30 , n(1000) cov(vcv) means(b)
+(obs 1000)
+
+. 
+end of do-file
+Just before sim. Input parameters data, paramfile, resultfile, logfile:
+gwno year conflict timeinstatus lts c0 c1 c2 ltsc0 ltsc1 ltsc2 li lpo nc1 nc1c1 nc1c2 nc2 r4 r6 r7 splitpoint neighbor
+> s
+E:\Work\haavarmn\Prediction\OutofSampleTest\params\parameters.txt
+E:\Work\haavarmn\Prediction\OutofSampleTest\Results\Results2.txt
+Log_constraints2.txt
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+end of do-file
+

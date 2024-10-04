@@ -1,0 +1,536 @@
+---
+title: "Causal Inference in Political Science: A Primer"
+author: Chao-Yo Cheng
+institute: Tsinghua University
+date: "December 23, 2019"
+output:
+  beamer_presentation:
+    # theme: CambridgeUS # metropolis # CambridgeUS
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+fontsize: 8pt
+---
+
+## Outline
+
+\begin{itemize}
+  \item Why we should care about causality (hint: because it can be a matter of life and death)
+  \item Causal inference: Definition and basic concepts
+  \item Identification strategies: Experimental vs. observational studies
+  \item Frontiers of causal inference: Bias, sensitivity, mediation, and many more
+  \item Concluding remarks: Welcome to the club of causal inference
+\end{itemize}
+
+## Motivation: Why causality matters
+
+Lots of social science research is driven by simple (and yet important and difficult) cause-and-effect questions.
+\pause
+\begin{itemize}
+  \item American politics: Does incumbency status affect election outcomes? Does the history of black slavery still have an impact on people's attitudes toward the African American people? What is the impact of immigration?
+  \vspace{0.1cm}
+  \item Comparative politics: Do inter-state wars "make" states? Does the quality of elections influence political accountability? Does the descriptive representation of women and racial minorities in the legislature mitigate people's bias against them? Does affirmative action undermines the quality of bureaucracy?
+  \vspace{0.1cm}
+  \item Political economy: Do elite ties induce corruption? Does official corruption hinder economic growth? Do cash-transfer programs reduce poverty?
+  \vspace{0.1cm}
+  \item International relations: Does the diffusion of democracy contribute to world peace? Does international peacekeeping effort reduce conflicts? Does foreign aid work?
+\end{itemize}
+
+## Motivation: Why causality matters
+
+These are some of the very important questions in the literature, but empirically speaking, how do we show \textbf{X} really causes \textbf{Y}?
+\vspace{0.2cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.2]{Figs/xy}
+\end{figure}
+\pause
+For one thing, \textbf{causality is a very complex concept}.
+\pause
+\begin{itemize}
+  \item Existence: Does \textbf{X} really cause \textbf{Y}?
+  \item Importance: If yes, to how much degree does \textbf{X} matter?
+  \item Mechanism: How and why does \textbf{X} affect \textbf{Y}?
+\end{itemize}
+
+## Motivation: Why causality matters
+
+These are some of the very important questions in the literature, but empirically speaking, how do we show \textbf{X} really causes \textbf{Y}?
+\vspace{0.2cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.2]{Figs/xy}
+\end{figure}
+One should also keep in mind that \textbf{the real world is complicated}.
+\pause
+\begin{itemize}
+  \item Lack of valid counterfactuals: "fundamental problem of causal inference" (Holland 1986).
+  \item Selection bias: "correlation does not necessarily imply causation."
+\end{itemize}
+
+## Lack of valid counterfactuals
+
+\begin{itemize}
+  \item Example: John Stuart Mill's "Method of Difference."
+  \pause
+  \vspace{0.1cm}
+  \item "Compares and contrasts cases with the same attributes but different outcomes and determines causality by finding an attribute that is present when an outcome occurs but that is absent in similar cases when the outcome does not occur" (Samuels 2012).
+\end{itemize}
+
+## Lack of valid counterfactuals
+
+\vspace{0.3cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.4]{Figs/mill}
+\end{figure}
+\begin{center}
+  What causes Country 5 to go to war?
+\end{center}
+
+## Lack of valid counterfactuals
+
+\begin{itemize}
+  \item Ideally (and very optimistically) speaking, this could work, but we rarely have such comparisons in the social sciences.
+  \item Even worse, in general, data cannot tell us when this situation holds, because we only get to observe one of the "potential outcomes" for each unit (?).
+\end{itemize}
+\pause
+With a binary treatment $D=\{0,1\}$, for a unit $i$
+\begin{equation}
+  \begin{split}
+  Y_i & =
+  \begin{cases}
+  Y_{1i} \quad \text{if} \quad D_i=1\\
+  Y_{0i} \quad \text{if} \quad D_i=0
+  \end{cases}\\
+  & = Y_{0i} + (Y_{1i}-Y_{0i})D_i,
+  \end{split}
+\end{equation}
+where $Y_i$ is the outcome of interest for unit $i$.
+
+## Selection bias
+
+\pause
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.6]{Figs/b1}
+\end{figure}
+\begin{itemize}
+  \item On average, people who visit hospitals frequently have a higher death rate.
+  \item Are hospitals sort of killing machines?
+\end{itemize}
+
+## Selection bias
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.61]{Figs/b2}
+\end{figure}
+\begin{itemize}
+  \item On average, neighborhoods that have more police officers also see more residents killed by gun violence.
+  \item Is the police department incompetent? Or even worse, are the police officers involved in some covert collusion with the local crime syndicate?
+\end{itemize}
+
+## Selection bias
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.61]{Figs/b3}
+\end{figure}
+\begin{itemize}
+  \item On average, no statistically significant results exist to show that UN peacekeeping troops reduce the likelihood of communal violence.
+  \item Is sending UN peacekeeping troops a waste of time and money?
+\end{itemize}
+
+## Selection bias
+
+\begin{itemize}
+  \item Almost always, treatment assignment (?) is determined by some systematic data generation process (DGP).
+  \item Usually in real life, however, the exact assignment mechanism is not clear.
+  \item In addition to causation, common causes of treatment and outcome will also lead to association.
+\end{itemize}
+\pause
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{Figs/assn}
+\end{figure}
+
+## Selection bias may kill
+
+\begin{itemize}
+  \item Example: The pitfalls of "post-menopausal estrogen replacement therapy."
+  \pause
+  \item For decades, observational studies with regression adjustment have shown hormone replacement therapy seemed to reduce risk of heart attack.
+  \item Among them, the Nurses' Health Study involved tens of thousands of participants, showed a 30\% lower risk of heart attack, and was the basis for many prescriptions of estrogen replacement (Grodstein and Stampfer 1998).
+\end{itemize}
+
+## Selection bias may kill
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.3]{Figs/nyt}
+\end{figure}
+\pause
+\begin{itemize}
+  \item In 2002, the Women's Health Initiative (WHI) was launched to study estrogen plus progesterone replacement therapy.
+  \item Experiment showed a 40\% increase in risk of heart attack; the therapy also increased the risk of breast cancer and dementia. The US government had to halt the experiment and issued a new advice to physicians.
+\end{itemize}
+
+## Model selection bias (causal graphs)
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.4]{Figs/cxy}
+\end{figure}
+The average effect of binary $X$ on $Y$ with the presence of observed $C$ (discrete confounder) is then
+\begin{equation}
+\begin{split}
+& E(Y_{X=1})-E(Y_{X=0}) = \\\vspace{0.1cm}
+  & \quad \sum_C \underbrace{E(Y|X=1,C=c)P(C=c)}_{\text{observed treated units with stratum $c$}} - \sum_C \underbrace{E(Y|X=0,C=c)P(C=c)}_{\text{observed control units with stratum $c$}}.
+\end{split}
+\end{equation}
+\pause What if $C$ is unknown (i.e., $U$)?
+
+## Model selection bias (potential outcomes)
+
+Using $i$ to denote individual units in the study sample with a binary treatment $D$,
+\begin{equation}
+\begin{split}
+\underbrace{E[Y_i|D_i=1]-E[Y_i|D_i=0]}_{\text{Observed differences b/w treated and control}}
+  & = \underbrace{E[Y_{1i}|D_i=1] - E[Y_{0i}|D_i=1]}_{\text{Avg treatment effect on the treated}} \\ 
+  & \qquad + \underbrace{E[Y_{0i}|D_i=1] - E[Y_{0i}|D_i=0]}_{\text{Selection bias}},
+\end{split}
+\end{equation}
+where
+\begin{equation}
+E[Y_{1i}|D_i=1] - E[Y_{0i}|D_i=1] = E[Y_{1i}-Y_{0i}|D_i=1].
+\end{equation}
+\pause
+Can we get rid of selection bias?
+
+## Randomization comes to rescue!
+
+\pause
+With randomization, we break the link between $X$ and $C$ (or $U$, unobserved confounders). 
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.4]{Figs/cxy2}
+\end{figure}
+As such,
+\begin{equation}
+E(Y_{X=1})-E(Y_{X=0}) = \underbrace{E(Y|X=1)}_{\text{observed treated units}} - \underbrace{E(Y|X=0)}_{\text{observed control units}}.
+\end{equation}
+... and happily, thereafter.
+
+## Selection bias and randomization!
+
+With randomization, the treatment ($D_i$) and potential outcomes ($Y_i$) become independent of each other. As such,
+\begin{equation}
+\begin{split}
+\underbrace{E[Y_i|D_i=1]-E[Y_i|D_i=0]}_{\text{Observed differences b/w treated and control}}
+  & = \underbrace{E[Y_{1i}|D_i=1] - E[Y_{0i}|D_i=1]}_{\text{Avg treatment effect on the treated}} \\ 
+  & \qquad + \underbrace{E[Y_{0i}|D_i=1] - E[Y_{0i}|D_i=0]}_{\text{Selection bias}} \\
+  & = E[Y_{1i}-Y_{0i}|D_i=1] + E[Y_{0i}] - E[Y_{0i}] \\
+  & = E[Y_{1i}-Y_{0i}].
+\end{split}
+\end{equation}
+Hip hip hooray!
+
+## Causal inference as a field
+
+\pause
+\begin{itemize}
+  \item Many say causal inference is the study of "counterfactuals."
+  \vspace{0.1cm}
+  \item We need to know when the data allow us to estimate a causal effect: "identification."
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Obtain valid counterfactuals (i.e., comparable treated and control units).
+    \vspace{0.1cm}
+    \item Address the selection bias (i.e., exogenous variation in the treatment status).
+  \end{itemize}
+\end{itemize}
+
+## Causal inference as a field
+
+\begin{itemize}
+  \item Identification of causal quantities without an experiment requires "assumptions" -- the combination of assumptions and data needed to render a valid causal conclusion.
+  \vspace{0.1cm}
+  \item Many identification assumptions are best made reasonable by carefully thought-out research designs.
+  \vspace{0.1cm}
+  \item "What is your identification strategy?" -- what are the assumptions that allow you to claim you've estimated a causal effect?
+  \vspace{0.1cm}
+  \pause
+  \item \textbf{Identification does not on estimation strategies}.
+  \vspace{0.1cm}
+  \begin{itemize}
+  \item If an effect is not identified, no estimation method will recover it.
+  \vspace{0.1cm}
+  \item Estimation methods (e.g., t-test, regression, matching, weighting, 2SLS, 3SLS, SEM, GMM, GEE, dynamic panel, etc.) are secondary to the identification assumptions.
+  \end{itemize}
+\end{itemize}
+
+## Experiment vs. observational studies
+
+\begin{itemize}
+  \item Randomized experiment: well-defined treatment, clear distinction between covariates and outcomes, control of assignment mechanism.
+  \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/end3}
+  \end{figure}
+  \begin{center}
+    "That's a whoopsie!"
+  \end{center}
+\end{itemize}
+
+## Experiment vs. observational studies
+
+\begin{itemize}
+  \item Randomized experiment: well-defined treatment, clear distinction between covariates and outcomes, control of assignment mechanism.
+  \vspace{0.2cm}
+  \item Good observational study: Well-defined treatment, clear distinction between covariates and outcomes, (nearly) precise knowledge of assignment mechanism.
+  \vspace{0.2cm}
+  \item Poor observational study: Hard to say when treatment began or what the treatment really is; distinction between covariates and outcomes is blurred; no precise knowledge of assignment mechanism.
+\end{itemize}
+\vspace{0.2cm}
+\pause
+\textbf{The bottom line}: Causal inference requires that treated and control units in the study population are comparable such that the only difference is the treatment status.
+
+## ID strategies for observational studies: An informal overview
+
+\begin{itemize}
+  \item Selection on the observables (SOO).
+  \item Instrumental variables (IV).
+  \item Regression discontinuity design (RDD).
+  \item Difference-in-difference (DID).
+  \item ... and many more (e.g., fixed effect regressions and synthetic control)
+\end{itemize}
+
+## Selection on the observables
+
+\begin{itemize}
+  \item Causal inference in observational studies often rests upon this "SOO" assumption.
+  \item The intuition is to approximate a randomized experiment when one takes into account the observariable covariates. That is, $\forall x \in X$,
+  \begin{itemize}
+  \vspace{0.1cm}
+    \item Conditional ignorability; $\{Y_i(0),Y_i(1)\} \perp D_i | X_i$
+    \item Common support; $0<Pr(D_i=1|X_i=x)<1$
+  \end{itemize}
+  \item Many estimation tools are available (e.g., matching, propensity score, weighting, regression, etc.)
+\end{itemize}
+
+## Selection on the observables: Blattman and Annan (2009)
+
+\vspace{0.1cm}
+\begincols
+\begincol{.45\textwidth}
+  \begin{itemize}
+  \item The question: What is the impact of abduction by the rebel group (LRA) on education?
+  \vspace{0.1cm}
+  \item The context:
+  \begin{itemize}
+    \item 60,000 to 80,000 youth are estimated to have been abducted.
+    \item More than a quarter of males currently aged 14 to 30 in the study region were abducted for at least two weeks.
+    \item Youth were typically taken by roving groups of 10 to 20 rebels during night raids on rural homes.
+  \end{itemize}
+  \vspace{0.1cm}
+  \item ID strategy: SOO. Abduction was large-scale and seemingly indiscriminate (?).
+  \end{itemize}
+\endcol
+\begincol{.5\textwidth}
+  \begin{figure}
+  \includegraphics[scale=0.4]{Figs/uganda}
+  \end{figure}
+\endcol
+\endcols
+
+## Instrumental variables
+
+\begin{itemize}
+  \item The goal is to seek exogenous influences on treatment "taking."
+  \item Basic intuition for all causal IV work can be thought about in terms of a "randomized encouragement design" (e.g., eating pizza and happiness).
+  \item A lot of assumptions: Exclusion, relevance, random first stage, monotonicity (no defier), and so on so forth.
+\vspace{0.1cm}
+\end{itemize}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.15]{Figs/iv}
+\end{figure}
+
+## Instrumental variables: Angrist (1990)
+
+\begin{itemize}
+  \item The question: What is the effect of military service on civilian earnings?
+  \item The context: The veterans of Vietnam Wars. Draft eligibility is random and affected the probability of enrollment.
+  \item ID strategy: Instrumental variable.
+\end{itemize}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.3]{Figs/vietnam}
+\end{figure}
+
+## Discontinuity design
+
+\begin{itemize}
+  \item A fairly old idea (Thistlethwaite and Campbell 1960) but has experienced a renaissance in recent years.
+  \item Treatment assignment is not random, but the rule influencing how units are assigned is somewhat known.
+  \begin{itemize}
+    \item Forcing or running variable
+    \item Cutpoint and bandwidth
+  \end{itemize}
+  \item Assumptions: units cannot self-sort around the cut point; continuity vs discontinuity; as-if random (?).
+  \item High internal validity (see e.g. Cook, Shadish, Wong 2008). Why?
+\end{itemize}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.2]{Figs/rddfake}
+\end{figure}
+
+## Discontinuity design: Lee (2008)
+
+\begin{itemize}
+  \item The question: Does incumbency status affect election results?
+  \item The context: US congressional elections. Close elections (?) provide the opportunity for regression discontinuity.
+  \item ID strategy: RDD. Requires that continuity in covariates and potential outcomes.
+\end{itemize}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.43]{Figs/rddlee}
+\end{figure}
+
+## Differences in differences
+
+\begin{itemize}
+  \item The goal is to identify the treatment effect between two groups in two time periods (before and after).
+  \item Differences in differences refers to the difference between $t=0$ to $t=1$ changes in treatment and control groups.
+  \item Caveats: Time is tricky as treatment; parallel trends are hard to defend.
+\end{itemize}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.4]{Figs/did}
+\end{figure}
+
+## Differences in differences: Card and Krueger (1994)
+
+\begin{itemize}
+  \item The question: Do higher minimum wages reduce low-wage employment?
+  \item Card and Krueger (1994) consider impact of New Jersey's 1992 minimum wage increase from \$4.25 to \$5.05 per hour.
+  \item Compare employment in 410 fast-food restaurants in New Jersey and eastern Pennsylvania before and after the rise.
+\end{itemize}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.4]{Figs/didmap}
+\end{figure}
+
+## Natural experiment vs. quasi-experiment
+
+\begin{itemize}
+	\item Natural experiments (Dunning 2012): the treatment may be truly randomized or merely as-if randomized. This is by design a heterogeneous category that includes natural experiments that do not fall into the next two types. (RD and IV)
+	\vspace{0.2cm}
+	\item "Quasi-experiments" (Campbell and Stanley 1966): No presumption that policy interventions have been assigned at random or as-if random, and yet somehow the treated and control units are still comparable. (SOO and DID)
+\end{itemize}
+
+## Frontier
+
+\begin{itemize}
+  \item Sensitivity analysis, bias analysis, and mediation analysis
+  \item Non-conventional treatment regime
+  \item Internal vs. external validity
+  \item Machine learning and counterfactuals
+\end{itemize}
+
+## Reminders
+
+\begin{itemize}
+  \item State the "causal" question of interest: Policy-relevant and/or theoretically important.
+  \item Know the assumptions you need to support the causal claim of interest.
+  \item Design your research to maximize the credibility of causal claims -- know where your study falls on the credibility spectrum.
+  \item Master the tools for testing to maximize the credibility of causal claims.
+  \item Be aware of the priority: Existence, magnitude, and/or mechanisms?
+\end{itemize}
+\pause
+\vspace{0.3cm}
+The goal is NOT to tell you that you cannot study certain topics (we are not causality police); rather, we seek to let you answer the questions of interest in the best way possible.
+
+## Preparation
+
+\begin{itemize}
+  \item Probability theory
+  \item Multivariate calculus
+  \item Linear regression
+  \item Linear algebra
+  \item Statistical computing (e.g., \texttt{R})
+\end{itemize}
+
+## Further readings: Overview
+
+\vspace{0.3cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.42]{Figs/book1}
+\end{figure}
+
+## Further readings: Application and advanced
+
+\vspace{0.3cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.35]{Figs/book2}
+\end{figure}
+
+## Further readings
+
+\vspace{0.25cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.3]{Figs/why}
+\end{figure}
+\begin{center}
+In April 2019, Professor Judea Pearl from UCLA is elected as an American Statistical Association Fellow.
+\end{center}
+
+## Further readings
+
+\vspace{0.2cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.3]{Figs/act}
+\end{figure}
+\vspace{0.2cm}
+\begin{center}
+  "How do we decide that someone is to blame for some misfortune, or that someone deserves credit for a favorable turn of events?"
+\end{center}
+
+---
+
+\vspace{0.6cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{Figs/end1}
+\end{figure}
+\begin{center}
+  Where went wrong? What can we do?
+\end{center}
+
+---
+
+\vspace{0.6cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.26]{Figs/dag}
+\end{figure}
+\begin{center}
+  What is the minimum number of covariates one would need to estimate the effect of \textbf{E} on \textbf{D}?
+\end{center}
+
+---
+
+\vspace{0.6cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.6]{Figs/end2}
+\end{figure}
+\vspace{0.1cm}
+\begin{center}
+  \texttt{ccheng615@tsinghua.edu.cn}
+\end{center}

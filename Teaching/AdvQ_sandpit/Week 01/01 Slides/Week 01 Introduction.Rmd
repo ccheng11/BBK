@@ -1,0 +1,158 @@
+---
+title: |
+  |
+  |
+  | Advanced Topics in Quantitative Social Research
+  |
+  |
+author: |
+  | Week 1: Welcome and Introduction
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Plan for today
+
+\begin{itemize}
+	\item \textbf{Module overview}
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Objectives and arrangements
+		\item Syllabus: Readings and tutorials
+		\item Assessment and presentations (Week 11)
+	\end{itemize}
+	\vspace{0.3cm}
+	\item \textbf{Introduction}: Tell us about yourself
+	\vspace{0.3cm}
+	\item \textbf{Exercise}: A quick recap on OLS (and will be continued in Week 2)
+\end{itemize}
+
+# Objectives and arrangements
+
+\begin{itemize}
+	\item Advanced Quants covers a selection of topics on \textbf{model-} (Weeks 2-4) and \textbf{design-}based (Weeks 7-10) statistical inference
+	\vspace{0.2cm}
+	\item Students are expected to be familiar with \textbf{multiple linear regression} and \textbf{basic \texttt{R} programming} before they join
+	\vspace{0.2cm}
+	\item The weekly syllabus is \textbf{tentative} and can be adjusted depending on students' progress 
+	\vspace{0.2cm}
+	\item The 90- to 120-min in-person tutorials will be used to
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Answer your questions about the readings and recorded lectures
+		\item Give you the chance to implement the analysis in \texttt{R}
+		\item Help you prepare for the final project (Weeks 5 and 11)
+	\end{itemize}
+\end{itemize}
+
+# Weekly syllabus
+
+\begin{itemize}
+	\item \textbf{Week 1}: Introduction
+	\item \textbf{Weeks 2-4}: Generalized linear model
+	\begin{itemize}
+		\item Week 2: From OLS to GLM
+		\item Week 3: Logit regression
+		\item Week 4: Multilevel modeling
+	\end{itemize}
+	\item \textbf{Weeks 5}: Final analytical project
+	\item \textbf{Weeks 7-10}: Applied causal inference
+	\begin{itemize}
+		\item Selection on the observables (matching)
+		\item Regression discontinuity design
+		\item Instrumental variable
+		\item Difference-in-difference
+	\end{itemize}
+	\item \textbf{Week 11}: Looking beyond adv quants
+\end{itemize}
+
+# Textbooks: Clear explanation without much math (under most circumstances)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/textbook.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/tufte_new.pdf")
+```
+
+# Additional resources on Moodle
+
+\begin{itemize}
+	\item You can find a variety of additional/supplementary resources -- the key principle is to be \textbf{selectively thorough}
+	\vspace{0.2cm}
+	\begin{itemize}
+		\item Supplementary textbooks: Use them when you find the main text is not clear; feel free to discuss with me if you are interested in purchasing any of them
+		\vspace{0.1cm}
+		\item Mathematics refresher: Review key math concepts and terms, especially \textbf{basic algebra}, if necessary; \textbf{Khan Academy} is a good start
+		\vspace{0.1cm}
+		\item R Programming: Help yourself when you have a hard time; pick one of the books and use the online community (e.g., \textbf{R-bloggers} and \textbf{Stack Overflow}) to keep yourself updated
+		\vspace{0.1cm}
+		\item Podcasts: Get a sense of how professional quant social researchers present and discuss their work
+	\end{itemize}
+\end{itemize}
+
+# Assessment
+
+\begin{itemize}
+	\item \textbf{Exercises I and II} (20\%): Students will complete \textbf{two short data analytical exercises} based on the weekly tutorials
+	\vspace{1cm}
+	\item \textbf{Final project} (60\%): Students will complete \textbf{a quantitative research note of about 4,000 words}, excluding footnotes, bibliography, and appendices (R script and supplementary information). More details will be discussed in \textbf{Week 5}
+\end{itemize}
+
+# Next week
+
+\begin{itemize}
+	\item We will review OLS and discuss why we need GLM (non-linear multiple regression)
+	\vspace{0.5cm}
+	\item Before you come to class
+	\vspace{0.2cm}
+	\begin{itemize}
+		\item Install \textit{R} and \textit{RStudio} on your laptop and bring it to class
+		\item Read the assigned chapters (either \textit{Beyond Multiple Linear Regression} OR \textit{The Effect})
+		\item Watch the recorded lecture (uploaded on Thursday or Friday)
+	\end{itemize}
+\end{itemize}
+
+# Introduction
+
+\begin{itemize}
+	\item Please share your name, course, and subject area (e.g., political science) with us
+	\vspace{0.4cm}
+	\item Please share your experiences with quant social research. What are some of the most rewarding and/or challenging moments?
+	\vspace{0.4cm}
+	\item Please share your potential research ideas for the final project. Any datasets you plan to study? We will continue the discussion on your research ideas in Week 5
+\end{itemize}
+
+# Recap: OLS
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/ols.pdf")
+```
+
+# Recap: OLS
+
+\begin{itemize}
+	\item Go through the \textbf{two-dimensional scatterplot}; locate and define/explain the following concepts:
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Explanatory and dependent variables
+		\item Data point or individual observation
+		\item Fitted line (intercept and slope)
+		\item Residuals and goodness-of-fit
+		\item Model specification
+	\end{itemize}
+	\vspace{0.5cm}
+	\item What is the idea behind the name of ordinary least squares (OLS)?
+\end{itemize}

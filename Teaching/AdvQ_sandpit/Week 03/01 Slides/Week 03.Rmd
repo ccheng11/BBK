@@ -1,0 +1,295 @@
+---
+title: |
+  |
+  |
+  | Generalized Linear Model: Logit Regression
+  |
+  |
+author: |
+  | Advanced Topics in Quant Social Research
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Plan for the day
+
+\begin{itemize}
+	\item From OLS to GLM
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Recap on the fundamentals of OLS
+    \item Why OLS can "fail" with binary/binomial outcomes
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Using logit regression to model binary/binomial outcomes
+  \begin{itemize}
+    \item Treating outcomes as probability
+    \item Logit regression: Setup and inferences
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Concluding remarks
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Wrapping up the loose ends
+    \item Other generalized linear models
+  \end{itemize}
+\end{itemize}
+
+# From OLS to GLM: Recap on the fundamentals of OLS
+
+\begin{itemize}
+  \item "Least squares linear regression" (aka \textbf{ordinary least squares}, OLS) uses a \textbf{linear} function to model the relationship between $X$s (predictors) and $Y$ (dependent variable).
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item A \textbf{bivariate} linear regression model (of one predictor) can be specified as $$Y=\alpha+\beta X+\epsilon,$$ where $\alpha$ and $\beta$ are the \textbf{intercept} (or constant) and the \textbf{slope} of the linear function.
+    \item A \textbf{multiple} linear regression (of $k$ predictors) can be specified as
+  \begin{equation}
+  \begin{split}
+  Y&=\alpha+X\beta+\epsilon\\
+  &=\alpha+\beta_1X_1+\beta_2X_2+\dots+\beta_{k-1}X_{k-1}+\beta_kX_k+\epsilon,
+  \end{split}
+  \end{equation}
+  where $\beta_k$ is the corresponding slope of predictor $X_k$.
+  \end{itemize}
+  \vspace{0.2cm}
+  \item We use $\epsilon$ to represent error or disturbance in the \textbf{data generation process} (DGP).
+\end{itemize}
+
+# From OLS to GLM: Recap on the fundamentals of OLS
+
+\begin{itemize}
+  \item With certain assumptions (linearity, independence, normality and homoscedasticity/equal variance of $Y$),
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item OLS can produce \textbf{unbiased} estimates for the intercept and slope(s)
+    \item The estimates are not necessarily \textbf{efficient}, as the variance/standard error of the estimates depends on statistical power (or sample size)
+  \end{itemize}
+  \vspace{0.6cm}
+  \item OLS can also find the \textbf{"best"} fitted regression line based on our data by generating $\widehat{\alpha}$ and $\widehat{\beta}$s that lead to the smallest \textbf{sum of squared errors}
+  \vspace{0.6cm}
+  \item OLS can model complicate non-linear DGP with the inclusion of \textbf{interaction} and \textbf{quadratic/polynomial} terms.
+\end{itemize}
+
+# From OLS to GLM: When OLS goes wrong
+
+\begin{itemize}
+  \item OLS can go wrong when the dependent (or outcome or response) variable is a binary or binomial (Legler and Roback 2021).
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Binary} variables take on only two values: Success/yes ($Y=1$) or fail/no ($Y=0$).
+    \item \textbf{Binomial} variables the number of successes in $n$ identical, independent trials with a constant probability $p$ of success.
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Binary/binomial variables are ubiquitous in life. Using voter turnout as the example:
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Binary}: For individual voters, they can either vote or shirk (i.e., do not vote in the elections).
+    \item \textbf{Binomial}: For for all voters in a constituency, we can calculate the turnout rate (i.e., the percentage of eligible voters participating in the elections), if we assume each voter's decision to vote is independent and has the same probability.
+  \end{itemize}
+\end{itemize}
+
+# From OLS to GLM: When OLS goes wrong
+
+\begin{itemize}
+  \item \textbf{Unrealistic predicted outcome}. OLS can generate unrealistic predictions when $Y$ is binary/binomial (or bounded).
+  \vspace{1cm}
+  \item \textbf{Unequal variance of $Y$}. The homoscedasticity assumption will be be violated when $Y$ is binary/binomial.
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/compare_crop.pdf")
+```
+\pause
+\textbf{Linear regression generate unrealistic predictions below 0 and above 1.}
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/compare_crop.pdf")
+```
+\textbf{Linear regression generate unequal error across different values/levels of $X$.} The error is larger as $X$ gets close to the midpoint.
+
+# Using logit to model binary/binomial outcomes
+
+\begin{itemize}
+  \item Using logit regression requires the following four steps:
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item Step 1: Treating binary/binomial outcomes as \textbf{probability}
+    \vspace{0.2cm}
+    \item Step 2: Transforming probability into \textbf{log odds}
+    \vspace{0.2cm}
+    \item Step 3: Using \textbf{linear function} to model log odds
+    \vspace{0.2cm}
+    \item Step 4: Interpreting the estimated slopes using \textbf{odds ratio}
+  \end{itemize}
+\end{itemize}
+
+# Using logit regression: Treating outcomes as a probability
+
+\begin{itemize}
+  \item Logit regression is used to model a \textbf{binary} outcome or a probability, which we denote as $p$.
+  \vspace{0.2cm}
+  \item By the probability \textbf{axioms},
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item A probability $p$ can only take the values between 0 and 1.
+    \item The probability of an event happening (e.g., two countries fight) and that of the same event not happening (e.g., two countries do not fight) will sum up to 1.
+  \end{itemize}
+  \vspace{0.2cm}
+  \item In practice, we use $0$ and $1$ for the outcome variable to indicate whether an event takes place
+  \begin{equation}
+  \begin{cases}
+  &Y = 1 \quad \text{\text{when an event takes place}}\\
+  &Y = 0 \quad \text{\text{when an event does not take place}},
+  \end{cases}
+  \end{equation}
+  and we aim to use logit to estimate $p$, the probability of an event occuring (i.e., $P(Y=1)$).
+\end{itemize}
+
+# Logit regression: Transforming probability into log odds
+
+If $p$ is the probability of an event, then the odds is $$\frac{p}{1-p},$$ which suggests the chance of an event taking place relative to the opposite scenario.
+\vspace{0.2cm}
+\pause
+\begin{itemize}
+  \item Say today's probability of raining is 0.8, such that $P(\text{rain})=0.8$.
+  \item The \textbf{odds} of raining is then $$\frac{P(\text{rain})}{P(\text{no rain})}=\frac{P(\text{rain})}{1-P(\text{rain})}=\frac{0.8}{1-0.8}=\frac{0.8}{0.2}=4.$$
+  \item The \textbf{log of odds} is thus the natural log of 4 $$\log_e\left(\frac{P(\text{rain})}{P(\text{no rain})}\right)=\ln\left(\frac{P(\text{rain})}{P(\text{no rain})}\right)=\ln(4).$$
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/logodds.pdf")
+```
+\textbf{As we transform a binomial/binary variable from probability into log odds, it is no longer bounded between 0 and 1.}
+
+# Logit regression: Using \textbf{linear function} to model log odds
+
+\begin{itemize}
+  \item \textbf{Logit regression is a generalized linear model} (GLM) as we are using a \textbf{linear function} to model log odds.
+  \vspace{0.4cm}
+  \item Logit regression first uses the \textbf{logit link function}: $$\text{logit}(P(Y=1))=\text{logit}(p)=\ln\left(\frac{p}{1-p}\right),$$
+  where $p$ is the probability that $Y=1$.
+  \vspace{0.4cm}
+  \item A simple \textbf{bivariate logit regression} can be specified as: $$\ln\left(\frac{p}{1-p}\right)=\alpha+\beta X+\epsilon.$$
+\end{itemize}
+
+# Logit regression: Assumptions
+
+\begin{itemize}
+  \item Logit regression is not assumption free, and some assumptions may not be plausible in real life.
+  \vspace{0.7cm}
+  \begin{itemize}
+    \item The dependent variables can only \textbf{take the value of 0 or 1}.
+    \vspace{0.5cm}
+    \item The observations must be \textbf{independent} of each other.
+    \vspace{0.5cm}
+    \item The log of odds must be a \textbf{linear} function of the predictors.
+  \end{itemize}
+\end{itemize}
+
+# Logit regression: Interpreting the estimated slopes
+
+$$\log\left(\frac{p}{1-p}\right)=\alpha+\beta X$$
+\vspace{0.2cm}
+\begin{itemize}
+    \item \textbf{One-unit increase in $X$} (e.g., moving $X$ from 0 to 1) corresponds to $\beta$ changes in $\log\left(\frac{p}{1-p}\right)$
+    \begin{equation}
+    \begin{split}
+    \beta&=\log(\text{Odds When X=1})-\log(\text{Odds When X=0})\\
+    &=\log\left(\frac{\text{Odds When X=1}}{\text{Odds When X=0}}\right).
+    \end{split}
+    \end{equation}
+    \item Taking the exponent of $\beta$ will return the \textbf{odds-ratio} (OR), or $$e^{\beta}=\frac{\text{Odds When X=1}}{\text{Odds When X=0}}.$$
+\end{itemize}
+
+# Example: Election campaigning and winning the elections
+
+$$\text{logit}(P(\text{win}))=\log\left(\frac{P(\text{win})}{1-P(\text{win}})\right)=-1.40+0.33\times\text{hours of TV campaign}.$$\
+\vspace{0.2cm}
+\begin{itemize}
+  \item When the party spends one additional hour on campaigning on TV, we know
+  \begin{itemize}
+    \item the corresponding \textbf{change in log-odds of winning} is $0.33$.
+    \item the corresponding \textbf{odds-ratio} is $$e^{0.33}\approx 1.39.$$
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Question: Should the party spend more time on televised campaigns?
+\end{itemize}
+
+---
+
+$$e^{\beta}=\frac{\text{Odds When X=1}}{\text{Odds When X=0}}.$$\
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/or_table.pdf")
+```
+\vspace{0.4cm}
+\textbf{Given that the odds ratio is larger than 1, the party should spend more hours on televised campaigns.}
+
+# Concluding remarks: Wrapping up the loose ends
+
+\begin{itemize}
+  \item Same as OLS, we can use the $p$-value and confidence intervals to test the statistical significance of the estimated odds ratio.
+  \vspace{0.2cm}
+  \item Instead of using odds ratio to report your results, an alternative is to calculate predicted probabilities.
+  \vspace{0.2cm}
+  \item Another alternative is to use \textbf{linear probability model}, but you will need to
+  \begin{itemize}
+    \item Investigate the prevalence of implausible predicted outcome (i.e., $\widehat{Y}<0$ or $\widehat{Y}>1$)
+    \item Correct the standard errors using the \textbf{sandwich} estimator
+  \end{itemize}
+  \vspace{0.2cm}
+  \item \textbf{[Extra]} Compared with OLS, logit and other non-linear GLMs are more likely to produce biased estimates when the model omits some important predictors and estimates across different models are not readily comparable (Breen et al 2018).
+\end{itemize}
+
+# Concluding remarks: Other GLMs
+
+\begin{itemize}
+  \item Varieties of modeling choices by the type of response variables.
+  \pause
+  \begin{itemize}
+    \item Continuous responses: OLS
+    \item Binary responses: Logit/probit
+    \item Ordinal responses: Ordered logit/probit
+    \item Categorical responses: Multinomial logit/probit
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Resources:
+  \begin{itemize}
+    \item "R Data Analysis Examples" by UCLA Statistical Methods and Data Analytics (\url{https://stats.oarc.ucla.edu/other/dae/}) -- you can find many practical examples here.
+    \item "Regression and Other Stories" (2020) by Aki Vehtari, Andrew Gelman, and Jennifer Hill -- if you need a comprehensive coverage.
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/quote.pdf")
+```
+\vspace{0.3cm}
+\begin{scriptsize}
+\begin{center}
+Source: Box, George E.P. 1976. "Science and Statistics." \textit{Journal of the American Statistical Association 71}(356): 791-799.
+\end{center}
+\end{scriptsize}
+
+# Key texts
+
+\begin{itemize}
+  \item \textit{Regression and Other Stories} (Vehtari et al 2020), Chapters 13-14
+  \vspace{1cm}
+  \item \textit{Beyond Multiple Linear Regression} (Legler and Roback 2021), Chapter 6
+  \vspace{1cm}
+  \item "Interpreting and Understanding Logits, Probits, and Other Nonlinear Probability Models," \textit{Annual Reviews of Sociology} (Breen et al 2018)
+\end{itemize}

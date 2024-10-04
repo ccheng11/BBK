@@ -1,0 +1,328 @@
+1
+00:00:00,867 --> 00:00:04,677
+So again, remember linear multilevel regression,
+
+2
+00:00:04,677 --> 00:00:12,237
+which is the focus of last week and this week is one of the possible extensions of the classical linear
+
+3
+00:00:12,237 --> 00:00:21,297
+regression or ordinary least squares and linear multilevel regression or other nonlinear multilevel regression --
+
+4
+00:00:21,297 --> 00:00:32,037
+they can be useful because very often our data or our observations can be nested within different clusters or different groups.
+
+5
+00:00:32,037 --> 00:00:38,187
+So by doing multilevel regression, basically we want to make sure that, you know,
+
+6
+00:00:38,187 --> 00:00:45,480
+we want to provide the opportunity for us to create different regression lines for different cluster of different groups, right?
+
+7
+00:00:54,140 --> 00:01:00,050
+if we just fit our data with linear regression and say we only have one predictor.
+
+8
+00:01:00,050 --> 00:01:05,480
+We are going to have one intercept and one slope eventually, right?
+
+9
+00:01:05,480 --> 00:01:16,820
+And in the case of nested data, which means we can cluster our observations into different categories of groups, as you can see in the example here.
+
+10
+00:01:16,820 --> 00:01:21,080
+Like, for instance, we can put students into different classrooms.
+
+11
+00:01:21,080 --> 00:01:24,080
+We can put corporations into different nations.
+
+12
+00:01:24,080 --> 00:01:33,080
+And we can put the voters -- say, in the place of the UK -- into different constituencies by doing linear multilevel model.
+
+13
+00:01:33,080 --> 00:01:43,640
+We actually have the opportunity to find a unique regression line for different groups or different clusters, which means eventually,
+
+14
+00:01:43,640 --> 00:01:47,870
+instead of just having one fixed intercept and the slot,
+
+15
+00:01:47,870 --> 00:01:58,790
+we can have more than one or multiple intercepts and slopes across different clusters, depending on how we want to set our model.
+
+16
+00:01:58,790 --> 00:02:06,260
+So which means, you know, the advantage or pros of multilevel modeling is it's highly flexible, right?
+
+17
+00:02:06,260 --> 00:02:11,930
+Because you can decide by yourself, you know, either statistically or substantively, you know,
+
+18
+00:02:11,930 --> 00:02:21,489
+if you want to vary the intercept or vary the slope or you want to vary both of them or just for one of them,
+
+19
+00:02:21,764 --> 00:02:30,524
+it's really nuanced and flexible and really powerful. But at the same time, you know, very often a multilevel model can become really complicated,
+
+20
+00:02:30,524 --> 00:02:33,404
+you know, formally speaking and computationally speaking.
+
+21
+00:02:33,404 --> 00:02:41,774
+So sometimes it can be quite time-consuming to fit a multilevel model in R or other statistical package.
+
+22
+00:02:41,774 --> 00:02:47,405
+And another issue associated with multilevel modeling is: in the case of linear multilevel modelling.
+
+23
+00:02:50,483 --> 00:02:57,983
+To derive p-value or other statistics you need for hypothesis testing can be a bit challenging.
+
+24
+00:02:57,983 --> 00:03:06,264
+So let's why, if you remember from the previous week, I say, you know, a lot of people choose to do multilevel modeling in the Bayesian way.
+
+25
+00:03:06,470 --> 00:03:15,110
+So this is a really typical example of classical and multilevel regression, right?
+
+26
+00:03:15,110 --> 00:03:18,230
+So on the upper left corner,
+
+27
+00:03:18,230 --> 00:03:28,550
+we want to use the years of experience in the college to predict the salary of different professors or lecturers.
+
+28
+00:03:28,550 --> 00:03:33,170
+And if we just do the traditional or the classical linear regression,
+
+29
+00:03:33,170 --> 00:03:41,660
+we are just going to have one regression line meaning that we are going to have one slope and one intercept.
+
+30
+00:03:41,660 --> 00:03:53,540
+But by using multilevel or linear multilevel regression, we can actually try to vary the intercept and the slope for different groups.
+
+31
+00:03:53,540 --> 00:03:56,960
+And in this case, a group is a department.
+
+32
+00:03:56,960 --> 00:04:04,040
+So, you know, depending on how you want to sound the model, we can find a unique regression line for different departments.
+
+33
+00:04:04,040 --> 00:04:13,448
+For instance, you can just vary the intercept or you can just vary the slope or you can have the opportunity to vary both.
+
+34
+00:04:18,035 --> 00:04:24,635
+we can actually find really unique or different regression lines across different departments, right?
+
+35
+00:04:24,635 --> 00:04:32,885
+So for instance, in this case, if you look at the lines for Department of Informatics and the Department of Sociology,
+
+36
+00:04:32,885 --> 00:04:39,545
+there's clearly a positive correlation between years of experience and the predicted salary.
+
+37
+00:04:39,545 --> 00:04:46,595
+But in some other departments, I would say, especially the Department of Biology and the Department of Statistics,
+
+38
+00:04:46,595 --> 00:04:53,135
+we don't really see a strong connection between seniority and the salary of a particular staff member.
+
+39
+00:04:53,415 --> 00:04:59,475
+So last week, one of you asked about the difference between multivariate and the multi-level linear regression.
+
+40
+00:04:59,475 --> 00:05:07,845
+It's actually a really good question. So I want to spend some time talking about this -- because even though they have very similar names,
+
+41
+00:05:07,845 --> 00:05:12,945
+but they are actually talking about quite different things. On one hand,
+
+42
+00:05:12,945 --> 00:05:18,555
+the difference between bivariable and  multivariate regression is about the number of
+
+43
+00:05:18,555 --> 00:05:25,395
+predictors or the number of explanatory variables you want to include in your regression.
+
+44
+00:05:25,395 --> 00:05:32,355
+So basically, you know, by thinking about a number of explanatory variables we want to include in our model
+
+45
+00:05:32,355 --> 00:05:40,048
+we try to increase the predictive or explanatory power of the linear regression line.
+
+46
+00:05:40,324 --> 00:05:48,454
+By expanding the dimensions we want to include in our statistical analysis, which you are going to see in the next slide.
+
+47
+00:05:48,454 --> 00:05:50,014
+Well,
+
+48
+00:05:50,014 --> 00:05:59,884
+another way to think about regression is, again, by thinking about either you want to do a classical (single-level) or the multilevel regression.
+
+49
+00:05:59,884 --> 00:06:05,134
+And here we are not talking about whether or not you should include more predictors, right?
+
+50
+00:06:05,134 --> 00:06:08,614
+So because we can do multilevel with just one predictor.
+
+51
+00:06:08,614 --> 00:06:10,668
+But if there's only one predictor, the beautiful part of multilevel model is to allow us to find the different slopes for each cluster or group in your data.
+
+52
+00:06:10,858 --> 00:06:15,629
+The beautiful part of multilevel modelling is that we can find different slopes for
+
+53
+00:06:17,718 --> 00:06:24,348
+each cluster or each group in your data with respect to a particular predictor.
+
+54
+00:06:24,348 --> 00:06:33,708
+Right. So if we if we put both considerations together, there are actually four ways for you to fit your data
+
+55
+00:06:33,708 --> 00:06:35,815
+when you are doing regression analysis. So, for instance, if this is a classical regression, you know,
+
+56
+00:06:39,369 --> 00:06:51,039
+in which we are only going to have one fixed to intercept and fixed slopes for each predictor we include in the model, right?
+
+57
+00:06:51,039 --> 00:07:01,949
+So if we are only doing bivariate classical regression, then we are just going to have one fixed intercept and one fixed slope.
+
+58
+00:07:01,949 --> 00:07:07,659
+And if we have two predictors, then pretty much we enter a three dimensional space.
+
+59
+00:07:07,659 --> 00:07:12,279
+So that's why you can see there is X1, X2 and Y.
+
+60
+00:07:12,279 --> 00:07:20,149
+And by doing multivariate regression, we're actually trying to find the plane.
+
+61
+00:07:20,149 --> 00:07:28,639
+That's the plane that can best fit our data, and eventually we are still going to just have one beta_1 and one beta_2.
+
+62
+00:07:28,639 --> 00:07:39,199
+So classical regression is basically a technique for us to find our one fixed intercept and the one fixed slope for each predictor in our model
+
+63
+00:07:39,199 --> 00:07:45,608
+regardless of, you know, any clustering or grouping dynamics in our data.
+
+64
+00:07:45,824 --> 00:07:54,404
+So when it comes to multilevel regression, again, the issue is not really about how many predictors we want, including the model, right?
+
+65
+00:07:54,404 --> 00:07:59,744
+It's about how many clusters or how many groups we want to consider in our data.
+
+66
+00:07:59,744 --> 00:08:09,434
+For instance, if we are talking about students in the school and we can categorise the students into three different classrooms,
+
+67
+00:08:09,434 --> 00:08:19,044
+then the use of multilevel regression basically allows us to identify the intercept and the slopes across different clusters,
+
+68
+00:08:19,044 --> 00:08:20,564
+depending on say, you know,
+
+69
+00:08:20,564 --> 00:08:30,584
+if we want to find a different intercept for each of these classrooms or we want to find different betas for each of these classrooms,
+
+70
+00:08:30,584 --> 00:08:35,634
+or you want to vary both intercept and the slope across different classrooms.
+
+71
+00:08:35,634 --> 00:08:43,244
+So in total, if there's only one predictor, they are at least three multilevel models we can fit.
+
+72
+00:08:43,244 --> 00:08:50,234
+And depending on your choice and when we move on to multivariate say,
+
+73
+00:08:50,234 --> 00:08:56,444
+we want to include one additional predictor that things can become more or less a bit tricky
+
+74
+00:08:56,444 --> 00:09:02,654
+because now you have to ask yourself when you are trying to fit a multivariate and multilevel model,
+
+75
+00:09:02,654 --> 00:09:08,504
+then you your choice is there are three things you can
+
+76
+00:09:08,504 --> 00:09:12,644
+You can vary across different clusters. One is the intercept
+
+77
+00:09:12,644 --> 00:09:21,224
+And the second thing is beta_1, meaning the slope of the first predictor; and also the slope of the second predictor.
+
+78
+00:09:21,224 --> 00:09:29,534
+So putting it together, you know, you can actually have, say, seven multilevel model so you can fit, right?
+
+79
+00:09:29,534 --> 00:09:35,774
+Because for each of these alpha, beta_1, and beta_2
+
+80
+00:09:35,774 --> 00:09:44,709
+We can always make them fixed across different clusters and -- or we want to make them vary across different clusters or different groups in the data.
+
+81
+00:09:45,706 --> 00:09:52,886
+So an easy way to think about is is for any baseline linear regression with a fixed intercept and slope(s)
+
+82
+00:09:52,886 --> 00:10:03,826
+There would be at least two to the power of K minus one multilevel models you can fit where K refers to the number of predictors.
+

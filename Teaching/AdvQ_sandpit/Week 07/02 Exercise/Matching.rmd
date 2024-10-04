@@ -1,0 +1,193 @@
+---
+title: "Selection on the Observables"
+author: ""
+date: \today
+fontsize: 11pt
+linestretch: "1.1"
+indent: false
+papersize: a4paper
+format:
+  pdf:
+    keep-tex: false
+    number-sections: true
+    shift-heading-level-by: 0
+    toc: false
+    pdf-engine: "xelatex"
+---
+
+In this problem set, we will use *selection on the observables* to identify the effect of legislative elections on the use of mass repression in authoritarian regimes.
+
+Before you start, please download the dataset from Moodle and import it into `RStudio`. If you would like to submit this problem set, please complete the questions at the end.
+
+# Variables
+
+For this exercise, we will use the following variables retrieved from a variety of cross-national datasets on civil liberties (Freedom House, see \url{https://freedomhouse.org/report/freedom-world}) and socioeconomic development.
+
+The key **outcome** variable of interest is `fh_CL` -- a rating of civil liberties given by the Freedom House for all post-Cold War authoritarian regimes.
+
+The **treatment** of current interest is `leg_elec` -- a binary variable to indicate whether the authoritarian regime allows election or not.
+
+We will consider the following confounders:
+
+  - `lg_fh_CL` -- the outcome variable lagged by one year.
+
+  - `lg_epr_gdpcapl` -- lagged GDP per capita (logged).
+
+  - `lg_grow` -- lagged economic growth rate.
+
+  - `ross_population` -- population size.
+
+  - `epr_ethfrac` -- the index of ethnolinguistic fractionalization.
+
+  - `arc_turn` -- a binary variable to indicate whether the country experienced leadership turnover in the prior year.
+
+## Load Packages
+
+Other than the packages we have used before, we will need the following packages, we will need `Matching` and `ebal` to carry out the matching estimation.
+
+```{r, echo=T, eval=T, message=F}
+library(ggplot2)
+library(stargazer)
+library(tidyverse)
+library(Matching)
+library(ebal)
+```
+
+## Read Data
+
+```{r, echo=F, eval=T, message=F}
+setwd("C:/Users/polar/Downloads/Sandbox/Teaching/AdvQ/Week 07/02 Exercise/Data")
+dta <- readRDS("EAR_selection.RData")
+dta_sel <- dta %>%
+  dplyr::select(leg_elec, fh_CL, lg_fh_CL, lg_epr_gdpcapl, lg_grow, ross_population, epr_ethfrac, arc_turn) %>%
+  drop_na()
+```
+
+```{r, echo=F, eval=F, message=F}
+dta <- readRDS("EAR_selection.RData")
+dta_sel <- dta %>%
+  dplyr::select(leg_elec, fh_CL, lg_fh_CL, lg_epr_gdpcapl, lg_grow, ross_population, epr_ethfrac, arc_turn) %>%
+  drop_na()
+```
+
+Here we can use four functions to take a peak at the dataset.
+
+```{r, echo=T, eval=F, message=F}
+names(dta_sel) # list all columns (variables)
+ls(dta_sel) # list all columns (variables) alphabetically
+summary(dta_sel) # show summary statistics
+head(dta_sel) # show first 6 rows
+```
+
+## Disable Scientific Notation (Optional)
+
+We will also need to use `options` at the very beginning to disable print out our results in scientific notation.
+
+```{r, echo=T, eval=F, message=F}
+options(scipen=999)
+```
+
+# OLS
+
+```{r, echo=T, eval=T, message=F}
+mod_ols_1 <- lm(fh_CL ~ leg_elec +
+  lg_epr_gdpcapl + lg_grow +
+  ross_population + epr_ethfrac + arc_turn, data=dta_sel)
+mod_ols_2 <- lm(fh_CL ~ lg_fh_CL +
+  leg_elec + lg_epr_gdpcapl + lg_grow +
+  ross_population + epr_ethfrac + arc_turn, data=dta_sel)
+
+stargazer(list(mod_ols_1, mod_ols_2),
+          omit.stat = c("f", "rsq", "ser"),
+          covariate.labels = c("Lagged civil liberties",
+                               "Legislative election (=1)",
+                               "GDP per capita",
+                               "Economic growth",
+                               "Population",
+                               "Ethnic diversity",
+                               "Leadership turnover"),
+          omit = c("as.factor"),
+          type = "text",
+          digits = 3, 
+          no.space = T,
+          intercept.bottom = TRUE,
+          star.cutoffs = c(0.05, 0.01, 0.001))
+```
+
+# Matching
+
+The strategy of selection on the observables (SOO) is very similar to multiple regression analysis, as it rests upon the assumption of **conditional ignorability** -- that is, we assume that conditional on some **pre-treatment observable covariates**, whether or not an observation will receive the treatment can be considered **as if** random. This is a very strong assumption indeed.^[Another assumption for SOO is common support, which says for a given pretreatment covariate the probability of a unit receiving the treatment is always larger than zero.]
+
+To implement SOO is to carry out **matching**. We will discuss the distinction between SOO and multiple regression in class, but here we provide the intuition that SOO usually will give us **ATT**, as we are trying to use matched observations to approximate the potential outcomes of treated units. Below we will carry out the estimation step by step.
+
+## Step 1: Verify the treatment assignment is not random
+
+```{r, echo=T, eval=T, message=F}
+pre_balance <- lm(leg_elec ~ lg_fh_CL + lg_epr_gdpcapl + lg_grow + ross_population + epr_ethfrac + arc_turn, data=dta_sel)
+summary(pre_balance)
+```
+
+## Step 2: Study pre-matching balance between the treatment and control groups
+
+```{r, echo=T, eval=T, message=F}
+vars <- c("Lagged civil liberties", "GDP per capita", "Economic growth", "Population", "EFL", "Leadership turnover")
+mb <- MatchBalance(leg_elec ~ lg_fh_CL + lg_epr_gdpcapl + lg_grow + ross_population + epr_ethfrac + arc_turn, data=dta_sel)
+btest <- baltest.collect(mb, var.names=vars, after=F)
+round(btest[, c("mean.Tr","mean.Co","T pval")], 3)
+```
+
+## Step 3: Carry out (bias-adjusted) matching
+
+```{r, echo=T, eval=T, message=F}
+matchout <- Match(Y=dta_sel[,2], Tr=dta_sel[,1], X=dta_sel[,3:8], M=5, exact=rep(FALSE, 5), estimand="ATT", BiasAdjust=TRUE)
+summary(matchout)
+```
+
+## Step 4: Examine post-matching balance
+
+```{r, echo=T, eval=T, message=F}
+vars <- c("Lagged civil liberties", "GDP per capita", "Economic growth", "Population", "EFL", "Leadership turnover")
+mb.out <- MatchBalance(match.out=matchout,
+                       leg_elec ~ lg_fh_CL + lg_epr_gdpcapl + lg_grow + ross_population + epr_ethfrac + arc_turn, data=dta_sel)
+btest_after <- baltest.collect(mb.out, var.names=vars, after=T)
+round(btest_after[,c("mean.Tr","mean.Co","T pval")], 3)
+```
+
+# Matching by Propensity Score
+
+Rather than using the values of individual confounders or covariates to carry out the matching estimation, we can also use **propensity score** to match treated and control units. To do so, we will first need to estimate the probability that a unit will receive the treatment, using the covariates we have just specified.
+
+## Step 1: Estimating the propensity score
+
+```{r, echo=T, eval=T, message=F}
+pi.out <- glm(leg_elec ~ lg_fh_CL + lg_epr_gdpcapl + lg_grow + ross_population + epr_ethfrac + arc_turn,
+             data=dta_sel, family=binomial(link="probit"))
+#pi.out$fit
+```
+
+## Step 1b: Compare the density plot of propensity scores for treatment and control groups
+
+```{r, echo=T, eval=T, message=F}
+plot(density(pi.out$fit[dta_sel$leg_elec==1]), lwd=2,
+  main="Distribution of p-scores")
+lines(density(pi.out$fit[dta_sel$leg_elec==0]), lwd=2, lty=2)
+legend("topleft", legend=c("treated","controls"), lty=c(1,2), lwd=2)
+```
+
+## Step 2: Matching
+
+```{r, echo=T, eval=T, message=F}
+matchout.pi <- Match(Y=dta_sel$fh_CL, Tr=dta_sel$leg_elec, X=pi.out$fit,
+                     M=5, exact=FALSE, estimand="ATT", BiasAdjust=T)
+summary(matchout.pi)
+```
+
+## Step 3: Examine post-matching balance
+
+```{r, echo=T, eval=F, message=F}
+vars <- c("Lagged civil liberties", "GDP per capita", "Economic growth", "Population", "EFL", "Leadership turnover")
+mb.out.pi <- MatchBalance(match.out=matchout.pi,
+                          leg_elec ~ lg_fh_CL + lg_epr_gdpcapl + lg_grow + ross_population + epr_ethfrac + arc_turn, data=dta_sel)
+btest_after <- baltest.collect(mb.out.pi, var.names=vars, after=T)
+round(btest_after[,c("mean.Tr","mean.Co","T pval")], 3)
+```
