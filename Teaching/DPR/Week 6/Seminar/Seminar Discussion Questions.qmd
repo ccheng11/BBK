@@ -1,0 +1,36 @@
+---
+title: "Week 6 Reading Questions"
+date: today
+date-format: long
+fontsize: 12pt
+papersize: letter
+indent: true
+format:
+ pdf:
+  keep-tex: false
+  linestretch: 1
+  number-sections: true
+  shift-heading-level-by: 0
+  reference-links: true
+  reference-location: document
+  toc: false
+  pdf-engine: "xelatex"
+---
+
+# Russell and Serban
+
+ - What is the ‘Westminster model’?
+
+ - Why do Russell and Serban criticise it as a concept?
+
+ - Should we abandon the concept? Are there ways in which it could be useful?
+
+# Caraway
+
+ - What case does Morgan examine? What is this a case of?
+
+ - How generalisable are the findings from this single case?
+
+ - What evidence did Morgan use? How convincing is it?
+
+ - How could the study have been improved? What other methods could have been used? Would a comparative case study have worked better?
