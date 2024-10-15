@@ -19,6 +19,21 @@ fontsize: 10pt
 
 # Assessment: Critical review essay
 
+\begin{itemize}
+  \item A \textbf{2000-word} critical review of a journal article that uses one of the methods covered in the module
+  \vspace{0.2cm}
+  \item A link to a list of suggested journal articles can be found on Moodle (or your own choice approved by the module convenor)
+  \vspace{0.2cm}
+  \item Consider the following in your review:
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item What is the research process: Research question, theory, concepts, measurement, approach to explanation?
+    \item How appropriate was the method? How well was it implemented? What other methods could have been used?
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Similar to our weekly seminar discussions
+\end{itemize}
+
 ---
 
 \begin{itemize}
