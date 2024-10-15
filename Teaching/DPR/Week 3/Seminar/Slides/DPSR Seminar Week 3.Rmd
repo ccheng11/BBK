@@ -1,0 +1,19 @@
+---
+title: |
+  | 
+  |
+  | Doing Political and Social Research 
+  |
+  |
+author: |
+  | Week 3
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
