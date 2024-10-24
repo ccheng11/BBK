@@ -1,0 +1,107 @@
+---
+title: |
+  | 
+  |
+  | Doing Political and Social Research 
+  |
+  |
+author: |
+  | Week 4
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ucl.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\url{https://www.eventbrite.co.uk/cc/policy-and-practice-seminar-series-1627679}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/barbara.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="110%", fig.align="center"}
+knitr::include_graphics("Figs/barbara2.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ibp.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/annual.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\url{https://www.annualreviews.org/content/journals/polisci}
+\end{center}
+
+# Find your research questions
+
+```{r echo=FALSE, out.width="92%", fig.align="center"}
+knitr::include_graphics("Figs/mason.pdf")
+```
+\begin{center}
+\begin{scriptsize}
+Mason, J. 2002. \textit{Qualitative researching} (2nd). London: Sage, p.18.
+\end{scriptsize}
+\end{center}
+
+# Identify the gap
+
+\begin{itemize}
+  \item Theoretical/empirical tensions or contradictions
+  \vspace{0.2cm}
+  \item Different or alternative theoretical perspectives
+  \vspace{0.2cm}
+  \item Different methodological approach (e.g., build on more inductive work to propose some hypothesis-testing deductive approach)
+  \vspace{0.2cm}
+  \item Extension to new context (e.g., different region, time period)
+  \vspace{0.2cm}
+  \item Some conventional wisdom left untested or understudied (e.g., critical element not engaged with, need to consider other conditions)
+  \vspace{0.2cm}
+  \item ...
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/george.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/auto.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/systematic.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/king.pdf")
+```
