@@ -49,7 +49,7 @@ knitr::include_graphics("Figs/clashes.pdf")
 
 ---
 
-```{r echo=FALSE, out.width="90%", fig.align="center"}
+```{r echo=FALSE, out.width="50%", fig.align="center"}
 knitr::include_graphics("Figs/weber.pdf")
 ```
 
@@ -57,6 +57,18 @@ knitr::include_graphics("Figs/weber.pdf")
 
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/barbara.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="82%", fig.align="center"}
+knitr::include_graphics("Figs/45.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/46.pdf")
 ```
 
 ---
