@@ -47,6 +47,11 @@ knitr::include_graphics("Figs/asian.pdf")
 knitr::include_graphics("Figs/clashes.pdf")
 ```
 
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/weber.pdf")
+```
 
 ---
 
