@@ -1,0 +1,139 @@
+---
+title: |
+  | 
+  |
+  | Doing Political and Social Research 
+  |
+  |
+author: |
+  | Week 5
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Quiz 1 open on Moodle and due on 5 Nov
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/moodle.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/quiz.pdf")
+```
+
+# Revisiting the study of "British values"
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/british.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/asian.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/clashes.pdf")
+```
+
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/barbara.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/paper.pdf")
+```
+
+# Varieties of theory in social research
+
+\begin{itemize}
+  \item Explanatory forms of theorizing (theory as explanation)
+  \vspace{0.6cm}
+  \item Interpretive forms of theorizing (theory as interpretation)
+  \vspace{0.6cm}
+  \item Emancipatory forms of theorizing (theory as ideology)
+\end{itemize}
+
+# Varieties of theory in social research
+
+\begin{itemize}
+  \item \textbf{Explanatory forms of theorizing}: To identify and establish the fundamental processes and structures that ‘underlie’ and therefore explain a given topic
+  \vspace{0.4cm}
+  \item \textbf{Interpretive forms of theorizing}: To provide a deep reading and understanding of the circumstances in which people find themselves, working through the layers of "meaning" that constitute our experience of organizations
+  \vspace{0.4cm}
+  \item \textbf{Emancipatory forms of theorizing}: To inform practical actions so as to subvert such systems towards emancipation and potential reform
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/crt.pdf")
+```
+
+# CRT as an interpretative theory
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{Figs/crenshaw}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  CRT is "'is \textbf{a way of seeing}, attending to, accounting for, tracing and analyzing \textbf{the ways} that race is produced," she said, '\textbf{the ways} that racial inequality is facilitated, and \textbf{the ways} that our history has created these inequalities that now can be almost effortlessly reproduced unless we attend to the existence of these inequalities.'"
+  \endcol
+\endcols
+
+# CRT as an emancipatory theory
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{Figs/oiyang}
+    \end{figure}
+    \vspace{0.2cm}
+  \endcol
+  \begincol{.5\textwidth}
+  "'The founders of CRT critiqued liberal ideologies, and that they called on research scholars to seek out and \textbf{understand the roots of why racial disparities are so persistent, and to systemically dismantle racism}.'"
+  \endcol
+\endcols
+
+# Explanatory theory of inter-group inequality
+
+\pause
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/becker}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+    \item \textbf{Statistical discrimination} is based on stereotypes that occur when rational, information-seeking decision makers use aggregate group characteristics to evaluate individuals
+  \vspace{0.45cm}
+    \item \textbf{Taste-based discrimination} is based on prejudice or racial and gender bias
+  \end{itemize}
+  \endcol
+\endcols
