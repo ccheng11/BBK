@@ -67,7 +67,7 @@ knitr::include_graphics("Figs/groups.pdf")
     \begin{itemize}
       \item January: Submit your proposal form by \textbf{12 January 2025}
       \item February to early March: Supervisor allocation
-      \item March to June/early July: Supervision in progress; complete ethics application and risk assessment, if necessary
+      \item March to June/early July: Research and supervision in progress; complete ethics and risk assessment (if necessary)
       \item July-August: Supervision ends (typically); complete your dissertation
       \item September: Submit your dissertation by \textbf{15 September 2025} (tentative)
     \end{itemize}
@@ -205,7 +205,7 @@ knitr::include_graphics("Figs/annual.pdf")
     \item outline potential method(s) that will be used to analyze the evidence
   \end{itemize}
   \vspace{0.2cm}
-  \item It is okay to be tentative (we know things will change), but aim tob uild a coherent alignment between question, theory, and empirics; you can use your observations to \textit{evaluate} or \textit{challenge} a theory
+  \item It is okay to be tentative (we know things will change), but aim to build a coherent alignment between question, theory, and empirics; you can use your observations to \textit{evaluate} or \textit{challenge} a theory
   \vspace{0.2cm}
   \item The key task is to provide original analysis, which can be based on existing data
 \end{itemize}
@@ -223,7 +223,7 @@ knitr::include_graphics("Figs/ssrc.pdf")
 
 # Proposal form: Potential supervisor
 
-Supervisor allocation is a \textbf{collaborative} process between the Program Director and you; you can/need to
+Supervisor allocation is a \textbf{collaborative} process between the Program Director and you; in the dissertation form:
 \pause
 \vspace{0.3cm}
 \begin{itemize}
