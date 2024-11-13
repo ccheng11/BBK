@@ -1,0 +1,328 @@
+---
+title: |
+  |
+  |
+  | Social Research Dissertation Workshop
+  |
+  | Part II: Navigating the Process  
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+## Today's workshop is for
+
+\begin{itemize}
+  \item MRes Global Politics/Politics/Public Policy and Management
+  \vspace{1cm}
+  \item MRes/MSc Social Research
+\end{itemize}
+
+## Plan for today
+
+\begin{itemize}
+  \item Overview of the dissertation process (again)
+  \vspace{0.3cm}
+  \item Action points before the deadline (\textbf{15 September 2023})
+  \vspace{0.3cm}
+  \item Available support and tips
+  \vspace{0.3cm}
+  \item Discussion and Q\&A
+\end{itemize}
+
+## Dissertation procress: An overview
+
+\begin{itemize}
+	\item Term 1 (2022): Prepare your \textbf{dissertation proposal form}; talk to the program director and/or your potential supervisor (if there is one)
+	\vspace{0.2cm}
+	\item Terms 2 and 3 (2023)
+		\begin{itemize}
+			\item January: Submit your proposal form by \textbf{20 January 2023}
+			\item February to early March: Supervisor allocation; the Department sends a confirmation email about your dissertation supervisor
+			\item March to June/early July: Supervision in progress; submit an ethics proposal (if necessary)
+			\item July-August: Supervision ends (typically); complete your dissertation
+			\item September: Submit your dissertation by \textbf{15 September 2023}
+		\end{itemize}
+	\vspace{0.2cm}
+	\item After September 2023: Extension and deferral
+\end{itemize}
+
+## Action points once you have a supervisor
+
+\begin{itemize}
+  \item Meet and work with your supervisors
+  \vspace{0.6cm}
+  \item Prepare and submit the ethics proposal (covered by \textbf{Dr Barry Maydom})
+  \vspace{0.6cm}
+  \item Complete your research and dissertation
+  \vspace{0.6cm}
+  \item Deferring your dissertation (if necessary)
+\end{itemize}
+
+## Action point 1: Meet and work with your supervisor
+
+\begin{itemize}
+    \item Min \textbf{three} meetings before the end of Term 3 (Summer)
+    \vspace{0.1cm}
+    \begin{itemize}
+        \item It is your responsibility to arrange meetings and keep in good contact with your supervisors
+        \item \textbf{Supervisors can}: Offer guidance and support (but not necessarily direction); advise you on approach, scope, questions to be asked, and the outline structure and research design and methods
+        \item \textbf{Supervisors may not}: Comment on drafts and meet you during the summer break
+    \end{itemize}
+    \vspace{0.3cm}
+    \pause
+    \item Read through the following documents for more information
+    \vspace{0.1cm}
+    \begin{itemize}
+        \item "Guidelines for MRes and MSc Social Research Dissertations"
+        \item "Policy on Supervised Dissertations for Taught Students"
+    \end{itemize}
+\end{itemize}
+
+## Action point 2: Prepare and submit the ethics proposal
+
+Covered by Dr Barry Maydom.
+
+## Action point 3: Complete your research and dissertation
+
+\begin{itemize}
+  \item Working with yourself
+  \vspace{1cm}
+  \item Working with your peers
+  \vspace{1cm}
+  \item Additional support activities
+\end{itemize}
+
+## Action point 3: Complete your research and dissertation
+
+\begin{itemize}
+  \item \textbf{Working with yourself}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Pay close attention to personal wellbeing
+    \item Manage your time and make weekly plans for your writing
+  \end{itemize}
+  \vspace{0.7cm}
+  \item Working with your peers
+  \vspace{0.7cm}
+  \item Taking advantage of additional support activities
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+\begin{itemize}
+    \item Self-care checklist
+    \vspace{0.1cm}
+    \begin{itemize}
+    \item Get good sleep
+    \item Nourish and move your body
+    \item Do something fun
+    \item Give yourself credit
+    \item Connect with others (see the next part)
+    \end{itemize}
+    \vspace{0.8cm}
+    \item Visit \texttt{\url{https://www.bbk.ac.uk/student-services/counselling-service}} for more information.
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="84%", fig.align="center"}
+knitr::include_graphics("Figs/chicago.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://press.uchicago.edu/ucp/books/book/chicago/W/bo26985005.html}
+\end{scriptsize}
+\end{center}
+
+## Action point 3: Complete your research and dissertation
+
+\begin{itemize}
+  \item Working with yourself
+  \vspace{0.7cm}
+  \item \textbf{Working with your peers}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Why you need writing groups
+    \item Different forms of writing groups
+    \item Planning your writing group(s)
+  \end{itemize}
+  \vspace{0.7cm}
+  \item Taking advantage of additional support activities (Term 3)
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+\begin{itemize}
+    \item Why you need writing groups
+    \vspace{0.1cm}
+    \begin{itemize}
+        \item Accountability: Regular progress checks
+        \item Social: Collegial support and fun
+    \end{itemize}
+    \vspace{0.2cm}
+    \item Writing groups can take different forms
+    \vspace{0.1cm}
+    \begin{itemize}
+        \item Accountability groups
+        \item Peer review groups
+        \item "Write-along" groups
+    \end{itemize}
+    \vspace{0.2cm}
+    \item Writing groups take some careful (but not difficult) planning/moderation: \textbf{Size}, \textbf{frequency}, \textbf{subject areas and/or methods}, and \textbf{format} (online or in-person)
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="84%", fig.align="center"}
+knitr::include_graphics("Figs/ucla_group.pdf")
+```
+\vspace{0.15cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.youtube.com/watch?v=tuy33I4jgDg}
+\end{scriptsize}
+\end{center}
+
+## Action point 3: Complete your research and dissertation
+
+\begin{itemize}
+  \item Working with yourself
+  \vspace{0.7cm}
+  \item Working with your peers
+  \vspace{0.7cm}
+  \item \textbf{Taking advantage of additional support activities (Term 3)}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Masterclass in Social Research: "Pieces-of-Craft" workshops and Dissertation Fairs
+    \item Dissertation bootcamps and other workshops organized by the College's Study Skills team
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/msr2023.pdf")
+```
+\vspace{0.15cm}
+\begin{center}
+\begin{scriptsize}
+A preview of the Masterclass.
+\end{scriptsize}
+\end{center}
+
+## Action point 4: Deferring your dissertation
+
+\begin{itemize}
+  \item Students who wish to defer must complete the mitigating circumstances (MCs) form online via \textbf{My Birkbeck}
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item Obtain the approval from your program director
+    \item Submit your request at least two weeks prior to the deadline
+    \item Send any inquiries to the Department/School admin team
+    \item (Ideally) you should also have the consent from your dissertation supervisor and have a clear plan to complete your dissertation before the next deadline
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Students can submit their deferred dissertation by either \textbf{15 May} or \textbf{15 September} of the following year (i.e., 2024)
+\end{itemize}
+
+## Concluding remarks (until I see some of you in the Masterclass)
+
+\begin{itemize}
+	\item There is no perfect dissertation; there is only finished dissertation
+	\begin{itemize}
+	  \item A master's dissertation resembles a peer-reviewed journal article, consisting of \textbf{Introduction}, \textbf{Theory/Literature Review}, \textbf{Research Design, Data and Methods}, \textbf{Results and Discussion}, and \textbf{Conclusion}
+	  \item Use \textbf{Apppendix} to present additional (and yet not essential) information about your work
+	  \item Make sure you are aware of what to avoid and the assessment criteria (available in the Guidelines)
+	\end{itemize}
+	\vspace{0.6cm}
+	\item The key is to establish your identity as an independent researcher
+\end{itemize}
+
+## Concluding remarks (until I see some of you in the Masterclass)
+
+\begin{itemize}
+	\item There is no perfect dissertation; there is only finished dissertation
+\	\vspace{0.6cm}
+	\item The key is to establish your identity as an independent researcher
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Use the uploaded articles and dissertation samples as your guide
+		\item Use literature review to inform us of the significance and originality of your research (e.g., Moreno et al 2019)
+		\item Use research design to establish \textbf{a sense of presence/existence} in the field -- avoid unnecessarily tedious and apologetic textbook-style justification and refrain from being too obsessed with jargon and terminology (e.g., "document" analysis)
+	\end{itemize}
+\end{itemize}
+
+## Key contacts
+
+\begin{itemize}
+  \item Your dissertation supervisor
+  \vspace{0.5cm}
+  \item Your program director
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item For MRes students in Politics: Dr Barry Maydom (\href{mailto:b.maydom@bbk.ac.uk}{\texttt{b.maydom@bbk.ac.uk}})
+    \item For MRes/MSc Social Research students: Dr Chao-Yo Cheng (\href{mailto:c.cheng@bbk.ac.uk}{\texttt{c.cheng@bbk.ac.uk}})
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Department admin team: \href{mailto:politics-admin@bbk.ac.uk}{\texttt{politics-admin@bbk.ac.uk}} (include your \textbf{student ID number} in the subject line of your email message)
+\end{itemize}
+
+---
+
+\vspace{0.6cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_tv.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+Thank you!
+\end{center}
+
+## Assessment criteria
+
+\begin{itemize}
+	\item The research question is well-defined, and contextualized
+	\vspace{0.1cm} 
+	\item An argument is specified, coherently presented and supported by evidence
+	\vspace{0.1cm} 
+	\item Alternative/rival arguments are analysed
+	\vspace{0.1cm}
+	\item The approach is critical, not descriptive
+	\vspace{0.1cm}
+	\item A relevant, suitable methodology is employed 
+	\vspace{0.1cm}
+	\item Relevant sources (data and literatures) have been consulted; knowledge of relevant literature, issues and debates is demonstrated 
+	\vspace{0.1cm}
+	\item The style and presentation is clear and careful, and appropriate academic conventions have been observed
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+\begin{itemize}
+	\item WK1: Designing your plan for writing
+	\item WK2: Advancing your argument
+	\item WK3: Abstracting your article
+	\item WK4: Selecting a journal (X)
+	\item WK5: Refining your works cited
+	\item WK6: Crafting your claims for significance
+	\item WK7: Analyzing your evidence
+	\item WK8: Presenting your evidence
+	\item WK9: Strengthening your structure
+	\item WK10: Opening and concluding your article
+\end{itemize}

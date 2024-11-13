@@ -1,0 +1,266 @@
+---
+title: |
+  |
+  |
+  | Social Research Dissertation Autumn Workshop
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+## Today's workshop is for
+
+\begin{itemize}
+  \item MRes students in Politics
+  \vspace{0.7cm}
+  \item MRes/MSc Social Research students
+\end{itemize}
+
+## Plan for today
+
+\begin{itemize}
+	\item Why dissertation (and what is it)?
+  \vspace{0.2cm}
+	\item An overview of the dissertation process
+  \vspace{0.2cm}
+	\item Getting started: Dissertation proposal form
+  \vspace{0.2cm}
+	\begin{itemize}
+		\item Personal information
+		\item Title and subject area
+		\item "Scholarly" literature
+		\item Data and methods
+		\item Choosing (naming) your potential supervisor
+	\end{itemize}
+  \vspace{0.2cm}
+	\item Concluding remarks and Q\&A
+\end{itemize}
+
+## Why dissertation? And what is it?
+
+\begin{itemize}
+  \item An \textbf{independent}, \textbf{original} research project, guided by your supervisor(s)
+  \vspace{0.3cm}
+  \item Resembles a \textbf{peer-reviewed journal article} (12,000-15,000 words, excluding appendix)
+  \vspace{0.3cm}
+  \item A \textbf{rite of passage}
+  \begin{itemize}
+    \item from a student to a scholar
+    \item from consuming to producing knowledge
+    \item from an empirical "technician" to a well-informed social "researcher"
+  \end{itemize}
+\end{itemize}
+
+## Dissertation process: An overview
+
+\begin{itemize}
+	\item Term 1: Prepare your \textbf{dissertation proposal form}; talk to the program director and/or your potential supervisor (if there is one)
+	\vspace{0.2cm}
+	\item Terms 2 and 3
+		\begin{itemize}
+			\item January: Submit your proposal form (check deadlines on Moodle)
+			\item February to early March: Supervisor allocation
+			\item March to June/early July: Supervision in progress; complete ethics application and risk assessment, if necessary
+			\item July-August: Supervision ends (typically) and complete your dissertation
+			\item September: Submit your dissertation by \textbf{15 September 2024}
+		\end{itemize}
+	\vspace{0.2cm}
+	\item After September 2024: Extension and deferral (TBA)
+\end{itemize}
+
+## Upcoming dissertation activities
+
+\begin{itemize}
+	\item Term 2: Dissertation workshop (by Dr Barry Maydom)
+	\begin{itemize}
+		\item Navigating the writing of your dissertation
+		\item Managing the relationship with your supervisor
+		\item Preparing ethics application and risk assessment
+		\item Locating additional help or support
+	\end{itemize}
+	\vspace{0.4cm}
+	\item Term 3: Social Research Dissertation Fairs (as part of Masterclass)
+	\vspace{0.4cm}
+	\item Term 3/summer break: Dissertation bootcamps (check with the Study Skills Team)
+\end{itemize}
+
+## Proposal form
+
+\pause
+\begin{small}
+\begin{itemize}
+  \item The proposal form is \textbf{NOT marked}; no written comments will be provided (but you can/should come to my office hours to talk about it)
+  \vspace{0.3cm}
+  \item The proposal form \textbf{helps us find you a supervisor} that best suits your research project
+  \vspace{0.3cm}
+  \item The proposal form \textbf{shows your tentative ideas} for the dissertation
+  \vspace{0.3cm}
+  \item The proposal form should be \textbf{short, succinct} but \textbf{sufficiently coherent and informative} (2-2.5 pages max)
+  \vspace{0.3cm}
+  \item The proposal form is due in January on Moodle; submission link and \textbf{sample proposal forms} are available on Moodle
+\end{itemize}
+\end{small}
+
+---
+
+```{r echo=FALSE, out.width="92%", fig.align="center"}
+knitr::include_graphics("Figs/form.pdf")
+```
+
+## Proposal form: Basic personal information
+
+\begin{itemize}
+  \item Name
+  \item Email address
+  \item MSc/MRes programme
+  \item Full-time or part-time
+\end{itemize}
+\pause
+\vspace{1.2cm}
+\begin{center}
+\textbf{The information you provide needs to be consistent with what we see on MyBirkbeck}
+\end{center}
+
+## Proposal form: Title and subject area
+
+\begin{itemize}
+  \item Title of proposed dissertation: Short v long? Creative v informative?
+  \vspace{0.3cm}
+  \pause
+  \item Description of subject area: A brief statement to introduce your research (like a paper's abstract)
+  \begin{itemize}
+    \item What are the \textbf{research questions}?
+    \item What is the \textbf{focus of previous research literature}?
+    \item What is the \textbf{context and/or background}? What is the \textbf{scope condition}?
+    \item What is \textbf{distinctive about your theory position or intellectual approach}?
+    \item What are \textbf{the tentative methods and data sources}? 
+    \item \textbf{[Not yet]} What are your benchmark findings? What "new facts" have you found? Or what key substantive conclusions do you draw? The value-added or originality of your work within this field?	
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="92%", fig.align="center"}
+knitr::include_graphics("Figs/mason.pdf")
+```
+\begin{center}
+\begin{scriptsize}
+Mason, J. 2002. \textit{Qualitative researching} (2nd). London: Sage, p.18.
+\end{scriptsize}
+\end{center}
+
+## Proposal form: "Scholarly literature"
+
+\begin{itemize}
+  \item List the relevant "scholarly" literature(s); arrange the literature(s) by topic/keyword if you'd like
+  \pause
+  \vspace{0.2cm}
+  \item Identify the gap, such as
+  \begin{itemize}
+    \item Theoretical/empirical tensions or contradictions
+    \item Different or alternative theoretical perspectives
+    \item Different methodological approach (e.g., build on more inductive work to propose some hypothesis-testing deductive approach)
+    \item Extension to new context (e.g., different region, time period)
+    \item Some conventional wisdom left untested or understudied (e.g., critical element not engaged with, need to consider other conditions)
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Use literature to think through your RQs and supervisor preferences
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="94%", fig.align="center"}
+knitr::include_graphics("Figs/say.pdf")
+```
+
+## Proposal form: "Primary research material"
+
+\begin{itemize}
+  \item A suggestive research design where you
+  \begin{itemize}
+    \item describe the type(s) of evidence which will be collected and analyzed to address the research question
+    \item show that the proposed evidence can feasibly be collected given the time constraint
+    \item outline feasible method(s) that will be used to analyze the evidence
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Note it is okay to be tentative (we know things will change)
+  \vspace{0.2cm}
+  \item The key is to build a coherent alignment between question, theory, and empirics; you can use your observations to \textit{evaluate} or \textit{challenge} a theory
+  \item The key is to provide original analysis, which can be based on existing data
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/ssrc.pdf")
+```
+\begin{center}
+\begin{small}
+\url{https://www.ssrc.org/publications/the-art-of-writing-proposals/}
+\end{small}
+\end{center}
+
+## Proposal form: Potential supervisor
+
+Supervisor allocation is a \textbf{collaborative} process between the Program Director and you; you can/need to
+\pause
+\vspace{0.3cm}
+\begin{itemize}
+  \item Nominate one or more (permanent) academic staff members from
+  \begin{itemize}
+    \item School of Social Sciences
+    \item Other subject areas outside SSS, such as applied linguistics, criminology, and law
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Show some knowledge of the work by your potential supervisor and provide  explanations in the proposal form
+  \vspace{0.3cm}
+  \item Start informal conversations with me and/or your potential supervisors
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="92%", fig.align="center"}
+knitr::include_graphics("Figs/staff.pdf")
+```
+\begin{center}
+\begin{scriptsize}
+\url{https://www.bbk.ac.uk/school/social-sciences/our-staff}
+\end{scriptsize}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="92%", fig.align="center"}
+knitr::include_graphics("Figs/tom.pdf")
+```
+
+## Course of action (until we meet again in 2024)
+
+\begin{itemize}
+  \item Revise workshop slides and recommended readings on Moodle
+  \vspace{1cm}
+  \item Start thinking about your dissertation (if you haven't) and talk to your personal tutor and/or potential supervisor
+  \vspace{1cm}
+  \item Work on the proposal form and submit it by the deadline
+\end{itemize}
+
+## Key contacts
+
+\begin{itemize}
+  \item MRes in Politics: Dr Barry Maydom (\href{mailto:b.maydom@bbk.ac.uk}{\texttt{b.maydom@bbk.ac.uk}})
+  \vspace{0.7cm}
+  \item MRes/MSc Social Research: Dr Chao-Yo Cheng (\href{mailto:c.cheng@bbk.ac.uk}{\texttt{c.cheng@bbk.ac.uk}})
+\end{itemize}
+
+---
+
+Thank you.

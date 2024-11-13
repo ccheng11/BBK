@@ -1,5 +1,0 @@
-To do
-
-OLS
-
-	- unpack examples in separate slides
