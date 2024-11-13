@@ -25,7 +25,7 @@ format:
 
  - Are there any other types of data we could use to measure democracy?
 
-# Caraway
+# Srivastava
 
  - What archives and documents did Srivastava use?
 
