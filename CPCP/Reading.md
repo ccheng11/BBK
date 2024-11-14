@@ -17,7 +17,7 @@ Zhou, Xueguang. 2022. *The Logic of Governance in China: An Organizational Appro
 
 ## Week 1: State of the field
 
-**[Core]** Tsai, Lily L. 2017. "Bringing in China: Insights for Building Comparative Political Theory." *Comparative Political Studies 50*(3): 295-328.
+**[Core]** Shambaugh, David. 2023. "The Evolution of American Contemporary China Studies: Coming Full Circle?" *Journal of Contemporary China 33*(146): 314–331.
 
 **[Core]** Gallagher, Mary, E. 2002. "Why China's Economic Reforms Have Delayed Democracy." *World Politics 54*(3): 338-372. **Read pp.338-346.**
 
@@ -27,7 +27,7 @@ Perry, Elizabeth J. 1994. "Trends in the Study of Chinese Politics: State-Societ
 
 Pye, Lucian W. 1975. "The Applicability of Modern Political Science Approaches to the Study of Chinese Politics." International China Conference, Berlin.
 
-Shambaugh, David. 2023. "The Evolution of American Contemporary China Studies: Coming Full Circle?" *Journal of Contemporary China*. Online First.
+Tsai, Lily L. 2017. "Bringing in China: Insights for Building Comparative Political Theory." *Comparative Political Studies 50*(3): 295-328.
 
 White III, Lynn T. 2009. "Chinese Political Studies: Overview of the State of the Field." *Journal of Chinese Political Science 14*: 229–251.
 
