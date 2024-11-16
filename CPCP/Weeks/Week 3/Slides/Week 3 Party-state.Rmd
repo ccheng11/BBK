@@ -1,0 +1,324 @@
+---
+title: |
+  | 
+  |
+  | CP$^2$ Week 3: Structures of the Party-State
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Welcome back
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/cny.pdf")
+```
+\begin{center}
+Happy Spring Festival!
+\end{center}
+
+# Assessment I: Learning journal (30\%)
+
+\begin{itemize}
+  \item Read a published peer-review article in leading political science and comparative politics journals to learn how China is researched and compared and answer three questions using up to 1,000 words (max).
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item Choose an article from the list of journals; the article needs to be published after 2010 and explicitly comapares China to one or more countries in the world
+    \vspace{0.1cm}
+    \item Bring the article to \textbf{Week 7} class to share with everyone
+    \vspace{0.1cm}
+    \item Read the article answer the questions
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{1cm}
+\begin{small}
+\begin{itemize}
+	\item American Political Science Review
+	\item British Journal of Political Science
+	\item Comparative Politics
+	\item Comparative Political Studies
+	\item Japanese Journal of Political Science
+	\item Journal of Chinese Political Science
+	\item Journal of East Asian Studies
+	\item Journal of Politics
+	\item Political Research Quarterly
+	\item Studies in Comparative International Development
+	\item World Politics
+\end{itemize}
+\end{small}
+
+---
+
+\vspace{1cm}
+\begin{itemize}
+  \item In your words, \textbf{explain why the author(s) think China can be compared with the country (or countries)} included in the article. Can you \textbf{identify a different country} that can be included using the same comparative logic? {Do you agree with such a comparison?} Discuss.
+  \vspace{0.4cm}
+  \pause
+  \item \textbf{Utilize Google Scholar to explore how other scholars have cited the article you select}. What are some common themes among these articles? Is the article you choose predominantly cited by scholars who specialize in China, or has it also garnered attention from scholars who do not focus on China? {Do you believe that the article, while centered on China, holds broader implications for scholars who study countries other than China?} Discuss.
+\end{itemize}
+
+---
+
+\begin{center}
+\textbf{Week 3: Party-state Structures}
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/theme.pdf")
+```
+
+# The Party's Central Leadership
+
+\begin{small}
+\begin{itemize}
+  \item The highest decision-making body is the \textbf{Standing Committee} of the \textbf{Politburo}, headed by the \textbf{General Secretary}, under them there are
+  \vspace{0.05cm}
+  \begin{itemize}
+    \item Central Party Offices: General, Organization (\textit{nomenklukla}), Propaganda (Publicity), United Front and Intl Liaison 
+    \item Secretariat (i.e., secretary of individual Politburo SC members)
+    \item Central Military Commission
+    \item Central Commission for Discipline Inspection
+    \item Leading Small Groups
+  \end{itemize}
+  \vspace{0.22cm}
+  \item The \textbf{General Secretary} is "elected" during the First Plenum (or \textbf{Plenary} session) of the \textbf{Central Committee}
+  \vspace{0.22cm}
+  \item The delegates of the \textbf{National Party Congress}, which meets every five years, elect the \textbf{Central Committee}
+  \vspace{0.22cm}
+  \item The \textbf{General Secretary} only became the highest leader of China after 1992 under \textbf{Jiang Zemin}
+\end{itemize}
+\end{small}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/selection.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+The selection process illustrates the notion of "\textbf{democratic centralism}" (see "more candidates than available seats" elections)
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/pmeeting.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+Politburo is the apex of the system
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/ccp_new.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\url{http://cpc.people.com.cn/}
+\end{center}
+
+# The Central State
+
+\begin{itemize}
+  \item Legislature: National People's Congress (NPC)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Meets every year in Beijing
+    \item Elects the \textbf{President} and ruling cadres of other state organs every five year
+    \item Provides descriptive representation of different social groups and parties
+    \item Operates daily through the Standing Committee
+    \item Functions as a legislature through Special Committees
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Executive: The State Council
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Headed by the \textbf{Premier} (or Prime Minister), appointed by the \textbf{President} and approved by NPC
+    \item Operates through Ministries and different central commissions and Leading Small Groups
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/npc_out.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/npc_2023.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+The First Meeting of the 14th National People's Congress in March 2023
+\end{center}
+
+# Party-state: Key characteristics and debates
+
+\begin{small}
+\begin{itemize}
+  \item Party-state is a concept to characterize the Party's leading position in the Chinese political system
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Party committee} is present in every government department and office
+    \item The central Party offices "manage" and coordinate different functional government departments (e.g., Propaganda/Publicity and Ministry of Education)
+    \item Leading Working Groups reported to the Party center
+    \item Key central leaders also have posts in the State (e.g., the Politburo members)
+    \item Some key important offices are separately listed but actually the same one (e.g., Central Military Commission)
+    \item Some key Party and government offices work jointly despite being two different offices (e.g., Central Commission for Discipline Inspection and the Ministry of Supervision)
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Scholars in China and the Party prefer to use the term "\textbf{Party-government}" to demonstrate the Party's extensive presence in the Chinese bureaucracy and government administration
+\end{itemize}
+\end{small}
+
+# Institutionalization of the Party-state over generations
+
+\begin{itemize}
+  \item Political succession, developed by Deng and confirmed in the early 1990s
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Term limit (except the President and Vice-President)
+    \item Retirement age
+    \item Successor-in-training
+    \item Grandpa-designated successor
+    \item Comprehensive takeover
+  \vspace{0.3cm}
+  \end{itemize}
+  \item Collective leadership, established by Deng after the Cultural Revolution
+\end{itemize}
+
+# Defining authoritarian regimes (Geddes et al 2015)
+
+\begin{columns}
+  \column{0.5\linewidth}
+  \begin{itemize}
+  \small
+  \item An executive achieved power through \textbf{undemocratic means} (anything other than direct, reasonably fair, competitive elections)
+  \vspace{0.3cm}
+  \item The government achieved power through democratic means, but subsequently \textbf{changed the formal or informal rules}
+  \vspace{0.3cm}
+  \item The \textbf{military} prevented parties that substantial numbers of citizens would be expected to vote for from competing and/or dictated important policy choices
+  \end{itemize}
+    \column{0.4\linewidth}
+    \centering
+    \vspace{0.2cm}
+    \includegraphics[scale=0.4]{Figs/bg}
+\end{columns}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/dd_gwf.pdf")
+```
+
+# Varieties of authoritarian regimes 
+
+\begin{itemize}
+  \item \textbf{Personalist}: Access to office and fruits of office depends on much more the discretion of an individual leader; not identical with \textbf{Monarchy}
+  \vspace{0.4cm}
+  \item \textbf{Military}: A group of officers (e.g., junta) decides who will rule and exercise some influence on policy; carrying with the seeds of disintegration on their own while elites in other two types of regime have more incentives to cooperate with each other
+  \vspace{0.4cm}
+  \item \textbf{Single-party} (or hegemonic party): Access to political office and control over policy are dominated by one party, though other parties may legally exist and compete in elections
+  \vspace{0.4cm}
+  \item \textbf{Mixed} or hybrid
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/GWF/type.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/GWF/survival.pdf")
+```
+
+# What makes single-party regimes special
+
+\begin{itemize}
+  \item Key to survival is to make sure elite cohesion through rents and economic success (especially in the case of China)
+  \vspace{0.3cm}
+  \item Single-party regimes favor internal and societal co-optation
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Party holds organizational capacity to control the career paths of officials, organizes the distribution of benefits to supporters, and mobilizes citizens to show support for party leaders in other ways
+    \item Party cadres simply want to hold their offices and tend to stand by to observe the winners of internal struggle
+    \item Party has broad basis of popular support and has the institutional and organizational sources to stay responsive and co-opt for greater participation (Ghandi 2008)
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Caveat: Parties with weak opposition and easy rent access (e.g., the Philippines) tend to be divided and collapse (Smith 2005)
+\end{itemize}
+
+# "The Institutional Turn in Comparative Authoritarianism" (Penpinsky 2014)
+
+\begin{itemize}
+  \item Why institutions matter for authoritarian survival?
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Institutions are constraints: Elections, parties and legislatures contain factional conflicts while regulating the mobilization of mass support
+    \item Institutions are dictator's instruments: They do what their creators want them to do (e.g., co-optation and power distribution) and can be adjusted
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Why institutions are important for the study of comparative authoritarianism
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Path dependence and increasing returns: Institutions reproduce the political and social order
+    \item Institutions shed light on problems of redistribution and policy making that motivate regime behavior
+  \end{itemize}
+\end{itemize}
+
+# Discussion: "Party All the Time" (Thorton 2021)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.6]{Figs/thornton_book}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+    \item What are some of the key differences between being a ruling party and a revolutionary party?
+    \vspace{0.3cm}
+    \item How does CCP manage to succeed both as a revolutionary before 1949 and as a ruling party after the PRC was established?
+    \vspace{0.3cm}
+    \item Why do many authoritarian leaders rule through the party? How do they build their parties?
+    \vspace{0.3cm}
+  \end{itemize}
+  \endcol
+\endcols
+
+# Concluding remarks: More questions to think about
+
+\begin{itemize}
+  \item Institutional durability and changes in authoritarian regimes
+  \vspace{0.5cm}
+  \item One-party dominant regime (e.g., Japan and Italy) and hegemonic party regime (e.g., Mexico and China)
+  \vspace{0.5cm}
+  \item Domestic politics and foreign policy
+\end{itemize}
+
+---
+
+\vspace{1cm}
+See you next week!

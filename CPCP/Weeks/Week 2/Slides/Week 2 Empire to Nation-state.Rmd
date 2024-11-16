@@ -1,0 +1,211 @@
+---
+title: |
+  | 
+  |
+  | CP$^2$ Week 2: From Empire to Nation-State
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Welcome back
+
+\begin{itemize}
+  \item Office hours
+  \vspace{0.5cm}
+  \item Assessment
+  \vspace{0.5cm}
+  \item Guest speaker (7 March 2024)
+  \vspace{0.5cm}
+  \item Taiwan event (20 March 2024)
+  \vspace{0.5cm}
+\end{itemize}
+
+---
+
+\begin{center}
+\textbf{Week 2: Empire to Nation-State}
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/theme.pdf")
+```
+
+
+# Documentary series
+
+\begin{itemize}
+  \item PBS documentaries: \textit{China: A Century of Revolution}
+  \vspace{0.4cm}
+  \begin{itemize}
+    \item China in Revolution, 1911–1949
+    \vspace{0.2cm}
+    \item The Mao Years, 1949–1976
+    \vspace{0.2cm}
+    \item Born Under the Red Flag, 1976–1997
+  \end{itemize}
+\end{itemize}
+
+# China in the 20th century
+
+\begin{itemize}
+  \item Republican China
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item 1911-1928: Beiyang Government (北洋政府)
+    \item 1928-1949: Nationalist Government (民国政府) 
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Communist China
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item 1950s: Land reform and the Great Leap Forward (大跃进)
+    \item 1960s: Return of Mao Zedong and the Cultural Revolution (文化大革命)
+    \item 1970s: Power transition and "Opening and Reform" (改革开放)
+    \item 1980s: Market experiment, intra-party split and Tiananmen
+    \item 1990s: Consolidated market reform and institutionalized political succession
+  \end{itemize}
+\end{itemize}
+
+# Analytical highlights of the Republican Era
+
+\begin{itemize}
+  \item Key theme: The pursuit of a "modern" China
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item Political modernization: Transforming empire to (modern) nation-state
+    \vspace{0.2cm}
+    \item Social modernization: Filling the moral vacuum and the questions against traditional ways of living (e.g., science, democracy and vernacular language and writing)
+    \vspace{0.2cm}
+    \item Economic modernization: Seeking industrial infrastructure and production
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Question: How do we define "modernity?"
+\end{itemize}
+
+# Republican Era
+
+\begin{itemize}
+  \item Beiyang period: Warlords and mass politics (urban students and intellectuals)
+  \vspace{0.3cm}
+  \item Nationalist period: CCP/CPC v GMD/KMT
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item GMD (KMT): Started as a revolutionary party rallying around Sun Ya-sen ("three principles of the people"); fraught with corruption and internal fragmentation
+    \item CCP (CPC): Started as an urban party with the support from Comintern; relationship with GMD falling out and was forced (or struggled) to change and survive
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/chiang_new.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/yanan_new.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/chongqing_new.pdf")
+```
+
+# The Chinese Civil War(s)
+
+\begin{itemize}
+  \item First Chinese Civil War (1927-1936)
+  \begin{itemize}
+    \item As a result of the fallout of the first United Front (1924-1927) duing the North Expedition; ended by the Xi'an Incident (西安事变)
+    \item Key developments for GMD: The Nationalist Government managed to \textit{de facto} unify the country but Chiang Kai-shek was under constant challenges; industrial development took off in the shadow of Japanese invasion 
+    \item Key developments for For CPC: The experiment with in Ruijin, Jiangxi
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Second Chinese Civil War (1945-1949)
+  \begin{itemize}
+    \item As a result of the end of WWII or the Anti-Japanese War (1937-1945); ended with the CPC's military victory
+    \item The GMD's defeat was the result of its separation from its political and economic base (Lieberthal 1995)
+  \end{itemize}
+\end{itemize}
+
+# Legacies of the Republican Era
+
+\begin{itemize}
+  \item A divided "China:" CPC and GMD managed to control the Mainland China and Taiwan, respectively
+  \vspace{0.6cm}
+  \item CPC's revolutionary success against all odds
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Grassroots mobilization and campaigns in the countryside
+    \item Revolutionary armed forces
+    \item Shared challenging experiences and collective memories
+    \item Rise of Mao and the distance from the Soviet Union
+    \item ...?
+  \end{itemize}
+\end{itemize}
+
+# Local states in the early 20th century (Remick 2002)
+
+\begin{itemize}
+  \item Key idea(s): The behavior and capacity of local states vary significantly in China, as these two are shaped by central policy and local social contexts (history, limitations and ideology)
+  \vspace{0.3cm}
+  \item Some questions to consider:
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item What is a state and state "capacity?" How did Remick define it? Why is state-building an important question? Why did she and many scholars choose to focus on taxation and public finance?
+    \item Why do we need to look central and local state-building as two distinctive and yet interrelated processes?
+    \item She mentioned a couple of countries to put her argument in a comparative perspective. Why? Does it make sense to you? Any other cases you can think of?
+  \end{itemize}
+\end{itemize}
+
+# Questions for comparative scholars
+
+\begin{itemize}
+  \item Revolutions: Causes, results and implications
+  \vspace{0.3cm}
+  \item Communist/Socialist revolutions and their influence
+  \vspace{0.3cm}
+  \item Political elites and leadership "style"
+  \vspace{0.3cm}
+  \item What else?
+\end{itemize}
+
+# Recap: Key events during the Republican Era 
+
+\begin{itemize}
+  \item Beiyang period
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item 1919: May-Fourth Movement (五四运动)
+    \item 1926-1928: North Expedition (北伐)
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Republican period
+  \begin{itemize}
+    \item 1927-1936: 1st CCP-GMD Civil War (一次国共内战)
+    \item 1934-1935: Long March (长征) and Zunyi Conference (遵义会议)
+    \item 1937-1945: Anti-Japanese War (抗日战争)
+    \item 1942-1945: Rectification Movement (整风运动)
+    \item 1945-1949: 2nd CCP-GMD Civil War (二次国共内战)
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{1cm}
+See you next week!
