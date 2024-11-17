@@ -1,0 +1,453 @@
+---
+title: |
+  |
+  |
+  | Investigating the Social World
+  |
+  |
+author: |
+  | Week 4: Using Numbers in Social Research
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\vspace{0.7cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/lego.pdf")
+```
+\vspace{0.5cm}
+\begin{center}
+Welcome back!
+\end{center}
+
+---
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/reed}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  "\textbf{We have disagreements}, that is, not only about \textbf{how we establish the sheer existence} of this or that social phenomenon, but also about \textbf{how we can claim to correctly and effectively explain, criticize, or interpret} it. In my view it is these latter disagreements [...] at the core of controversies about social knowledge."
+  \endcol
+\endcols
+
+# Recap: Producing "knowledge" about the social world(s)
+
+\begin{itemize}
+  \item Using theory in social research
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item The theoretical claims or arguments can \textbf{have different objectives}: Interpretation and/or explanation
+    \item The theoretical claims or arguments can \textbf{take different forms}: Verbal, formal (mathematical), and combined
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Connecting theoretical claims with "empirical" evidence
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Induction: Using observations to \textbf{generate} theoretical possibilities
+    \item Deduction: Using observations to \textbf{evaluate} theoretical predictions
+    \item Abduction: Using observations to \textbf{challenge} existing theories
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Thinking through epistemology: Positivism v constructivism
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_binary.pdf")
+```
+
+# Wrapping up the loose ends: More on deduction
+
+\begin{itemize}
+  \item Testing a theory v testing a hypothesis
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item A hypothesis is an "observable" implication we derive from our theoretical claims
+    \item But the same may be explained or interpreted by more than one theoretical conjecture
+    \item To "formalize" the idea: Theory is the \textbf{sufficient} condition for the hypothesis, and rejecting the hypothesis does not mean we have to reject the theory
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Empirics for critical tests
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Ruling out the rival or competing explanations
+    \item Additional tests are needed to making a compelling theoretical claim based on your findings
+    \item A good example is medical checks -- having a cold can mean so many different things
+  \end{itemize}
+\end{itemize}
+
+# Wrapping up the loose ends: Epistemology and theory-empirics alignment
+
+\begin{itemize}
+  \item Using induction
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item As a positivist: Common for data-driven quantitative projects
+    \item As a constructivist: The World Bank project "Voices of the Poor"
+  \end{itemize}
+  \vspace{0.6cm}
+  \item Using abduction
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item As a positivist: "Why China's Economic Reforms Have Delayed Democracy" by Mary Gallagher (2002)
+    \item As a constructivst: "Translating the Devil" by Birgit Meyer (1999)
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_spectrum.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+\begin{center}
+\textbf{Part III}
+\end{center}
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/theme.pdf")
+```
+\vspace{0.4cm}
+\begin{center}
+\textbf{Using numbers to "investigate" the social world}
+\end{center}
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="40%", fig.align="center"}
+knitr::include_graphics("Figs/theme.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+"For the quantitative side, I'll emphasize elements like statistical data, bar graphs, and pie charts, representing a focus on numbers and measurable data. \textbf{This side will have a more formal, precise, and technical feel}. For the qualitative side, the focus will be on human elements like interviews, thematic analysis, and case studies, representing a focus on subjective experiences and descriptive data. \textbf{This side will have a warmer, more narrative, and empathetic feel}."
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/kkv_cake.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+"\textbf{Quantitative and qualitative approaches are only different in style}, not in the fundamentals of scientific research. All research must be \textbf{systematic and scientific}. This books aims to show researchers (especially social scientists) how to approach studying phenomena and answering questions. Inference (descriptive or causal) is vitally important in defining social science research. There are four main components of research design: the research question, the theory, the data, and the use of the data."
+\end{center}
+
+---
+
+\vspace{0.5cm}
+\begin{itemize}
+  \item Positivism and quantitative social research
+  \vspace{1cm}
+  \item What we do with numbers
+  \vspace{1cm}
+  \item Challenges and potential solutions
+\end{itemize}
+
+# Positivism and quantitative social research
+
+\begin{itemize}
+  \item Epistemology is about \textbf{how we perceive the world}, \textbf{what we seek to gain from our enquirers}, and \textbf{how we relate to the "researched."}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item One reality v multiple realities? Is reality independent of our thoughts?
+    \item Single, generalizable, and universal truth? 
+    \item Are we independent of what we are studying -- the research "objects?"
+  \end{itemize}
+  \vspace{0.5cm}
+  \item We may not be able to find a common ground, but in reality we are usually "somewhere in between"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item The contrast between positivism and constructivism may NOT have much to do with the contrast between quantitative and qualitative
+    \item The "rigor" of your research depends on how aware you are of what you attempt to do
+    \item Quant research is neither scientific nor objective
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_spectrum.pdf")
+```
+
+# What we do with numbers
+
+\begin{itemize}
+  \item According to \textbf{Edward Tufte}, statistics or quantitative methods are "techniques" that help us
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item answer the substantive questions
+    \item squeeze the relevant information out of the (quantitative) data
+    \item learn something new about the social world
+  \end{itemize}
+  \vspace{0.5cm}
+  \vspace{0.2cm}
+  \item According to \textbf{KKV}, the goal of statistics or quantitative methods is \textbf{inference}.
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Descriptive}: Use basic statistics (e.g., mean, median, and standard deviations) to describe noticeable patterns in the data
+    \item \textbf{Statistical/causal}: Use statistical model (e.g., linear/non-linear regression) to assess the relationship between \textbf{explanatory} (or "independent") and \textbf{outcome} (or "dependent") variables
+  \end{itemize}
+\end{itemize}
+
+# Linear correlation: Larger houses are more expensive (duh)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/linear.pdf")
+```
+
+# Non-linear correlation: Diminishing returns (oops)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/non-linear.pdf")
+```
+
+# Issues and challenges
+
+\begin{itemize}
+  \item How we quantify the social world matters
+  \vspace{0.5cm}
+  \item How we construct our data matters
+  \vspace{0.5cm}
+  \item How we estimate matters
+\end{itemize}
+
+# Issues and challenges
+
+\begin{itemize}
+  \item How we quantify the social world matters
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Building and maintaining consensus over conceptualization and operationalization is hard (e.g., GDP and infant mortality)
+    \item Existing measures may not be suitable for new political and socio-economic challenges/trends, such as development (Sitglitz, Sen, and Fitoussi 2010) and gender, sex and sexuality (Guyan 2022)
+    \item Measurement usually requires extensive contextual knowledge (Rukmini S 2021)
+  \end{itemize}
+  \vspace{0.5cm}
+  \item How we construct and process our data matters
+  \vspace{0.5cm}
+  \item How we estimate matters
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/stigliz.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\small
+"\textbf{GDP should be dethroned}; ... each nation should select a \textbf{dashboard}, a limited set of metrics that would help steer it toward the future its citizens desired. ... \textbf{the dashboard would include metrics for health, sustainability and any other values that the people of a nation aspired to}, as well as for inequality, insecurity and other harms that they sought to diminish" (Stigliz 2020, \textit{Scientific American}).
+\end{center}
+
+# Issues and challenges
+
+\begin{itemize}
+  \item How we quantify the social world matters
+  \vspace{0.5cm}
+  \item How we construct and process our data matters
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Data generation is not a neutral process
+    \item States and organizations vary in their \textbf{incentives} and \textbf{capacity} in producing data (Liu 2009; Jerven 2013)
+    \item Researchers may take explicit/implicit (or unreported) actions, such as sample selection, when they process their data prior to the analysis stage (Huntington-Klein et al 2020)
+  \end{itemize}
+  \vspace{0.5cm}
+  \item How we estimate matters
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/holz.pdf")
+```
+
+# Issues and challenges
+
+\begin{itemize}
+  \item How we quantify the social world matters
+  \vspace{0.5cm}
+  \item How we construct and process our data matters
+  \vspace{0.5cm}
+  \item How we estimate the statistical relations matters
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Careless research practice may create \textbf{biased} and \textbf{inefficient} results -- that is, the inferred results are (1) drastically different from the "true" value in the population and (2) the results are "unstable" due to high variance
+    \item Linear or non-linear? Variable selection (garbage can)? Causality or correlation?
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/page.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+"Previous studies find the UN has no effect on the likelihood that the [fighting] parties will experience another crisis within five years, but they do not consider the issue of \textbf{endogeneity}, namely, \textbf{that the UN tends to get involved in the most violent and extreme cases}" (Fortna 2004, \textit{World Politics}).
+\end{center}
+
+# Solutions: Better quantitative social research
+
+\begin{itemize}
+  \item Replicability: Data and code sharing?
+  \vspace{1cm}
+  \item Transparency: Pre-analysis plan (PAP)?
+  \vspace{1cm}
+  \item Knowledge accumulation: Meta-analysis and systematic review?
+  \vspace{1cm}
+  \item Triangulation: Mixed- and multi-method research?
+\end{itemize}
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="105%", fig.align="center"}
+knitr::include_graphics("Figs/pnas.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\textit{Proceedings of the National Academy of Sciences} (2022)
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/bitss.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.bitss.org/}
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/desk03.pdf")
+```
+
+# Critical approaches to quantitative social research
+
+\begin{itemize}
+  \item Incorporate "deep" (or "thick") qualitative knowledge into quantitative research (e.g., process tracing), such as \textbf{Poor Number} (Jerven 2013) and \textbf{Whole Numbers and Half Truths} (Rukmini S 2021)
+  \vspace{0.2cm}
+  \item Work with quantitative scholars to advance progressive and reform-oriented causes, such as \textbf{Maya Sen} (Harvard)
+  \vspace{0.2cm}
+  \item Question the underlying power dynamics of data generation, such as \textbf{The China Mirage} (Liu 2009) and \textbf{Data Feminism} (D'Ignazio and Klein 2020)
+  \vspace{0.2cm}
+  \item Challenge the presumed conceptualization and categorization in quantitative research, such as \textbf{The Skeptical Environmentalist} (Lomborg 2001), \textbf{Mismeasuring Our Lives} (Stiglitz et al 2010) and \textbf{Queer Data} (Guyan 2022)
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="93%", fig.align="center"}
+knitr::include_graphics("Figs/maya.pdf")
+```
+\vspace{0.4cm}
+\begin{center}
+\textbf{Black federal district judges are consistently overturned on appeal more often than their white colleagues}, even after the analysis accounts for other factors, such as professional experiences, education, and ABA's qualification rankings (Sen 2015, \textit{JLS}).
+\end{center}
+
+# Concluding remarks
+
+\begin{itemize}
+  \item Break the (positivist) (or scientific) myth of quantitative social research?
+  \vspace{1cm}
+  \item No more "lone-wolf" academics and/or researchers -- cross-border, multi-method and interdisciplinary knowledge co-production is key
+  \vspace{1cm}
+  \item The rise of computational social sciences: What is big data and how is different from the traditional "small" data?
+\end{itemize}
+
+# Group discussion: Quantification of ethnicities
+
+\begin{itemize}
+  \item Can and should we measure identity?
+  \vspace{1cm}
+  \item How have (quantitative) social researchers attempted to measure identity?
+  \vspace{1cm}
+  \item Several methods/techniques are discussed in the article. Which one do you prefer (or agree with)? And why?
+  \vspace{1cm}
+  \item Which scholar's comments do you find most compelling? And why?
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/desk01.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/desk02.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/css.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.nature.com/collections/cadaddgige}
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="105%", fig.align="center"}
+knitr::include_graphics("Figs/nhb.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\textit{Nature Human Behavior} (2018)
+\end{scriptsize}
+\end{center}
+
+# "The Turing Way"
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/turing.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://the-turing-way.netlify.app/collaboration/collaboration}
+\end{scriptsize}
+\end{center}

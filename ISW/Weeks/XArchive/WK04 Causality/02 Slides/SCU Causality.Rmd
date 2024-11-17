@@ -1,0 +1,364 @@
+---
+title: |
+  |
+  |
+  | Introduction to Causal Inference: A Primer
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  | (University of London)
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Why causality matters
+
+\begin{itemize}
+	\item Social science research is often motivated by simple (and yet important and difficult) \textbf{cause-and-effect} questions. To name a few:
+	\vspace{0.2cm}
+	\begin{itemize}
+	\item American politics: Does historical black slavery have a lasting impact on voters' attitudes toward the African American people?
+	\vspace{0.1cm}
+	\item Comparative politics: Does the descriptive representation of women and racial minorities in the legislature mitigate people's bias against them?
+	\vspace{0.1cm}
+	\item Political economy: Do cash-transfer programs reduce poverty?
+	\vspace{0.1cm}
+	\item International relations: Does international peacekeeping reduce conflicts? Does foreign aid work?
+	\end{itemize}
+	\vspace{0.2cm}
+	\item Causality is in particular crucial for "evidence-based" policy-making
+\end{itemize}
+
+# Causality is hard to establish
+
+\begin{itemize}
+  \item Presence of confounders or common causes
+  \vspace{1cm}
+  \item True counterfactural cannot be observed
+  \vspace{1cm}
+  \item Causality is complicated and multi-dimensional
+\end{itemize}
+
+# Challenge 1: Correlation and common causes (confounders)
+
+\begin{itemize}
+  \item Two variables $X$ (independent or explanatory) and $Y$ (dependent or outcome) can be \textbf{correlated} with each other under at least \textbf{three} conditions
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item $X$ causes $Y$
+    \item $X$ and $Y$ have a common \textbf{cause}
+    \item $X$ and $Y$ have a common \textbf{outcome}
+  \end{itemize}
+  \vspace{0.2cm}
+  \item To make sure $X$ causes $Y$, we have to rule out the influence from all common \textbf{causes}, namely the \textbf{confounders}, though \textbf{statistical controls} in multiple regression
+  \vspace{0.2cm}
+  \item It is simply impossible and unrealistic to include all possible confounders in multiple regression
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/assn.pdf")
+```
+\vspace{0.6cm}
+\begin{center}
+\textbf{Correlation with or without causation}. In the directed acyclic graph (DAG), we use \textbf{arrows} to denote causality between two variables. Here $X$, $Y$, and $C$ refer to \textbf{cause}, \textbf{outcome}, and \textbf{confounders} respectively
+\end{center}
+
+---
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.61]{Figs/b2}
+\end{figure}
+\vspace{0.4cm}
+\begin{itemize}
+  \item On average, neighborhoods that have more police officers also see more residents killed by gun violence
+  \vspace{0.2cm}
+  \item Is the police incompetent? Or even worse, are the police officers involved in some covert collusion with the local crime syndicate?
+\end{itemize}
+
+---
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.61]{Figs/b3}
+\end{figure}
+\vspace{0.4cm}
+\begin{itemize}
+  \item On average, no statistically significant results exist to show that UN peacekeeping troops reduce the likelihood of communal violence.
+  \vspace{0.2cm}
+  \item Is sending UN peacekeeping troops a waste of time and money?
+\end{itemize}
+
+# Challenge 2: Counterfactural does not exist
+
+\begin{itemize}
+  \item Causal inference is difficult also because of the famous "fundamental problem of causal inference"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item For any individual, we can never observe what actually happens under \textbf{counterfactural} in real life (Holland 1986)
+    \item Instead of comparing the difference at the \textbf{individual} level, we can compare the \textbf{average difference} in terms of the outcome of interest between \textbf{two (comparable) groups of people}
+  \end{itemize}
+  \vspace{0.2cm}
+  \item The comparison is not straightforward due to the presence of \textbf{confounders}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Researchers usually attempt to \textbf{eliminate the influence of confounders on the cause} by randomly assigning our observations (e.g., survey respondents) into one of the experiment groups
+    \item \textbf{Randomization may not be a perfect solution} (Deaton and Cartwright 2018)
+  \end{itemize}
+\end{itemize}
+
+# Challenge 3: Causality is more complicated than we thought
+
+\begin{itemize}
+  \item Getting a clear picture of causality is hard
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Existence: Does $X$ cause $Y$? If yes, what is the direction?
+    \item Importance: If yes, $X$ have a non-trivial impact on $Y$? How do we quantify the size of effect? How do we know an effect is big or small?
+    \item Mechanism: How and why does $X$ affect $Y$? \textbf{Causal mediation analysis} and (qualitative) \textbf{process tracing} are commonly used to unpack a causal mechanism.
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Tradeoff between \textbf{internal} and \textbf{external} validity: It is also hard to generalize from our findings.
+\end{itemize}
+
+# Causal inference in action: Field and "natural" experiments
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/dunning.pdf")
+```
+
+# Causal inference as a field
+
+\begin{itemize}
+  \item Identification of causal quantities with and without an experiment requires "assumptions" -- the combination of assumptions and data needed to render a valid causal conclusion
+  \vspace{0.1cm}
+  \item Many identification assumptions are best made reasonable by carefully thought-out research designs
+  \vspace{0.1cm}
+  \item "What is your identification strategy?" -- what are the assumptions that allow you to claim you've estimated a causal effect?
+  \vspace{0.1cm}
+  \pause
+  \item \textbf{Identification strategies are not the same as estimation strategies}
+  \vspace{0.1cm}
+  \begin{itemize}
+  \item If an effect is not identified, no estimation method will recover it
+  \vspace{0.1cm}
+  \item Estimation methods (e.g., t-test, regression, matching, weighting, 2SLS, 3SLS, SEM, GMM, GEE, dynamic panel, etc.) are secondary to the identification assumptions
+  \end{itemize}
+\end{itemize}
+
+# Experiment vs. observational studies
+
+\begin{itemize}
+  \item Randomized experiment: well-defined treatment, clear distinction between covariates and outcomes, control of assignment mechanism
+  \vspace{0.2cm}
+  \item Good observational study: Well-defined treatment, clear distinction between covariates and outcomes, (nearly) precise knowledge of assignment mechanism
+  \vspace{0.2cm}
+  \item Poor observational study: Hard to say when treatment began or what the treatment really is; distinction between covariates and outcomes is blurred; no precise knowledge of assignment mechanism
+\end{itemize}
+\vspace{0.2cm}
+\pause
+\textbf{The bottom line}: Causal inference requires that treated and control units in the study population are comparable such that the only difference is the treatment status
+
+# ID strategies for observational studies: An informal overview
+
+\begin{itemize}
+  \item Selection on observables (SOO)
+  \vspace{0.15cm}
+  \item Instrumental variables (IV)
+  \vspace{0.15cm}
+  \item Regression discontinuity design (RDD)
+  \vspace{0.15cm}
+  \item Difference-in-difference (DID)
+  \vspace{0.15cm}
+  \item ... and many more (e.g., fixed effect regressions and synthetic control)
+\end{itemize}
+
+# Example: White et al (APSR 2015)
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/whites.pdf")
+```
+\begin{itemize}
+	\item Do local election officials in the US respond to voters of different ethnicities differently?
+	\item 7,000 email requests were sent to local election offices; each request has a fictional voter from a uniquely "randomized" ethnicity (Latino v non-Latino)
+	\item Emails sent from Latino aliases were less likely to receive a response or more likely to receive a response of lower quality
+\end{itemize}
+
+# Example: Cheng and Urpelainen (SCID 2019)
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cheng.pdf")
+```
+\begin{small}
+\begin{itemize}
+	\item Does the election of criminal politicians undermine socioeconomic development in rural India?
+	\item Analysis draws on fine-grained village-level (on local public goods and socioeconomic development) and constituency-level data (on candidate characteristics)
+	\item Identification considers the victory of criminal politicians in close election "as-if" random
+	\item Criminal politicians may undermine household-level poverty alleviation while having no statistically discernible impact on infrastructure construction (e.g., paved roads)
+\end{itemize}
+\end{small}
+
+# How causal "revolution" changes social research
+
+\begin{itemize}
+  \item Qualitative and multi-method researchers in demand
+  \vspace{1cm}
+  \item Design-based "identification" precedes model-based inference
+	\vspace{1cm}
+	\item Statistical learning: The rise of "causal" learning
+\end{itemize}
+
+# How causal "revolution" changes social research
+
+\begin{itemize}
+  \item Qualitative and multi-method researchers in demand
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Qualitative information is important for research design and the search for proper setting for natural experiments (Dunning 2015)
+    \item It is possible to use qualitative methods/information to strengthen causal estimation (Glynn and Ichino 2015) and the study of mechanisms (Walder 2012)
+  \end{itemize}
+  \vspace{1cm}
+  \item Design-based "identification" precedes model-based inference
+	\vspace{1cm}
+	\item Statistical learning: The rise of "causal" learning (DAG recovering, heterogeneous treatment effects and covariate/control selection)
+\end{itemize}
+
+# How causal "revolution" changes social research
+
+\begin{itemize}
+  \item Qualitative and multi-method researchers in demand
+  \vspace{1cm}
+  \item Design-based "identification" precedes model-based inference
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item The conventional approach is to include "all" possible predictors in multiple regression (i.e., the notorious "kitchen-sink" approach).
+    \item Design-based causal "identification" urges us to think hard about the distinction between the "cause" and pre-treatment/control variables.
+  \end{itemize}
+	\vspace{1cm}
+	\item Statistical learning: The rise of "causal" learning
+\end{itemize}
+
+# How causal "revolution" changes social research
+
+\begin{itemize}
+  \item Qualitative and multi-method researchers in demand
+  \vspace{1cm}
+  \item Design-based "identification" precedes model-based inference
+	\vspace{1cm}
+	\item Statistical learning: The rise of "causal" learning
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item (Supervised) machine learning techniques may help with variable selection in multiple regression
+    \item Statistical learning may also help with the analysis of "heterogeneous" causal effects
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_mres.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://www.bbk.ac.uk/courses/postgraduate/social-research-and-law-and-legal-studies}
+\end{center}
+
+# What we offer at Birkbeck
+
+\begin{itemize}
+  \item Advanced topics in quantitative social research (Dr Chao-Yo Cheng)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Generalized/non-linear multiple regression
+    \item Multilevel/hierarchical modeling
+    \item Basic tools for (observational) causal inference
+  \end{itemize}
+  \vspace{1cm}
+  \item Experiments in social science (Dr Barry Maydom)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Lab and lab-in-the-field experiments
+    \item Survey experiments
+    \item Natural experiments
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.8cm}
+```{r echo=FALSE, out.width="75%", fig.align="center"}
+knitr::include_graphics("Figs/end3.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\url{c.cheng@bbk.ac.uk}
+\end{center}
+
+# Studying admin litigation in China
+
+\begin{itemize}
+  \item The release of \textbf{China Judgements Online} (\texttt{https://wenshu.court.gov.cn/}) made a crucial breakthrough in the empirical legal studies in China (Ma, Yu and He 2016; Liebman et al 2020).
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item In 2020, through a special partnership, we acquired all publicly available court records of administrative cases after 2014 and extract a variety of crucial information about each case.
+    \vspace{0.2cm}
+    \item Our RAs scrutinized a random sample of the processed records -- for the variables included in the study, the percentage of correct annotations ranges between 90\% and 99\%, with a mean of 97.9\%.
+    \vspace{0.2cm}
+    \item In our analysis, we focus on the records between 2014 and 2019 published by the LPCs at the intermediate (city) and primary (county or district) levels.
+  \end{itemize}
+\end{itemize}
+
+# Empirical study I: Railway transport court
+
+\begin{itemize}
+	\item \textbf{Background}
+	\begin{itemize}
+		\item In 2014, the Supreme People's Court (SPC) announced the decision to allow the \textbf{railway transport courts} (RTCs) to accept and hear administrative cases
+		\item In contrast to the local people's courts (LPCs), the RTCs are under the direct administration of the provincial high courts
+	\end{itemize}
+	\vspace{0.1cm}
+	\item \textbf{Key variables}
+	\begin{itemize}
+	  \item Explanatory: Whether the case was ruled by an RTC (=1)
+		\item Outcome: Whether the citizen(s) won the case (=1)
+	\end{itemize}
+	\vspace{0.1cm}
+	\item \textbf{Research design}: Hierarchical modeling in which we include case- and city-level covariates
+	\begin{itemize}
+	  \item Case-level: Plaintiff was natural person, had lawyer, was a group; defendant had lawyer, from upper admin levels, was a group; case types
+	  \item City-level: GDP per capita, population, real estate (fixed asset) investment
+	\end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/railway_table.pdf")
+```
+
+# Empirical study I: Railway transport court
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/railway.pdf")
+```
+\begin{itemize}
+	\item At the primary level, RTCs are more likely to side with the citizens when the cases are filed against county-level government agencies
+	\vspace{0.1cm}
+	\item The pro-citizen effect of RTCs disappears when we focus on cases with higher political stakes
+	\vspace{0.1cm}
+	\item Provincial government agencies are less likely to be defeated in both intermediate and primary RTCs
+\end{itemize}

@@ -1,0 +1,411 @@
+---
+title: |
+  |
+  |
+  | Investigating the Social World
+  |
+  |
+author: |
+  | Week 3: In Search for Rigour
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\vspace{0.7cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/lego_2.pdf")
+```
+\vspace{0.5cm}
+\begin{center}
+Welcome back!
+\end{center}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="92%", fig.align="center"}
+knitr::include_graphics("Figs/deepmind.pdf")
+```
+
+# Wrapping up the loose ends
+
+\begin{itemize}
+	\item Varieties of "theory" in social research: They contrast each other but (logically and intellectually) related to each other
+	\vspace{0.1cm}
+	\begin{itemize}
+	  \item Theory as paradigm and approach (Geddes 2003) 
+	  \item Theory for interpretation, explanation and emancipation (Cornelissen et al 2021)
+	\end{itemize}
+	\vspace{0.3cm}
+	\item Key takeaway messages and tasks
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Explain your analyticial decisions as a researcher (but no need to be apologetic)
+		\item Recognize and appreciate the contribution of others
+		\item Search for the common ground for fruitful collaborations; avoid dogmatic feud and squid game
+	\end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/crt.pdf")
+```
+
+# CRT as an interpretative theory
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{Figs/crenshaw}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  CRT is "'is \textbf{a way of seeing}, attending to, accounting for, tracing and analyzing \textbf{the ways} that race is produced," she said, '\textbf{the ways} that racial inequality is facilitated, and \textbf{the ways} that our history has created these inequalities that now can be almost effortlessly reproduced unless we attend to the existence of these inequalities.'"
+  \endcol
+\endcols
+
+# CRT as an emancipatory theory
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{Figs/oiyang}
+    \end{figure}
+    \vspace{0.2cm}
+  \endcol
+  \begincol{.5\textwidth}
+  "'The founders of CRT critiqued liberal ideologies, and that they called on research scholars to seek out and \textbf{understand the roots of why racial disparities are so persistent, and to systemically dismantle racism}.'"
+  \endcol
+\endcols
+
+# Explanatory theory of inter-group inequality
+
+\pause
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/becker}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+    \item \textbf{Statistical discrimination} is based on stereotypes that occur when rational, information-seeking decision makers use aggregate group characteristics to evaluate individuals
+  \vspace{0.45cm}
+    \item \textbf{Taste-based discrimination} is based on prejudice or racial and gender bias
+  \end{itemize}
+  \endcol
+\endcols
+
+# Breaking the ice: Where we are now
+
+\begin{itemize}
+  \item Recap: To \textbf{produce valid knowledge claims} (cool, but how?)
+  \pause
+  \vspace{0.6cm}
+  \item Coming weeks: "\textbf{Empirics comes to rescue}" (?)
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item How do social researchers use theory and data in their work? 
+    \vspace{0.1cm}
+    \item Why should we use numbers to understand the social world?
+    \vspace{0.1cm}
+    \item How can we put our research in a broader theoretical and social contexts?
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/kkv_hd.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+\begin{center}
+\textbf{Part II}
+\end{center}
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="55%", fig.align="center"}
+knitr::include_graphics("Figs/theme_2.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\textbf{Building rigor in social research by aligning theory and empirics}
+\end{center}
+
+# What is rigor according to AI
+
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/theme_2}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{small}
+  \begin{itemize}
+    \item The image showcases a large, fortress-like structure made of books and \textbf{scientific instruments}, symbolizing the strength and solid foundation of rigorous research.
+    \vspace{0.3cm}
+    \item This structure is encircled by a moat of flowing \textbf{data and statistics}, highlighting the \textbf{depth and thoroughness} required in research.
+  \end{itemize}
+  \end{small}
+  \endcol
+\endcols
+
+# What is rigor according to AI
+
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/theme_2}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{small}
+  \begin{itemize}
+    \item Atop the fortress, researchers are depicted using telescopes, microscopes, and computers, representing their \textbf{meticulous and detailed} work.
+    \vspace{0.3cm}
+    \item The clear and bright sky above the structure suggests the \textbf{clarity and enlightenment} achieved through rigorous study.
+  \end{itemize}
+  \end{small}
+  \endcol
+\endcols
+
+---
+
+\begin{itemize}
+  \item Why we should pay attention to empirics
+  \vspace{1cm}
+  \item How theory and empirics can be aligned
+  \vspace{1cm}
+  \item Epistemology and theory-empirics alignment
+\end{itemize}
+
+# Why empirics: Tradeoff of theory-building
+
+\begin{itemize}
+  \item Theory as interpretation
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Pros: Generate ideas and concepts to reveal nuances of the social world
+    \item Cons: "Everyone is right" -- a collection of opinions and perspectives 
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Theory as explanation
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Pros: Lay out a specific and parsimonious process and mechanisms through which the social world "works" 
+    \item Cons: "Everyone loses" -- domination and loss of complexities
+  \end{itemize}
+\end{itemize}
+
+# Why empirics: The "sandcastle" pitfall
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{Figs/castles}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  "'My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!' Nothing beside remains. Round the decay of that colossal wreck, boundless and bare The lone and level sands stretch far away."
+  \endcol
+\endcols
+
+# How theory aligns with empirics
+
+\begin{itemize}
+  \item \textbf{Induction}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Producing broad claims based on our observations showing systematic patterns
+    \item Prone to any unfair or unwarranted rejections with only an (or a few) "exception" or "outlier"
+    \item Better for showing the existence a "theoretical" possibility awaiting further research
+  \end{itemize}
+  \vspace{0.6cm}
+  \item Deduction
+  \vspace{0.6cm}
+  \item Abduction
+\end{itemize}
+
+# How theory aligns with empirics
+
+\begin{itemize}
+  \item Induction
+  \vspace{0.6cm}
+  \item \textbf{Deduction}
+  \vspace{0.1cm}
+  \begin{itemize}   
+    \item Evaluating theoretical claims by using data to "test" the hypotheses based from these claims
+    \item Ideal if attempting to adjudicate competing theoretical claims; often in line with positivism
+    \item Rejecting hypotheses does not necessarily rule out the theory (but it does reduce our faith in the theory, however)
+  \end{itemize}
+  \vspace{0.6cm}
+  \item Abduction
+\end{itemize}
+
+# How theory aligns with empirics
+
+\begin{itemize}
+  \item Induction
+  \vspace{0.6cm}
+  \item Deduction
+  \vspace{0.6cm}
+  \item \textbf{Abduction}
+   \vspace{0.1cm}
+  \begin{itemize}
+    \item Starting by (surprisingly) finding that a hypothesis does NOT work well and may trigger the need for new data and interpretations/explanations
+    \item Can be seen as a sequential integration of deductive-inductive processes
+    \item Common for the task of theoretical refinement (or improvement)
+  \end{itemize}
+\end{itemize}
+
+# Examples from "culture" and development
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/examples.pdf")
+```
+
+---
+
+\vspace{0.5cm}
+\begin{itemize}
+  \item Research question?
+  \vspace{0.6cm}
+  \item Theoretical claims or arguments?
+  \vspace{0.6cm}
+  \item Empirical strategy (and epistemology)?
+  \vspace{0.6cm}
+  \item Contribution and significance?
+\end{itemize}
+
+# Induction: "World Economic Development: 1979 and Beyond" (Khan 1979)
+
+\begin{itemize}
+  \item \textbf{Research question}: Why did NICs in East Asia achieve high economic growth rates between the 1950s and 1990s?
+  \vspace{0.3cm}
+  \item \textbf{Theoretical claims or arguments}: These countries were economically successful because of their "Asian values"
+  \vspace{0.3cm}
+  \item \textbf{Empirical strategy}: (Descriptive) case studies mostly
+  \vspace{0.3cm}
+  \item \textbf{Significance and contribution}
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item No longer popular (or accepted) due to the lack of empirical support and conceptual setbacks (circular and essentialist)
+    \item Critically reflecting on the relationship between culture and development for explanatory purpose
+  \end{itemize}
+\end{itemize}
+
+# Deduction: "The Oil Curse" (Ross 2012)
+
+\begin{itemize}
+  \item \textbf{Research question}: Why are women in the Middle East politically marginalized?
+  \vspace{0.2cm}
+  \item \textbf{Theoretical claims or arguments}: Petroleum perpetuates patriarchy because oil creates a specific industrial structure that reduces women's participation in the labor market
+  \vspace{0.2cm}
+  \item \textbf{Empirical strategy}: (Inferential) multiple regression to test the following hypotheses:
+  \begin{itemize}
+    \item A rise in the value of oil production will reduce female participation in the labor force
+    \item A rise in the value of oil production will reduce female political influence
+  \end{itemize}
+  \vspace{0.2cm}
+  \item \textbf{Significance and contribution}: Pushing us to think away from only using Islam as the explanation
+\end{itemize}
+
+# Abduction: "Translating the Devil" (Meyer 1999)
+
+\begin{small}
+\begin{itemize}
+  \item \textbf{Research question}: How have Christian beliefs been accepted by local people in former European colonies in Africa?
+  \vspace{0.4cm}
+  \item \textbf{Theoretical claims or arguments}: Locals "appropriated" Christian beliefs and transformed Peki Ewe through the (re)imagination of the notion of devil
+  \vspace{0.4cm}
+  \item \textbf{Empirical strategy}: Using archival research (in Germany and the UK) and ethnography (in Ghana) were employed to document various lived experiences as an outsider from Europe
+  \vspace{0.4cm}
+  \item \textbf{Significant and contribution}: Enrich Weber's theoretical framework by considering a more complicated, nuanced process of religious conversion with the focus on the agency of local communities
+\end{itemize}
+\end{small}
+
+# Concluding remarks
+
+\begin{itemize}
+  \item Alignment between theory-empirics provide the source of rigor in social research
+  \vspace{0.3cm}
+  \item Bolster the (credibility) of theory through the establishment theory-empirics alignment and \textit{high-quality} evidence
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Why is it a good idea to use "numbers" to study the social world (even if you do not know quants)?
+    \item Why is causality important? Is causality always a must?
+    \item How can we generalize our insights beyond a case?
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Bring epistemology into the discussion: \textbf{How rigid are these epistemology-methodology links?}
+  \begin{itemize}
+    \item \textbf{Positivism}: Theory as explanation; quantitative
+    \item \textbf{Constructivism} Theory as interpretation; qualitative
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_bin.pdf")
+```
+
+# Discussion: Two worlds of development studies (really?)
+
+\begin{itemize}
+  \item Do you agree with the binary distinction between positivism and constructivism?
+  \vspace{0.3cm}
+  \item Does your research fall into one of these epistemological stances? How do you define your epistemological stance?
+  \vspace{0.3cm}
+  \item Do you agree with the alignment between epistemological positions and the choice of methods?
+  \vspace{0.3cm}
+  \item Is such alignment always the case? Can we be somewhere in between? 
+  \vspace{0.3cm}
+  How do we know when a research work is rigorous?
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_cont.pdf")
+```
+
+---
+
+\vspace{0.5cm}
+\begin{center}
+Thank you!
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_tv.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\texttt{c.cheng@bbk.ac.uk}
+\end{center}
