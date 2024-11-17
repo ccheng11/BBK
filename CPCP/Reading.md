@@ -5,13 +5,17 @@ Dr Chao-Yo Cheng\
 
 ## Background readings
 
+Fewsmith, Joseph. 2021. *Rethinking Chinese Politics*. New York, NY: Cambridge University Press.
+
 Liberthal, Kenneth. 2004. *Governing China: From Revolution Through Reform* (2nd Edition). New York, NY: W. W. Norton.
 
-Meisner, Maurice. 1999. *Mao's China and After: A History of the People's Republic* (3rd Edition).  New York, NY: The Free Press.
+Meisner, Maurice. 1999. *Mao's China and After: A History of the People's Republic* (3rd Edition). New York, NY: The Free Press.
 
 Naughton, Barry J. 2018. *The Chinese Economy* (2nd Edition). Cambridge, MA: The MIT Press.
 
 Spence, Jonathan D. 2012. *The Search for Modern China* (3rd Edition). New York, NY: W. W. Norton.
+
+Shirk, Susan L. 2022. *Overreach: How China Derailed Its Peaceful Rise*. Oxford: University of Oxford Press.
 
 Zhou, Xueguang. 2022. *The Logic of Governance in China: An Organizational Approach*. New York, NY: Cambridge University Press.
 
@@ -137,15 +141,19 @@ Zuo, Cai (Vera), Zhongyuan Wang, and Qingjie Zeng. 2023. "From Poverty to Trust:
 
 ## Week 9: TBD
 
-Guest speaker: Dr Xin Han (University of Montana)
+Guest speaker: Dr Xin Han (Montana State University)
 
 ## Week 10: China as a method
 
-**[Core]** Carlson, Allen, Mary E. Gallagher, Kenneth Lieberthal, and Melanie Manion. 2010. *Contemporary Chinese Politics: New Sources, Methods, and Field Strategies*. New York, NY: Cambridge University Press. **Skim Table of Contents and Introduction.**
+**[Core]** Carlson, Allen, Mary E. Gallagher, Kenneth Lieberthal, and Melanie Manion. 2010. *Contemporary Chinese Politics: New Sources, Methods, and Field Strategies*. New York, NY: Cambridge University Press. **Read Table of Contents and Introduction.**
 
 **[Core]** Tam, Gina Anne. 2024. "Introduction: Why 'Decolonizing Chinese History?'" *The Historical Journal 67*: 148–150.
 
 Chen, Jidong, Jennifer Pan, and Yiqing Xu. 2016. "Sources of Authoritarian Responsiveness: A Field Experiment in China." *American Journal of Political Science 60*(2): 383-400.
+
+Franziska, Keller Barbara. 2016. Moving Beyond Factions: Using Social Network Analysis to Uncover Patronage Networks Among Chinese Elites. *Journal of East Asian Studies 16*(1), 17-41.
+
+Krcmaric, Daniel, Stephen C. Nelson, and Andrew Roberts. 2019. "Studying Leaders and Elites: The Personal Biography Approach." *Annual Review of Political Science 23*: 133-151.
 
 Pepinsky, Thomas B. 2019. "The Return of the Single-Country Study." *Annual Review of Political Science 22*: 187-203.
 
@@ -153,4 +161,4 @@ Pepinsky, Thomas B. 2019. "The Return of the Single-Country Study." *Annual Revi
 
 If you have any questions, please email [c.cheng[at]bbk.ac.uk](mailto:c.cheng@bbk.ac.uk).
 
-Date: 15 November 2024
+Date: 17 November 2024
