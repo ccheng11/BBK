@@ -1,0 +1,107 @@
+---
+title: MY410 Week 11 Seminar
+author:
+  - Chao-Yo Cheng
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+fontsize: 10pt
+---
+
+## Research proposal: Looking ahead
+
+\begin{itemize}
+  \item State the \textbf{research question(s)} that you could answer within the constraints of a dissertation.
+  \item Provide the \textbf{background literature} -- what is the body of literature that your RQs emerges from and that you plan to speak to? 
+  \item Present a \textbf{research design} that includes data collection and analysis.
+  \item Discuss the \textbf{limitations and critical considerations} specific to your research design.
+  \item Bibliography.
+\end{itemize}
+
+## Discussion of sample proposals
+
+\begin{itemize}
+	\item 3 examples on Moodle; we will pick two.
+	\begin{itemize}
+	  \item Comparative case study (``Why Election Results in New Democracies are Accepted in Some Cases but not Others'')
+	  \item Qualitative study (``Refugee Crisis or Refugees in Crisis?'')
+	  \item Quantitative study (``The Impact of Kinship Systems on Female Child Marriage in Sub-Saharan Africa'')
+	\end{itemize}
+	\item Grade them using the ``sample feedback form'' on Moodle.
+\end{itemize}
+
+## Discussion of sample proposals
+
+\begin{itemize}
+	\item Research question(s) that are sufficiently focused and tractable.
+	\item Literature review that sets the relevant context and motivates the research question -- what is the gap?
+	\item A research design that
+	\begin{itemize}
+		\item describes the type(s) of evidence which will be collected and analyzed to address the research question;
+		\item shows that the proposed evidence can feasibly be collected in the timeframe available;
+		\item outlines feasible method(s) that will be used to analyze the evidence.
+	\end{itemize}
+	\item A thoughtful discussion on the expected relative strengths and limitations of the combination of evidence and analytical method.
+\end{itemize}
+
+## Comparative case studies
+
+\begin{itemize}
+	\item Literature review: How do you use the literature to motivate the study? What is the puzzle? Why is this study interesting, in relation to what we already know or assume?
+	\item How do you justify the selection of cases for comparison? What is the evidence that these cases are different on the independent and dependent variables while being mostly similar in other aspects?
+	\item What is your proposed explanation? Where does the evidence come from? What is the most convincing piece of evidence?
+	\item Are there any alternative explanations in addition to the central argument?
+	\item Which part of your argument could be generalized to other contexts? What is the scope condition?
+\end{itemize}
+
+## Quantitative methods
+
+\begin{itemize}
+  \item Basic components
+  \begin{itemize}
+    \item The key empirical \textbf{question(s)}?
+	  \item The key \textbf{hypotheses} (empirical or testable implications) based on the theoretical literature?
+	  \item The key \textbf{independent} (explanatory) and \textbf{dependent} (outcome) variables?
+	  \item The key \textbf{statistical result(s)} we expect to observe in the regression table(s)?
+  \end{itemize} 
+  \item Advanced components
+  \begin{itemize}
+    \item Are all necessary \textbf{control} variables (covariates) included in the model?
+	  \item Are there any additional tests to assess the \textbf{robustness} of the main results? Are there any tests to study the \textbf{heterogeneous} effect (i.e., do the main findings change if we divide up the observations)?
+	  \item What else can be or should have been tested?
+  \end{itemize}
+\end{itemize}
+
+## Qualitative methods
+
+\begin{itemize}
+  \item What is the key concept from the literature that you seek to engage with? How do you motivate your study with reference to the literature?
+  \item How do you justify the case selection? Is it a typical case? An exceptional case? What puzzle can it contribute to solving?  
+  \item How will the qualitative methods used allow you to answer the research questions? Is there anything that might be missed out, with your design?  
+  \item Is anything in your research paper generalizable to other settings? 
+  \item How does your research provide a sense of ``being there?'' 
+\end{itemize}
+
+## Final points
+
+\begin{itemize}
+	\item There is no requirement to stick to the same topic between assignments.
+	\item Your dissertation topic should be approved by your academic advisor.
+	\item You do NOT need to worry about self-plagiarism between the different assignments / proposals of MY410 and DV410.
+	\item You may use ideas and elements of your MY410 proposal for your dissertation -- if you do so, you should rewrite for flow and coherence, not copy and paste.
+\end{itemize}
+
+---
+
+\begin{center}
+Happy holidays! Rest well. Be safe.
+\end{center}
+\begin{figure}
+\centering
+\includegraphics[scale=0.55]{Figs/xmas}
+\end{figure}
+\begin{center}
+\texttt{c.cheng23@lse.ac.uk}
+\end{center}
