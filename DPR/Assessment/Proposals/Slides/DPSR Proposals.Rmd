@@ -60,7 +60,7 @@ knitr::include_graphics("Figs/process.pdf")
 knitr::include_graphics("Figs/moodle.pdf")
 ```
 
-# Extra: More on a proposal Overview
+# Extra: More on a research proposal
 
 \begin{itemize}
   \item State the \textbf{research question(s)} that you could answer within the constraints of a dissertation
