@@ -23,7 +23,7 @@ Zhou, Xueguang. 2022. *The Logic of Governance in China: An Organizational Appro
 
 **[Core]** Shambaugh, David. 2023. "The Evolution of American Contemporary China Studies: Coming Full Circle?" *Journal of Contemporary China 33*(146): 314–331.
 
-**[Core]** Gallagher, Mary, E. 2002. "Why China's Economic Reforms Have Delayed Democracy." *World Politics 54*(3): 338-372. **Read pp.338-346.**
+**[Core]** Gallagher, Mary, E. 2002. "Why China's Economic Reforms Have Delayed Democracy." *World Politics 54*(3): 338-372. **Read pp.338-346**
 
 Harding, Harry. 1984 "The Study of Chinese Politics: Toward a Third Generation of Scholarship." *World Politics 36*(2): 284-307.
 
@@ -37,9 +37,9 @@ White III, Lynn T. 2009. "Chinese Political Studies: Overview of the State of th
 
 ## Week 2: From empire to "nation-state"
 
-**[Core]** Lieberthal, Kenneth. 2003. *Governing China: From Revolution Through Reform*. New York, NY: W. W. Norton. **Read Chapter 2.** 
+**[Core]** Lieberthal, Kenneth. 2003. *Governing China: From Revolution Through Reform*. New York, NY: W. W. Norton. **Read Chapter 2** 
 
-**[Core]** Remick, Elizabeth J. 2002. "The Significance of Variation in Local States: The Case of Twentieth Century China." *Comparative Politics 34*(4): 399-418. **Read pp.399-410.**
+**[Core]** Remick, Elizabeth J. 2002. "The Significance of Variation in Local States: The Case of Twentieth Century China." *Comparative Politics 34*(4): 399-418. **Read pp.399-410**
 
 Hill, Emily M. 2022. "War, Disunity, and State Building In China, 1912–1949." *Twentieth-Century China 47*(1): 40-49.
 
@@ -49,7 +49,7 @@ Strauss, Julia. 1998. *Strong Institutions in Weak Polities*. Oxford: Clarendon 
 
 ## Week 3: Structures of the Party-state
 
-**[Core]** Li, Cheng. 2019. "China's Communist Party State: The Structure and Dynamics of Power" in *Politics in China: An Introduction* (3rd ed). William A. Joseph, ed. Oxford: Oxford University Press. **Read pp.201-236.**
+**[Core]** Li, Cheng. 2019. "China's Communist Party State: The Structure and Dynamics of Power" in *Politics in China: An Introduction* (3rd ed). William A. Joseph, ed. Oxford: Oxford University Press. **Read pp.201-236**
 
 **[Core]** Thornton, Patricia M. 2021. "Party All the Time: The CCP in Comparative and Historical Perspective." *China Quarterly 248*: 1-15.
 
@@ -65,7 +65,7 @@ Harding, Harry. 1981. *Organizing China: The Problem of Bureaucracy, 1949-1976*.
 
 **[Core]** Fewsmith, Joseph. 2021. *Rethinking Chinese Politics*. New York, NY: Cambridge University Press. **Chapter 2.**
 
-**[Core]** Shih, Victor, Wei Shan, and Mingxing Liu. 2010. "Gauging the Elite Political Equilibrium in the CCP: A Quantitative Approach Using Biographical Data." *China Quarterly 201*: 79-103. **Read pp.79-82.**
+**[Core]** Shih, Victor, Wei Shan, and Mingxing Liu. 2010. "Gauging the Elite Political Equilibrium in the CCP: A Quantitative Approach Using Biographical Data." *China Quarterly 201*: 79-103. **Read pp.79-82**
 
 Dittmer, Lowell, and Yu-Shan Wu. 1995. "The Modernization of Factionalism in Chinese Politics." *World Politics 47*(4): 467-494.
 
@@ -79,9 +79,9 @@ Shih, Victor, Christopher Adolph, and Mingxing Liu. 2012. "Getting Ahead in the 
 
 ## Week 5: Central-local relations and local governance
 
-**[Core]** Zheng, Yongnian. 2008. *De Facto Federalism in China*. Singapore: World Scientific. **Read Chapter 1.**
+**[Core]** Zheng, Yongnian. 2008. *De Facto Federalism in China*. Singapore: World Scientific. **Read Chapter 1**
 
-**[Core]** Lily L. Tsai. 2007. "Solidary Groups, Informal Accountability, and Local Public Goods Provision in Rural China." *American Political Science Review 101*(2): 355-372. **Read pp.355-360.**
+**[Core]** Lily L. Tsai. 2007. "Solidary Groups, Informal Accountability, and Local Public Goods Provision in Rural China." *American Political Science Review 101*(2): 355-372. **Read pp.355-360**
 
 Cai, Hongbin, and Daniel Treisman. 2006. "Did Government Decentralization Cause China's Economic Miracle?" *World Politics 58*(4): 505-535.
 
@@ -125,7 +125,7 @@ Wang, Zhengxu, and Long Sun. 2017. "Social Class and Voter Turnout in China: Loc
 
 ## Week 8: Social protection and (re)distributive politics
 
-**[Core]** Huang, Xian. 2020. *Social Protection under Authoritarianism: Health Politics and Policy in China*. New York, NY: Oxford University Press. **Read Chapter 1.**
+**[Core]** Huang, Xian. 2020. *Social Protection under Authoritarianism: Health Politics and Policy in China*. New York, NY: Oxford University Press. **Read Chapter 1**
 
 **[Core]** Duckett, Jane, and Neil Munro. 2021. "Authoritarian Regime Legitimacy and Health Care Provision: Survey Evidence from Contemporary China." *Journal of Health Politics Policy and Law 47*(3): 375–409. 
 
@@ -145,7 +145,7 @@ Guest speaker: Dr Xin Han (Montana State University)
 
 ## Week 10: China as a method
 
-**[Core]** Carlson, Allen, Mary E. Gallagher, Kenneth Lieberthal, and Melanie Manion. 2010. *Contemporary Chinese Politics: New Sources, Methods, and Field Strategies*. New York, NY: Cambridge University Press. **Read Table of Contents and Introduction.**
+**[Core]** Carlson, Allen, Mary E. Gallagher, Kenneth Lieberthal, and Melanie Manion. 2010. *Contemporary Chinese Politics: New Sources, Methods, and Field Strategies*. New York, NY: Cambridge University Press. **Read Introduction**
 
 **[Core]** Tam, Gina Anne. 2024. "Introduction: Why 'Decolonizing Chinese History?'" *The Historical Journal 67*: 148–150.
 
