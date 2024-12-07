@@ -1,13 +1,13 @@
 # Doing Political Research Project Showcase (Autumn 2024)
 
-## Comparative Politics
+## Comparative Politics (Discussant: CYC)
 
  - Aden Reed (BA Global Politics and Intl Relations): "Are democracies the only solution to govern?"
  - Eduardo Rivas (BA Global Politics and Intl Relations): "Far-Right populism and the threat to democracy: Milei's Argentina"
  - Gurpreet Sidhu (BA Politics): "The tradeoff of cybersecurity and democratic freedoms"
  - Pablo Volz (BA Global Politics and Intl Relations): "Perceptions of the effectiveness and inclusivity of participatory democracy initiatives in local governance"
 
-## Political Economy of Development
+## Political Economy of Development (Discussant: CYC)
 
  - Delira Gbio (BA Global Politics and Intl Relations): "How colonial legacies lead to economic and political stagnation in Africa"
  - Syeda Hyder (BA Global Politics and Intl Relations): "Gender inequality and women's political participation and leadership in Pakistan"
@@ -15,16 +15,16 @@
  - Stefani Neves (BA Global Politics and Intl Relations): "Racial and ethnic inequality in Brazil"
  - Nabeel Omar Suleiman (BA Global Politics and Intl Relations): "Corruption and poverty"
 
-## British Politics and Social Policy
+## British Politics and Social Policy (Discussant: TBD)
 
- - Sophie Ainsworth (BA Politics): "Impact of offshore production on unemployment, crime and poverty in the United Kingdom"
  - Munir Ahmadi (BA Global Politics and Intl Relations): "Social media and youth political participation in the United Kingdom"
+ - Sophie Ainsworth (BA Politics): "Impact of offshore production on unemployment, crime and poverty in the United Kingdom"
  - Suzanne Ellery (BA Global Politics and Intl Relations): "Employment discrimination against disabled people on the work place" 
  - Cristiana Fedeles (BA Global Politics and Intl Relations): "Social media And political polarisation in the United Kingdom"
  - Mattia Redolfi (BA Global Politics and Intl Relations): "Brexit and rural-urban divide in the United Kingdom"
  - Manuel Rubio Prieto (BA Global Politics and Intl Relations): "Climate change policies and social inequalities in the United Kingdom"
 
-## International Relations
+## International Relations (Discussant: TBD)
 
  - Ryan Abbou (BA Global Politics and Intl Relations): "Impact of globalisation"
  - Javier Pinedo (BSc Social Sciences): "Financial and environmental cost of greenwashing"
