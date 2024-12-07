@@ -17,12 +17,12 @@
 
 ## British Politics and Social Policy (Discussant: TBD)
 
- - Munir Ahmadi (BA Global Politics and Intl Relations): "Social media and youth political participation in the United Kingdom"
- - Sophie Ainsworth (BA Politics): "Impact of offshore production on unemployment, crime and poverty in the United Kingdom"
- - Suzanne Ellery (BA Global Politics and Intl Relations): "Employment discrimination against disabled people on the work place" 
- - Cristiana Fedeles (BA Global Politics and Intl Relations): "Social media and political polarisation in the United Kingdom"
- - Mattia Redolfi (BA Global Politics and Intl Relations): "Brexit and rural-urban divide in the United Kingdom"
- - Manuel Rubio Prieto (BA Global Politics and Intl Relations): "Climate change policies and social inequalities in the United Kingdom"
+ - Munir Ahmadi (BA Global Politics and Intl Relations): "Social media and youth political participation"
+ - Sophie Ainsworth (BA Politics): "Impact of offshore production on unemployment, crime and poverty"
+ - Suzanne Ellery (BA Global Politics and Intl Relations): "Employment discrimination against disabled people at the workplace" 
+ - Cristiana Fedeles (BA Global Politics and Intl Relations): "Social media and political polarisation"
+ - Mattia Redolfi (BA Global Politics and Intl Relations): "Brexit and rural-urban divide"
+ - Manuel Rubio Prieto (BA Global Politics and Intl Relations): "Climate change policies and social inequalities"
 
 ## International Relations (Discussant: TBD)
 
