@@ -4,7 +4,7 @@
 
  - Aden Reed (BA Global Politics and Intl Relations): "Are democracies the only solution to govern?"
  - Eduardo Rivas (BA Global Politics and Intl Relations): "Far-Right populism and the threat to democracy: Milei's Argentina"
- - Gurpreet Sidhu (BA Politics): "The tradeoff of cybersecurity and democratic freedoms"
+ - Gurpreet Sidhu (BA Politics): "The tradeoff between cybersecurity and democratic freedoms"
  - Pablo Volz (BA Global Politics and Intl Relations): "Perceptions of the effectiveness and inclusivity of participatory democracy initiatives in local governance"
 
 ## Political Economy of Development (Discussant: CYC)
