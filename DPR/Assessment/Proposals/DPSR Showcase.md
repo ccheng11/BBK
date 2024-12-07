@@ -1,6 +1,6 @@
 # Doing Political Research Project Showcase (Autumn 2024)
 
-## Comparative Politics (Discussant: CYC)
+## Varieties of Democracy (Discussant: CYC)
 
  - Aden Reed (BA Global Politics and Intl Relations): "Are democracies the only solution to govern?"
  - Eduardo Rivas (BA Global Politics and Intl Relations): "Far-Right populism and the threat to democracy: Milei's Argentina"
