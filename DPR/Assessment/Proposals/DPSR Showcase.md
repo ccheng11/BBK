@@ -3,7 +3,7 @@
 ## Varieties of Democracy (Discussant: CYC)
 
  - Aden Reed (BA GPIR): "Are democracies the only solution to govern?"
- - Eduardo Rivas (BA GPIR): "Far-Right populism and the threat to democracy: Milei's Argentina"
+ - Eduardo Rivas (BA GPIR): "Far-right populism and the threat to democracy: Milei's Argentina"
  - Gurpreet Sidhu (BA Politics): "The tradeoff between cybersecurity and democratic freedoms"
  - Pablo Volz (BA GPIR): "Perceptions of the effectiveness and inclusivity of participatory democracy initiatives in local governance"
 
