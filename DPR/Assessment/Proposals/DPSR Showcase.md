@@ -1,47 +1,31 @@
-Autocracy and Democracy
+# Doing Political Research Project Showcase (Autumn 2024)
 
-Aden Reed - Are Democracies the only solution to governing a society?
+## Comparative Politics
 
-Eduardo Rivas - Far-Right Populism and the Threat to Democracy: Milei's Argentina 
+ - Aden Reed (BA Global Politics and Intl Relations): "Are democracies the only solution to govern?"
+ - Eduardo Rivas (BA Global Politics and Intl Relations): "Far-Right populism and the threat to democracy: Milei's Argentina"
+ - Gurpreet Sidhu (BA Politics): "The tradeoff of cybersecurity and democratic freedoms"
+ - Pablo Volz (BA Global Politics and Intl Relations): "Perceptions of the effectiveness and inclusivity of participatory democracy initiatives in local governance"
 
-Pablo Volz - “How do citizens from different socioeconomic backgrounds perceive the effectiveness and inclusivity of participatory democracy initiatives in local governance?”
+## Political Economy of Development
 
-Gurpreet Sidhu (BA Politics) - How do states balance cybersecurity measures with democratic freedoms in the context of rising cyber threats?
+ - Delira Gbio (BA Global Politics and Intl Relations): "How colonial legacies lead to economic and political stagnation in Africa"
+ - Syeda Hyder (BA Global Politics and Intl Relations): "Gender inequality and women's political participation and leadership in Pakistan"
+ - Sanchia Ndlovu (BA Global Politics and Intl Relations): "Is capitalism essential for the development of Zimbabwe?"
+ - Stefani Neves (BA Global Politics and Intl Relations): "Racial and ethnic inequality in Brazil"
+ - Nabeel Omar Suleiman (BA Global Politics and Intl Relations): "Corruption and poverty"
 
-Political Economy of Development
+## British Politics and Social Policy
 
-Sanchia Ndlovu - Is capitalism essential for the development of Zimbabwe?
-Syeda Hyder - how does gender inequality affect's women's political participation and leadership in Pakistan? 
+ - Sophie Ainsworth (BA Politics): "Impact of offshore production on unemployment, crime and poverty in the United Kingdom"
+ - Munir Ahmadi (BA Global Politics and Intl Relations): "Social media and youth political participation in the United Kingdom"
+ - Suzanne Ellery (BA Global Politics and Intl Relations): "Employment discrimination against disabled people on the work place" 
+ - Cristiana Fedeles (BA Global Politics and Intl Relations): "Social media And political polarisation in the United Kingdom"
+ - Mattia Redolfi (BA Global Politics and Intl Relations): "Brexit and rural-urban divide in the United Kingdom"
+ - Manuel Rubio Prieto (BA Global Politics and Intl Relations): "Climate change policies and social inequalities in the United Kingdom"
 
-Nabeel Omar Suleiman - The Relationship between Corruption and poverty
+## International Relations
 
-
-Delira Gbio - How have colonial legacies contributed to economic and political stagnation in African states?
-
-Stefani Neves - Racial and Ethnic inequality in Brazil
-
-
-British Politics and Social Policy
-
-Sophie Ainsworth (BA Politics) - Do the benefits of offshore production outweigh the social impacts to unemployment, crime and poverty in the UK
-
-Mattia Redolfi - Brexit and Rural-Urban Divide in the United Kingdom
-
-Suzanne Ellery - Employment discrimination against disabled people on the work place 
-
-Cristiana Fedeles -  Social Media And Political Polarisation in the UK. Investigate the Role of Digital platforms in shaping public opinion.
-
-Munir Ahmadi - Youth Engagement in Politics: The Effectiveness of Social Media in Increasing Political Participation Among Young People in the UK
-
-Environment and Climate Change
-
-Javier Pinedo (BSc Social Sciences) - The financial and environmental cost of greenwashing: Evaluating the need for a legally binding international ban on 'useless' green initiatives
-
-Manuel Rubio Prieto - How do the UKs Climate change policies in 2024 address or exacerbate social inequalities among marginalised communities, partculary in relation to housing, healthare, and employment?
-
-
-IR
-
-Asi Polat - How terrorists and freedom fighters are viewed? Whats the difference?
-
-Ryan Abbou - Impact of Globalization
+ - Ryan Abbou (BA Global Politics and Intl Relations): "Impact of globalisation"
+ - Javier Pinedo (BSc Social Sciences): "Financial and environmental cost of greenwashing"
+ - Asi Polat (BA Global Politics and Intl Relations): "Terrorists versus freedom fighters"
