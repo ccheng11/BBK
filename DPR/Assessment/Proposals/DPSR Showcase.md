@@ -17,12 +17,12 @@
 
 ## British Politics and Social Policy (Discussant: TBD)
 
- - Munir Ahmadi (BA GPIR): "Social media and youth political participation"
- - Sophie Ainsworth (BA Politics): "Impact of offshore production on unemployment, crime and poverty"
- - Suzanne Ellery (BA GPIR): "Employment discrimination against disabled people at the workplace" 
- - Cristiana Fedeles (BA GPIR): "Social media and political polarisation"
+ - Munir Ahmadi (BA GPIR): "Social media and youth political participation in the United Kingdom"
+ - Sophie Ainsworth (BA Politics): "Impact of offshore production on unemployment, crime and poverty in the United Kingdom"
+ - Suzanne Ellery (BA GPIR): "Employment discrimination against disabled people at the workplace in the United Kingdom" 
+ - Cristiana Fedeles (BA GPIR): "Social media and political polarisation in the United Kingdom"
  - Mattia Redolfi (BA GPIR): "Brexit and rural-urban divide"
- - Manuel Rubio Prieto (BA GPIR): "Climate change policies and social inequalities"
+ - Manuel Rubio Prieto (BA GPIR): "Climate change policies and social inequalities in the United Kingdom"
 
 ## International Relations (Discussant: TBD)
 
