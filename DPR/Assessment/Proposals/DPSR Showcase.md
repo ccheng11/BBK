@@ -6,7 +6,6 @@
  - Syeda Hyder (BA GPIR): "Gender inequality and women's political participation and leadership in Pakistan"
  - Sanchia Ndlovu (BA GPIR): "Is capitalism essential for the development of Zimbabwe?"
  - Stefani Neves (BA GPIR): "Racial and ethnic inequality in Brazil"
- - Eduardo Rivas (BA GPIR): "Far-right populism and the threat to democracy: Milei's Argentina"
  - Nabeel Omar Suleiman (BA GPIR): "Corruption and poverty"
 
 ## International Relations (Discussant: Dr Chao-Yo Cheng)
@@ -27,7 +26,6 @@
 ## Varieties of Democracy (Discussant: Dr Nic Aaron)
 
  - Aden Reed (BA GPIR): "Are democracies the only solution to govern?"
+ - Eduardo Rivas (BA GPIR): "Far-right populism and the threat to democracy: Milei's Argentina"
  - Gurpreet Sidhu (BA Politics): "The tradeoff between cybersecurity and democratic freedoms"
  - Pablo Volz (BA GPIR): "Perceptions of participatory democracy initiatives in local governance"
-
-
