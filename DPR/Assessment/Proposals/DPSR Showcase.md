@@ -1,6 +1,6 @@
 # Doing Political Research Project Showcase (Autumn 2024)
 
-## Political Economy of Development (Discussant: Dr Chao-Yo Cheng)
+## Political Economy of Development
 
  - Delira Gbio (BA GPIR): "How colonial legacies lead to economic and political stagnation in Africa"
  - Syeda Hyder (BA GPIR): "Gender inequality and women's political participation and leadership in Pakistan"
@@ -9,13 +9,13 @@
  - Stefani Neves (BA GPIR): "Racial and ethnic inequality in Brazil"
  - Nabeel Omar Suleiman (BA GPIR): "Corruption and poverty"
 
-## International Relations (Discussant: Dr Chao-Yo Cheng)
+## International Relations
 
  - Ryan Abbou (BA GPIR): "Impact of globalisation"
  - Javier Pinedo (BSc Social Sciences): "Financial and environmental cost of greenwashing"
- - Asi Polat (BA GPIR): "Terrorists versus freedom fighters"
+ - Asi Polat (BA GPIR): "Terrorists versus freedom fighters?"
 
-## British Politics and Social Policy (Discussant: Dr Nic Aaron)
+## British Politics and Social Policy
 
  - Munir Ahmadi (BA GPIR): "Social media and youth political participation in the United Kingdom"
  - Sophie Ainsworth (BA Politics): "Impact of offshore production on unemployment, crime and poverty in the United Kingdom"
@@ -24,7 +24,7 @@
  - Mattia Redolfi (BA GPIR): "Brexit and rural-urban divide"
  - Manuel Rubio Prieto (BA GPIR): "Climate change policies and social inequalities in the United Kingdom"
 
-## Varieties of Democracy (Discussant: Dr Nic Aaron)
+## Varieties of Democracy
 
  - Aden Reed (BA GPIR): "Are democracies the only solution to govern?"
  - Eduardo Rivas (BA GPIR): "Far-right populism and the threat to democracy: Milei's Argentina"
