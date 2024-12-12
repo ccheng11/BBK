@@ -4,6 +4,7 @@
 
  - Delira Gbio (BA GPIR): "How colonial legacies lead to economic and political stagnation in Africa"
  - Syeda Hyder (BA GPIR): "Gender inequality and women's political participation and leadership in Pakistan"
+ - Jahanzeb Hussain (BA GPIR): "How Culture and Religion Shapes the Effective of Democratic Governance in Post-colonial States"
  - Sanchia Ndlovu (BA GPIR): "Is capitalism essential for the development of Zimbabwe?"
  - Stefani Neves (BA GPIR): "Racial and ethnic inequality in Brazil"
  - Nabeel Omar Suleiman (BA GPIR): "Corruption and poverty"
