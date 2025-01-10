@@ -95,6 +95,8 @@ Mertha, Andrew. 2005. "China's 'Soft' Centralization: Shifting Tiao/Kuai Authori
 
 Shirk, Susan L. 1993. *The Political Logic of Economic Reform in China*. Berkeley, CA: University of California Press.
 
+Jiang, Junyan, 2018. "Making Bureaucracy Work: Patronage Networks, Performance Incentives, and Economic Development in China." *American Journal of Poliical Science 64*(4): 982-999.
+
 ## Week 6: Coercion and control
 
 **[Core]** Lee, Ching Kwan, and Yonghong Zhang. 2013. "The Power of Instability: Unraveling the Microfoundations of Bargained Authoritarianism in China." *American Journal of Sociology 118*(6): 1475-1508.
