@@ -8,6 +8,7 @@
 
  - Investigating the Social World
  - Chinese Politics in Comparative Perspective
+ - Gender and Sexuality Dissertation Research Training
 
 ## Term 3
 
