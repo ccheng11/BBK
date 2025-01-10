@@ -25,6 +25,8 @@ Zhou, Xueguang. 2022. *The Logic of Governance in China: An Organizational Appro
 
 **[Core]** Gallagher, Mary, E. 2002. "Why China's Economic Reforms Have Delayed Democracy." *World Politics 54*(3): 338-372. **Read pp.338-346**
 
+Fu, Hui-Zhen, and Li Shao, 2023. "Telling Our Own Story: A Bibliometrics Analysis of Mainland China's Influence on Chinese Politics Research, 2001–2020." *PS: Political Science & Politics 56*(1): 18–28.
+
 Harding, Harry. 1984 "The Study of Chinese Politics: Toward a Third Generation of Scholarship." *World Politics 36*(2): 284-307.
 
 Perry, Elizabeth J. 1994. "Trends in the Study of Chinese Politics: State-Society Relations." *China Quarterly 139*: 704-713.
