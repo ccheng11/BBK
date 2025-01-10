@@ -121,6 +121,8 @@ Bernstein, Thomas P. and Xiaobo Lu. 2008. *Taxation without Representation in Co
 
 Dickson, Bruce. 2008. *Wealth into Power: The Communist Party’s Embrace of China's Private Sector*. New York, NY: Cambridge University Press.
 
+Martinez-Bravo, Monica, Gerard Padró i Miquel, Nancy Qian, and Yang Yao. 2022. "The Rise and Fall of Local Elections in China." *American Economic Review 112*(9): 2921–2958.
+
 Mertha, Andrew. 2009. "'Fragmented Authoritarianism 2.0': Political Pluralization in the Chinese Policy Process." *China Quarterly 200*: 995-1012.
 
 Truex, Rory. 2014. "The Returns to Office in a 'Robber Stamp' Parliament." *American Political Science Review 108*(2): 235-251.
