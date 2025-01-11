@@ -1,4 +1,4 @@
-# Reading Questions
+# Questions to Think About
 
 Tsai, Lily L. 2007. "Solidary Groups, Informal Accountability, and Local Public Goods Provision in Rural China." *American Political Science Review 101*(2): 355-372. 
 
