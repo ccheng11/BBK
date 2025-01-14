@@ -139,6 +139,16 @@ knitr::include_graphics("Figs/guest.pdf")
   \end{itemize}
 \end{itemize}
 
+# Is the module right for you?
+
+\begin{itemize}
+  \item MSc/PgDip Social Research
+  \vpsace{1cm}
+  \item MA Sociology (or Psychosocial Studies)
+  \vpsace{1cm}
+  \item All other subject areas
+\end{itemize}
+
 # Student support
 
 \begincols
@@ -261,7 +271,7 @@ knitr::include_graphics("Figs/study.pdf")
   \vspace{0.5cm}
   \item Identity and representation -- how does "who you are" matter?
   \vspace{0.5cm}
-  \item Replication and transparency
+  \item Replication, transparency and "open" social sciences
 \end{itemize}
 
 ---
@@ -310,11 +320,13 @@ knitr::include_graphics("Figs/vox.pdf")
 
 # Next week: Theory comes to rescue
 
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/simon.pdf")
+```
 \begin{itemize}
-  \item What is your subject area? Have you taken any module with "theory" in the title?
-  \vspace{0.5cm}
+\small
+  \item Have you taken any module with "theory" in the title?
   \item What is the most important/famous theory in your subject area? And what makes it important/famous?
-  \vspace{0.5cm}
   \item What is your main takeaway from the TED Talk by Simon Sinek? Do you "like" what you hear (and does this matter)? Is there really a "theory" in the talk?
 \end{itemize}
 
