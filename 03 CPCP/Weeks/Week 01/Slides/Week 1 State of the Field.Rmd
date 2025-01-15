@@ -21,50 +21,36 @@ fontsize: 10pt
 
 \begin{itemize}
   \item Logistics and introduction
-  \vspace{1cm}
-  \item Lecture and discussion: "State of the field"
+  \vspace{0.1cm}
+    \begin{itemize}
+    \item Module organization
+    \item Weekly syllabus
+    \item Assessment
+    \item Communication
+\end{itemize}
+  \vspace{0.5cm}
+  \item Lecture and discussion: "China and comparative politics"
 \end{itemize}
 
-# Logistics
+# Module organization
 
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_night.pdf")
+```
 \begin{itemize}
-  \item Time and location
-  \vspace{0.3cm}
-  \item Class format
-  \vspace{0.3cm}
-  \item Weekly syllabus
-  \vspace{0.3cm}
-  \item Assessment
-  \vspace{0.3cm}
-  \item Resources
-\end{itemize}
-
-# Time and location
-
-\begin{itemize}
-  \item Every Thursday 6-9pm
-  \vspace{0.5cm}
-  \item Paul Hirst Room (Rm 102, 10 Gower Street)
-  \vspace{0.5cm}
+  \item Every Thursday 6-8:30pm
+  \item Rm 353, Malet Street
+  \item In-person lecture and seminar discussion
   \item \textbf{Question}: Final week in Chinatown?
-\end{itemize}
-
-# Class format
-
-\begin{itemize}
-  \item In-person
-  \vspace{0.5cm}
-  \item Lecture and seminar discussion
-  \vspace{0.5cm}
-  \item \textbf{Question}: Communication via MS Teams?
 \end{itemize}
 
 # Weekly syllbus
 
 \begin{itemize}
+\small
   \item \textbf{Week 1}: State of field
   \vspace{0.1cm}
-  \item \textbf{Weeks 2-5}: History and institutions
+  \item \textbf{Weeks 2-5}: The Party-state
   \begin{itemize}
     \item From empire to nation-state
     \item Structures of the party-state
@@ -76,8 +62,8 @@ fontsize: 10pt
   \begin{itemize}
     \item Coercion and control
     \item Co-optation and representation
-    \item Ideology and propaganda (guest speaker: Dr Tao Wang)
     \item Social protection and redistribution
+    \item State-led development (Guest Speaker: Dr Xin Han)
   \end{itemize}
   \vspace{0.1cm}
   \item \textbf{Week 11}: China as a method
@@ -86,25 +72,54 @@ fontsize: 10pt
 # Assessment
 
 \begin{itemize}
+\small
   \item Learning journal (30\%)
-  \vspace{0.7cm}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Compete a 1,000-word essay (max) about a published peer-reviewed political science article
+    \item Answer two questions to explore how China is being examined in comparative perspective
+    \item More details coming in Week 2
+  \end{itemize}
+  \vspace{0.5cm}
   \item Final essay (70\%)
+  \begin{itemize}
+    \item Compete a 3,000 essay about a substantive question in relation to Chinese politics, using all provided materials through the module
+    \item Key is to demonstrate a solid understanding of class materials
+    \item More details coming in Week 6
+  \end{itemize}
 \end{itemize}
 
-# Resources
+# Moodle and student support
 
 \begin{itemize}
-  \item Moodle:
-  \vspace{0.3cm}
+  \item Moodle
+  \vspace{0.1cm}
   \begin{itemize}
-    \item Tutorial videos
     \item Background readings
     \item Additional resources
+    \item Weekly videos and readings
+    \item Lecture slide decks
   \end{itemize}
-  \vspace{0.3cm}
+  \vspace{0.2cm}
   \item Office hours: Every Friday 3-5pm via Teams (or by appointment)
-  \vspace{0.3cm}
+  \vspace{0.2cm}
+  \item Send administrative inquries to the School via Ask
+  \vspace{0.2cm}
   \item Study support services provided by the Faculty and College
+\end{itemize}
+
+# Ground rules
+
+\begin{itemize}
+  \item In-person attendance is compulsory
+  \vspace{0.2cm}
+  \item Students should finish all readings and be prepared to discuss them
+  \vspace{0.2cm}
+  \item Take advantage of small-class size to build a fruitful working relationship with the module convenor
+  \vspace{0.2cm}
+  \item Consult module convenor or the Study Skills team to learn about strategic academic reading
+  \vspace{0.2cm}
+  \item Self-care is essential and stay close communication with module convenor and the College
 \end{itemize}
 
 ---
@@ -118,18 +133,6 @@ Any questions before we proceed?
   \item About Chao-yo
   \vspace{0.8cm}
   \item About you: Please tell us your name, program/year, any relevant modules in Politics or other subject areas you have done, and what you would like to learn from this module
-\end{itemize}
-
----
-
-\begin{itemize}
-  \item \textit{Autonomy in Autocracy: Explaining Ethnic Policies in Post-1949 China} (PhD thesis and book manuscript)
-  \vspace{0.4cm}
-  \item "Mapping the Information Network of Chinese Political Elites: A Computational Approach," prepared for \textit{Political Analysis}
-  \vspace{0.4cm}
-  \item "Agenda Settings and Risk Preferences of Local Policy Entrepreneurs During the Coronavirus Crisis in China," prepared for \textit{Political Science Research and Methods} (with Tao Lin)
-  \vspace{0.4cm}
-  \item "Justice from Above: Administrative Elevated Trials and Intergovernmental Delegation Dilemma in China," prepared for the \textit{Journal of Politics} (with Haibo He and Chao Ma)
 \end{itemize}
 
 ---
@@ -238,6 +241,36 @@ knitr::include_graphics("Figs/theme.pdf")
     \item Which topic do you find most intruging? And are any of these questions relevant to the country you are most familiar with (e.g., United Kingdom)?
     \item Why does the question of "bringing in China into comparative politics" matter? What do you think? 
   \end{itemize}
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Authoritarian political development
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Quasi-democratic institutions in China (e.g., political parties, elections and legislatures)
+    \item Role of media and the Internet; censorship and propaganda
+    \item Legacies of revolution and colonialism for state-building
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Political behavior of (economic) development
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item "Participatory" development and civic engagement and non-electoral participation
+    \item Strategic use of the law and formal institutions
+    \item Intermediaries and informal institutions  
+  \end{itemize}
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item "Governance on the Cheap" -- how do political leaders extend the reach of the state over local officials and citizens without formal bureaucratic institutions?
+  \vspace{0.6cm}
+  \item "Voluntary compliance"
+  \vspace{0.6cm}
+  \item "Institutional theories of political behavior"
 \end{itemize}
 
 # Discussion: "Why China's Reforms Have Delayed Democracy" (Gallagher 2002)
