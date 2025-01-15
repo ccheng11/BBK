@@ -142,11 +142,11 @@ knitr::include_graphics("Figs/guest.pdf")
 # Is the module right for you?
 
 \begin{itemize}
-  \item MSc/PgDip Social Research
+  \item MSc/PgDip Social Research: Complete the transition from methods technicians to informed social researchers
   \vspace{1cm}
-  \item MA Sociology (or Psychosocial Studies)
+  \item MA Sociology (or Psychosocial Studies): Learn more about more possibilities of social sciences research
   \vspace{1cm}
-  \item All other subject areas
+  \item All other subject areas: Introduce you to the study of social sciences
 \end{itemize}
 
 # Student support
