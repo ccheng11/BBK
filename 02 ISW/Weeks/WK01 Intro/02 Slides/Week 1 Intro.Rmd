@@ -143,9 +143,9 @@ knitr::include_graphics("Figs/guest.pdf")
 
 \begin{itemize}
   \item MSc/PgDip Social Research
-  \vpsace{1cm}
+  \vspace{1cm}
   \item MA Sociology (or Psychosocial Studies)
-  \vpsace{1cm}
+  \vspace{1cm}
   \item All other subject areas
 \end{itemize}
 
