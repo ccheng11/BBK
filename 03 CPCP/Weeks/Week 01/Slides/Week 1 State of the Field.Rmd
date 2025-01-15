@@ -34,9 +34,10 @@ fontsize: 10pt
 
 # Module organization
 
-```{r echo=FALSE, out.width="50%", fig.align="center"}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/bbk_night.pdf")
 ```
+\vspace{0.3cm}
 \begin{itemize}
   \item Every Thursday 6-8:30pm
   \item Rm 353, Malet Street
@@ -210,6 +211,12 @@ knitr::include_graphics("Figs/theme.pdf")
   \vspace{0.1cm}
   \item However, two recent events have changed the research landscape: One is the abolition of the term limits for the Chinese president; one is the escalation of the geopolitical tension between the US and China; the consequences are profound
 \end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="65%", fig.align="center"}
+knitr::include_graphics("Figs/jcc.pdf")
+```
 
 # "Bringing in China" (Tsai 2017)
 
