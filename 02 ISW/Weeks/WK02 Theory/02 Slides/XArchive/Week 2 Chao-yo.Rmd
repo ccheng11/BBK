@@ -19,7 +19,7 @@ fontsize: 10pt
 
 \vspace{0.7cm}
 ```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("Figs/lego.pdf")
+knitr::include_graphics("Figs/wk2.pdf")
 ```
 \vspace{0.5cm}
 \begin{center}
