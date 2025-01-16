@@ -1,9 +1,9 @@
-- RTC as a week; use examples (Ross and Singh) for the exercise
-
-- Give more examples of different theories (IR)
+- RTC as a week
 
 - Give examples that transcend the epistemology-methodology boundary (ethnography and Bayesian statistics and case study)
 
 -- why should we carry out ethnography?
 
 - Birkbeck Replication Game
+
+- EITM approach

@@ -173,7 +173,6 @@ knitr::include_graphics("Figs/org.pdf")
 
 ---
 
-\pause
 \begin{itemize}
   \item Theory as interpretation
   \vspace{0.8cm}
@@ -264,6 +263,7 @@ knitr::include_graphics("Figs/org.pdf")
     \item A set of more or less consistent theories and hypotheses that "explain" various aspects of social reality 
     \vspace{0.3cm}
     \item When taken together, these theories and hypotheses form a "coherent" understanding of the outcome of interest
+    \vspace{0.3cm}
     \item Similar to "theory as explanation"
   \end{itemize}
   \end{itemize}
