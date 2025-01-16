@@ -109,6 +109,14 @@ knitr::include_graphics("Figs/bbk_night.pdf")
   \item Study support services provided by the Faculty and College
 \end{itemize}
 
+---
+
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="110%", fig.align="center"}
+knitr::include_graphics("Figs/back.pdf")
+```
+
 # Ground rules
 
 \begin{itemize}
@@ -125,21 +133,11 @@ knitr::include_graphics("Figs/bbk_night.pdf")
 
 ---
 
-\vspace{1cm}
-Any questions before we proceed?
-
-# Introduction
-
 \begin{itemize}
   \item About Chao-yo
   \vspace{0.8cm}
   \item About you: Please tell us your name, program/year, any relevant modules in Politics or other subject areas you have done, and what you would like to learn from this module
 \end{itemize}
-
----
-
-\vspace{1cm}
-Again, any questions before we proceed?
 
 ---
 
