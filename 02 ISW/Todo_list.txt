@@ -1,9 +1,6 @@
-- RTC as a week
 
 - Give examples that transcend the epistemology-methodology boundary (ethnography and Bayesian statistics and case study)
 
--- why should we carry out ethnography?
-
-- Birkbeck Replication Game
+- why should we carry out ethnography?
 
 - EITM approach
