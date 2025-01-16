@@ -1,0 +1,516 @@
+---
+title: |
+  |
+  |
+  | Investigating the Social World
+  |
+  |
+author: |
+  | Week 2: Why Theory Matters
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\begin{center}
+\textbf{Lecture 2: Why Theory Matters and What Theory Does}
+\end{center}
+\vspace{0.7cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/wk2.pdf")
+```
+
+# Recap: What ISW does (and does not do)
+
+\begin{itemize}
+  \item ISW is about knowledge production in social sciences
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item How social researchers have produced such varieties of knowledge (and why)
+    \item How you find yourself a place in the broad social sciences enterprise
+    \item How you relate yourself to others and search for collaborations
+  \end{itemize}
+  \vspace{0.5cm}
+  \item ISW is not a conventional \textbf{methods} module by itself, but by the end of this module,
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item It will give you a system to think through your research
+    \item It will give you a a framework to plan your (future) methods training
+  \end{itemize}
+\end{itemize}
+
+# Recap: What makes "good" social sciences research?
+
+\begin{itemize}
+  \item Personal stake
+  \vspace{0.4cm}
+  \item Addresses a compelling research question
+  \vspace{0.4cm}
+  \item Employs new data and methods
+  \vspace{0.4cm}
+  \item Empirical verdict on conventional wisdom and conceptual policy (or theoretical) debates
+  \vspace{0.4cm}
+  \item Motivate follow-up research: Replication and expansion of the scope condition
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="55%", fig.align="center"}
+knitr::include_graphics("Figs/Vox/malaria.pdf")
+```
+\begin{center}
+\scriptsize
+\url{https://doi.org/10.1162/qjec.2010.125.1.1}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/Vox/multisite.pdf")
+```
+\begin{center}
+\scriptsize
+\url{https://doi.org/10.1002/pam.22154}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/Vox/race_opp.pdf")
+```
+\begin{center}
+\scriptsize
+\url{https://doi.org/10.1093/qje/qjz042}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/Vox/spending.pdf")
+```
+\begin{center}
+\scriptsize
+\url{https://www.nber.org/papers/w25368}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="65%", fig.align="center"}
+knitr::include_graphics("Figs/Vox/cluelessness.pdf")
+```
+\begin{center}
+\scriptsize
+\url{https://doi.org/10.1093/arisoc/aow018}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/Vox/ai.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\url{https://blogs.lse.ac.uk/lsereviewofbooks/2018/07/02/book-review-automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor-by-virginia-eubanks/}
+\end{center}
+
+# Breaking the ice
+
+\begin{itemize}
+  \item Week 1: Social socies aim to \textbf{produce "valid" knowledge claims} (cool, but how?)
+  \pause
+  \vspace{0.6cm}
+  \item Today: "\textbf{Theory comes to rescue}" (?)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item What is your subject area? Have you taken any module with "theory" in the title?
+    \vspace{0.1cm}
+    \item What is the most important/famous theory in your subject area? And what makes it important/famous?
+    \vspace{0.1cm}
+    \item What is your main takeaway from the TED Talk by Simon Sinek? Do you like what you hear? Is there really a "theory" in the talk?
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.5cm}
+\begin{itemize}
+  \item What do we use theory for in social research?
+  \vspace{1cm}
+  \item Do we mean the same thing when we say "theory?" (Short answer: \textbf{NO})
+  \vspace{1cm}
+  \item How do we present and formulate your theory?
+  \vspace{1cm}
+  \item How do we evaluate your theory? (we will be addressing this in the coming week)
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/reed}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  "\textbf{We have disagreements}, that is, not only about how we establish the sheer existence of this or that social phenomenon, but also about \textbf{how we can claim to correctly and effectively explain, criticize, or interpret} it. In my view it is these latter disagreements [...] at the core of controversies about social knowledge."
+  \endcol
+\endcols
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/org.pdf")
+```
+
+---
+
+\begin{itemize}
+  \item Theory as interpretation
+  \vspace{0.8cm}
+  \item Theory as explanation
+  \vspace{0.8cm}
+  \item Theory as ideology
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Theory as interpretation: Ways of "seeing"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Taking a conceptual framework to "construct a deep reading" of the social world
+    \item Stimulating multiple abstractions and different ways to "understanding" the world
+    \item Likely to be reflexive so as to re-conceptualize a topic or a phenomenon
+  \end{itemize}
+  \vspace{0.8cm}
+  \item Theory as explanation
+  \vspace{0.8cm}
+  \item Theory as ideology
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Theory as interpretation
+  \vspace{0.8cm}
+  \item Theory as explanation
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Identifying and establishing the "fundamental processes, mechanisms and structures" underlying the outcome of interest in the social world
+    \item Often assuming an objective stance and working around a limited set of corresponding theoretical resources and concepts
+    \item May be useful for forecasting and predictions; "theory of everything"
+  \end{itemize}
+  \vspace{0.8cm}
+  \item Theory as ideology
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Theory as interpretation
+  \vspace{0.8cm}
+  \item Theory as explanation: Way(s) of "unpacking"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Identifying and establishing the "fundamental processes, mechanisms and structures" underlying the outcome of interest in the social world
+    \item Often assuming an objective stance and working around a limited set of corresponding theoretical resources and concepts
+    \item May be useful for forecasting and predictions; "theory of everything"
+  \end{itemize}
+  \vspace{0.8cm}
+  \item Theory as ideology
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Theory as interpretation
+  \vspace{0.8cm}
+  \item Theory as explanation
+  \vspace{0.8cm}
+  \item Theory as ideology: Ways of "envisioning"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Taking a normative stance to imaging what the social world "should be like"
+    \item Providing ways of "emancipation" by bearing the critical force of well-articulated theoretical "utopias"
+    \item Seeking to make the world a better place (so likely to invoke emotional appeals) 
+  \end{itemize}
+\end{itemize}
+
+# Theory as paradigm v theory as approach (Geddes 2003)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{Figs/castles}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \item Theory as \textbf{paradigm}
+  \vspace{0.4cm}
+  \begin{itemize}
+    \item A set of more or less consistent theories and hypotheses that "explain" various aspects of social reality 
+    \vspace{0.3cm}
+    \item When taken together, these theories and hypotheses form a "coherent" understanding of the outcome of interest
+    \vspace{0.3cm}
+    \item Similar to "theory as explanation"
+  \end{itemize}
+  \end{itemize}
+  \endcol
+\endcols
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="110%", fig.align="center"}
+knitr::include_graphics("Figs/ross_new.pdf")
+```
+
+# Theory as paradigm v theory as approach (Geddes 2003)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{Figs/castles}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \item Theory as \textbf{approach}:
+  \vspace{0.4cm}
+  \begin{itemize}
+    \item A "claim" that certain factors (e.g., classes and race) deserve attention, without articulating specific processes and/or mechanisms about them
+    \vspace{0.3cm}
+    \item A "belief" that certain research methods are the most useful and appropriate means of gaining understanding
+    \vspace{0.3cm}
+    \item Similar to "theory as interpretation"
+  \end{itemize} 
+  \end{itemize}
+  \endcol
+\endcols
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/singh_new.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/reed}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  "\textbf{We have disagreements}, that is, not only about \textbf{how we establish the sheer existence} of this or that social phenomenon, but also about how we can claim to correctly and effectively explain, criticize, or interpret it. In my view it is these latter disagreements [...] at the core of controversies about social knowledge."
+  \endcol
+\endcols
+
+# Different forms or strategies of "theory-making"
+
+\begin{itemize}
+  \item Verbal
+  \vspace{0.8cm}
+  \item Formal (mathematical)
+  \vspace{0.8cm}
+  \item Combined
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Verbal
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Perhaps the most common form of theoretical "expressions"
+    \item Use of language is important -- the analysis of "meaning" (or the discourse)
+    \item Abstraction through metaphor and analogy
+  \end{itemize}
+  \vspace{0.8cm}
+  \item Formal
+  \vspace{0.8cm}
+  \item Combined
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Verbal
+  \vspace{0.8cm}
+  \item Formal
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item "A model or set of rules and assumptions used to understand various behaviors in mathematical terms" (APA)
+    \item A lot of existing/emerging fields, such as \textbf{agent-based modeling}, public choice theory, positive/game theory, social "physics," and complex system
+    \item An active area calling for vibrant, constructive interdisciplinary research
+  \end{itemize}
+  \vspace{0.8cm}
+  \item Combined
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/sfi}
+    \end{figure}
+  \endcol
+  \begincol{.4\textwidth}
+  "The rise of \textbf{complexity theory}, an \textbf{interdisciplinary} field studying the emergent \textbf{behavior and patterns of the interactions} of simple (and not so simple) \textbf{components}, has been one of the most important responses to the ballooning of \textbf{knowledge}."
+  \endcol
+\endcols
+
+---
+
+\begin{itemize}
+  \item Verbal
+  \vspace{0.8cm}
+  \item Formal (mathematical)
+  \vspace{0.8cm}
+  \item Combined: The "Analytic Narratives" project
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item An initiative started by political economists in the 1990s
+    \item Intersection of economics, economic history, and political science
+    \item Integration of "elegant" rational choice-like theory and "thick" descriptions
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/analytic.pdf")
+```
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/analytic_people.pdf")
+```
+
+# Concluding remarks
+
+\begin{itemize}
+  \item Foster "cultural competency" among social researchers
+  \begin{itemize}
+    \item Be open-minded: "Theory" can refer to very different things, and it is important for us to respect (and understand) the differences
+    \item Be transparent: Your preferences and the choices you make (and do your best to explain them) in your research
+    \item Be cautious: The way you treat and build theory (paradigm v approach) will affect the answers you offer
+  \end{itemize}
+  \vspace{0.6cm}
+  \item \textbf{What's next: Build and bolster the theory-empirics alignment with evidence}
+  \begin{itemize}
+    \item Why should we use "numbers" to study the social world?
+    \item Why is causality important? Is causality always a must?
+    \item How can we generalize our insights beyond a case?
+  \end{itemize}
+\end{itemize}
+
+# Discussion: (Re)thinking rational choice "theory"
+
+\begin{itemize}
+  \item Before you read Geddes' book, how will you define the "rational choice theory?"
+  \vspace{0.4cm}
+  \item After reading this chapter, how is Geddes' definition or discussion of the rational choice theory different from your expectations? 
+  \vspace{0.4cm}
+  \item Barbara Geddes says "rational choice theory is not a theory." Why? Do you agree?
+  \vspace{0.4cm}
+  \item Further reading: Chapter 4 in Martin (2015)
+\end{itemize}
+
+# Barbara's "verdict" on rational choice
+
+\begin{itemize}
+  \item There are many \textbf{misperceptions} about rational choice.
+  \begin{itemize}
+    \item Rational choice does not assume people are "selfish"
+    \item Rational choice does not assume people are driven by material interests
+    \item Rational choice does not assume preferences are stable or fixed
+    \item Rational choice does not ignore/discard ideology and/or history
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Rational choice is an \textbf{approach} (i.e., ways of seeing), not a theory
+  \begin{itemize}
+    \item Rational choice highlights the importance of "rationality" 
+    \item Rational choice does not dictate a single or universal explanation/prediction
+    \item Rational choice provides a micro-foundation for us to research the social world
+  \end{itemize}
+  \vspace{0.2cm}
+  \item More in Week 6
+\end{itemize}
+
+---
+
+\vspace{0.5cm}
+\begin{center}
+Thank you!
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_tv.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\texttt{c.cheng@bbk.ac.uk}
+\end{center}
+
+# Thinking through theory (Martin 2015)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/martin}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{small}
+  \begin{itemize}
+  \item \textbf{Theory as canonical propositions}: Propositions or claims, often made or chosen before we begin our investigations, become theories because they are important and/or influential
+  \vspace{0.3cm}
+  \item \textbf{Theory as generalization}: Propositions should be made (and tested) to explain as many "cases" as possible, but some generalizations can be trivial or obvious or controversial (questions regarding the scope condition and plausibility are crucial)
+  \end{itemize}
+  \end{small}
+  \endcol
+\endcols
+
+# Thinking through theory (Martin 2015)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/martin}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{small}
+  \begin{itemize}
+  \item \textbf{Theory as vocabulary}: Theoretical innovations can be made by using new terms or words to "re-tell" the social reality to push new questions (and yet we may be constrained by the words we use)
+  \vspace{0.2cm}
+  \item \textbf{Theory as critique}: Theoretical work as a consideration of internal consistency and possible scope or as a consideration of its political implications
+  \end{itemize}
+  \end{small}
+  \endcol
+\endcols
