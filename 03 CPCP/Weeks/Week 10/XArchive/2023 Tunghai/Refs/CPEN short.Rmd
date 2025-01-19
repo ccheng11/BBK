@@ -1,0 +1,242 @@
+---
+title: Mapping the Information Network of Chinese Political Elites
+author: Chao-Yo Cheng
+date: \today
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+fontsize: 10pt
+---
+
+## The black box of Chinese elite politics
+
+\begin{itemize}
+	\item The focus on ``high-politics:'' The absence of independent, strong formal institutions has pushed researchers have to focus on prominent political elites in authoritarian regimes.
+	\item \textbf{Factionalism} is one of the most researched topics in the Chinese politics literature (e.g., Nathan 1973; Tsou 1976; Pye 1981; Dittmer 2002; Huang 2006; Bo 2007; Shih et al 2012).
+	\item The power struggles and cooperation between different factions or ``informal'' groups have been considered as the main driving forces for policy and political changes in China.
+\end{itemize}
+
+## The task: Unpack Chinese elite politics
+
+\begin{itemize}
+  \item Qualitative analysis: Studies in the early decades rely on information provided by the regime's ``insiders.''
+  \item Quantitative measures: Studies in the past two decades have started to use publicly available information to elite ties and interactions.
+  \begin{itemize}
+	  \item Party newspapers (e.g., Yang 1987; Kou and Cheng 2006; Kou et al 2010).
+	  \item Biographical information; \textit{Nomenklatura} (e.g., Bo 2003; Shih, Shan, and Wei 2010).
+	  \item Elite actitivites.
+  \end{itemize}
+\end{itemize}
+
+## (Re)conceptualizing elite connectedness
+
+\begin{itemize}
+	\item Personal ties provide individuals with protection in a highly uncertain and opaque political environment (Pye 1981; Dittmer 2002).
+	\vspace{0.2cm}
+	\item The literature has provided many different sources of interpersonal ties (e.g., common provincial origin, common schools, and common workplace).
+	\vspace{0.2cm}
+	\item Existing measures largely focus on one of the possible sources and treat elite ties as a binary, static variable.
+\end{itemize}
+
+## (Re)conceptualizing elite connectedness
+
+\begin{itemize}
+	\item We can define \textit{connectedness} as a \textbf{\textit{continuous}} variable that indicates the degree to which two individuals.
+	\item We can use the degree of \textit{biographical similarity} to measure their connectedness.
+\end{itemize}
+
+## Measuring elite connectedness
+
+\begin{itemize}
+	\item Create the timeline of key life events of each cadre.
+	\vspace{0.1cm}
+	\begin{itemize}
+	  \item Demographic characteristics (e.g., birth year and provincial origin)
+	  \item Educational background (e.g., colleges and universities)
+	  \item Political career (e.g., involvement in key events between 1921 and 1949; Party and government posts after 1949)
+	\end{itemize}
+	\vspace{0.2cm}
+	\item Create the \textbf{\textit{attribute vector}} of a cadre based on her/her timeline.
+	\vspace{0.2cm}
+	\item Measure the distance between a pair of attribute vectors in the multidimensional space.
+	\vspace{0.1cm}
+	\begin{itemize}
+	  \item Time: Are the cadres of interest both alive in a given year?
+	  \item Location: Are they both at the same location in a given year?
+	  \item Activity: Are they working in the same department/unit in a given year?
+	\end{itemize}
+\end{itemize}
+
+## Measuring elite connectedness
+
+\begin{itemize}
+	\item The Gaussian kernel generalizes the dot-product of two vectors into an infinite dimensional feature space.
+	\vspace{0.2cm}
+	\item The resulting value is a time-varying measure of elite connectedness.
+	\vspace{0.2cm}
+	\item Formally, a kernel is a function of $R^P \times R^P \rightarrow R$ such that $k(x_i, x_j) \rightarrow R$ for two vectors $x_i$ and $x_j$.
+	\begin{equation}
+	k(X_i, X_j)=k(\phi(X_i),\phi(X_j))=e^{-\frac{||X_i-X_j||^2}{\sigma^2}}
+	\end{equation}
+	\vspace{0.1cm}
+	\begin{itemize}
+	\item $\phi(X_i)$ is the ``feature map'' of the vector $X_i$.
+	\item $||X_i-X_j||$ is the Euclidean distance between vectors $X_i$ and $X_j$.
+	\end{itemize}
+\end{itemize}
+
+## Mapping elite networks
+
+We can construct the adjacency matrix, an $n\times n$ symmetric matrix to represent a network of $n$ cadres, as follows.
+\begin{equation}
+A =
+\begin{bmatrix}
+    0 & k(X_1, X_2) & k(X_1, X_3) & \dots & k(X_1, X_n) \\
+    k(X_2, X_1) & 0 & k(X_2, X_3) & \dots & k(X_2, X_n) \\
+    \vdots & \vdots & \vdots & \ddots & \vdots \\
+    k(X_n, X_1) & k(X_n, X_n) & k(X_n, X_3) & \dots & 0 \\
+\end{bmatrix},
+\end{equation}
+where $k(X_i, X_j)$ refers to the connectedness between a pair of cadres $i$ and $j$.
+
+## Data sources
+
+\begin{itemize}
+  \item Central Committee Members, 1921-2017 (about 2,000).
+  \item Provincial Party secretaries and governors, 1947-2017 (about 500).
+  \item District Party secretaries and government heads, 1949-2017 (about 4,000).
+  \item County Party secretaries and government heads, 2000-2017 (about 12,000).
+\end{itemize}
+
+## Central leadership fragmentation
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.26]{Figs/selection}
+\end{figure}
+\vspace{0.2cm}
+\begin{itemize}
+	\item Use \textbf{variable selection} (elastic net regularization and other methods) to identify the key biographical variables in CC of each year when measuring biographical similarity.
+	\vspace{0.1cm}
+	\item Use \textbf{community detection} to assess the degree to which a Politburo network can be divided.
+\end{itemize}
+
+## Central leadership fragmentation
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.45]{Figs/pb_mod}
+\end{figure}
+
+## Central leadership fragmentation
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.45]{Figs/gwf}
+\end{figure}
+\begin{center}
+The fragmentation measure is largely consistent with the personalism measure constructed by Frantz et al 2018.
+\end{center}
+
+## Central leadership fragmentation
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{Figs/fe_compare}
+\end{figure}
+\begin{center}
+Local embeddedness tends to be higher when the central leadership is less fragmented.
+\end{center}
+
+## Concluding remarks
+
+\begin{itemize}
+	\item Decompose and redefine elite connection to elite \textbf{\textit{connectedness}}.
+	\vspace{0.2cm}
+	\item Build a general framework for different measures of elite connectedness.
+	\vspace{0.2cm}
+\pause
+	\item What does a tie entail for Chinese political elites?
+	\begin{itemize}
+	\item Patron-client relationship (e.g., Keller 2016, Jiang 2018).
+	\item Social capital and inter-personal trust (e.g., Stockmann et al 2020).
+	\item Principal-agent relationship: Transaction cost and the degree of observability (e.g., Holmstrom 1979) or information symmetry.
+	\end{itemize}
+\end{itemize}
+
+## Concluding remarks
+
+\begin{itemize}
+	\item Apply the new measures of elite connectedness to replicate existing studies of the Chinese political economy.
+	\item Explore interactive dynamics of local (provincial, municipal, and county) officials.
+  \item Different dimensions of connectedness: Organization-based or location-based.
+  \item Employ alternative computational approaches (e.g., the distance metric between vectors; feature selection).
+	\item \textbf{In progress}: An open-source \texttt{R} package \textit{Chinese Political Elite Networks} (C-PEN).
+\end{itemize}
+
+---
+
+\begin{center}
+\vspace{0.6cm}
+Thank you.\\
+\vspace*{0.2cm}
+Email: \texttt{c.cheng23@lse.ac.uk}.
+\end{center}
+\vspace{0.3cm}
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{Figs/serve}
+\end{figure}
+\center
+``Serve the people,'' Mao said.
+
+## Debates in Chinese elite politics
+
+\begin{itemize}
+	\item Nature of elite politics: ``Factions'' vs. ``informal groups.''
+	\item Structure of factional politics: Vertical patron-client relationship?
+	\item Dynamics of factional politics: Code of civility? Bandwagoning? Self-enforcing?
+\end{itemize}
+
+## Quality function for community detection
+
+\begin{equation}
+Q = \frac{1}{2m}\sum_{ij}(A_{ij}-P_{ij})\delta(c_i,c_j).
+\end{equation}
+\begin{itemize}
+	\small
+	\item $m$ is the number of ties or edges of the network (or the sum over all pairs of nodes $i$ and $j$).
+	\item $A_{ij}$ refers to the tie between $i$ and $j$ in $A$ (the adjacency matrix of a network). For a weighted network, $A_{ij}\in R^{+}$; for an unweighted network, $A_{ij}\in\{0,1\}$.
+	\item $\delta(c_i,c_j)=1$ (also known as the Kronecker delta) if $i$ and $j$ are in the same community (0 otherwise).
+	\item $P_{ij}$ is the expected weight of the edge (for a weighted network) between $i$ and $j$ under a specified null model. For unweighted networks, in which each non-diagonal element in the adjacency matrix only takes the value of 0 or 1, $P_{ij}$ is the expected number of ties between $i$ and $j$ of an ensemble of networks based on the randomization of the original network.
+\end{itemize}
+
+## Attribute vectors
+
+Suppose both cadres work in different departments in Year 1 and become colleagues in Year 2. Each column is named by
+\begin{itemize}
+  \item Y: Year (time)
+  \item P: Province (location)
+  \item D: Department/unit (activity)
+\end{itemize}
+\vspace{0.2cm}
+\begin{figure}
+\centering
+\includegraphics[scale=0.8]{Figs/vector}
+\end{figure}
+
+## Local leadership embeddedness
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.6]{Figs/local_sim}
+\end{figure}
+
+## (Relative) central-local connectedness
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.6]{Figs/local_clc}
+\end{figure}
