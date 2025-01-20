@@ -17,62 +17,155 @@ output:
 fontsize: 10pt
 ---
 
-# Welcome back
+# Recap: Studying Chinese politics in the changing world
 
 \begin{itemize}
-  \item Office hours
+  \item From intelligence services to academic research
   \vspace{0.5cm}
-  \item Assessment
+  \item From area studies to comparative politics
   \vspace{0.5cm}
-  \item Guest speaker (7 March 2024)
-  \vspace{0.5cm}
-  \item Taiwan event (20 March 2024)
-  \vspace{0.5cm}
+  \item From qualitative description to data-intensive inference
 \end{itemize}
 
 ---
+
+\begin{itemize}
+  \item From intelligence services to new geopolitcal tension
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item China studies $\neq$ Sinology; emerging as a subject area after the WWII and gain its prominence during the Cold War
+    \item "Echo chambers" in the making -- the changing geopolitical landscape in the past decade may drag China scholars in different countries to focus on different agenda
+  \end{itemize}
+  \vspace{0.3cm}
+  \item From area studies to comparative politics
+  \vspace{0.3cm}
+  \item From qualitative description to data-intensive inference
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/nccu.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\small
+Institute of International Relations, National Chengchi University (Taipei)
+\end{center}
+
+---
+
+\begin{itemize}
+  \item From intelligence services to academic research
+  \vspace{0.3cm}
+  \item From area studies to comparative politics
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Earlier generations of China scholars treat China as a distinct subfield within political science
+    \item Later on, China scholars begin to borrow or "stretch" concepts and ideas from other subfields to study Chinese politics (Shambaugh 2023)
+    \item Starting from the late 2000s, China scholars are about to generate new theoretical insights to general political science (Tsai 2017)
+  \end{itemize}
+  \vspace{0.3cm}
+  \item From qualitative description to data-intensive inference
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/book1.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/book2.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/mary.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/tsai.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/jiang.pdf")
+```
+
+---
+
+\begin{itemize}
+  \item From intelligence services to academic research
+  \vspace{0.3cm}
+  \item From area studies to comparative politics
+  \vspace{0.3cm}
+  \item From qualitative description to data-intensive inference
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Before the diplomatic reconciliation between PRC and USA (1971-1978), scholars have to rely on limited, parrial and often biased qualitative evidence (archives and interviews)
+    \item After Reform and Opening, in the 1980s more engaging field research is likely (ethnography and case studies)
+    \item The mid-1990s saw the quantitative turn of China studies (surveys, econometric analysis of admin data and computational)
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/shirk71.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\small
+Susan Shirk (UCSD) with Zhou Enlai in July 1971, on a visit to China with "the Committee of Concerned Asian Scholars"
+\end{center}
+
+---
+
 
 \begin{center}
 \textbf{Week 2: Empire to Nation-State}
 \end{center}
 \vspace{0.3cm}
 ```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("Figs/theme.pdf")
+knitr::include_graphics("Figs/theme2.pdf")
 ```
+\begin{center}
+\footnotesize
+\url{https://storystudio.tw/article/gushi/the-forbidden-garden}
+\end{center}
 
+# "China: A Century of Revolution"
 
-# Documentary series
-
-\begin{itemize}
-  \item PBS documentaries: \textit{China: A Century of Revolution}
-  \vspace{0.4cm}
-  \begin{itemize}
-    \item China in Revolution, 1911–1949
-    \vspace{0.2cm}
-    \item The Mao Years, 1949–1976
-    \vspace{0.2cm}
-    \item Born Under the Red Flag, 1976–1997
-  \end{itemize}
-\end{itemize}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/docs.pdf")
+```
 
 # China in the 20th century
 
 \begin{itemize}
-  \item Republican China
+  \item Republican China (1911-1949)
   \vspace{0.2cm}
   \begin{itemize}
     \item 1911-1928: Beiyang Government (北洋政府)
-    \item 1928-1949: Nationalist Government (民国政府) 
+    \item 1928-1949: Nationalist/KMT Government (民国政府) 
   \end{itemize}
   \vspace{0.4cm}
-  \item Communist China
+  \item Communist China (1949-present)
   \vspace{0.2cm}
   \begin{itemize}
     \item 1950s: Land reform and the Great Leap Forward (大跃进)
     \item 1960s: Return of Mao Zedong and the Cultural Revolution (文化大革命)
-    \item 1970s: Power transition and "Opening and Reform" (改革开放)
-    \item 1980s: Market experiment, intra-party split and Tiananmen
-    \item 1990s: Consolidated market reform and institutionalized political succession
+    \item 1970s: Power transition and "Reform and Opening" (改革开放)
+    \item 1980s: Experiment with market economy, intra-party split and Tiananmen
+    \item 1990s: Consolidated market reform and institutionalized political succession (?)
   \end{itemize}
 \end{itemize}
 
@@ -86,7 +179,7 @@ knitr::include_graphics("Figs/theme.pdf")
     \vspace{0.2cm}
     \item Social modernization: Filling the moral vacuum and the questions against traditional ways of living (e.g., science, democracy and vernacular language and writing)
     \vspace{0.2cm}
-    \item Economic modernization: Seeking industrial infrastructure and production
+    \item Economic modernization: Industrial infrastructure and production (much of this has do with security concerns)
   \end{itemize}
   \vspace{0.3cm}
   \item Question: How do we define "modernity?"
@@ -173,7 +266,7 @@ knitr::include_graphics("Figs/chongqing_new.pdf")
   \end{itemize}
 \end{itemize}
 
-# Questions for comparative scholars
+# Concluding remarks: Questions remain for comparative scholars
 
 \begin{itemize}
   \item Revolutions: Causes, results and implications
@@ -183,7 +276,21 @@ knitr::include_graphics("Figs/chongqing_new.pdf")
   \item Political elites and leadership "style"
   \vspace{0.3cm}
   \item What else?
+  \vspace{0.3cm}
+  \item Why it is hard to study the early 20th century China: Taiwan, Hong Kong and Beijing
 \end{itemize}
+
+---
+
+Perry
+
+---
+
+Liao
+
+---
+
+Issues and studies
 
 # Recap: Key events during the Republican Era 
 
