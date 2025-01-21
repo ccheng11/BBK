@@ -278,6 +278,13 @@ knitr::include_graphics("Figs/docs.pdf")
 
 ---
 
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/restoration.pdf")
+```
+
+---
+
 \begin{itemize}
   \item State building and socioeconomic recovery
   \vspace{0.6cm}
@@ -337,6 +344,13 @@ knitr::include_graphics("Figs/docs.pdf")
 
 ---
 
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/golden.pdf")
+```
+
+---
+
 \begin{itemize}
   \item State building and socio-economic rebuilding
   \vspace{0.6cm}
@@ -351,6 +365,13 @@ knitr::include_graphics("Figs/docs.pdf")
   \vspace{0.6cm}
   \item Anti-Japanese War and Chiang's downfall in 1949
 \end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/chiang.pdf")
+```
 
 ---
 
@@ -371,13 +392,6 @@ knitr::include_graphics("Figs/docs.pdf")
 ---
 
 \vspace{0.3cm}
-```{r echo=FALSE, out.width="50%", fig.align="center"}
-knitr::include_graphics("Figs/chiang_new.pdf")
-```
-
----
-
-\vspace{0.3cm}
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/yanan_new.pdf")
 ```
@@ -394,15 +408,15 @@ knitr::include_graphics("Figs/chongqing_new.pdf")
 \begin{itemize}
 \small
   \item For China scholars
-  \vpsace{0.1cm}
+  \vspace{0.1cm}
   \begin{itemize}
     \item What explains CPC's victory? Is it "predictable" or "expected?" Lieberthal (1995): The GMD's defeat was the result of its separation from its political and economic base
-    \item Much of te long-term impact of the Chinese revolutions remains to be explored (e.g., Elizabeth Perry)
+    \item Much of te long-term impact remains to be explored (e.g., Elizabeth Perry)
     \item Information needed to study the early 20th century of China is all over the place, and many informants may no longer be around
   \end{itemize}
-  \vpsace{0.3cm}
+  \vspace{0.3cm}
   \item Chinese revolution(s) in comparative perspective
-  \vpsace{0.1cm}
+  \vspace{0.1cm}
   \begin{itemize}
     \item Causes, results and implications for long-term political development (Moore 1966; Skocpol 1979; Way and Levitsky 2022)
     \item Political elites and leadership "style" (e.g., compared with the former Soviet Union)
@@ -412,19 +426,27 @@ knitr::include_graphics("Figs/chongqing_new.pdf")
 
 ---
 
-Perry
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cps_ma_ji.pdf")
+```
 
 ---
 
-Ma and Ji
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/lee90.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\url{http://ark.cdlib.org/ark:/13030/ft9n39p3pc/}
+\end{center}
 
 ---
 
-Lee
-
----
-
-Moore; Skocpol; Way and Levitsky
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/revs.pdf")
+```
 
 # Local states in the early 20th century (Remick 2002)
 
