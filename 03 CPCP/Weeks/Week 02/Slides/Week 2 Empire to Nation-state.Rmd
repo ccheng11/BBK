@@ -14,7 +14,6 @@ output:
       in_header: mystyle.tex
   slidy_presentation: default
   ioslides_presentation: default
-  latex_engine: xelatex
 fontsize: 10pt
 ---
 
@@ -31,7 +30,7 @@ fontsize: 10pt
 ---
 
 \begin{itemize}
-  \item From intelligence services to new geopolitcal tension
+  \item \textbf{From intelligence services to new geopolitcal tension}
   \vspace{0.1cm}
   \begin{itemize}
     \item China studies $\neq$ Sinology; emerging as a subject area after the WWII and gain its prominence during the Cold War
@@ -59,7 +58,7 @@ Institute of International Relations, National Chengchi University (Taipei)
 \begin{itemize}
   \item From intelligence services to academic research
   \vspace{0.3cm}
-  \item From area studies to comparative politics
+  \item \textbf{From area studies to comparative politics}
   \vspace{0.1cm}
   \begin{itemize}
     \item Earlier generations of China scholars treat China as a distinct subfield within political science
@@ -70,31 +69,31 @@ Institute of International Relations, National Chengchi University (Taipei)
   \item From qualitative description to data-intensive inference
 \end{itemize}
 
----
+# Thick, detailed description on contemporary China
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/book1.pdf")
 ```
 
----
+# Applying rational choice theory to understand China's economic reform
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/book2.pdf")
 ```
 
----
+# Using China to inform general theory
 
-```{r echo=FALSE, out.width="100%", fig.align="center"}
+```{r echo=FALSE, out.width="85%", fig.align="center"}
 knitr::include_graphics("Figs/mary.pdf")
 ```
 
----
+# Using China to inform general theory
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/tsai.pdf")
 ```
 
----
+# Using China to inform general theory
 
 ```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/jiang.pdf")
@@ -107,26 +106,31 @@ knitr::include_graphics("Figs/jiang.pdf")
   \vspace{0.3cm}
   \item From area studies to comparative politics
   \vspace{0.3cm}
-  \item From qualitative description to data-intensive inference
+  \item \textbf{From qualitative description to data-intensive inference}
   \vspace{0.1cm}
   \begin{itemize}
     \item Before the diplomatic reconciliation between PRC and USA (1971-1978), scholars have to rely on limited, parrial and often biased qualitative evidence (archives and interviews)
     \item After Reform and Opening, in the 1980s more engaging field research is likely (ethnography and case studies)
-    \item The mid-1990s saw the quantitative turn of China studies (surveys, econometric analysis of admin data and computational)
+    \item The mid-1990s saw the quantitative turn, using surveys (e.g., CGSS), econometric analysis of admin data (e.g., CER) and computational (e.g., King et al 2013)
   \end{itemize}
 \end{itemize}
 
 ---
 
-```{r echo=FALSE, out.width="90%", fig.align="center"}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/shirk71.pdf")
 ```
 \vspace{0.1cm}
 \begin{center}
-\scriptsize
-\small
+\footnotesize
 Susan Shirk (UCSD) with Zhou Enlai in July 1971, on a visit to China with "the Committee of Concerned Asian Scholars"
 \end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/molly.pdf")
+```
 
 ---
 
@@ -139,7 +143,7 @@ Susan Shirk (UCSD) with Zhou Enlai in July 1971, on a visit to China with "the C
 knitr::include_graphics("Figs/theme2.pdf")
 ```
 \begin{center}
-\footnotesize
+\tiny
 \url{https://storystudio.tw/article/gushi/the-forbidden-garden}
 \end{center}
 
@@ -234,6 +238,18 @@ knitr::include_graphics("Figs/docs.pdf")
 
 ---
 
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="45%", fig.align="center"}
+knitr::include_graphics("Figs/restoration.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\footnotesize
+Yuan announced the establishment of the "Hongxian Monarchy" between 1915-16
+\end{center}
+
+---
+
 \begin{itemize}
 \small
   \item A weak central government that could not command
@@ -253,7 +269,7 @@ knitr::include_graphics("Figs/docs.pdf")
 # Nationalist government in Nanjing (1928-1949)
 
 \begin{itemize}
-  \item State building and socio-economic rebuilding
+  \item State building and socio-economic recovery
   \vspace{1cm}
   \item First Chinese Civil War and the rise of Mao within CPC
   \vspace{1cm}
@@ -263,7 +279,7 @@ knitr::include_graphics("Figs/docs.pdf")
 ---
 
 \begin{itemize}
-  \item State building and socio-economic rebuilding
+  \item State building and socio-economic recovery
   \vspace{0.1cm}
   \begin{itemize}
     \item The decade before 1937 was often known as the \textbf{Nanjing Decade} or \textbf{Golden Decade}, during which China saw remarkable economic and market growth (and industrialization)
@@ -279,8 +295,8 @@ knitr::include_graphics("Figs/docs.pdf")
 ---
 
 \vspace{0.3cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/restoration.pdf")
+```{r echo=FALSE, out.width="55%", fig.align="center"}
+knitr::include_graphics("Figs/golden.pdf")
 ```
 
 ---
@@ -291,14 +307,28 @@ knitr::include_graphics("Figs/restoration.pdf")
   \item First Chinese Civil War (1927-1936) and the rise of Mao within CPC
   \vspace{0.1cm}
   \begin{itemize}
-    \item The fallout of the first United Front in 1927 forced the CPC to "flee" to the countryside and triggered an internal debate
-    \item During the \textbf{Long March} (长征), Mao managed to gain the leadership within the Party and was able to start a series of political movements to secure his power once the Party reached Yan'an
-    \item The Xi'an Incident (西安事变) in 1936 forced him to declare another "CPC-KMT" United Front
+    \item Chiang's purges forced CPC to "flee" to the countryside and triggered an internal debate
+    \item During the \textbf{Long March} (长征, 1934-1935), Mao managed to gain the leadership within the Party in in the Zunyi Conference (遵义会议) and mobilized a series of political movements to secure his power once the Party reached Yan'an
+    \item The \textbf{Xi'an Incident} (西安事变) in 1936 forced him to declare another "CPC-KMT" United Front
     \item During the Anti-Japnese War, the CPC continued to grow its base, largely in Northern parts of the country 
   \end{itemize}
   \vspace{0.6cm}
   \item Anti-Japanese War and Chiang's downfall in 1949
 \end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/longmarch.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/chiang.pdf")
+```
 
 ---
 
@@ -311,67 +341,10 @@ knitr::include_graphics("Figs/restoration.pdf")
   \vspace{0.1cm}
   \begin{itemize}
     \item The conflict between CPC and KMT was resumed quickly after the WWII ended in 1945
-    \item The Chongqing Negotiations (with the involvement of the US) between Mao and Chiang failed 
+    \item The \textbf{Chongqing Negotiations} (with the involvement of the US) between Mao and Chiang failed 
     \item CPC won the Second Chinese Civil War (1946-1950) and established the PRC while Chiang relocated the KMT government to Taiwan in 1949
   \end{itemize}
 \end{itemize}
-
-# Nationalist government in Nanjing (1928-1949)
-
-\begin{itemize}
-  \item State building and socio-economic rebuilding
-  \vspace{1cm}
-  \item First Chinese Civil War and the rise of Mao within CPC
-  \vspace{1cm}
-  \item Anti-Japanese War and Chiang's downfall in 1949
-\end{itemize}
-
----
-
-\begin{itemize}
-  \item State building and socio-economic rebuilding
-  \vspace{0.1cm}
-  \begin{itemize}
-    \item The decade before 1937 was often known as the \textbf{Nanjing Decade} or \textbf{Golden Decade}, during which China saw remarkable economic and market growth (and industrialization)
-    \item The KMT govt under Chiang introduced the new Life Movement while strenthening the system of taxation and civil services through the Examination Yuan and the self-government movement
-    \item See \textit{Strong Institutions and Weak Polities} by Julia Strauss (SOAS)
-  \end{itemize}
-  \vspace{0.6cm}
-  \item First Chinese Civil War (1927-1936) and the rise of Mao within CPC
-  \vspace{0.6cm}
-  \item Anti-Japanese War and Chiang's downfall in 1949
-\end{itemize}
-
----
-
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/golden.pdf")
-```
-
----
-
-\begin{itemize}
-  \item State building and socio-economic rebuilding
-  \vspace{0.6cm}
-  \item First Chinese Civil War (1927-1936) and the rise of Mao within CPC
-  \vspace{0.1cm}
-  \begin{itemize}
-    \item The fallout of the first United Front in 1927 forced the CPC to "flee" to the countryside and triggered an internal debate
-    \item During the \textbf{Long March} (长征), Mao managed to gain the leadership within the Party in the Zunyi Conference (遵义会议) and mobilized a series of political movements to secure his power once the Party reached Yan'an
-    \item The Xi'an Incident (西安事变) in 1936 forced him to declare another "CPC-KMT" United Front
-    \item During the Anti-Japnese War, the CPC continued to grow its base, largely in Northern parts of the country 
-  \end{itemize}
-  \vspace{0.6cm}
-  \item Anti-Japanese War and Chiang's downfall in 1949
-\end{itemize}
-
----
-
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/chiang.pdf")
-```
 
 ---
 
@@ -395,6 +368,11 @@ knitr::include_graphics("Figs/chiang.pdf")
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/yanan_new.pdf")
 ```
+\vspace{0.1cm}
+\begin{center}
+\footnotesize
+Mao and Zhou with others in Yan'an
+\end{center}
 
 ---
 
@@ -402,6 +380,11 @@ knitr::include_graphics("Figs/yanan_new.pdf")
 ```{r echo=FALSE, out.width="60%", fig.align="center"}
 knitr::include_graphics("Figs/chongqing_new.pdf")
 ```
+\vspace{0.1cm}
+\begin{center}
+\footnotesize
+Chiang and Mao at Chongqing Negotiations
+\end{center}
 
 # Questions remain for China and comparative scholars
 
@@ -415,7 +398,7 @@ knitr::include_graphics("Figs/chongqing_new.pdf")
     \item Information needed to study the early 20th century of China is all over the place, and many informants may no longer be around
   \end{itemize}
   \vspace{0.3cm}
-  \item Chinese revolution(s) in comparative perspective
+  \item For comparativist
   \vspace{0.1cm}
   \begin{itemize}
     \item Causes, results and implications for long-term political development (Moore 1966; Skocpol 1979; Way and Levitsky 2022)
@@ -433,7 +416,7 @@ knitr::include_graphics("Figs/cps_ma_ji.pdf")
 ---
 
 \vspace{0.3cm}
-```{r echo=FALSE, out.width="70%", fig.align="center"}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/lee90.pdf")
 ```
 \vspace{0.2cm}
@@ -442,9 +425,9 @@ knitr::include_graphics("Figs/lee90.pdf")
 \url{http://ark.cdlib.org/ark:/13030/ft9n39p3pc/}
 \end{center}
 
----
+# Chinese revolution(s) in comparative perspective
 
-```{r echo=FALSE, out.width="90%", fig.align="center"}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/revs.pdf")
 ```
 
