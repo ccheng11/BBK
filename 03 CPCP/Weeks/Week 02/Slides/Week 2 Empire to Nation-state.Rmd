@@ -158,32 +158,35 @@ knitr::include_graphics("Figs/docs.pdf")
     \item 1928-1949: Nationalist/KMT Government (民国政府) 
   \end{itemize}
   \vspace{0.4cm}
-  \item Communist China (1949-present)
+  \item Communist China (1949 and afterwards)
   \vspace{0.2cm}
   \begin{itemize}
     \item 1950s: Land reform and the Great Leap Forward (大跃进)
-    \item 1960s: Return of Mao Zedong and the Cultural Revolution (文化大革命)
+    \item 1960s: Return of Mao Zedong and the outbreak of the Cultural Revolution (文化大革命)
     \item 1970s: Power transition and "Reform and Opening" (改革开放)
     \item 1980s: Experiment with market economy, intra-party split and Tiananmen
-    \item 1990s: Consolidated market reform and institutionalized political succession (?)
+    \item 1990s: Consolidated market reform and institutionalized political succession
   \end{itemize}
 \end{itemize}
 
-# Analytical highlights of the Republican Era
+# The pursuit of a "modern" China
 
 \begin{itemize}
-  \item Key theme: The pursuit of a "modern" China
-  \vspace{0.3cm}
-  \begin{itemize}
-    \item Political modernization: Transforming empire to (modern) nation-state
-    \vspace{0.2cm}
-    \item Social modernization: Filling the moral vacuum and the questions against traditional ways of living (e.g., science, democracy and vernacular language and writing)
-    \vspace{0.2cm}
-    \item Economic modernization: Industrial infrastructure and production (much of this has do with security concerns)
-  \end{itemize}
-  \vspace{0.3cm}
   \item Question: How do we define "modernity?"
+  \pause
+  \vspace{0.3cm}
+  \item "Modernization" is a multi-dimensional concept
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Political modernization: Transforming empire to centralized nation-state
+    \item Social modernization: Filling the moral vacuum and searching for "new" ways of living (e.g., science, democracy and vernacular language and writing)
+    \item Economic modernization: Industrial infrastructure and production (much of this has do with security threats)
+  \end{itemize}
 \end{itemize}
+
+# Political modernization
+
+TBA.
 
 # Republican Era
 
@@ -277,7 +280,7 @@ knitr::include_graphics("Figs/chongqing_new.pdf")
   \vspace{0.3cm}
   \item What else?
   \vspace{0.3cm}
-  \item Why it is hard to study the early 20th century China: Taiwan, Hong Kong and Beijing
+  \item Opportunities and chanllenges: Why it is hard to study the early 20th century China: Taiwan, Hong Kong and Beijing
 \end{itemize}
 
 ---
@@ -286,11 +289,7 @@ Perry
 
 ---
 
-Liao
-
----
-
-Issues and studies
+Ma and Ji
 
 # Recap: Key events during the Republican Era 
 
