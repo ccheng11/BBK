@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.22)  21 JAN 2025 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.22)  23 JAN 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1509,21 +1509,21 @@ Package pdftex.def Info: bbk200.pdf  used on input line 390.
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 406.
+Package pdftex.def Info: bbk200.pdf  used on input line 405.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [25
 
 ]
-<Figs/golden.pdf, id=408, 253.46303pt x 370.72855pt>
+<Figs/golden.pdf, id=407, 253.46303pt x 370.72855pt>
 File: Figs/golden.pdf Graphic file (type pdf)
 <use Figs/golden.pdf>
-Package pdftex.def Info: Figs/golden.pdf  used on input line 412.
+Package pdftex.def Info: Figs/golden.pdf  used on input line 411.
 (pdftex.def)             Requested size: 169.01036pt x 247.2102pt.
 
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 412.
+Package pdftex.def Info: bbk200.pdf  used on input line 411.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [26
 
@@ -1531,7 +1531,7 @@ Package pdftex.def Info: bbk200.pdf  used on input line 412.
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 429.
+Package pdftex.def Info: bbk200.pdf  used on input line 428.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [27
 
@@ -1539,30 +1539,30 @@ Package pdftex.def Info: bbk200.pdf  used on input line 429.
 
 pdfTeX warning: pdflatex.exe (file ./Figs/longmarch.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<Figs/longmarch.pdf, id=436, 668.73048pt x 510.708pt>
+<Figs/longmarch.pdf, id=435, 668.73048pt x 510.708pt>
 File: Figs/longmarch.pdf Graphic file (type pdf)
 <use Figs/longmarch.pdf>
-Package pdftex.def Info: Figs/longmarch.pdf  used on input line 435.
+Package pdftex.def Info: Figs/longmarch.pdf  used on input line 434.
 (pdftex.def)             Requested size: 307.28987pt x 234.67915pt.
 
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 435.
+Package pdftex.def Info: bbk200.pdf  used on input line 434.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [28
 
  <./Figs/longmarch.pdf>]
-<Figs/chiang.pdf, id=445, 714.19037pt x 528.89636pt>
+<Figs/chiang.pdf, id=444, 714.19037pt x 528.89636pt>
 File: Figs/chiang.pdf Graphic file (type pdf)
 <use Figs/chiang.pdf>
-Package pdftex.def Info: Figs/chiang.pdf  used on input line 441.
+Package pdftex.def Info: Figs/chiang.pdf  used on input line 445.
 (pdftex.def)             Requested size: 245.83282pt x 182.04977pt.
 
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 441.
+Package pdftex.def Info: bbk200.pdf  used on input line 445.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [29
 
@@ -1570,7 +1570,7 @@ Package pdftex.def Info: bbk200.pdf  used on input line 441.
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 457.
+Package pdftex.def Info: bbk200.pdf  used on input line 461.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [30
 
@@ -1578,7 +1578,7 @@ Package pdftex.def Info: bbk200.pdf  used on input line 457.
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 473.
+Package pdftex.def Info: bbk200.pdf  used on input line 477.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [31
 
@@ -1586,16 +1586,16 @@ Package pdftex.def Info: bbk200.pdf  used on input line 473.
 
 pdfTeX warning: pdflatex.exe (file ./Figs/yanan_new.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<Figs/yanan_new.pdf, id=471, 382.17984pt x 258.65833pt>
+<Figs/yanan_new.pdf, id=470, 382.17984pt x 258.65833pt>
 File: Figs/yanan_new.pdf Graphic file (type pdf)
 <use Figs/yanan_new.pdf>
-Package pdftex.def Info: Figs/yanan_new.pdf  used on input line 484.
+Package pdftex.def Info: Figs/yanan_new.pdf  used on input line 488.
 (pdftex.def)             Requested size: 276.559pt x 187.18501pt.
 
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 484.
+Package pdftex.def Info: bbk200.pdf  used on input line 488.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [32
 
@@ -1603,16 +1603,16 @@ Package pdftex.def Info: bbk200.pdf  used on input line 484.
 
 pdfTeX warning: pdflatex.exe (file ./Figs/chongqing_new.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<Figs/chongqing_new.pdf, id=481, 532.09587pt x 531.04pt>
+<Figs/chongqing_new.pdf, id=480, 532.09587pt x 531.04pt>
 File: Figs/chongqing_new.pdf Graphic file (type pdf)
 <use Figs/chongqing_new.pdf>
-Package pdftex.def Info: Figs/chongqing_new.pdf  used on input line 495.
+Package pdftex.def Info: Figs/chongqing_new.pdf  used on input line 499.
 (pdftex.def)             Requested size: 184.3758pt x 184.00308pt.
 
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 495.
+Package pdftex.def Info: bbk200.pdf  used on input line 499.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [33
 
@@ -1620,21 +1620,21 @@ Package pdftex.def Info: bbk200.pdf  used on input line 495.
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 517.
+Package pdftex.def Info: bbk200.pdf  used on input line 521.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [34
 
 ]
-<Figs/cps_ma_ji.pdf, id=497, 572.9356pt x 601.90778pt>
+<Figs/cps_ma_ji.pdf, id=496, 572.9356pt x 601.90778pt>
 File: Figs/cps_ma_ji.pdf Graphic file (type pdf)
 <use Figs/cps_ma_ji.pdf>
-Package pdftex.def Info: Figs/cps_ma_ji.pdf  used on input line 521.
+Package pdftex.def Info: Figs/cps_ma_ji.pdf  used on input line 525.
 (pdftex.def)             Requested size: 215.10196pt x 225.9812pt.
 
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 521.
+Package pdftex.def Info: bbk200.pdf  used on input line 525.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [35
 
@@ -1642,30 +1642,30 @@ Package pdftex.def Info: bbk200.pdf  used on input line 521.
 
 pdfTeX warning: pdflatex.exe (file ./Figs/lee90.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<Figs/lee90.pdf, id=512, 654.76253pt x 386.61467pt>
+<Figs/lee90.pdf, id=511, 654.76253pt x 386.61467pt>
 File: Figs/lee90.pdf Graphic file (type pdf)
 <use Figs/lee90.pdf>
-Package pdftex.def Info: Figs/lee90.pdf  used on input line 532.
+Package pdftex.def Info: Figs/lee90.pdf  used on input line 536.
 (pdftex.def)             Requested size: 276.559pt x 163.29733pt.
 
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 532.
+Package pdftex.def Info: bbk200.pdf  used on input line 536.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [36
 
  <./Figs/lee90.pdf>]
-<Figs/revs.pdf, id=522, 630.0727pt x 293.96666pt>
+<Figs/revs.pdf, id=521, 630.0727pt x 293.96666pt>
 File: Figs/revs.pdf Graphic file (type pdf)
 <use Figs/revs.pdf>
-Package pdftex.def Info: Figs/revs.pdf  used on input line 537.
+Package pdftex.def Info: Figs/revs.pdf  used on input line 541.
 (pdftex.def)             Requested size: 307.28987pt x 143.3676pt.
 
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 537.
+Package pdftex.def Info: bbk200.pdf  used on input line 541.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [37
 
@@ -1673,7 +1673,7 @@ Package pdftex.def Info: bbk200.pdf  used on input line 537.
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 552.
+Package pdftex.def Info: bbk200.pdf  used on input line 556.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [38
 
@@ -1681,7 +1681,7 @@ Package pdftex.def Info: bbk200.pdf  used on input line 552.
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 558.
+Package pdftex.def Info: bbk200.pdf  used on input line 562.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [39
 
@@ -1689,7 +1689,7 @@ Package pdftex.def Info: bbk200.pdf  used on input line 558.
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 579.
+Package pdftex.def Info: bbk200.pdf  used on input line 583.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [40
 
@@ -1697,7 +1697,7 @@ Package pdftex.def Info: bbk200.pdf  used on input line 579.
 
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 588.
+Package pdftex.def Info: bbk200.pdf  used on input line 592.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [41
 
@@ -1718,34 +1718,44 @@ L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28195 strings out of 473578
- 538753 string characters out of 5732236
+ 28196 strings out of 473578
+ 538751 string characters out of 5732236
  928218 words of memory out of 5000000
- 50206 multiletter control sequences out of 15000+600000
- 641379 words of font info for 171 fonts, out of 8000000 for 9000
+ 50205 multiletter control sequences out of 15000+600000
+ 641496 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,1026b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/S
-imHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows
-/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:
-/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei
-.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Font
-s/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Wind
-ows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf>
-<c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/Sim
-Hei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/Windows/Fonts/SimHei.ttf><c:/texlive/2
-024/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2024/texmf-dist/fon
-ts/type1/public/lm/lmss12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm
-/lmss8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texl
-ive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2024/texmf-d
-ist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pu
-blic/lm/lmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msam10.pfb>
-Output written on Week-2-Empire-to-Nation-State.pdf (41 pages, 10832826 bytes).
+<c:/Users/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/D
+ennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppData
+/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Micros
+oft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Microsoft/Windows/F
+onts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.t
+tf><c:/Users/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/
+Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppDat
+a/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Micro
+soft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Microsoft/Windows/
+Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.
+ttf><c:/Users/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users
+/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppDa
+ta/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Micr
+osoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Microsoft/Windows
+/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei
+.ttf><c:/Users/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/User
+s/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppD
+ata/Local/Microsoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Mic
+rosoft/Windows/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Microsoft/Window
+s/Fonts/SimHei.ttf><c:/Users/Dennis/AppData/Local/Microsoft/Windows/Fonts/SimHe
+i.ttf><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/
+2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2024/texmf-dist/fo
+nts/type1/public/lm/lmss8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm
+/lmss9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/t
+exlive/2024/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/texlive/2024/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Week-2-Empire-to-Nation-State.pdf (41 pages, 10811557 bytes).
 
 PDF statistics:
- 714 PDF objects out of 1000 (max. 8388607)
- 481 compressed objects within 5 object streams
+ 709 PDF objects out of 1000 (max. 8388607)
+ 478 compressed objects within 5 object streams
  99 named destinations out of 1000 (max. 500000)
  45295 words of extra memory for PDF output out of 51595 (max. 10000000)
 

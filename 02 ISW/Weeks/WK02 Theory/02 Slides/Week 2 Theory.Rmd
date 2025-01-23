@@ -202,22 +202,6 @@ knitr::include_graphics("Figs/org.pdf")
 \begin{itemize}
   \item Theory as interpretation
   \vspace{0.8cm}
-  \item Theory as explanation
-  \vspace{0.1cm}
-  \begin{itemize}
-    \item Identifying and establishing the "fundamental processes, mechanisms and structures" underlying the outcome of interest in the social world
-    \item Often assuming an objective stance and working around a limited set of corresponding theoretical resources and concepts
-    \item May be useful for forecasting and predictions; "theory of everything"
-  \end{itemize}
-  \vspace{0.8cm}
-  \item Theory as ideology
-\end{itemize}
-
----
-
-\begin{itemize}
-  \item Theory as interpretation
-  \vspace{0.8cm}
   \item Theory as explanation: Way(s) of "unpacking"
   \vspace{0.1cm}
   \begin{itemize}
