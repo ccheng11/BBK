@@ -307,7 +307,7 @@ knitr::include_graphics("Figs/examples.pdf")
 \begin{itemize}
   \item Alignment between theory-empirics provide the source of rigor in social research
   \vspace{0.3cm}
-  \item Bolster the (credibility) of theory through the establishment theory-empirics alignment and \textit{high-quality} evidence
+  \item Bolster (the credibility of) theory through the establishment theory-empirics alignment and \textit{high-quality} evidence
   \vspace{0.1cm}
   \begin{itemize}
     \item Why is it a good idea to use "numbers" to study the social world (even if you do not know quants)?
