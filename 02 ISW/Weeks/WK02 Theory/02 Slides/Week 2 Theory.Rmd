@@ -367,6 +367,13 @@ knitr::include_graphics("Figs/singh_new.pdf")
 
 ---
 
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="92%", fig.align="center"}
+knitr::include_graphics("Figs/deepmind.pdf")
+```
+
+---
+
 \begin{itemize}
   \item Verbal
   \vspace{0.8cm}
@@ -424,7 +431,7 @@ knitr::include_graphics("Figs/analytic_people.pdf")
 # Barbara's "verdict" on rational choice
 
 \begin{itemize}
-  \item There are many \textbf{misperceptions} about rational choice.
+  \item There are many \textbf{misperceptions} about rational choice
   \begin{itemize}
     \item Rational choice does not assume people are "selfish"
     \item Rational choice does not assume people are driven by material interests

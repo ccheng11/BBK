@@ -17,20 +17,12 @@ output:
 fontsize: 10pt
 ---
 
+\begin{center}
+\textbf{Lecture 3: Finding Rigour}
+\end{center}
 \vspace{0.7cm}
 ```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("Figs/lego_2.pdf")
-```
-\vspace{0.5cm}
-\begin{center}
-Welcome back!
-\end{center}
-
----
-
-\vspace{0.2cm}
-```{r echo=FALSE, out.width="92%", fig.align="center"}
-knitr::include_graphics("Figs/deepmind.pdf")
+knitr::include_graphics("Figs/cover.pdf")
 ```
 
 # Wrapping up the loose ends
@@ -39,16 +31,17 @@ knitr::include_graphics("Figs/deepmind.pdf")
 	\item Varieties of "theory" in social research: They contrast each other but (logically and intellectually) related to each other
 	\vspace{0.1cm}
 	\begin{itemize}
-	  \item Theory as paradigm and approach (Geddes 2003) 
 	  \item Theory for interpretation, explanation and emancipation (Cornelissen et al 2021)
+	  \item Theory as paradigm and approach (Geddes 2003)
+    \item \textbf{Last week}: Theory of ways to seeing, explaining and envisioning
 	\end{itemize}
 	\vspace{0.3cm}
-	\item Key takeaway messages and tasks
+	\item Key takeaway messages and tasks: "Cultural competence" for social researchers
 	\vspace{0.1cm}
 	\begin{itemize}
-		\item Explain your analyticial decisions as a researcher (but no need to be apologetic)
-		\item Recognize and appreciate the contribution of others
-		\item Search for the common ground for fruitful collaborations; avoid dogmatic feud and squid game
+		\item Explain your analytical decisions as a researcher (and yet no need to be apologetic)
+		\item Recognize and appreciate the (theoretical) contribution of others
+		\item Search for the common ground for fruitful collaborations; avoid dogmatic feud and hunger game
 	\end{itemize}
 \end{itemize}
 
@@ -58,65 +51,56 @@ knitr::include_graphics("Figs/deepmind.pdf")
 ```{r echo=FALSE, out.width="60%", fig.align="center"}
 knitr::include_graphics("Figs/crt.pdf")
 ```
+\begin{center}
+\tiny
+\url{https://www.nytimes.com/article/what-is-critical-race-theory.html}
+\end{center}
 
-# CRT as an interpretative theory
-
-\vspace{0.2cm}
-\begincols
-  \begincol{.4\textwidth}
-    \begin{figure}
-    \centering
-    \includegraphics[scale=0.5]{Figs/crenshaw}
-    \end{figure}
-  \endcol
-  \begincol{.5\textwidth}
-  CRT is "'is \textbf{a way of seeing}, attending to, accounting for, tracing and analyzing \textbf{the ways} that race is produced," she said, '\textbf{the ways} that racial inequality is facilitated, and \textbf{the ways} that our history has created these inequalities that now can be almost effortlessly reproduced unless we attend to the existence of these inequalities.'"
-  \endcol
-\endcols
-
-# CRT as an emancipatory theory
+# CRT as a way of seeing
 
 \vspace{0.2cm}
-\begincols
-  \begincol{.4\textwidth}
-    \begin{figure}
-    \centering
-    \includegraphics[scale=0.35]{Figs/oiyang}
-    \end{figure}
-    \vspace{0.2cm}
-  \endcol
-  \begincol{.5\textwidth}
-  "'The founders of CRT critiqued liberal ideologies, and that they called on research scholars to seek out and \textbf{understand the roots of why racial disparities are so persistent, and to systemically dismantle racism}.'"
-  \endcol
-\endcols
+```{r echo=FALSE, out.width="35%", fig.align="center"}
+knitr::include_graphics("Figs/kc_new.pdf")
+```
+\begin{center}
+\scriptsize
+Professor Kimberlé Crenshaw (Columbia and UCLA) 
+\end{center}
+\vspace{0.5cm}
+CRT is "'is \textbf{a way of seeing}, attending to, accounting for, tracing and analyzing \textbf{the ways} that race is produced," she said, '\textbf{the ways} that racial inequality is facilitated, and \textbf{the ways} that our history has created these inequalities that now can be almost effortlessly reproduced unless we attend to the existence of these inequalities.'"
 
-# Explanatory theory of inter-group inequality
+# CRT as a way of envisioning
 
-\pause
-\vspace{0.2cm}
-\begincols
-  \begincol{.4\textwidth}
-    \begin{figure}
-    \centering
-    \includegraphics[scale=0.25]{Figs/becker}
-    \end{figure}
-  \endcol
-  \begincol{.5\textwidth}
-  \begin{itemize}
-    \item \textbf{Statistical discrimination} is based on stereotypes that occur when rational, information-seeking decision makers use aggregate group characteristics to evaluate individuals
-  \vspace{0.45cm}
-    \item \textbf{Taste-based discrimination} is based on prejudice or racial and gender bias
-  \end{itemize}
-  \endcol
-\endcols
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="35%", fig.align="center"}
+knitr::include_graphics("Figs/op_new.pdf")
+```
+\begin{center}
+\scriptsize
+Dr OiYan Poon (CAF Co-Lab)
+\end{center}
+\vspace{0.6cm}
+"'The founders of CRT critiqued liberal ideologies, and that they called on research scholars to seek out and understand the roots of why racial disparities are so persistent, and \textbf{to systematically dismantle racism}.'"
 
-# Breaking the ice: Where we are now
+# "The statistical theory of racism and sexism"
+
+```{r echo=FALSE, out.width="27%", fig.align="center"}
+knitr::include_graphics("Figs/becker.pdf")
+```
+\vspace{0.3cm}
+\begin{itemize}
+\small
+\item \textbf{Statistical discrimination}: Based on stereotypes that occur when decision makers use aggregate group characteristics to evaluate performance
+\item \textbf{Taste-based discrimination}: Based on prior established prejudice or dislike (and thus triggering avoidance)
+\end{itemize}
+
+# Going back to business: Where we are now
 
 \begin{itemize}
   \item Recap: To \textbf{produce valid knowledge claims} (cool, but how?)
   \pause
   \vspace{0.6cm}
-  \item Coming weeks: "\textbf{Empirics comes to rescue}" (?)
+  \item Coming weeks: "\textbf{Empirics comes to rescue}" (!)
   \vspace{0.2cm}
   \begin{itemize}
     \item How do social researchers use theory and data in their work? 
@@ -127,6 +111,18 @@ knitr::include_graphics("Figs/crt.pdf")
   \end{itemize}
 \end{itemize}
 
+# What makes your research "rigorous?"
+
+\pause
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/claude.pdf")
+```
+\begin{center}
+\small
+Model in use: Claude 3.5 Sonnet 
+\end{center}
+
 ---
 
 \vspace{0.2cm}
@@ -136,86 +132,35 @@ knitr::include_graphics("Figs/kkv_hd.pdf")
 
 ---
 
-\vspace{0.2cm}
-\begin{center}
-\textbf{Part II}
-\end{center}
-\vspace{0.1cm}
-```{r echo=FALSE, out.width="55%", fig.align="center"}
-knitr::include_graphics("Figs/theme_2.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\textbf{Building rigor in social research by aligning theory and empirics}
-\end{center}
-
-# What is rigor according to AI
-
-\begincols
-  \begincol{.4\textwidth}
-    \begin{figure}
-    \centering
-    \includegraphics[scale=0.25]{Figs/theme_2}
-    \end{figure}
-  \endcol
-  \begincol{.5\textwidth}
-  \begin{small}
-  \begin{itemize}
-    \item The image showcases a large, fortress-like structure made of books and \textbf{scientific instruments}, symbolizing the strength and solid foundation of rigorous research.
-    \vspace{0.3cm}
-    \item This structure is encircled by a moat of flowing \textbf{data and statistics}, highlighting the \textbf{depth and thoroughness} required in research.
-  \end{itemize}
-  \end{small}
-  \endcol
-\endcols
-
-# What is rigor according to AI
-
-\begincols
-  \begincol{.4\textwidth}
-    \begin{figure}
-    \centering
-    \includegraphics[scale=0.25]{Figs/theme_2}
-    \end{figure}
-  \endcol
-  \begincol{.5\textwidth}
-  \begin{small}
-  \begin{itemize}
-    \item Atop the fortress, researchers are depicted using telescopes, microscopes, and computers, representing their \textbf{meticulous and detailed} work.
-    \vspace{0.3cm}
-    \item The clear and bright sky above the structure suggests the \textbf{clarity and enlightenment} achieved through rigorous study.
-  \end{itemize}
-  \end{small}
-  \endcol
-\endcols
-
----
-
 \begin{itemize}
   \item Why we should pay attention to empirics
   \vspace{1cm}
   \item How theory and empirics can be aligned
   \vspace{1cm}
-  \item Epistemology and theory-empirics alignment
+  \item Epistemology, methodology and theory-empirics alignment (next week)
 \end{itemize}
 
-# Why empirics: Tradeoff of theory-building
+# Why empirics: Trade-off of theory-building
 
 \begin{itemize}
-  \item Theory as interpretation
+  \item Theory as a way of seeing
   \vspace{0.1cm}
   \begin{itemize}
     \item Pros: Generate ideas and concepts to reveal nuances of the social world
-    \item Cons: "Everyone is right" -- a collection of opinions and perspectives 
+    \item Cons: "Everyone is right" -- a collection of opinions and (analytical) perspectives? 
   \end{itemize}
   \vspace{0.3cm}
-  \item Theory as explanation
+  \item Theory as a way of explaining
   \vspace{0.1cm}
   \begin{itemize}
     \item Pros: Lay out a specific and parsimonious process and mechanisms through which the social world "works" 
     \item Cons: "Everyone loses" -- domination and loss of complexities
   \end{itemize}
 \end{itemize}
+\vspace{0.6cm}
+\begin{center}
+What do you think? Do you have a preference here?
+\end{center}
 
 # Why empirics: The "sandcastle" pitfall
 
@@ -235,25 +180,35 @@ knitr::include_graphics("Figs/theme_2.pdf")
 # How theory aligns with empirics
 
 \begin{itemize}
-  \item \textbf{Induction}
+  \item Induction: Seeking possibilities
+  \vspace{0.6cm}
+  \item Deduction: Seeking confirmation
+  \vspace{0.6cm}
+  \item Abduction: Seeking improvement
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item \textbf{Induction}: Seeking possibilities
   \vspace{0.1cm}
   \begin{itemize}
     \item Producing broad claims based on our observations showing systematic patterns
+    \item Using (non-exhaustive) observations to inform theory-building possibilities
     \item Prone to any unfair or unwarranted rejections with only an (or a few) "exception" or "outlier"
-    \item Better for showing the existence a "theoretical" possibility awaiting further research
   \end{itemize}
   \vspace{0.6cm}
-  \item Deduction
+  \item Deduction: Seeking confirmation
   \vspace{0.6cm}
-  \item Abduction
+  \item Abduction: Seeking improvement
 \end{itemize}
 
-# How theory aligns with empirics
+---
 
 \begin{itemize}
-  \item Induction
+  \item Induction: Seeking possibilities
   \vspace{0.6cm}
-  \item \textbf{Deduction}
+  \item \textbf{Deduction}: Seeking confirmation
   \vspace{0.1cm}
   \begin{itemize}   
     \item Evaluating theoretical claims by using data to "test" the hypotheses based from these claims
@@ -261,17 +216,17 @@ knitr::include_graphics("Figs/theme_2.pdf")
     \item Rejecting hypotheses does not necessarily rule out the theory (but it does reduce our faith in the theory, however)
   \end{itemize}
   \vspace{0.6cm}
-  \item Abduction
+  \item Abduction: Seeking improvement
 \end{itemize}
 
-# How theory aligns with empirics
+---
 
 \begin{itemize}
-  \item Induction
+  \item Induction: Seeking possibilities
   \vspace{0.6cm}
-  \item Deduction
+  \item Deduction: Seeking confirmation
   \vspace{0.6cm}
-  \item \textbf{Abduction}
+  \item \textbf{Abduction}: Seeking improvement
    \vspace{0.1cm}
   \begin{itemize}
     \item Starting by (surprisingly) finding that a hypothesis does NOT work well and may trigger the need for new data and interpretations/explanations
@@ -280,9 +235,9 @@ knitr::include_graphics("Figs/theme_2.pdf")
   \end{itemize}
 \end{itemize}
 
-# Examples from "culture" and development
+# Examples: Three tales of "culture" and development
 
-\vspace{0.3cm}
+\vspace{0.2cm}
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/examples.pdf")
 ```
@@ -300,7 +255,7 @@ knitr::include_graphics("Figs/examples.pdf")
   \item Contribution and significance?
 \end{itemize}
 
-# Induction: "World Economic Development: 1979 and Beyond" (Khan 1979)
+# Induction: "World Economic Development" (Khan 1979)
 
 \begin{itemize}
   \item \textbf{Research question}: Why did NICs in East Asia achieve high economic growth rates between the 1950s and 1990s?
@@ -310,7 +265,7 @@ knitr::include_graphics("Figs/examples.pdf")
   \item \textbf{Empirical strategy}: (Descriptive) case studies mostly
   \vspace{0.3cm}
   \item \textbf{Significance and contribution}
-  \vspace{0.3cm}
+  \vspace{0.1cm}
   \begin{itemize}
     \item No longer popular (or accepted) due to the lack of empirical support and conceptual setbacks (circular and essentialist)
     \item Critically reflecting on the relationship between culture and development for explanatory purpose
@@ -367,13 +322,6 @@ knitr::include_graphics("Figs/examples.pdf")
   \end{itemize}
 \end{itemize}
 
----
-
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/epis_bin.pdf")
-```
-
 # Discussion: Two worlds of development studies (really?)
 
 \begin{itemize}
@@ -387,6 +335,13 @@ knitr::include_graphics("Figs/epis_bin.pdf")
   \vspace{0.3cm}
   How do we know when a research work is rigorous?
 \end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/wd.pdf")
+```
 
 ---
 
@@ -409,3 +364,4 @@ knitr::include_graphics("Figs/bbk_tv.pdf")
 \begin{center}
 \texttt{c.cheng@bbk.ac.uk}
 \end{center}
+
