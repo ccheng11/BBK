@@ -132,9 +132,6 @@ Susan Shirk (UCSD) with Zhou Enlai in July 1971, on a visit to China with "the C
 knitr::include_graphics("Figs/molly.pdf")
 ```
 
----
-
-
 \begin{center}
 \textbf{Week 2: Empire to Nation-State}
 \end{center}

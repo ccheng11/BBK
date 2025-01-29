@@ -1,0 +1,75 @@
+---
+title: |
+  | 
+  |
+  | Chinese Politics in Comparative Perspective
+  |
+  |
+author: |
+  | Learning Journal
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Overview 
+
+\begin{itemize}
+  \item Read a published peer-review article in leading political science and comparative politics journals and answer two questions using up to \textbf{1,000 words} (max)
+  \vspace{0.3cm}
+  \item The key idea is to reflect on how China is researched and compared
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Choose an article from the list of journals (the article needs to be published after 2010 and explicitly comapares China to one or more countries in the world)
+    \item Bring the article to \textbf{Week 6} class to share with everyone
+    \item Read the article and answer the questions
+  \end{itemize}
+\end{itemize}
+
+---
+
+\begin{itemize}
+\small
+	\item American Political Science Review
+	\item British Journal of Political Science
+	\item Comparative Politics
+	\item Comparative Political Studies
+  \item International Political Science Review
+	\item Japanese Journal of Political Science
+	\item Journal of Chinese Political Science
+	\item Journal of East Asian Studies
+	\item Journal of Politics
+	\item Political Research Quarterly
+  \item Political Studies
+	\item Studies in Comparative International Development
+	\item World Politics
+\end{itemize}
+
+---
+
+\vspace{1cm}
+\begin{itemize}
+\small
+  \item In your words, \textbf{explain why the author(s) think China can be compared with the country (or countries)} included in the article. Can you \textbf{identify a different country} that can be included using the same comparative logic? {Do you agree with such a comparison?} Discuss.
+  \vspace{0.5cm}
+  \pause
+  \item \textbf{Utilize Google Scholar to explore how other scholars have cited the article you select}. What are some common themes among these articles? Is the article you choose predominantly cited by scholars who specialize in China, or has it also garnered attention from scholars who do not focus on China? {Do you believe that the article, while centered on China, holds broader implications for scholars who study countries other than China?} Discuss.
+\end{itemize}
+
+# Reminders
+
+\begin{itemize}
+  \item Answer the questions
+  \item Attach the coversheet
+  \item Enter your student ID in the field of \textbf{Submission Title}
+  \item Submit your work by \textbf{Midday, 7 April 2024}
+\end{itemize}
+\vspace{0.6cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/turnitin.pdf")
+```
