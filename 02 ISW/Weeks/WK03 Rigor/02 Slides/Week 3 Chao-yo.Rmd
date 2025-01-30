@@ -28,14 +28,16 @@ knitr::include_graphics("Figs/cover.pdf")
 # Wrapping up the loose ends
 
 \begin{itemize}
-	\item Varieties of "theory" in social research: They contrast each other but (logically and intellectually) related to each other
+\small
+	\item Varieties of "theory" in social research: They contrast each other but also (logically and intellectually) related to each other
 	\vspace{0.1cm}
 	\begin{itemize}
+    \item Theory as paradigm and approach (Geddes 2003)
 	  \item Theory for interpretation, explanation and emancipation (Cornelissen et al 2021)
-	  \item Theory as paradigm and approach (Geddes 2003)
+	  \item Theory as propositions, generalization, vocabulary and critique (Martin 2015)
     \item \textbf{Last week}: Theory of ways to seeing, explaining and envisioning
 	\end{itemize}
-	\vspace{0.3cm}
+	\vspace{0.2cm}
 	\item Key takeaway messages and tasks: "Cultural competence" for social researchers
 	\vspace{0.1cm}
 	\begin{itemize}
@@ -66,8 +68,10 @@ knitr::include_graphics("Figs/kc_new.pdf")
 \scriptsize
 Professor Kimberlé Crenshaw (Columbia and UCLA) 
 \end{center}
-\vspace{0.5cm}
-CRT is "'is \textbf{a way of seeing}, attending to, accounting for, tracing and analyzing \textbf{the ways} that race is produced," she said, '\textbf{the ways} that racial inequality is facilitated, and \textbf{the ways} that our history has created these inequalities that now can be almost effortlessly reproduced unless we attend to the existence of these inequalities.'"
+\vspace{0.4cm}
+\begin{small}
+CRT is is \textbf{a way of seeing}, attending to, accounting for, tracing and analyzing \textbf{the ways} that race is produced, \textbf{the ways} that racial inequality is facilitated, and \textbf{the ways} that our history has created these inequalities that now can be almost effortlessly reproduced unless we attend to the existence of these inequalities.
+\end{small}
 
 # CRT as a way of envisioning
 
@@ -79,8 +83,10 @@ knitr::include_graphics("Figs/op_new.pdf")
 \scriptsize
 Dr OiYan Poon (CAF Co-Lab)
 \end{center}
-\vspace{0.6cm}
+\vspace{0.5cm}
+\begin{small}
 "'The founders of CRT critiqued liberal ideologies, and that they called on research scholars to seek out and understand the roots of why racial disparities are so persistent, and \textbf{to systematically dismantle racism}.'"
+\end{small}
 
 # "The statistical theory of racism and sexism"
 
@@ -100,7 +106,9 @@ knitr::include_graphics("Figs/becker.pdf")
   \item Recap: To \textbf{produce valid knowledge claims} (cool, but how?)
   \pause
   \vspace{0.6cm}
-  \item Coming weeks: "\textbf{Empirics comes to rescue}" (!)
+  \item Last week: "\textbf{Theory comes to rescue}" (!)
+  \vspace{0.6cm}
+  \item Coming weeks: "\textbf{Empirics comes to rescue}" (!?)
   \vspace{0.2cm}
   \begin{itemize}
     \item How do social researchers use theory and data in their work? 
@@ -173,7 +181,12 @@ What do you think? Do you have a preference here?
     \end{figure}
   \endcol
   \begincol{.5\textwidth}
-  "'My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!' Nothing beside remains. Round the decay of that colossal wreck, boundless and bare The lone and level sands stretch far away."
+  "'My name is Ozymandias, king of kings:\
+  Look on my works, ye Mighty, and despair!'\
+  Nothing beside remains. Round the decay'\
+  Of that colossal wreck, boundless and bare\
+  The lone and level sands stretch far away."\
+  $\qquad$ from Percy Bysshe Shelley, "Ozymandias"
   \endcol
 \endcols
 
@@ -184,7 +197,7 @@ What do you think? Do you have a preference here?
   \vspace{0.6cm}
   \item Deduction: Seeking confirmation
   \vspace{0.6cm}
-  \item Abduction: Seeking improvement
+  \item Abduction: Seeking improvement (enrichment)
 \end{itemize}
 
 ---
