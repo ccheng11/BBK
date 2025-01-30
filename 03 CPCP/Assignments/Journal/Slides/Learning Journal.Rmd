@@ -20,34 +20,33 @@ fontsize: 10pt
 # Overview 
 
 \begin{itemize}
-  \item Read a published peer-review article in leading political science and comparative politics journals and answer two questions using up to \textbf{1,000 words} (max)
+  \item \textbf{Main task}: Read a published peer-review article in leading political science journals to reflect on how China is researched and compared
   \vspace{0.3cm}
-  \item The key idea is to reflect on how China is researched and compared
-  \vspace{0.1cm}
   \begin{itemize}
-    \item Choose an article from the list of journals (the article needs to be published after 2010 and explicitly comapares China to one or more countries in the world)
-    \item Bring the article to \textbf{Week 6} class to share with everyone
-    \item Read the article and answer the questions
+    \item Choose an article from the following journals (the article should be published after 2010 and explicitly focuses on China)
+    \vspace{0.2cm}
+    \item Bring the article to class to share with everyone in \textbf{Week 6}
+    \vspace{0.2cm}
+    \item Read the article and write an essay to answer two questions, using up to \textbf{1,000 words} (max)
+    \vspace{0.2cm}
+    \item Submit your work by \textbf{Midday, 7 April 2024}
   \end{itemize}
+  \vspace{0.3cm}
+  \item No external references are required or should be used
 \end{itemize}
 
 ---
 
 \begin{itemize}
-\small
-	\item American Political Science Review
-	\item British Journal of Political Science
-	\item Comparative Politics
-	\item Comparative Political Studies
-  \item International Political Science Review
-	\item Japanese Journal of Political Science
-	\item Journal of Chinese Political Science
-	\item Journal of East Asian Studies
-	\item Journal of Politics
-	\item Political Research Quarterly
+  \item American Political Science Review
+  \item British Journal of Political Science
+  \item Comparative Politics
+  \item Comparative Political Studies
+  \item Journal of Politics
+  \item Political Research Quarterly
   \item Political Studies
-	\item Studies in Comparative International Development
-	\item World Politics
+  \item Studies in Comparative International Development
+  \item World Politics
 \end{itemize}
 
 ---
@@ -55,19 +54,23 @@ fontsize: 10pt
 \vspace{1cm}
 \begin{itemize}
 \small
-  \item In your words, \textbf{explain why the author(s) think China can be compared with the country (or countries)} included in the article. Can you \textbf{identify a different country} that can be included using the same comparative logic? {Do you agree with such a comparison?} Discuss.
+  \item In your words, explain how the author(s) think China can be compared with the country (or countries). Can you identify a country that can also be included using the same comparative logic? {Do you agree with such a comparison?} Discuss.
   \vspace{0.5cm}
-  \pause
-  \item \textbf{Utilize Google Scholar to explore how other scholars have cited the article you select}. What are some common themes among these articles? Is the article you choose predominantly cited by scholars who specialize in China, or has it also garnered attention from scholars who do not focus on China? {Do you believe that the article, while centered on China, holds broader implications for scholars who study countries other than China?} Discuss.
+  \item Use \textbf{Google Scholar} to explore how other scholars have cited the article you select. What are some common themes among these articles? Is the article you choose predominantly cited by scholars who specialize in China, or has it also garnered attention from scholars who do not focus on China? Do you believe that the article, while centered on China, holds broader implications for scholars who study other countries or regions? Why? Discuss.
 \end{itemize}
 
-# Reminders
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/example.pdf")
+```
+
+# Keep in mind
 
 \begin{itemize}
-  \item Answer the questions
-  \item Attach the coversheet
-  \item Enter your student ID in the field of \textbf{Submission Title}
-  \item Submit your work by \textbf{Midday, 7 April 2024}
+  \item Answer every part of both questions
+  \item Attach the asseesment coversheet (Moodle)
+  \item Enter your student ID in the field of \textbf{Submission Title} (see below)
 \end{itemize}
 \vspace{0.6cm}
 ```{r echo=FALSE, out.width="100%", fig.align="center"}

@@ -20,17 +20,14 @@ fontsize: 10pt
 # Recap: From empire to nation-state (1911-1949)
 
 \begin{itemize}
-\small
-  \item The transition from an empire (i.e., Qing) to a nation-state would require the central state authoity to establsh a compelling national identity with effective control over its territory
-  \vspace{0.2cm}
   \item State building was challenging
   \vspace{0.1cm}
   \begin{itemize}
-    \item Unruly subnational political forces (e.g., warlords under Beiyang govt and CPC under Nationalist govt)
-    \item Competing revolutionary visions (i.e., CPC v KMT, see next slide)
+    \item Powerful subnational political forces (e.g., warlords under Beiyang govt and CPC under Nationalist govt)
+    \item Competing revolutionary visions (i.e., CPC v KMT,)
     \item External threats and influence: Japan, the Soviet Union and USA 
   \end{itemize}
-  \vspace{0.2cm}
+  \vspace{0.3cm}
   \item Nation building as unfinished business (to this day)
   \vspace{0.1cm}
   \begin{itemize}
@@ -49,8 +46,8 @@ knitr::include_graphics("Figs/kmt.pdf")
 \begin{itemize}
 \small
   \item KMT started as a loose aliiance of anti-Qing rebel groups in the late 19th century; recreated in 1919 by Sun Yat-sen with the help from Moscow
-  \item Chiang Kai-shek with his control over the Nationalist Army managed to become the leader of China through the "412 Incident" in 1927 and Northern Expedition between 1926 and 1928
-  \item KMT remained fragmented (with some help of ideology)
+  \item Chiang Kai-shek with his control over the Nationalist Army managed to become the leader of China through the "412 Incident" in 1927 and \textbf{Northern Expedition} between 1926 and 1928
+  \item KMT remained fragmented despite the constant effort of state-building during the Golden Decade
 \end{itemize}
 
 # CPC v KMT
@@ -63,9 +60,31 @@ knitr::include_graphics("Figs/cpc.pdf")
 \begin{itemize}
 \small
   \item CPC started as an urban Communist party in 1921; retreated to the countryside in 1927 to rebuild its support base
-  \item Mao Zedong rose to lead the Party by defeating the faction in favor of following the "guidance" from Moscow during the Long March (1934-1935)
+  \item Mao Zedong rose to lead the Party during the \textbf{Long March} (1934-1935), by defeating the faction in favor of following the "command" from Moscow 
   \item Mao managed to build a coherent party through a serious of political movements in the 1940s
 \end{itemize}
+
+# Warloards in China (1925)
+
+```{r echo=FALSE, out.width="82%", fig.align="center"}
+knitr::include_graphics("Figs/wp_warloards.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://www.westpoint.edu/research/centers-and-institutes/digital-history-center/digital-history-center-atlases}
+\end{center}
+
+# Long March (1934-1935)
+
+```{r echo=FALSE, out.width="82%", fig.align="center"}
+knitr::include_graphics("Figs/wp_longmarch.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://www.westpoint.edu/research/centers-and-institutes/digital-history-center/digital-history-center-atlases}
+\end{center}
 
 ---
 
@@ -75,15 +94,9 @@ knitr::include_graphics("Figs/cps_ma_ji.pdf")
 
 ---
 
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/lee90.pdf")
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/revs.pdf")
 ```
-\vspace{0.2cm}
-\begin{center}
-\scriptsize
-\url{http://ark.cdlib.org/ark:/13030/ft9n39p3pc/}
-\end{center}
 
 # Local states in the early 20th century (Remick 2002)
 
@@ -388,3 +401,15 @@ knitr::include_graphics("Figs/GWF/survival.pdf")
 
 \vspace{1cm}
 See you next week!
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/lee90.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\url{http://ark.cdlib.org/ark:/13030/ft9n39p3pc/}
+\end{center}
