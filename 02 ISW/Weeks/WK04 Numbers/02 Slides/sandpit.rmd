@@ -1,0 +1,19 @@
+# Wrapping up the loose ends: Epistemology and theory-empirics alignment
+
+\begin{itemize}
+  \item Using induction
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item As a positivist: Common for data-driven quantitative projects
+    \item As a constructivist: The World Bank project "Voices of the Poor" 9
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Using deduction: Common for theory-driven quantitative projects (hence only positivist)?
+  \vspace{0.5cm}
+  \item Using abduction
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item As a positivist: "Why China's Economic Reforms Have Delayed Democracy" by Mary Gallagher (2002)
+    \item As a constructivst: "Translating the Devil" by Birgit Meyer (1999)
+  \end{itemize}
+\end{itemize}
