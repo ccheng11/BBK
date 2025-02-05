@@ -1,0 +1,70 @@
+---
+title: |
+  |
+  |
+  | Investigating the Social World
+  |
+  |
+author: |
+  | Critical Methodological Review
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Overview
+
+\begin{itemize}
+  \item You are going to examine a published peer-reviewed article (we have provided you with 9 articles to choose from)
+  \vspace{0.2cm}
+  \item You are going to answer \textbf{three} questions and write up to \textbf{500 words} for each question
+  \vspace{0.2cm}
+  \item No outside/additional research is needed; you will not need any citations; you should not need to quote anything in your response
+  \vspace{0.2cm}
+  \item \textbf{It is not a test} -- there is no rubric, and feel free to surprise us, but you will be evaluated based on the \textbf{quality} of your responses, using the concepts we have convered in class
+  \vspace{0.2cm}
+  \item You can come to my office hours to discuss your preliminary responses with me; the goal is not to give you a mark before the deadline but to clear any confusion
+\end{itemize}
+
+# Review questions
+
+\begin{itemize} 
+  \item What is the main research question of this article? State the research question in your own words and discuss the methods used by the author(s). What is the underlying epistemological stance(s)? Explain.
+  \vspace{0.6cm}
+  \item In your own words, provide the key theoretical claim(s) of this article. Identify and discuss the nature of these claims, as well as how the author(s) aligns theory with empirics.
+  \vspace{0.6cm}
+  \item Does this paper make any original and/or significant contributions? Discuss. Also, can/should the authors extend their research to a different case? If yes, what is the scope condition? What would be a possible case choice using this condition?
+\end{itemize}
+
+# Useful tips and reminders
+
+\begin{itemize}
+\small
+  \item Answer every part of each question; fully develop your arguments and explanations
+  \item Be careful with the use of any adjectives or adverbs (e.g., unique; comprehensive)
+  \item Submit your review before midday, \textbf{3 April 2025} 
+  \begin{itemize}
+    \item Attach the coversheet
+    \item Enter your student ID in the field of \textbf{Submission Title} (see below)
+  \end{itemize}
+\end{itemize}
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/turnitin.pdf")
+```
+
+# Common issues to avoid
+
+\begin{itemize}
+\small
+  \item \textbf{Writing Style and Clarity}: This theme received the most emphasis. Comments focused on the need for succinctness, clarity, and appropriate academic writing style, indicating that improving clarity and conciseness in writing was a frequent suggestion
+  \vspace{0.5cm}
+  \item \textbf{Structure and Coherence}: Many submissions have issues with the overall structure and logical flow of the responses; the feedback suggests a need for better organization and coherence in presenting arguments and analysis
+  \vspace{0.5cm}
+  \item \textbf{Analytical Depth and Application of Concepts}: This theme points to the need for deeper analytical engagement with the material and a better application of theoretical concepts in the analysis; many responses lacked depth or did not adequately apply class concepts to the articles being reviewed
+\end{itemize}

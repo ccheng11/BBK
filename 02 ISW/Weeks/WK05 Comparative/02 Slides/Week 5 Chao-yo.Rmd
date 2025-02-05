@@ -330,55 +330,6 @@ knitr::include_graphics("Figs/swedberg.pdf")
   \item Are the findings significant and/or valid? Can you come up with another research project to extend this line of inquiry?
 \end{itemize}
 
-# Assessment I: The methodological review
-
-\begin{itemize}
-\small
-  \item You are going to examine a published peer-reviewed article (we have provided 9 articles for you to choose from)
-  \vspace{0.12cm}
-  \item You are going to answer \textbf{three} questions and write up to \textbf{500 words} for each question
-  \vspace{0.12cm}
-  \item No outside/additional research is needed; you will not need any citations; you will not need to quote anything in your response
-  \vspace{0.12cm}
-  \item \textbf{It is not a test} -- there is no rubric, and feel free to surprise us, but you will be evaluated based on \textbf{the quality of your responses}
-  \vspace{0.12cm}
-  \item You can come to my office hours to discuss your questions and/or your preliminary responses with me; the goal is not to give you a mark before the deadline but to clear any conceptual confusion
-  \vspace{0.12cm}
-  \item The assignment is due \textbf{12pm (midday) on 29 March 2024}; attach your review with the cover sheet and name your file with your student ID number (e.g., 12345678.docx OR 12345678.pdf)
-\end{itemize}
-
----
-
-\begin{itemize} 
-  \item What is the main research question of this article? State the research question in your own words and discuss the methods used by the author(s). What is the underlying epistemological stance(s)? Explain.
-  \vspace{0.6cm}
-  \item In your own words, provide the key theoretical claim(s) of this article. Identify and discuss the nature of these claims, as well as how the author(s) aligns theory with empirics.
-  \vspace{0.6cm}
-  \item Does this paper make any original and/or significant contributions? Discuss. Also, can/should the authors extend their research to a different case? If yes, what is the scope condition? What would be a possible case choice using this condition?
-\end{itemize}
-
-# Useful tips and reminders
-
-\begin{itemize}
-  \item Read the instructions carefully and follow them
-  \vspace{0.2cm}
-  \item Make sure to fully develop your arguments and explanations -- for instance, do not simply lay down a statement or proposition without any substantiation
-  \vspace{0.2cm}
-  \item Use the concepts we have discussed and the information provided in the article to answer the questions
-  \vspace{0.2cm}
-  \item Be careful with the use of any adjectives or adverbs (e.g., unique; comprehensive)
-\end{itemize}
-
----
-
-\begin{itemize}
-  \item \textbf{Writing Style and Clarity}: This theme received the most emphasis. Comments focused on the need for succinctness, clarity, and appropriate academic writing style, indicating that improving clarity and conciseness in writing was a frequent suggestion
-  \vspace{0.5cm}
-  \item \textbf{Structure and Coherence}: Many submissions have issues with the overall structure and logical flow of the responses. The feedback suggests a need for better organization and coherence in presenting arguments and analysis
-  \vspace{0.5cm}
-  \item \textbf{Analytical Depth and Application of Concepts}: This theme points to the need for deeper analytical engagement with the material and a better application of theoretical concepts in the analysis. It suggests that responses often lacked depth or did not adequately apply class concepts to the articles being reviewed
-\end{itemize}
-
 ---
 
 \vspace{0.3cm}

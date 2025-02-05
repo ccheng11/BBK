@@ -179,7 +179,7 @@ knitr::include_graphics("Figs/survival.pdf")
     \item Xi Jinping (2012-present)
   \end{itemize}
   \vspace{0.4cm}
-  \item Theoretical reflections and empirical debates: Waning institutionalization?
+  \item Theoretical reflections and debates: Wanning institutionalization?
 \end{itemize}
 
 # Why informal politics and factionalism
@@ -216,6 +216,18 @@ knitr::include_graphics("Figs/soviet.pdf")
 
 ---
 
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/shih1.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/shih2.pdf")
+```
+
+---
+
 \vspace{0.2cm}
 \begincols
   \begincol{.4\textwidth}
@@ -243,18 +255,6 @@ knitr::include_graphics("Figs/soviet.pdf")
   "The extraordinary force that holds together the \textbf{networks of officials is the intense attraction of mutual dependency in Chinese culture between superiors and subordinates}, each of whom needs the other for his own protection and each of whom is vulnerable to the other, which means \textbf{they both must be loyal to each other}" (Pye 1980).
   \endcol
 \endcols
-
----
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/shih1.pdf")
-```
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/shih2.pdf")
-```
 
 ---
 
@@ -291,6 +291,7 @@ knitr::include_graphics("Figs/doc.pdf")
 # Mao (1949-1976): Code of civility v winner takes all
 
 \begin{itemize}
+\small
   \item Mao managed to obtain dominance within the Party during the Long March (Zunyi Conference) and in the 1940s (Yan'an Rectification Movement), see Gao (2018)
   \vspace{0.2cm}
   \item The revolutionary success granted Mao and senior cadres supreme positions in the central leadership, and yet Mao's power was far from invincible
@@ -313,6 +314,7 @@ knitr::include_graphics("Figs/mao.pdf")
 # Deng (1981-1992): Loyalty-competence dilemma and collective leadership
 
 \begin{itemize}
+\small
   \item Deng managed to defeat Hua and established a "collective" leadership in 1980, consisting of
   \vspace{0.1cm}
   \begin{itemize}
@@ -331,6 +333,7 @@ knitr::include_graphics("Figs/mao.pdf")
 # Jiang (1992-2002): Comprehensive takeover and further institutionalization
 
 \begin{itemize}
+\small
   \item Jiang was called to take over Zhao from Shanghai before the June-Fourth Incident; despite the senior cadres' nominal support, his power remained precarious
   \vspace{0.2cm}
   \item The 14th Party Congress (1992) is a watershed
@@ -361,7 +364,7 @@ knitr::include_graphics("Figs/deng.pdf")
     \item Had an engineering university degree from Tsinghua
     \item Established many important Youth League and local experiences, including the provincial Party secretary of Tibet
   \end{itemize}
-  \vspace{0.12cm}
+  \vspace{0.1cm}
   \item Worked with \textbf{Wen Jiaobao} (the Premier) closely to cope with many governance challenges, such as
   \begin{itemize}
     \item Three Rural Issues (2000s)
@@ -369,7 +372,7 @@ knitr::include_graphics("Figs/deng.pdf")
     \item Wenchuan earthquake (2008)
     \item Ethnic violence in Tibet (2008) and Xinjiang (2009)
   \end{itemize}
-  \vspace{0.12cm}
+  \vspace{0.1cm}
   \item Never considered as a strong leader ("internal" democracy), as the Party center was fraught with "factional" divisions, such as the Tsinghua Gang, the Youth League gang and the Princelings (Bo 2003)
 \end{itemize}
 
