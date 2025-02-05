@@ -156,7 +156,7 @@ knitr::include_graphics("Figs/survival.pdf")
   \begin{itemize}
     \item What are some of the key differences between being a ruling party and a revolutionary party?
     \vspace{0.3cm}
-    \item How does CCP manage to succeed both as a revolutionary before 1949 and as a ruling party after the PRC was established?
+    \item How does CCP manage to "succeed" both as a revolutionary before 1949 and as a ruling party after the PRC was established?
     \vspace{0.3cm}
     \item Why do many authoritarian leaders rule through the party? How do they build their parties?
     \vspace{0.3cm}
