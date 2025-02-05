@@ -75,8 +75,8 @@ knitr::include_graphics("Figs/epis_binary.pdf")
   \vspace{0.1cm}
   \begin{itemize}
     \item A hypothesis is an "observable" implication we derive from our theoretical claims
-    \item But the same may be explained by more than one theoretical conjecture
-    \item To "formalize" the idea: Theory is the \textbf{sufficient} condition for the hypothesis, and rejecting the hypothesis does not mean we have to reject the theory
+    \item But the same explanation may be explained by more than one theoretical conjecture
+    \item To "formalize" the idea: Theory is the \textbf{sufficient} condition for the hypothesis, and rejecting the hypothesis does not necessarily mean we have to reject the theory
   \end{itemize}
   \vspace{0.3cm}
   \item Empirics for critical tests

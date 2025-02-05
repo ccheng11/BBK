@@ -6,7 +6,7 @@ title: |
   |
   |
 author: |
-  | Week 2: Why Theory Matters
+  | Dr Chao-Yo Cheng
   |
 output:
   beamer_presentation:

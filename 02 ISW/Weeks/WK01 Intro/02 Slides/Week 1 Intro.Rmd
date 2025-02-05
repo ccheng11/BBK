@@ -6,7 +6,7 @@ title: |
   |
   |
 author: |
-  | Week 1: Welcome to the Club
+  | Dr Chao-Yo Cheng
   |
 output:
   beamer_presentation:
