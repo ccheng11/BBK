@@ -1,0 +1,435 @@
+---
+title: |
+  | 
+  |
+  | CP$^2$ Week 5: Informal Politics and Factionalism
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Recap: The Party-state at glance
+
+\begin{itemize}
+\small
+  \item Party-state helps to characterize the Party's ruling position in the Chinese political system
+  \begin{itemize}
+    \item \textbf{Party committee} is present in every government department and office
+    \item The central Party offices "manage" and coordinate different functional government departments (e.g., Propaganda/Publicity and Ministry of Education)
+    \item Leading Working Groups reported to the Party center
+    \item Key Politburo members leaders also have posts in the government
+    \item Key important offices are separately listed but actually the same one (e.g., Central Military Commission)
+    \item Key Party and government offices work jointly despite being two different offices (e.g., Central Commission for Discipline Inspection and the Ministry of Supervision)
+  \end{itemize}
+\end{itemize}
+
+# Institutionalization of the Party-state over generations
+
+\begin{itemize}
+  \item Loyalty-competence tradeoff
+  \vspace{0.3cm}
+  \item Collective leadership
+  \vspace{0.3cm}
+  \item Political succession
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Term limit (except the President and Vice-President)
+    \item Retirement age
+    \item Successor-in-training
+    \item Grandpa-designated successor
+    \item Comprehensive takeover
+  \end{itemize}
+\end{itemize}
+
+# How Xi became the supreme leader (again)
+
+\begin{itemize}
+\small
+  \item \textbf{Summer to Autumn 2022}
+  \begin{itemize}
+    \item Preparation: Election of delegates for the National Party Congress and the \textbf{Beidaihe} Meeting
+    \item Oct 6-22: The 20th \textbf{National Party Congress} convenes to elect the Central Committee
+    \item Oct 23: The \textbf{Central Committee} meets to elect the General Secretary, the Politburo and other important central leadership offices
+  \end{itemize}
+  \vspace{0.2cm}
+  \item \textbf{Spring 2023}
+  \begin{itemize}
+    \item The \textbf{National People's Congress} convenes to elect the \textbf{President} and other important posts
+    \item The President appoints the the Premier (or the Prime Minister) of the \textbf{State Council} and confirmed by the National People's Congress
+  \end{itemize}
+\end{itemize}
+
+# Varieties of authoritarian regimes (Geddes et al 2015)
+
+\begin{itemize}
+  \item \textbf{Personalist}: Access to office and fruits of office depends on much more the discretion of an individual leader; not identical with \textbf{monarchy}
+  \vspace{0.4cm}
+  \item \textbf{Military}: A group of officers (e.g., junta) decides who will rule and exercise some influence on policy; carrying with the seeds of disintegration on their own while elites in other two types of regime have more incentives to cooperate with each other
+  \vspace{0.4cm}
+  \item \textbf{Single-party} (or hegemonic party): Access to political office and control over policy are dominated by one party, though other parties may legally exist and compete in elections
+  \vspace{0.4cm}
+  \item \textbf{Mixed} or hybrid
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/dd_gwf.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://sites.psu.edu/dictators/}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/type.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://sites.psu.edu/dictators/}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/survival.pdf")
+```
+
+# What makes single-party regimes special
+
+\begin{itemize}
+  \item Key to survival is to make sure elite cohesion through rents and economic success (especially in the case of China)
+  \vspace{0.3cm}
+  \item Single-party regimes favor internal and societal co-optation
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Party holds organizational capacity to control the career paths of officials, organizes the distribution of benefits to supporters, and mobilizes citizens to show support for party leaders in other ways
+    \item Party cadres simply want to hold their offices and tend to stand by to observe the winners of internal struggle
+    \item Party has broad basis of popular support and has the institutional and organizational sources to stay responsive and co-opt for greater participation (Ghandi 2008)
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Caveat: Parties with weak external rival and easy rent access (e.g., the Philippines) tend to be divided and collapse (Smith 2005)
+\end{itemize}
+
+# "The Institutional Turn in Comparative Authoritarianism" (Penpinsky 2014)
+
+\begin{itemize}
+  \item Why institutions matter for authoritarian survival?
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Institutions are constraints: Elections, parties and legislatures contain factional conflicts while regulating the mobilization of mass support
+    \item Institutions are dictator's instruments: They do what their creators want them to do (e.g., co-optation and power distribution) and can be adjusted
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Why institutions are important for the study of comparative authoritarianism
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Path dependence and increasing returns: Institutions reproduce the political and social order
+    \item Institutions shed light on problems of redistribution and policy making that motivate regime behavior
+  \end{itemize}
+\end{itemize}
+
+# Discussion: "Party All the Time" (Thorton 2021)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.6]{Figs/thornton_book}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+    \item What are some of the key differences between being a ruling party and a revolutionary party?
+    \vspace{0.3cm}
+    \item How does CCP manage to succeed both as a revolutionary before 1949 and as a ruling party after the PRC was established?
+    \vspace{0.3cm}
+    \item Why do many authoritarian leaders rule through the party? How do they build their parties?
+    \vspace{0.3cm}
+  \end{itemize}
+  \endcol
+\endcols
+
+# Today's plan
+
+\begin{itemize}
+  \item Why informal politics and factionalism
+  \vspace{0.4cm}
+  \item Elite politics in post-1949 China
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Mao Zedong (1949-1976)
+    \item Deng Xiaoping (1978-1989)
+    \item Jiang Zemin (1989-2002)
+    \item Hu Jintao (2002-2012)
+    \item Xi Jinping (2012-present)
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Theoretical reflections and empirical debates: Waning institutionalization?
+\end{itemize}
+
+# Why informal politics and factionalism
+
+\begin{itemize}
+  \item The focus of "high" politics in the literature on comparative Communist regimes (Gregory 2009)
+  \vspace{0.4cm}
+  \item Formal v informal politics: Contending and vague conceptualization
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Formal: Political activities organized according to the principle of organizational or corporate impersonality; observable and public
+    \item Informal: Political activities identified by the elements of face-to-face relationships and exchanges of either traditional or charismatic authority; "behind-the-scene" and implicit
+  \end{itemize}
+  \vspace{0.2cm}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/soviet.pdf")
+```
+
+# Informal politics and factionalism in post-1949 China
+
+\begin{itemize}
+  \item Andrew Nathan (1973): Factional politics is the core of informal politics; a faction is a vertically organized structure of face-to-face (in contrast to corporate) clientelistic ties between leaders and their followers
+  \vspace{0.22cm}
+  \item Tsou Tang (1976): The struggle for power has resulted in the victory of one group or a coalition of \textbf{informal} groups (i.e., winner-takes-all)
+  \vspace{0.22cm}
+  \item Ditmmer and Wu (1995): Chinese politics is \textit{relational}, which can either be \textbf{value-rational} (informal, personal) or \textbf{purpose-rational} (formal, organizational)
+  \vspace{0.22cm}
+  \item Victor Shih et al (2010): Using biographical characteristics of CC members to measure relative factional influence of the Party's central leaders and their potential contenders and successors
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.26]{Figs/pye}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  "The prime basis for factions among cadres is the search for \textbf{career security} and the \textbf{protection of power}...
+  \endcol
+\endcols
+
+---
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.26]{Figs/pye}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  "The extraordinary force that holds together the \textbf{networks of officials is the intense attraction of mutual dependency in Chinese culture between superiors and subordinates}, each of whom needs the other for his own protection and each of whom is vulnerable to the other, which means \textbf{they both must be loyal to each other}" (Pye 1980).
+  \endcol
+\endcols
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/shih1.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/shih2.pdf")
+```
+
+---
+
+# Supreme or "paramount" leader of China
+
+```{r echo=FALSE, out.width="102%", fig.align="center"}
+knitr::include_graphics("Figs/leaders.pdf")
+```
+
+---
+
+Any key observations? To be a Chinese leader...
+\pause
+\vspace{0.5cm}
+\begin{itemize}
+  \item When you joined the Party (and what you have done) matters
+  \item What title(s) you held matters
+  \item Where you came from matters
+  \item Who you worked with also matters
+  \item and....?
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/doc.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+  \item Ep 2: The Mao Years, 1949–1976
+  \item Ep 3: Born Under the Red Flag, 1976–1997
+\end{itemize}
+
+# Mao (1949-1976): Code of civility v winner takes all
+
+\begin{itemize}
+  \item Mao managed to obtain dominance within the Party during the Long March (Zunyi Conference) and in the 1940s (Yan'an Rectification Movement), see Gao (2018)
+  \vspace{0.2cm}
+  \item The revolutionary success granted Mao and senior cadres supreme positions in the central leadership, and yet Mao's power was far from invincible
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item "Gao-Rao" Incident (1954)
+    \item Anti-Rightist Campaign (1957)
+    \item Great Leap Forward (1958-1962), also the Lushan Conference (1959)
+    \item Cultural Revolution (1966-1976) 
+  \end{itemize}
+  \item Mao's position in the Party became a cult and led to several (violent) episodes of succession crisis: Liu Shaoqi (1968), Lin Biao (1971) and Hua Guofeng (1978)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/mao.pdf")
+```
+
+# Deng (1981-1992): Loyalty-competence dilemma and collective leadership
+
+\begin{itemize}
+  \item Deng managed to defeat Hua and established a "collective" leadership in 1980, consisting of
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Hu Yaobang: General Secretary of the CPC
+    \item Zhao Ziyang: Premier of the State Council
+    \item Deng Xiaoping: Chairman of the CPC and PRC Military Commission
+  \end{itemize}
+  \vspace{0.2cm}
+  \item "Institutionalization" and "professionalization" of cadre management and selection system was established
+  \vspace{0.2cm}
+  \item Overshadowed by factional competition as senior cadres in the \textbf{Central Advisory Commission} could not agree on the market reform, which led to the \textbf{June-Fourth Incident} (1989)
+  \vspace{0.2cm}
+  \item Deng resigned as Chairman of the CPC and PRC Military Commission in 1990, and yet remained influential thanks to the Yang brothers in PLA
+\end{itemize}
+
+# Jiang (1992-2002): Comprehensive takeover and further institutionalization
+
+\begin{itemize}
+  \item Jiang was called to take over Zhao from Shanghai before the June-Fourth Incident; despite the senior cadres' nominal support, his power remained precarious
+  \vspace{0.2cm}
+  \item The 14th Party Congress (1992) is a watershed
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Deng used his influence in the PLA to "coerce" the consensus among the senior cadres about the market reform as well as retirement (and yet not without sacrifice)
+    \item Jiang managed to take over all leading Party and military posts while becoming the "President" of PRC
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Institutionalized succession: "comprehensive takeover" (though not without doubt) and grandpa-designated successor
+  \vspace{0.2cm}
+  \item Known for his ideas of "Three Represents," which opened the Party's door to entrepreneurs (Dickson 2008)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/deng.pdf")
+```
+
+# Hu (2003-2012): Social "governance" and Hu-Wen system
+
+\begin{itemize}
+\small
+  \item Handpicked by Deng and other senior cadres as a "potential" technocrat successor, unlike his predecessors:
+  \begin{itemize}
+    \item Started working for the Party after 1949
+    \item Had an engineering university degree from Tsinghua
+    \item Established many important Youth League and local experiences, including the provincial Party secretary of Tibet
+  \end{itemize}
+  \vspace{0.12cm}
+  \item Worked with \textbf{Wen Jiaobao} (the Premier) closely to cope with many governance challenges, such as
+  \begin{itemize}
+    \item Three Rural Issues (2000s)
+    \item SARS outbreak (2002-2004)
+    \item Wenchuan earthquake (2008)
+    \item Ethnic violence in Tibet (2008) and Xinjiang (2009)
+  \end{itemize}
+  \vspace{0.12cm}
+  \item Never considered as a strong leader ("internal" democracy), as the Party center was fraught with "factional" divisions, such as the Tsinghua Gang, the Youth League gang and the Princelings (Bo 2003)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/hu.pdf")
+```
+
+# Xi (2013-present): Return of "strongman" politics
+
+\begin{itemize}
+  \item Handpicked by Jiang (allegedly) and other senior cadres in Hu's first term; the son of \textbf{Xi Zhongxun}, a key cadre taking active role in the Chinese Communist revolution (1921-1949)
+  \vspace{0.3cm}
+  \item Smooth "comprehensive takeover" from Hu and was put together with Li Keqiang (Premier)
+  \vspace{0.3cm}
+  \item Key developments signaling the "rise" of strongman politics
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Anti-corruption campaigns, many of which involved those close to Jiang -- the Central Inspection Department gained its prominence (Wang Qishan)
+    \item Campaign-based governance, with the construction and teaching of Xi Jinping thought (Wang Huning)
+    \item Removal of term limits through constitutional amendment (for the President and Vice President) in 2018
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/shirk.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+"When Xi Jinping took power in 2012, he capitalized on widespread official corruption and open splits in the leadership to make the case for more concentrated power at the top. In the decade following, and to the present day-the eve of the 20th CCP Congress when he intends to claim a third term-he has accumulated greater power than any leader since Mao."
+\end{center}
+
+# Rethinking institutionalization (Fewsmith 2023)
+
+\begin{itemize}
+  \item Recent developments have pushed against the optimistic view for institutionalization
+  \vspace{0.4cm}
+  \begin{itemize}
+    \item The typical characterization of authoritarian institutions and their contribution to regime durability is not suitable, as authoritarian rule is a "residual" category
+    \vspace{0.2cm}
+    \item The conventional characterization of the promotion-based incentive mechanism for Chinese officials is questionable
+    \vspace{0.2cm}
+    \item Factionalism and informal politics remain prevalent and collective leadership may be unstable due to the absence of effective "third-party" enforcement
+  \end{itemize}
+\end{itemize}
+
+# Rethinking institutionalization (Fewsmith 2023)
+
+\begin{itemize}
+  \item China as a Leninist Party regime (Jowitt 1992)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Defined by the "correct line" as an organizational characteristic (Yang Xueguang 2022)
+    \item The Party "controls" the cadres and a common ideology is enforced on the basis of a correct line
+    \item Ideology is an instrument of control and may not have much to do with indoctrination -- signaling v cheap talk
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Institutionalization and balance: "Leninism transforms society and then rules through penetration of the basic social institutions" and "their power is more derived from who they are than from the offices they hold" (?)
+\end{itemize}

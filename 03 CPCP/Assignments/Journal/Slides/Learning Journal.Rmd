@@ -39,6 +39,7 @@ fontsize: 10pt
 
 \begin{itemize}
   \item American Political Science Review
+  \item American Journal of Political Science
   \item British Journal of Political Science
   \item Comparative Politics
   \item Comparative Political Studies
