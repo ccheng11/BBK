@@ -75,15 +75,15 @@ knitr::include_graphics("Figs/epis_binary.pdf")
   \vspace{0.1cm}
   \begin{itemize}
     \item A hypothesis is an "observable" implication we derive from our theoretical claims
-    \item But the same explanation may be explained by more than one theoretical conjecture
-    \item To "formalize" the idea: Theory is the \textbf{sufficient} condition for the hypothesis, and rejecting the hypothesis does not necessarily mean we have to reject the theory
+    \item But the same hypothesis may be explained by more than one theoretical conjecture
+    \item To "formalize" the idea: Theory is only a \textbf{sufficient} (rather than necessary) condition for the hypothesis, and rejecting the hypothesis does not necessarily mean we have to reject the theory
   \end{itemize}
   \vspace{0.3cm}
   \item Empirics for critical tests
   \vspace{0.1cm}
   \begin{itemize}
     \item Ruling out the rival or competing explanations
-    \item Additional tests are needed to making a compelling theoretical claim based on your findings
+    \item Additional tests are needed to make a compelling theoretical claim based on your findings
     \item A good example is medical checks -- having a cold can mean so many different things
   \end{itemize}
 \end{itemize}
@@ -292,6 +292,19 @@ knitr::include_graphics("Figs/ross_ajps.pdf")
 ---
 
 \vspace{0.1cm}
+```{r echo=FALSE, out.width="105%", fig.align="center"}
+knitr::include_graphics("Figs/pnas.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\textit{Proceedings of the National Academy of Sciences} (2022)
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.1cm}
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/page.pdf")
 ```
@@ -311,19 +324,6 @@ knitr::include_graphics("Figs/page.pdf")
   \vspace{1cm}
   \item Triangulation: Mixed- and multi-method research?
 \end{itemize}
-
----
-
-\vspace{0.1cm}
-```{r echo=FALSE, out.width="105%", fig.align="center"}
-knitr::include_graphics("Figs/pnas.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\begin{scriptsize}
-\textit{Proceedings of the National Academy of Sciences} (2022)
-\end{scriptsize}
-\end{center}
 
 ---
 
