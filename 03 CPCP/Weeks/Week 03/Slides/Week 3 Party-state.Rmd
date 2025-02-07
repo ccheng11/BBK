@@ -24,7 +24,7 @@ fontsize: 10pt
   \vspace{0.1cm}
   \begin{itemize}
     \item Powerful subnational political forces (e.g., warlords under Beiyang govt and CPC under Nationalist govt)
-    \item Competing revolutionary visions (i.e., CPC v KMT,)
+    \item Competing revolutionary visions (i.e., CPC v KMT)
     \item External threats and influence: Japan, the Soviet Union and USA 
   \end{itemize}
   \vspace{0.3cm}

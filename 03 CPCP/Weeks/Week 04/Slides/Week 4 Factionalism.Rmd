@@ -17,6 +17,43 @@ output:
 fontsize: 10pt
 ---
 
+\vspace{0.2cm}
+\begincols
+  \begincol{.5\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/map2}
+    \end{figure}
+  \endcol
+  \hspace{0.2cm}
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+    \item \textbf{Zhongnanhai} (中南海), where the Party's central leadership and the \textbf{State Council} are located; the entrance is \textbf{Xinhuamen} (新华门)
+    \vspace{0.8cm}
+    \item The \textbf{Great Hall of People} (人民大会堂), where the \textbf{National People's Congress} (NPC) and the Chinese People's Political Consultative Conference (CPPCC) are located
+  \end{itemize}
+  \endcol
+\endcols
+
+# How Xi became the supreme leader (again)
+
+\begin{itemize}
+\small
+  \item \textbf{Summer to Autumn 2022}
+  \begin{itemize}
+    \item Preparation: Election of delegates for the National Party Congress and the \textbf{Beidaihe} (北戴河) Meeting before summer
+    \item Oct 6-22: The 20th \textbf{National Party Congress} (or National Party Convention) convenes to elect the Central Committee
+    \item Oct 23: The \textbf{Central Committee} meets to elect the General Secretary, the Politburo and other important central leadership offices
+  \end{itemize}
+  \vspace{0.3cm}
+  \item \textbf{Spring 2023}
+  \begin{itemize}
+    \item The \textbf{National People's Congress} convenes to elect the \textbf{President} and other important posts
+    \item The President appoints the the Premier (or the Prime Minister) of the \textbf{State Council} and confirmed by the National People's Congress
+  \end{itemize}
+\end{itemize}
+
 # Recap: The Party-state at glance
 
 \begin{itemize}
@@ -47,24 +84,6 @@ fontsize: 10pt
     \item Successor-in-training
     \item Grandpa-designated successor
     \item Comprehensive takeover
-  \end{itemize}
-\end{itemize}
-
-# How Xi became the supreme leader (again)
-
-\begin{itemize}
-\small
-  \item \textbf{Summer to Autumn 2022}
-  \begin{itemize}
-    \item Preparation: Election of delegates for the National Party Congress and the \textbf{Beidaihe} Meeting
-    \item Oct 6-22: The 20th \textbf{National Party Congress} convenes to elect the Central Committee
-    \item Oct 23: The \textbf{Central Committee} meets to elect the General Secretary, the Politburo and other important central leadership offices
-  \end{itemize}
-  \vspace{0.2cm}
-  \item \textbf{Spring 2023}
-  \begin{itemize}
-    \item The \textbf{National People's Congress} convenes to elect the \textbf{President} and other important posts
-    \item The President appoints the the Premier (or the Prime Minister) of the \textbf{State Council} and confirmed by the National People's Congress
   \end{itemize}
 \end{itemize}
 
