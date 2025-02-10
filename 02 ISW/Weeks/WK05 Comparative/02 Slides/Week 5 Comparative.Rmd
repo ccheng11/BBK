@@ -209,19 +209,6 @@ knitr::include_graphics("Figs/tsai_mit.pdf")
   \end{itemize}
 \end{itemize}
 
-# Solidary groups and accountable local public goods provision in rural China (Tsai 2007)
-
-\begin{itemize}
-  \item Two months of \textbf{preliminary research} in seven provinces, followed by
-  \vspace{0.1cm}
-  \begin{itemize}
-    \item eight months of \textbf{in-depth fieldwork} in Fujian
-    \item detailed \textbf{case studies} on selected provinces, which reflect different levels of economic development, as well as regional differences in terrain, institutional history and social organization between north and South China
-  \end{itemize}
-  \vspace{0.4cm}
-  \item Designed \textbf{surveys} to cover 300$+$ villages, carefully sampled from the selected provinces with assistance from local official partners and/or research assistants (mostly students)
-\end{itemize}
-
 ---
 
 \vspace{0.2cm}
@@ -301,6 +288,19 @@ knitr::include_graphics("Figs/swedberg.pdf")
   \item Can you summarize her main theoretical argument? Can/should culture serve as the alternative explanation?
   \vspace{0.7cm}
   \item Are the findings significant and/or valid? Can you come up with another research project to extend this line of inquiry?
+\end{itemize}
+
+# Solidary groups and accountable local public goods provision in rural China (Tsai 2007)
+
+\begin{itemize}
+  \item Two months of \textbf{preliminary research} in seven provinces, followed by
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item eight months of \textbf{in-depth fieldwork} in Fujian
+    \item detailed \textbf{case studies} on selected provinces, which reflect different levels of economic development, as well as regional differences in terrain, institutional history and social organization between north and South China
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Designed \textbf{surveys} to cover 300$+$ villages, carefully sampled from the selected provinces with assistance from local official partners and/or research assistants (mostly students)
 \end{itemize}
 
 ---
