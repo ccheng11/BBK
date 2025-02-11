@@ -150,25 +150,17 @@ Source: Ministry of Land, Infrastructure, Transport and Tourism (MLITT), Japan
 # Explaining central-local relations and local governance
 
 \begin{itemize}
-  \item Clientelism (e.g., Jiang 2019)
-  \vspace{0.4cm}
   \item Promotion tournament (e.g., Kung 2014)
   \vspace{0.4cm}
   \item Informal accountability (e.g., Tsai 2007)
   \vspace{0.4cm}
-  \item Principal-agent relations (e.g., Landry 2008)
+  \item Patron-clientelism (e.g., Jiang 2019)
+  \vspace{0.4cm}
+  \item Principal-agent relations
 \end{itemize}
-
-# Patron-clientelism
-
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/jiang_new.pdf")
-```
 
 # Promotion tournament
 
-\vspace{0.1cm}
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/kung_new.pdf")
 ```
@@ -178,6 +170,12 @@ knitr::include_graphics("Figs/kung_new.pdf")
 \vspace{0.1cm}
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/tsai.pdf")
+```
+
+# Patron-clientelism
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/jiang_new.pdf")
 ```
 
 # Delegation and Principal-agent relations
@@ -200,7 +198,7 @@ knitr::include_graphics("Figs/tsai.pdf")
 # Meriotocracy (Liu 2018)
 
 \vspace{0.1cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
+```{r echo=FALSE, out.width="55%", fig.align="center"}
 knitr::include_graphics("Figs/hanzhang.pdf")
 ```
 
