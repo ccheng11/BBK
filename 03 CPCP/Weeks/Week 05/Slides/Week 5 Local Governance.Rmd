@@ -1,0 +1,279 @@
+---
+title: |
+  | 
+  |
+  | CP$^2$ Week 5: Local Governance
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Documentary: "Datong: The Chinese Mayor" (2015)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.26]{Figs/datong_new}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+    \item Directed by Zhou Hao, a former journalist at Southern Weekly
+    \vspace{0.4cm}
+    \item Won the Best Documentary Prize at Golden Horse Film Festival, among others
+    \vspace{0.4cm}
+    \item Documented the early years of Geng Yanbo, the mayor of Taiyuan in the province of Shanxi
+    \vspace{0.4cm}
+    \item What was he trying to achieve in this documentary? What has happened to Mayor Geng since then?
+  \end{itemize}
+  \endcol
+\endcols
+
+# Overview
+
+\begin{itemize}
+\small
+  \item Why local governments?
+  \begin{itemize}
+    \item Political selection
+    \item Authoritarian governance
+    \item Nation-state building
+    \item Market development, foreign aid/investment and trade
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Local Chinese Party-state: An overview
+  \vspace{0.1cm}
+  \item Explaining central-local relations and local governance
+  \begin{itemize}
+    \item Clientelism
+    \item Promotion tournament
+    \item Informal accountability 
+    \item Politics of delegation and principal-agent relations
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Looking ahead: Challenges and opportunities
+\end{itemize}
+
+# Experience in local Party-state as the stepping stone
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/bo.pdf")
+```
+
+# Local Party-state is the frontier of (authoritarian) governance
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/leezhang.pdf")
+```
+
+# Local Party strongholds and nation-state building
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/koss.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+Contrasting with conventional notions that authoritarian regime parties serve to contain elite conflict and manipulate electoral-legislative processes, this book presents the case of China and shows that \textbf{rank and-file members of the Communist Party allow the state to penetrate local communities. Subnational comparative analysis demonstrates that in 'red areas' with high party saturation, the state is most effectively enforcing policy and collecting taxes}.
+\end{center}
+
+# Market development and economic growth
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="32%", fig.align="center"}
+knitr::include_graphics("Figs/susan_new.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+"In the past decade, China was able to carry out economic reform without political reform, while the Soviet Union attempted the opposite strategy. ... Susan Shirk shows that Chinese communist political institutions are more flexible and less centralized than their Soviet counterparts were."
+\end{center}
+
+# Cai and Treisman (2006): "Does Decentralization Cause China's Economic Model?"
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/wp.pdf")
+```
+\vspace{0.1cm}
+\begin{itemize}
+\small
+  \item China's economy consisted of parallel, diversified provincial economies before the reform
+  \item Decentralization encouraged local reform experiments that allowed new ideas to percolate up from the grassroots and created political checks on central authorities
+  \item Fiscal decentralization gave local officials strong incentives to stimulate economic growth
+\end{itemize}
+
+# Foreign aid and trade
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/ye.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+V[O]n the one hand, bureaucratic practices have largely shaped the central guidelines, and on the other hand, \textbf{subnational and state capital have reinterpreted and implemented the strategy on commercial terms and market imperatives}. In short, while the autocratic leader announced the BRI based on nationalist and strategic mobilization, it is the functional bureaucracies and commercial actors’ market needs that shape its implementation and outcomes."
+\end{center}
+
+# Local Party-state and governments in China
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/structure_new.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+Source: Ministry of Land, Infrastructure, Transport and Tourism (MLITT), Japan
+\end{center}
+
+# A structural approach to understand central-local relations (Zheng 2007)
+
+\begin{itemize}
+  \item \textbf{Totalitarian model}: Provincial and local governments have no agency at all and only carries out central policies; decentralization is at the will of the central government
+  \vspace{0.3cm} 
+  \item \textbf{Pluralist model}: Provincial and local governments pursue their interests and act like interest group in China to lobby and influence the central government
+  \vspace{0.3cm}
+  \item \textbf{Cellular model}: The central government, when interacting with provincial and local governments, do now follow a formal organizational formula, as complicated bargaining dynamics exist both between the central government and local governments and among local governments
+\end{itemize}
+
+# Explaining central-local relations and local governance
+
+\begin{itemize}
+  \item Clientelism (e.g., Jiang 2019)
+  \vspace{0.4cm}
+  \item Promotion tournament (e.g., Kung 2014)
+  \vspace{0.4cm}
+  \item Informal accountability (e.g., Tsai 2007)
+  \vspace{0.4cm}
+  \item Principal-agent relations (e.g., Landry 2008)
+\end{itemize}
+
+# Patron-clientelism
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/jiang_new.pdf")
+```
+
+# Promotion tournament
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/kung_new.pdf")
+```
+
+# Informal accountability
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/tsai.pdf")
+```
+
+# Delegation and Principal-agent relations
+
+\begin{itemize}
+  \item Getting around adverse selection in advance
+  \vspace{0.3cm}
+  \item Ad hoc police patrol mechanism: Party-state inspection? Fiscal transfers (Cheng 2021)?
+  \vspace{0.3cm}
+  \item Fire alarms mechanism (which can also be ad hoc)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Local media (Lorentzen 2013)
+    \item Administrative litigation
+    \item Local decentralization (e.g., ethnic local autonomy)
+    \item .... and so on so forth
+  \end{itemize}
+\end{itemize}
+
+# Meriotocracy (Liu 2018)
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/hanzhang.pdf")
+```
+
+# Loyalty v competence (Landry et al 2018)
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/landry.pdf")
+```
+
+# Looking ahead
+
+\begin{itemize}
+  \item Central-local relations and local governance are key to authoritarian durability and resilience
+  \vspace{0.3cm}
+  \item China on paper is a unitary state but the picture in real life is more complicated -- how to balance between central control and subnational flexibility is a constant challenge
+  \vspace{0.3cm}
+  \item Following the Reform, more subnational actors have become political important, such as the prefectures and municipalities
+\end{itemize}
+
+# China: A federal state in disguise? (Li, Linda Chelan 2010)
+
+\begin{itemize}
+  \item Centralization-decentralization (1950-80s)
+  \vspace{0.4cm}
+  \item State and market with adjusting roles (1980-90s)
+  \vspace{0.4cm}
+  \item Demarcating responsibilities over public service provision (2000s-)
+\end{itemize}
+
+# China: A federal state in disguise? (Li, Linda Chelan 2010)
+
+\begin{itemize}
+  \item Centralization-decentralization (1950-80s)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Administrative decentralization was favored, setting of a massive delegation of economic management and planning powers from the central government to the provinces in 1957-8
+    \item The next decades till the late 1970s saw cycles of administrative decentralization and re-centralization, only leading to diminished return as the provincial governments gained more discretion
+  \end{itemize}
+  \vspace{0.4cm}
+  \item State and market with adjusting roles (1980-90s)
+  \vspace{0.4cm}
+  \item Demarcating responsibilities over public service provision (2000s-)
+\end{itemize}
+
+# China: A federal state in disguise? (Li, Linda Chelan 2010)
+
+\begin{itemize}
+  \item Centralization-decentralization (1950-80s)
+  \vspace{0.4cm}
+  \item State and market with adjusting roles (1980-90s)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Further administrative and fiscal decentralization led to market expansion
+    \item The tension between the central and local governments focused on powers to regulate rather than just over resources
+    \item the tax-sharing reform in 1994 was conspicuously based on a "rule-based" principle 
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Demarcating responsibilities over public service provision (2000s-)
+\end{itemize}
+
+# China: A federal state in disguise? (Li, Linda Chelan 2010)
+
+\begin{itemize}
+  \item Centralization-decentralization (1950-80s)
+  \vspace{0.4cm}
+  \item State and market with adjusting roles (1980-90s)
+  \vspace{0.4cm}
+  \item Demarcating responsibilities over public service provision (2000s-)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item The discussion of central-local relations moved from revenues to expenditure responsibilities, which remained decentralized after the 1994 reform
+    \item More discussions on how different expenditure responsibilities should be shared between the central and local governments
+    \item More key players other than the provinces
+  \end{itemize}
+\end{itemize}
