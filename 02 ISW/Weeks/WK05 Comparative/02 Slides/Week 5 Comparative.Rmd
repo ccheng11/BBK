@@ -45,15 +45,7 @@ knitr::include_graphics("Figs/cover.pdf")
 knitr::include_graphics("Figs/rosenbluth.pdf")
 ```
 
-# Why comparative and intl analysis matters
-
-\begin{itemize}
-  \item Prevent selection bias (Geddes 1990; Collier and Mahoney 1996)
-  \vspace{1cm}
-  \item Avoid the pitfalls of "essentialism" (Fuchs 2001; Phillips 2010)
-\end{itemize}
-
-# The cases you choose affect the answers you get
+# The cases you choose affect the answers you get (Geddes 1990)
 
 \begin{itemize}
   \item The cases you choose can be partial and prevents useful generalization
@@ -91,6 +83,17 @@ knitr::include_graphics("Figs/all.pdf")
 When we consider all countries, however, there exists no clear statistical association
 \end{center}
 
+# Scope condition is key for comparative and intl analysis
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/tsai_mit.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+"The specification and empirical assessment of \textbf{scope conditions} are essential to building comparative political theory—theory that not only posits a causal relationship but precisely identifies -- and empirically validates -- \textbf{the conditions or contexts under which the theory holds} (\textit{Comparative Political Studies}, 2016)
+\end{center}
+
 # Be aware of the "pitfalls" of essentialism (Phillips 2010)
 
 \begin{itemize}
@@ -109,17 +112,6 @@ When we consider all countries, however, there exists no clear statistical assoc
   \vspace{0.4cm}
   \item \textbf{Discussion}: Can you think of any examples in daily life or research you have read? Is attribution to categories always a bad idea? How can we get around these potential pitfalls?
 \end{itemize}
-
-# Scope condition is key for comparative and intl analysis
-
-```{r echo=FALSE, out.width="60%", fig.align="center"}
-knitr::include_graphics("Figs/tsai_mit.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\small
-"The specification and empirical assessment of \textbf{scope conditions} are essential to building comparative political theory—theory that not only posits a causal relationship but precisely identifies -- and empirically validates -- \textbf{the conditions or contexts under which the theory holds} (\textit{Comparative Political Studies}, 2016)
-\end{center}
 
 # From case studies to social science: Three forms/stages of "comprehension"
 
@@ -155,6 +147,31 @@ knitr::include_graphics("Figs/tsai_mit.pdf")
   \item Explanation
   \vspace{0.5cm}
   \item Conviction
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/singh_new.pdf")
+```
+\vspace{0.3cm}
+\pause
+\begin{center}
+Can Singh's theoretical insights to other cases? What cases? How do we make sure the new cases are comparable to Singh's choice in the article?
+\end{center}
+
+# Exploring and extending Singh's scope condition (by a former ISW student)
+
+\begin{itemize}
+\small
+  \item "It could be argued the \textbf{destabilisation of racialised identities within an ethnically diverse locality such as the gym may bear relevance in similar convivial sporting localities, in super-diverse, Global North cities}, with similar political conditions to London."
+  \pause
+  \vspace{0.2cm}
+  \item "An alternative case to increase the scope condition of similar research to other contexts might be supplementary use of \textbf{quantitative methods, such as questionnaires measuring gym members' racial or gender identity salience in the gym compared to other locations, and statistical analysis of differences to serve as a replicable tool in different contexts}."
+  \pause
+  \vspace{0.2cm}
+  \item "However, \textbf{this would signify an entirely different study}. Generalisations about this article's findings would require de-contextualisation, which is antithetical to the context-specific, complex qualitative methodological design and constructivist approach of Singh's research."
 \end{itemize}
 
 # From case studies to social science: Three forms/stages of "comprehension"
@@ -209,31 +226,6 @@ knitr::include_graphics("Figs/tsai_mit.pdf")
   \end{itemize}
 \end{itemize}
 
----
-
-\vspace{0.2cm}
-```{r echo=FALSE, out.width="80%", fig.align="center"}
-knitr::include_graphics("Figs/singh_new.pdf")
-```
-\vspace{0.3cm}
-\pause
-\begin{center}
-Can Singh's theoretical insights to other cases? What cases? How do we make sure the new cases are comparable to Singh's choice in the article?
-\end{center}
-
-# Exploring and extending Singh's scope condition (by a former ISW student)
-
-\begin{itemize}
-\small
-  \item "It could be argued the \textbf{destabilisation of racialised identities within an ethnically diverse locality such as the gym may bear relevance in similar convivial sporting localities, in super-diverse, Global North cities}, with similar political conditions to London."
-  \pause
-  \vspace{0.2cm}
-  \item "An alternative case to increase the scope condition of similar research to other contexts might be supplementary use of \textbf{quantitative methods, such as questionnaires measuring gym members' racial or gender identity salience in the gym compared to other locations, and statistical analysis of differences to serve as a replicable tool in different contexts}."
-  \pause
-  \vspace{0.2cm}
-  \item "However, \textbf{this would signify an entirely different study}. Generalisations about this article's findings would require de-contextualisation, which is antithetical to the context-specific, complex qualitative methodological design and constructivist approach of Singh's research."
-\end{itemize}
-
 # Some practical suggestions for generalization
 
 \begin{itemize}
@@ -261,25 +253,6 @@ knitr::include_graphics("Figs/swedberg.pdf")
 "Abstractions are used in all the sciences, and the capacity to make abstractions is a very useful tool when you theorize. It is also often helpful to go between different levels of abstraction, such as high, medium, and low. An abstraction is created in three steps: \textbf{You single out some phenomenon of interest}; \textbf{you cut it out and isolate it from its surroundings}; and \textbf{you remove various parts from it, so it will come out more clearly}."
 \end{center}
 
-# Conclusion: Investigating the social world as a vocation
-
-\begin{itemize}
-\small
-  \item ISW is a special module, reflecting on the production of "valid" knowledge about the social world
-  \begin{itemize}
-    \item Know what you do and how to explain the objectives of your scholarly inquiry;
-    \item Know how to tell the differences between different objectives and engage other researchers' work constructively and effectively
-  \end{itemize}
-  \vspace{0.1cm}
-  \item Social research involves a series of careful thinking about epistemology, theory-building, and methodology (hence theory-empirics alignment)
-  \begin{itemize}
-    \item \textbf{Reveal nuances of the real world}: constructivism; theory as approach; interpretation; qualitative; inductive/abductive
-    \item \textbf{Search for the "ultimate" truth}: positivism; theory as paradigm; explanation; quantitative; deductive
-  \end{itemize}
-  \vspace{0.1cm}
-  \item Exceptions always exist and boundaries are constantly being contested and redefined
-\end{itemize}
-
 # Discussion: "Solidary Groups, Informal Accountability, and Local Public Goods Provision" (Tsai 2007)
 
 \begin{itemize}
@@ -301,6 +274,25 @@ knitr::include_graphics("Figs/swedberg.pdf")
   \end{itemize}
   \vspace{0.4cm}
   \item Designed \textbf{surveys} to cover 300$+$ villages, carefully sampled from the selected provinces with assistance from local official partners and/or research assistants (mostly students)
+\end{itemize}
+
+# Conclusion: Investigating the social world as a vocation
+
+\begin{itemize}
+\small
+  \item ISW is a special module, reflecting on the production of "valid" knowledge about the social world
+  \begin{itemize}
+    \item Know what you do and how to explain the objectives of your scholarly inquiry;
+    \item Know how to tell the differences between different objectives and engage other researchers' work constructively and effectively
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Social research involves a series of careful thinking about epistemology, theory-building, and methodology (hence theory-empirics alignment)
+  \begin{itemize}
+    \item \textbf{Reveal nuances of the real world}: constructivism; theory as approach; interpretation; qualitative; inductive/abductive
+    \item \textbf{Search for the "ultimate" truth}: positivism; theory as paradigm; explanation; quantitative; deductive
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Exceptions always exist and boundaries are constantly being contested and redefined
 \end{itemize}
 
 ---
