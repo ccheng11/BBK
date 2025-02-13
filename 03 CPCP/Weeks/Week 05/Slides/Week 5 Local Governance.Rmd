@@ -66,6 +66,16 @@ fontsize: 10pt
   \item Looking ahead: Challenges and opportunities
 \end{itemize}
 
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/locs.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+Which of these places are in China?
+\end{center}
+
 # Experience in local Party-state as the stepping stone
 
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
@@ -89,7 +99,7 @@ knitr::include_graphics("Figs/koss.pdf")
 Contrasting with conventional notions that authoritarian regime parties serve to contain elite conflict and manipulate electoral-legislative processes, this book presents the case of China and shows that \textbf{rank and-file members of the Communist Party allow the state to penetrate local communities. Subnational comparative analysis demonstrates that in 'red areas' with high party saturation, the state is most effectively enforcing policy and collecting taxes}.
 \end{center}
 
-# Market development and economic growth
+# Coalition-building, market development and economic growth
 
 \vspace{0.2cm}
 ```{r echo=FALSE, out.width="32%", fig.align="center"}
@@ -122,7 +132,7 @@ knitr::include_graphics("Figs/ye.pdf")
 \vspace{0.2cm}
 \begin{center}
 \small
-V[O]n the one hand, bureaucratic practices have largely shaped the central guidelines, and on the other hand, \textbf{subnational and state capital have reinterpreted and implemented the strategy on commercial terms and market imperatives}. In short, while the autocratic leader announced the BRI based on nationalist and strategic mobilization, it is the functional bureaucracies and commercial actors’ market needs that shape its implementation and outcomes."
+"[O]n the one hand, bureaucratic practices have largely shaped the central guidelines, and on the other hand, \textbf{subnational and state capital have reinterpreted and implemented the strategy on commercial terms and market imperatives}. In short, while the autocratic leader announced the BRI based on nationalist and strategic mobilization, it is the functional bureaucracies and commercial actors’ market needs that shape its implementation and outcomes."
 \end{center}
 
 # Local Party-state and governments in China
@@ -165,6 +175,13 @@ Source: Ministry of Land, Infrastructure, Transport and Tourism (MLITT), Japan
 knitr::include_graphics("Figs/kung_new.pdf")
 ```
 
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/kung_table2.pdf")
+```
+
 # Informal accountability
 
 \vspace{0.1cm}
@@ -172,10 +189,24 @@ knitr::include_graphics("Figs/kung_new.pdf")
 knitr::include_graphics("Figs/tsai.pdf")
 ```
 
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/tsai_table2.pdf")
+```
+
 # Patron-clientelism
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/jiang_new.pdf")
+```
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/jiang_table1.pdf")
 ```
 
 # Delegation and Principal-agent relations
@@ -205,7 +236,7 @@ knitr::include_graphics("Figs/hanzhang.pdf")
 # Loyalty v competence (Landry et al 2018)
 
 \vspace{0.1cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
+```{r echo=FALSE, out.width="102%", fig.align="center"}
 knitr::include_graphics("Figs/landry.pdf")
 ```
 
@@ -218,6 +249,13 @@ knitr::include_graphics("Figs/landry.pdf")
   \vspace{0.3cm}
   \item Following the Reform, more subnational actors have become political important, such as the prefectures and municipalities
 \end{itemize}
+
+# "Telling Our Own Story" (Fu and Shao 2022)
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="75%", fig.align="center"}
+knitr::include_graphics("Figs/telling.pdf")
+```
 
 # China: A federal state in disguise? (Li, Linda Chelan 2010)
 
