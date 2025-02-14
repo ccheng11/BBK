@@ -247,7 +247,7 @@ knitr::include_graphics("Figs/shih2.pdf")
 
 # Promotion-based ties and political connectedness (Keller 2016)
 
-```{r echo=FALSE, out.width="80%", fig.align="center"}
+```{r echo=FALSE, out.width="75%", fig.align="center"}
 knitr::include_graphics("Figs/keller.pdf")
 ```
 
