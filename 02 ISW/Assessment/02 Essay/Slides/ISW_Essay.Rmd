@@ -20,67 +20,90 @@ fontsize: 10pt
 # Overview
 
 \begin{itemize}
-  \item You will examine a published peer-reviewed article (we have provided you with 9-10 articles to choose from)
+  \item You will write an essay of 2,500 words in length
   \vspace{0.2cm}
-  \item You are going to answer \textbf{three} questions and \textbf{write up to 500 words} (max) for each question
+  \item The key idea is to choose \textbf{TWO} frameworks introduced after Reading Week to analyze an issue or problem of your choice
   \vspace{0.2cm}
-  \item No outside/additional research is needed; you will not need any citations; you should not need any direct quotes in your responses
-  \vspace{0.2cm}
-  \item \textbf{It is not a test} -- there is no rubric; feel free to surprise us, but your review will be evaluated based on the \textbf{quality} of your responses, applying the concepts we have covered in the first five weeks
+  \item You are free to carry out any necessary outside/additional research; cite references properly (e.g., APA or MLA)
   \vspace{0.2cm}
   \item You can come to my office hours to discuss your preliminary responses with me; the goal is not to give you a mark before the deadline but to clear any confusion
 \end{itemize}
 
-# Review questions
+# Questions
 
-\begin{itemize} 
-  \item What is the main research question of this article? State the research question in your own words and discuss the methods used by the author(s). What is the underlying epistemological stance? Explain.
-  \vspace{0.6cm}
-  \item In your own words, provide the key theoretical claim(s) of this article. Identify and discuss the nature of these claims, as well as how the author(s) aligns theory with empirics.
-  \vspace{0.6cm}
-  \item Does this paper make any original and/or significant contributions? Discuss. Also, can/should the authors extend their research to a different case? If yes, what is the scope condition? What would be a possible case choice using the same condition?
+\begin{itemize}
+\small
+  \item \textbf{Choose two of the investigative frameworks introduced in the module and describe how they could be applied to an issue or problem of your choosing}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Rational choice 
+    \item Psychosocial framings
+    \item Decolonizing social research
+    \item Intersectional sensibilities
+    \item Lived experience
+  \end{itemize}
+  \vspace{0.4cm}
+  \item \textbf{Discuss which of the two frameworks you choose is more compelling}
 \end{itemize}
 
-# Useful tips and reminders
+# Key tasks involved
+
+\begin{itemize}
+  \item Describe the frameworks and present the issue at stake
+  \vspace{0.5cm}
+  \item Make a case for how each of these two frameworks could offer insight to the issue
+  \vspace{0.5cm}
+  \item Explain which of the two frameworks is more compelling
+\end{itemize}
+
+# Step 1: Describe the frameworks
+
+\begin{itemize}
+  \item Use a reading or two to explain how you define/understand these frameworks, focusing on the aspects of it that are most relevant to you
+  \vspace{0.4cm}
+  \item Choose two frameworks only; in your dissertation, you might use more -- but here you do not have the space
+\end{itemize}  
+
+# Step 2: Present the issue
+
+You do not need to be exhaustive in describing the issue but you should make reference to some kind of source materials -- such as academic or policy related research, a news article, and material from a grassroots organization or activist group.
+
+# Step 3: Make your case and compare
+
+\begin{itemize}
+\small
+  \item Make a case for how these frameworks could offer insight to the issue -- What questions would the framework allow you to ask and why might this be valuable?
+  \begin{itemize}
+    \item You could point to areas of potential investigation 
+    \item You could point to existing research on your topic that doesn't give the kind of insight you’re interested in
+    \item You could point to research from that perspective on other issues that you find intriguing that might have relevance for your issue
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Explain which of these two frameworks is more analytically compelling -- perhaps one framework can generate some more new insights than the other? Perhaps one framework can garner more empirical support than the other?
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item It is not a traditional essay -- no need to provide fully developed research questions here like you do for your dissertation; you are not making an argument or a full empirical analysis as such
+  \vspace{0.6cm}
+  \item A few sentences of overview at the start and some concluding reflections would be enough; what is your key takeaway from thinking this through?
+\end{itemize}
+
+# Reminders
 
 \begin{itemize}
 \small
   \item Before you start, \textbf{read the guidance and questions carefully}
-  \vspace{0.1cm}
-  \item When you work on your review
-  \begin{itemize}
-    \item Answer every part of the question
-    \item Fully develop your arguments and explanations
-    \item Qualify any adjectives or adverbs (e.g., unique; comprehensive; objective)
-    \item Consult lecture slides and readings, if necessary
-  \end{itemize}
-  \vspace{0.1cm}
-  \item When you submit your review
+  \vspace{0.2cm}
+  \item When you submit your essay
   \begin{itemize}
     \item Attach the coversheet (available on Moodle)
     \item Enter your student ID in the field of \textbf{Submission Title} on Turnitin
-    \item Submit your review before \textbf{midday, 3 April 2025}
+    \item Submit your essay before \textbf{midday, 21 April 2025}
   \end{itemize}
 \end{itemize}
-
---- 
-
 \vspace{0.2cm}
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/turnitin.pdf")
 ```
-\vspace{0.3cm}
-\begin{center}
-\textbf{Enter your student ID (and nothing else) as submission title when you submit}
-\end{center}
-
-# Common pitfalls to avoid
-
-\begin{itemize}
-\small
-  \item \textbf{Writing Style and Clarity}: Comments focused on the need for succinctness, clarity, and appropriate academic writing style, indicating that improving clarity and conciseness in writing was a frequent suggestion
-  \vspace{0.5cm}
-  \item \textbf{Structure and Coherence}: Many submissions have issues with the overall structure and logical flow of the responses; the feedback suggests a need for better organization and coherence in presenting arguments and analysis
-  \vspace{0.5cm}
-  \item \textbf{Analytical Depth and Application of Concepts}: This theme points to the need for deeper analytical engagement with the material and a better application of theoretical concepts in the analysis; many responses lacked depth or did not adequately apply class concepts to the articles being reviewed
-\end{itemize}
