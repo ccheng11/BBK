@@ -68,6 +68,18 @@ fontsize: 10pt
 
 You do not need to be exhaustive in describing the issue but you should make reference to some kind of source materials -- such as academic or policy related research, a news article, and material from a grassroots organization or activist group.
 
+---
+
+\begin{itemize}
+  \item The Opium War
+  \item The 2011 global protests
+  \item Homeless and housing crisis
+  \item Rise of smartphone
+  \item Hyesteria
+  \item Diagnosis of ADHD
+  \item ... and so on so forth
+\end{itemize}
+
 # Step 3: Make your case and compare
 
 \begin{itemize}
