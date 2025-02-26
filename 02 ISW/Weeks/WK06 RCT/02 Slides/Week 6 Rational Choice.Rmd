@@ -31,32 +31,40 @@ Invitation to audit will be sent to all PG students
 
 \begin{itemize}
 \small
-  \item ISW is a special module to reflect on the production of "valid" knowledge about the social world
+  \item ISW is a special module, as we aim to reflect on the production of "valid" knowledge about the social world
   \vspace{0.1cm}
   \begin{itemize}
-    \item Know what you do and explain the objectives of your scholarly inquiry;
+    \item Know what you do and explain the objectives of your scholarly endeavors;
     \item Know the differences between various objectives and engage other researchers' work constructively and effectively
   \end{itemize}
   \vspace{0.2cm}
-  \item Social research involves a series of careful thinking about epistemology, theory-building, and methodology (hence theory-empirics alignment is key to rigour)
+  \item Social research involves a series of careful thinking about epistemology, theory-building and methodology; hence \textbf{theory-empirics alignment} is key to rigour
   \vspace{0.1cm}
   \begin{itemize}
-    \item \textbf{Reveal nuances of the real world}: constructivism; (interpretative) theory as approach; interpretation; qualitative; inductive/abductive
-    \item \textbf{Search for the "ultimate" truth}: positivism; (explanatory) theory as paradigm; explanation; quantitative; deductive
+    \item \textbf{Reveal nuances of the real world}: Constructivism; (interpretative) theory as approach; interpretation; qualitative; inductive/abductive
+    \item \textbf{Search for the "ultimate" truth}: Positivism; (explanatory) theory as paradigm; explanation; quantitative; deductive
   \end{itemize}
 \end{itemize}
 
 # Exceptions exist -- norms are constantly being contested and redefined
 
+\pause
 ```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/epis_bin.pdf")
 ```
 
 # Thinking beyond your case to boost contribution
 
-\vspace{0.4cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/lachlan.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lachlan2.pdf")
 ```
 
 # Weeks 6-10: Analytical (or investigative) frameworks
@@ -80,7 +88,7 @@ knitr::include_graphics("Figs/guest.pdf")
 \begin{itemize}
   \item You will write an essay of 2,500 words in length
   \vspace{0.3cm}
-  \item The key idea is to choose \textbf{TWO} frameworks introduced after Reading Week to analyze an issue or problem of your choice
+  \item The idea is to choose \textbf{TWO} frameworks introduced after Reading Week to analyze an issue or problem of your choice
   \vspace{0.3cm}
   \item You are free to carry out any necessary outside/additional research; cite references properly (e.g., APA or MLA)
   \vspace{0.3cm}
@@ -120,34 +128,151 @@ knitr::include_graphics("Figs/cover.pdf")
   \end{itemize}
 \end{itemize}
 
-# Barbara's "verdict" on rational choice
+# Barbara's "verdict:" Breaking misperceptions
 
-\begin{itemize}
-  \item There are many \textbf{misperceptions} about rational choice
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/castles}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
   \begin{itemize}
+  \small
     \item Rational choice does not assume people are "selfish"
+    \vspace{0.3cm}
     \item Rational choice does not assume people are driven by material interests
+    \vspace{0.3cm}
     \item Rational choice does not assume preferences are stable or fixed
+    \vspace{0.3cm}
     \item Rational choice does not ignore/discard ideology and/or history
   \end{itemize}
-  \vspace{0.2cm}
-  \item Rational choice is an \textbf{approach} (i.e., ways of seeing), not a theory
-  \begin{itemize}
-    \item Rational choice highlights the importance of "rationality" 
-    \item Rational choice does not dictate a single or universal explanation/prediction
-    \item Rational choice provides a micro-foundation for us to research the social world
-  \end{itemize}
+  \endcol
+\endcols
+
+# Rational choice is an "approach," not much of a "theory" per se
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/voice.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item Rational choice highlights the importance of "rationality" and yet how rationality should treated as a construct, not a given constant
+  \item Rational choice does not dictate a single or universal explanation/prediction
+  \item Rational choice provides a \textbf{micro-foundation} to research the social world
 \end{itemize}
 
-# Martin's take
+# John Levi Martin's take on rational choice (theory)
 
-TBA.
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/martin}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+    \small
+    \item A useful "modelling exercise" for deductive reasoning
+    \vspace{0.3cm}
+    \item Cautioning against using it as a "total" theory of society (which can grow into a form of intellectural imperialism)
+    \vspace{0.3cm}
+    \item \textbf{Caveats abound}, alas -- Do we have a "choice?" How about structures? In favor of parsimony at the sacrifice of complexities and nuances? Ad hoc? How do we handle unintended or unexpected outcomes?
+    \vspace{0.3cm}
+    \item \textbf{Question for all}: To what extend would he align with Geddes?
+  \end{itemize}
+  \endcol
+\endcols
 
-# Rational choice and rationality
+---
 
-# Ratonal choice as an analytical approach
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/envy_book.pdf")
+```
 
-# Example: Prisonor's dilemma
+# Examples: "Envy in Poltics" (McClendon 2018) 
+
+\begin{itemize}
+  \item \textbf{Paradox}: Why rich people support redistribution? Why do governments fail to provide and act responsively?
+  \vspace{0.2cm}
+  \item \textbf{Argument}: \textbf{Status sentiment} is key -- envy, spite and pursuit of admiration will influence political behaviors 
+  \vspace{0.2cm}
+  \item \textbf{Literature}: Drawing on anthropology, social psychology, behavior economics and so on
+  \vspace{0.2cm}
+  \item \textbf{Empirics}: Case studies and quantitative analysis, especially surveys and election/admin data (see "Applications")
+  \vspace{0.2cm}
+  \item \textbf{Implications}: Inequality is the key driving force of various political issues we are observing, but may not manifest in a way we expect 
+\end{itemize}
+
+# Using rational choice to research the social world
+
+\begin{itemize}
+  \item Identify "paradox" to challenge the "conventional" wisdom (e.g., things taken for granted or so but turn out to be quite counterintuitive)
+  \vspace{0.3cm}
+  \item Define "actors" involved, laying down their different outcomes and actions
+  \vspace{0.3cm}
+  \item Set "utilities" to help the search for their "optimal" strategies; whether one action will be taken or not, can be an "interactive" and "repeated" process
+  \vspace{0.3cm}
+  \item Note that "utilities" do not come out of nowhere, and actors may be constrained by their "information" environment
+\end{itemize}
+
+# Example: Prisoner's dilemma
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/pd_1.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item Suppose A and B are arrested; the police puts them in two different interrogation rooms
+  \item If both confess, both get 10 years in prison
+  \item If none of them confesses, both get 5 years in prison
+  \item For both A and B, they can get away if only the other side confesses, and the other side will get 20 years in prison
+\end{itemize}
+
+# Example: Prisoner's dilemma
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/pd_2.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+  \item A would not know what B will do (unless they make a deal beforehand)
+  \item If B confesses, A should confess as well
+  \item If B does not confess, A should confess, too
+  \item So regardless what B will do, A should confess anyway
+\end{itemize}
+
+# Example: Prisoner's dilemma
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/pd_3.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+  \item Likewise, B would not know what A will do
+  \item If A confesses, B should confess as well
+  \item If A does not confess, B should confess, too
+  \item So regardless what A will do, B should confess anyway
+\end{itemize}
+
+# Example: Prisoner's dilemma
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/pd_4.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+  \item As a result, both actors are stuck in the situation tat both will confess
+  \item This is counterintuitive, as ideally none of them should
+  \item What can we do to get away from this conundrum -- of course, we would not want to set suspects on loose, but let's put that aside
+  \item Any other comments or questions?
+\end{itemize}
 
 ---
 
@@ -159,17 +284,9 @@ knitr::include_graphics("Figs/analytic.pdf")
 knitr::include_graphics("Figs/analytic_people.pdf")
 ```
 
-# Rationale and principle
-
-# Critque and responses
-
-# Example
-
-# Exercise
-
 ---
 
-```{r echo=FALSE, out.width="70%", fig.align="center"}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/books.pdf")
 ```
 
