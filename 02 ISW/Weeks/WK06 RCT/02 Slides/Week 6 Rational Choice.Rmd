@@ -1,0 +1,189 @@
+---
+title: |
+  |
+  |
+  | Investigating the Social World
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Masterlcass (2025 version) announced
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/masterclass.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+Invitation to audit will be sent to all PG students
+\end{center}
+
+# Before Reading Week: Varieties of social research
+
+\begin{itemize}
+\small
+  \item ISW is a special module to reflect on the production of "valid" knowledge about the social world
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Know what you do and explain the objectives of your scholarly inquiry;
+    \item Know the differences between various objectives and engage other researchers' work constructively and effectively
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Social research involves a series of careful thinking about epistemology, theory-building, and methodology (hence theory-empirics alignment is key to rigour)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Reveal nuances of the real world}: constructivism; (interpretative) theory as approach; interpretation; qualitative; inductive/abductive
+    \item \textbf{Search for the "ultimate" truth}: positivism; (explanatory) theory as paradigm; explanation; quantitative; deductive
+  \end{itemize}
+\end{itemize}
+
+# Exceptions exist -- norms are constantly being contested and redefined
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/epis_bin.pdf")
+```
+
+# Thinking beyond your case to boost contribution
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/lachlan.pdf")
+```
+
+# Weeks 6-10: Analytical (or investigative) frameworks
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/guest.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+\small
+  \item Rational choice theory (Dr Chao-Yo Cheng)
+  \item Psychosocial framing (Professor Silvia Posocco)
+  \item Decolonizing social research (Dr Ivana Bevilacqua)
+  \item Intersectional sensibilities (Ms Joy Brooks-Gilzeane)
+  \item Situating lived experience (Dr Sarah Marks)
+\end{itemize}
+
+# Assessment II: Analytical essay (60%)
+
+\begin{itemize}
+  \item You will write an essay of 2,500 words in length
+  \vspace{0.3cm}
+  \item The key idea is to choose \textbf{TWO} frameworks introduced after Reading Week to analyze an issue or problem of your choice
+  \vspace{0.3cm}
+  \item You are free to carry out any necessary outside/additional research; cite references properly (e.g., APA or MLA)
+  \vspace{0.3cm}
+  \item You can come to my office hours to discuss your preliminary responses with me; the goal is not to give you a mark before the deadline but to clear any confusion
+  \vspace{0.3cm}
+  \item Instructions and sample submissions available on Moodle now
+\end{itemize}
+
+---
+
+\begin{center}
+\textbf{Lecture 7: Rational choice}
+\end{center}
+\vspace{0.7cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cover.pdf")
+```
+\vspace{0.1cm}
+\pause
+\begin{center}
+\scriptsize
+"Anyone fancies an end-of-term happy hour?"
+\end{center}
+
+# Plan for today
+
+\begin{itemize}
+  \item Rational choice and beyond
+  \vspace{0.4cm}
+  \item Workshop: "Analytical narratives"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Principles
+    \item Critiques and responses
+    \item Examples
+    \item Exercise
+  \end{itemize}
+\end{itemize}
+
+# Barbara's "verdict" on rational choice
+
+\begin{itemize}
+  \item There are many \textbf{misperceptions} about rational choice
+  \begin{itemize}
+    \item Rational choice does not assume people are "selfish"
+    \item Rational choice does not assume people are driven by material interests
+    \item Rational choice does not assume preferences are stable or fixed
+    \item Rational choice does not ignore/discard ideology and/or history
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Rational choice is an \textbf{approach} (i.e., ways of seeing), not a theory
+  \begin{itemize}
+    \item Rational choice highlights the importance of "rationality" 
+    \item Rational choice does not dictate a single or universal explanation/prediction
+    \item Rational choice provides a micro-foundation for us to research the social world
+  \end{itemize}
+\end{itemize}
+
+# Martin's take
+
+TBA.
+
+# Rational choice and rationality
+
+# Ratonal choice as an analytical approach
+
+# Example: Prisonor's dilemma
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/analytic.pdf")
+```
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/analytic_people.pdf")
+```
+
+# Rationale and principle
+
+# Critque and responses
+
+# Example
+
+# Exercise
+
+---
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/books.pdf")
+```
+
+---
+
+\vspace{0.5cm}
+\begin{center}
+Thank you!
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_tv.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\texttt{c.cheng@bbk.ac.uk}
+\end{center}
