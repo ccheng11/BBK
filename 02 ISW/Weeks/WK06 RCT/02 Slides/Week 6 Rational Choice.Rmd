@@ -195,7 +195,7 @@ knitr::include_graphics("Figs/voice.pdf")
 knitr::include_graphics("Figs/envy_book.pdf")
 ```
 
-# Examples: "Envy in Poltics" (McClendon 2018) 
+# Examples: "Envy in Politics" (McClendon 2018) 
 
 \begin{itemize}
   \item \textbf{Paradox}: Why rich people support redistribution? Why do governments fail to provide and act responsively?
@@ -208,6 +208,12 @@ knitr::include_graphics("Figs/envy_book.pdf")
   \vspace{0.2cm}
   \item \textbf{Implications}: Inequality is the key driving force of various political issues we are observing, but may not manifest in a way we expect 
 \end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/envy_reg.pdf")
+```
 
 # Using rational choice to research the social world
 
@@ -283,6 +289,16 @@ knitr::include_graphics("Figs/analytic.pdf")
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/analytic_people.pdf")
 ```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/eitm.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\url{https://eitminstitute.org/}
+\end{center}
 
 ---
 
