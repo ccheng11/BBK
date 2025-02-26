@@ -128,7 +128,7 @@ knitr::include_graphics("Figs/cover.pdf")
   \end{itemize}
 \end{itemize}
 
-# Barbara's "verdict:" Breaking misperceptions
+# Barbara's "verdict:" Breaking mis-perceptions
 
 \vspace{0.2cm}
 \begincols
@@ -180,7 +180,7 @@ knitr::include_graphics("Figs/voice.pdf")
     \small
     \item A useful "modelling exercise" for deductive reasoning
     \vspace{0.3cm}
-    \item Cautioning against using it as a "total" theory of society (which can grow into a form of intellectural imperialism)
+    \item Cautioning against using it as a "total" theory of society (which can grow into a form of intellectual imperialism)
     \vspace{0.3cm}
     \item \textbf{Caveats abound}, alas -- Do we have a "choice?" How about structures? In favor of parsimony at the sacrifice of complexities and nuances? Ad hoc? How do we handle unintended or unexpected outcomes?
     \vspace{0.3cm}
@@ -200,7 +200,7 @@ knitr::include_graphics("Figs/envy_book.pdf")
 \begin{itemize}
   \item \textbf{Paradox}: Why rich people support redistribution? Why do governments fail to provide and act responsively?
   \vspace{0.2cm}
-  \item \textbf{Argument}: \textbf{Status sentiment} is key -- envy, spite and pursuit of admiration will influence political behaviors 
+  \item \textbf{Argument}: \textit{Status sentiment} matters -- envy, spite and pursuit of admiration will influence political behaviors 
   \vspace{0.2cm}
   \item \textbf{Literature}: Drawing on anthropology, social psychology, behavior economics and so on
   \vspace{0.2cm}
@@ -211,7 +211,7 @@ knitr::include_graphics("Figs/envy_book.pdf")
 
 ---
 
-```{r echo=FALSE, out.width="100%", fig.align="center"}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/envy_reg.pdf")
 ```
 
@@ -251,7 +251,7 @@ knitr::include_graphics("Figs/pd_2.pdf")
   \item A would not know what B will do (unless they make a deal beforehand)
   \item If B confesses, A should confess as well
   \item If B does not confess, A should confess, too
-  \item So regardless what B will do, A should confess anyway
+  \item So regardless what B will do, \textbf{A should confess anyway}
 \end{itemize}
 
 # Example: Prisoner's dilemma
@@ -264,7 +264,7 @@ knitr::include_graphics("Figs/pd_3.pdf")
   \item Likewise, B would not know what A will do
   \item If A confesses, B should confess as well
   \item If A does not confess, B should confess, too
-  \item So regardless what A will do, B should confess anyway
+  \item So regardless what A will do, \textbf{B should confess anyway}
 \end{itemize}
 
 # Example: Prisoner's dilemma
@@ -274,7 +274,7 @@ knitr::include_graphics("Figs/pd_4.pdf")
 ```
 \vspace{0.2cm}
 \begin{itemize}
-  \item As a result, both actors are stuck in the situation tat both will confess
+  \item As a result, both actors are stuck in the situation such that both will confess
   \item This is counterintuitive, as ideally none of them should
   \item What can we do to get away from this conundrum -- of course, we would not want to set suspects on loose, but let's put that aside
   \item Any other comments or questions?
@@ -290,6 +290,37 @@ knitr::include_graphics("Figs/analytic.pdf")
 knitr::include_graphics("Figs/analytic_people.pdf")
 ```
 
+# Rationale and principle
+
+\begin{itemize}
+\small
+  \item Using game theoretical models to explain particular political economy cases that may generate broad theoretical implications, such as
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Political order as equilibria
+    \item How domestic politics and intl relations shape each other
+    \item Institutions matter for political economy of development
+  \end{itemize}
+  \vspace{0.3cm}
+  \item The process is deductive, developing "thick" narratives as "guided" by rational-choice like argument (as some sort of empirical tests)
+  \vspace{0.3cm}
+  \item Inspires the EITM (empirical implications of theoretical models) school in the United States
+  \vspace{0.3cm}
+  \item Check out examples in the book for demonstration
+\end{itemize}
+
+# Critiques: A case of "excessive" ambition (Elster 2000)
+
+\begin{itemize}
+  \item Too ambitous -- is rational choice theory a "universal" theory? Theory- or problem-driven (Green and Shapiro 1994)?
+  \vspace{0.3cm}
+  \item The assumption for "rational" actors is too much, while rational choice is able to accommodate non-material or non-selfish interests
+  \vspace{0.3cm}
+  \item While the model is based on "individuals," aggregation of preferences may not be that straightforward (e.g., Arrow's impossibility theorem)
+  \vspace{0.3cm}
+  \item How about "beliefs" or "intentions?" And uncertainty, after all? The provided explanation is often ad hoc and unrealistic
+\end{itemize}
+
 ---
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
@@ -299,6 +330,10 @@ knitr::include_graphics("Figs/eitm.pdf")
 \begin{center}
 \url{https://eitminstitute.org/}
 \end{center}
+
+# Exercise
+
+What is the issue you'd like to deal with in your analytical essay? Share with your group members -- do you find the approach of "analytical narratives" useful, even with all the caveats associated with the rational choice framework?
 
 ---
 
