@@ -100,7 +100,7 @@ knitr::include_graphics("Figs/guest.pdf")
 ---
 
 \begin{center}
-\textbf{Lecture 7: Rational choice}
+\textbf{Lecture: Rational choice}
 \end{center}
 \vspace{0.7cm}
 ```{r echo=FALSE, out.width="70%", fig.align="center"}
@@ -312,7 +312,7 @@ knitr::include_graphics("Figs/analytic_people.pdf")
 # Critiques: A case of "excessive" ambition (Elster 2000)
 
 \begin{itemize}
-  \item Too ambitous -- is rational choice theory a "universal" theory? Theory- or problem-driven (Green and Shapiro 1994)?
+  \item Too ambitious -- is rational choice theory a "universal" theory? Theory- or problem-driven (Green and Shapiro 1994)?
   \vspace{0.3cm}
   \item The assumption for "rational" actors is too much, while rational choice is able to accommodate non-material or non-selfish interests
   \vspace{0.3cm}
