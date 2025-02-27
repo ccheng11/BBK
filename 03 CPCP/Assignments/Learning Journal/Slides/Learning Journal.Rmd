@@ -29,7 +29,7 @@ fontsize: 10pt
     \vspace{0.2cm}
     \item Read the article and write an essay to answer two questions, using up to \textbf{1,000 words} (max)
     \vspace{0.2cm}
-    \item Submit your work by \textbf{Midday, 7 April 2024}
+    \item Submit your work by \textbf{Midday, 7 April 2025}
   \end{itemize}
   \vspace{0.3cm}
   \item No external references are required or should be used
