@@ -208,11 +208,10 @@ Survey data shows that Chinese local congressmen and women view themselves and a
   \endcol
 \endcols
 
----
+# "Returns to Office in a Rubber Stamp Parliament" (Truex 2014)
 
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/party_elite.pdf")
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/truex_res.pdf")
 ```
 
 ---
@@ -226,7 +225,21 @@ knitr::include_graphics("Figs/party_join.pdf")
 
 \vspace{0.3cm}
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/party_elite.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/hanzhang_both.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/liu_res.pdf")
 ```
 
 # "Social Policy in Developing Countries" (Mares and Carnes 2009)
