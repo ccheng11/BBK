@@ -67,10 +67,11 @@ knitr::include_graphics("Figs/newsletters.pdf")
 ```
 \vspace{0.6cm}
 \begin{itemize}
-  \item \url{https://www.neican.org/}
-  \item \url{https://www.prcleader.org/}
-  \item \url{https://www.chinafile.com/}
-  \item \url{https://www.pekingnology.com/}
+  \item \url{https://www.neican.org/} (Australia-based China watcher)
+  \item \url{https://www.prcleader.org/} (US-based scholars of Chinese politics)
+  \item \url{https://www.chinafile.com/} (published by Asia Society)
+  \item \url{https://www.pekingnology.com/} (Former Xinhua employee)
+  \item \url{https://madeinchinajournal.com/} (oversea China scholars)
 \end{itemize}
 
 ---
