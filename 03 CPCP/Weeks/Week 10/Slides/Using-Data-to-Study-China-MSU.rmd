@@ -1,0 +1,503 @@
+---
+title: |
+  |
+  |
+  | Using Numbers to Study Contemporary China
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+  | (Birkbeck, University of London)
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Using numbers to study China 
+
+\begincols
+  \begincol{.4\textwidth}
+    \vspace{0.4cm}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{Figs/book_crop}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \hspace{0.3cm}
+  \begin{itemize}
+    \item Why "numbers" matter?
+    \vspace{0.7cm}
+    \item Where "data" comes from?
+    \vspace{0.7cm}
+    \item How should we work with data?
+  \end{itemize}
+  \endcol
+\endcols
+
+# Why numbers matter?
+
+\begin{itemize}
+\small
+  \item The field of China studies has changed significantly as a result of \textbf{data availability} in digital forms and \textbf{methodological advances} 
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Quant techniques are essential to \textbf{establish patterns} for theory building and policy impact evaluation
+    \item Using numbers also encourage us to rethink the purpose of China studies -- area studies or comparative politics?
+    \item The use of computational and quantitative data/methods by no means undermine the importance of traditional approaches -- \textbf{multi-method/data triangulation} is now the norm
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Changing \textbf{geopolitical environment} also prompts the computational or even quantitative turn in the study of contemporary China
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="35%", fig.align="center"}
+knitr::include_graphics("Figs/book_crop.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\textbf{Manion, Melanie (Duke), Kenneth Lieberthal (Michigan), Mary E. Gallagher (Michigan), and Allen Carlson (Cornell). 2010. \textit{Contemporary Chinese Politics: New Sources, Methods, and Field Strategies}. New York, NY: Cambridge University Press.}
+\end{center}
+
+# Where "data" comes from
+
+\begin{itemize}
+  \item Surveys, such as
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Chinese General Social Survey (CGSS) -- Prof Xiaogang Wu (NYU Shanghai)
+    \item China Family Panel Studies (CFPS) -- Prof Yu XIE (Princeton)
+    \item Asianbarometer or World Values Survey (with caveats)
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Admin data, including socioeconomic surveys (e.g., statistical yearbooks 统计年鉴) and population census
+  \vspace{0.2cm}
+  \item Digital and "big" data, such as
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Social media posts (e.g., Weibo)
+    \item Search engine (e.g., Baidu Index) -- comparable to Google Trends
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/pkuverse_crop.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\textbf{\url{https://opendata.pku.edu.cn/}}
+\end{center}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/pkulaw_crop.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\textbf{\url{https://www.pkulaw.net/}}
+\end{center}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/cdo_crop.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\textbf{\url{https://www.china-data-online.com/}}
+\end{center}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/baidu_crop.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\textbf{\url{https://index.baidu.com/}}
+\end{center}
+
+# Qualitative materials for empirical triangulation
+
+\begin{itemize}
+  \item Gazetteers (通志)
+  \vspace{0.2cm}
+  \item Yearbooks (年鉴), published yearly by various Party departments and government offices 
+  \vspace{0.2cm}
+  \item Culture and history materials (文史资料), published by the Chinese people's consultative conferences (政协)
+  \vspace{0.2cm}
+  \item Government work reports (政府工作报告), published by the people's governments
+  \vspace{0.2cm}
+  \item ... and so on so forth (e.g., archived historical materials compiled by the government or researchers)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/truex_cover.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/truex_table.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/truex_res.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/lu_cover.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/lu_fig1.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/lu_fig2.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/lu_res.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/molly_cover.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/molly_res.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/molly_counter.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/yan_cover.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/yan_table.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/yan_res.pdf")
+```
+
+
+
+# Work with data
+
+\begin{itemize}
+  \item Training for different \textbf{research methods}
+  \vspace{1cm}
+  \item A grasp of potential \textbf{data sources}
+  \vspace{1cm}
+  \item Solid and deep \textbf{field experiences} and/or \textbf{subject knowledge}
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Training for different \textbf{research methods}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Qualitative: Case study (Bayesian and machine learning), ethnography and (elite) interviews
+    \item Quantitative: Econometrics and regression (frequentist and Bayesian), experiments and causal inference
+    \item Computational: Text-as-data, social network analysis, geographic data science and ChatGPT-assisted research
+  \end{itemize}
+  \vspace{0.6cm}
+  \item A grasp of potential \textbf{data sources}
+  \vspace{0.6cm}
+  \item Solid and deep \textbf{field experiences} and/or \textbf{subject knowledge}
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Training for different \textbf{research methods}
+  \vspace{0.6cm}
+  \item A grasp of potential \textbf{data sources}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Databases
+    \item Libraries and archives
+    \item Survey firms and research centres
+    \item API and web scraping (i.e., coding and programming)
+    \item Replication packs
+  \end{itemize}
+  \vspace{0.6cm}
+  \item Solid and deep \textbf{field experiences} and/or \textbf{subject knowledge}
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Training for different \textbf{research methods}
+  \vspace{1cm}
+  \item A grasp of potential \textbf{data sources}
+  \vspace{1cm}
+  \item Solid and deep \textbf{field experiences} (e.g., politics of data generation and release) and/or \textbf{subject knowledge} (e.g., political selection and government finances)
+\end{itemize}
+
+# Data generation process is a political question
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/books.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/economist.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\tiny
+\url{https://www.economist.com/graphic-detail/2022/09/29/a-study-of-lights-at-night-suggests-dictators-lie-about-economic-growth}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/liu_cover.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/Examples/hou_cover.pdf")
+```
+
+# Past and current research
+
+\begin{itemize}
+  \item Governance and development in multiethnic China
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Rethinking the politics of ethnic local autonomy (book project)
+    \item Poverty alleviation and local state-building in peripheral provinces (\textit{JJPS} 2021)
+    \item Ethnic empowerment and environmental governance
+    \item Dualilty of ethnic descriptive representation
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Using AI tools to (re)mapping the information network of political elites
+  \vspace{0.2cm}
+  \item Using court records to study administrative litigation, with \textbf{Haibo He} (Tsinghua) and \textbf{Chao Ma} (UIBE)
+  \vspace{0.2cm}
+  \item Multilevel agenda setting in times of crisis: A text-as-data approach, with \textbf{Tao Lin} (University of Washington)
+\end{itemize}
+
+# Concluding remarks
+
+\begin{itemize}
+  \item Find out \textbf{who you are} and \textbf{what you want to be and do} -- your decision may depend on where you are (or going back to history)
+  \vspace{0.6cm}
+  \item Curate the skills you need -- be \textbf{selectively thorough}
+  \vspace{0.6cm}
+  \item Find those who can support and collaborate with you -- engage in \textbf{interdisciplinary knowledge co-production}
+  \vspace{0.6cm}
+  \item Read broadly -- \textbf{go beyond political science and (mainland) China} to gain inspiration and a broader comparative perspective
+\end{itemize}
+
+---
+
+\vspace{0.7cm}
+Thank you!\
+\vspace{0.7cm}
+\texttt{c.cheng@bbk.ac.uk}
+
+# Rethinking the politics of ethnic local autonomy
+
+\begin{itemize}
+  \item Why do the Communist Party of China grant \textbf{ethnic local autonomy}?
+  \vspace{0.5cm}
+  \item When and where will the Center designate \textbf{ethnic autonomous territories} (EATs)?
+  \vspace{0.5cm}
+  \item How can local (policy/administrative) decentralization contribute to nation-state building?
+\end{itemize}
+
+# Rethinking the politics of ethnic local autonomy
+
+\begincols
+\begincol{.43\textwidth}
+  \begin{small}
+  \begin{itemize}
+  \item \textbf{Archival research} in the US, Hong Kong and China
+  \vspace{0.35cm}
+  \item \textbf{Elite interviews}: Conversations with Han and non-Han cadres at the central and local levels across different provinces
+  \vspace{0.35cm}
+  \item \textbf{Process-tracing and QCA}: Structured process tracing the designation of ethnic autonomous prefectures
+  \end{itemize}
+  \end{small}
+  \endcol
+  \begincol{.5\textwidth}
+  \vspace{0.5cm}
+  \begin{figure}
+  \centering
+  \includegraphics[scale=0.43]{Figs/sites_6}
+  \end{figure}
+  \endcol
+\endcols
+
+# Rethinking the politics of ethnic local autonomy
+
+\begin{itemize}
+  \item \textbf{Supervised machine learning} and \textbf{social network analysis}: Capturing the \textit{connectedness} and \textit{network structure} among/between central and local cadres based on an original biographical dataset of Chinese political elites (1949-2003)
+  \begin{itemize}
+    \item Between the pair of cadres, I create the indices of \textbf{connectedness} based on their \textbf{biographical similarity}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.52]{Figs/cpen}
+    \end{figure}
+    \item The same connectedness measure can be used to construct the information network of Politburo members and measure the degree of \textbf{central leadership fragmentation} by \textbf{community detection}
+  \end{itemize}
+  \vspace{0.3cm}
+  \item \textbf{Multivariate regression}: Modeling the number of active EATs as a function of different network structural indicators
+\end{itemize}
+
+# Rethinking the politics of ethnic local autonomy
+
+\begin{itemize}
+  \item Ethnic local autonomy acts as an \textbf{institution of agent control}
+\end{itemize}
+\vspace{0.2cm}
+\begin{figure}
+  \center
+  \includegraphics[scale=0.5]{Figs/findings}
+\end{figure}
+
+# Rethinking the politics of ethnic local autonomy
+
+\begin{itemize}
+  \item EATs act as \textbf{enclaves} that constrain the power of provincial elites
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item Sub-provincial EATs are \textbf{more} likely to pass and revise autonomous regulations when the provincial elites are potentially defiant
+    \vspace{0.2cm}
+    \item Ruling non-Han cadres in sub-provincial EATs are \textbf{less} likely to have worked at the provincial level prior to their appointments
+  \end{itemize}
+\end{itemize}
+
+# Rethinking the politics of ethnic local autonomy
+
+\begin{itemize}
+  \item Going \textbf{cross-national}: Post-WWII authoritarian regimes are more likely to introduce regional autonomy to ethnic minorities when their ruling power is contested within the inner circle
+  \vspace{0.6cm}
+  \item Going back to \textbf{history}: Post-civil war \textit{decentralization} and \textit{state power consolidation} in imperial and Republican China
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item Western Han dynasty (202 BC–220 AD): Kingdoms and marquis states
+    \item The Kuomintang (KMT) regime (1928-1949 AD): Countering recalcitrant provincial warlords through the county-level self-government movement
+  \end{itemize}
+\end{itemize}
+
+# (Re)mapping the information network of political elites
+
+\begin{itemize}
+  \item The focus on "high-politics" in the literature on Communist regimes: The absence of independent, strong formal institutions has pushed researchers have to focus on prominent political elites in authoritarian regimes
+  \vspace{0.3cm}
+  \item \textbf{Factionalism} is one of the most researched topics in the Chinese politics literature (e.g., Nathan 1973; Tsou 1976; Pye 1981; Dittmer 2002; Huang 2006; Bo 2007; Shih et al 2012)
+  \vspace{0.3cm}
+  \item The power struggles and cooperation between different factions or "informal" groups have been considered as the main driving forces for policy and political changes in the country
+\end{itemize}
+
+# (Re)mapping the information network of political elites
+
+\begin{itemize}
+  \item Create the timeline of key life events of each cadre using public biographic information
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Demographic characteristics (e.g., birth year and provincial origin)
+    \item Educational background (e.g., colleges and universities)
+    \item Political career (e.g., involvement in key events between 1921 and 1949; Party and government posts after 1949)
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Create the (decomposed) \textbf{\textit{attribute vector}} of a cadre based on her/her timeline and measure the distance/similarity between a pair of attribute vectors in the multidimensional space
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Time: Are the cadres of interest both alive in a given year?
+    \item Location: Are they both at the same location in a given year?
+    \item Activity: Are they working in the same department/unit in a given year?
+  \end{itemize}
+\end{itemize}
+
+# (Re)mapping the information network of political elites
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.26]{Figs/selection}
+\end{figure}
+\vspace{0.3cm}
+\begin{itemize}
+  \item Use \textbf{variable selection} (elastic net regularization and other methods) to identify the key biographical variables in CC of each year when measuring biographical similarity
+  \vspace{0.1cm}
+  \item Use \textbf{community detection} to assess the degree to which a Politburo network can be divided
+\end{itemize}
+
+# Using court records to study admin litigation
+
+The release of \textbf{China Judgements Online} (\url{https://wenshu.court.gov.cn/}) made a crucial breakthrough in the empirical legal studies in China (Ma, Yu and He 2016; Liebman et al 2020).
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="65%", fig.align="center"}
+knitr::include_graphics("Figs/wenshu_crop.pdf")
+```
+
+# Using court records to study admin litigation
+
+\begin{itemize}
+  \item \textbf{Question}: Are the local courts more likely stand with the citizens following the reforms?
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item Railway transport courts (\textit{China Review} 2022)
+    \item Case registration system
+    \item Elevated and off-site trials
+  \end{itemize}
+  \vspace{0.6cm}
+  \item \textbf{Extensions}
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item Who do the citizens go to the courts? A national \textbf{conjoint} experiment
+    \item Local dynamics of judicial decision-making: A \textbf{text-as-data} approach
+  \end{itemize}
+\end{itemize}
