@@ -103,17 +103,6 @@ knitr::include_graphics("Figs/pkuverse_crop.pdf")
 
 \vspace{0.4cm}
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/pkulaw_crop.pdf")
-```
-\vspace{0.3cm}
-\begin{center}
-\textbf{\url{https://www.pkulaw.net/}}
-\end{center}
-
----
-
-\vspace{0.4cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/cdo_crop.pdf")
 ```
 \vspace{0.3cm}

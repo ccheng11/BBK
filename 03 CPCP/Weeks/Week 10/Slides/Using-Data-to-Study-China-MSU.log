@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.4)  28 MAR 2025 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.4)  28 MAR 2025 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1094,8 +1094,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 File: UTF8.enc 2021/10/16 4.8.5
 ) (C:\Users\polar\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
-)
-No file Using-Data-to-Study-China-MSU.aux.
+) (Using-Data-to-Study-China-MSU.aux)
 \openout1 = `Using-Data-to-Study-China-MSU.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
@@ -1337,7 +1336,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-No file Using-Data-to-Study-China-MSU.nav.
+(Using-Data-to-Study-China-MSU.nav)
 <bbk200.pdf, id=12, 316.05186pt x 126.2058pt>
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
@@ -1481,86 +1480,511 @@ Package pdftex.def Info: bbk200.pdf  used on input line 224.
 
  <./Figs/pkuverse_crop.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./Figs/pkulaw_crop.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-<Figs/pkulaw_crop.pdf, id=81, 840.82233pt x 555.61882pt>
-File: Figs/pkulaw_crop.pdf Graphic file (type pdf)
-<use Figs/pkulaw_crop.pdf>
-Package pdftex.def Info: Figs/pkulaw_crop.pdf  used on input line 234.
-(pdftex.def)             Requested size: 276.559pt x 182.75284pt.
+pdfTeX warning: pdflatex.exe (file ./Figs/cdo_crop.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Figs/cdo_crop.pdf, id=81, 840.82233pt x 410.90413pt>
+File: Figs/cdo_crop.pdf Graphic file (type pdf)
+<use Figs/cdo_crop.pdf>
+Package pdftex.def Info: Figs/cdo_crop.pdf  used on input line 234.
+(pdftex.def)             Requested size: 276.559pt x 135.15361pt.
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
 Package pdftex.def Info: bbk200.pdf  used on input line 234.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [7
 
- <./Figs/pkulaw_crop.pdf>]
+ <./Figs/cdo_crop.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./Figs/cdo_crop.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<Figs/cdo_crop.pdf, id=93, 840.82233pt x 410.90413pt>
-File: Figs/cdo_crop.pdf Graphic file (type pdf)
-<use Figs/cdo_crop.pdf>
-Package pdftex.def Info: Figs/cdo_crop.pdf  used on input line 244.
-(pdftex.def)             Requested size: 276.559pt x 135.15361pt.
+pdfTeX warning: pdflatex.exe (file ./Figs/baidu_crop.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<Figs/baidu_crop.pdf, id=93, 808.07597pt x 410.90413pt>
+File: Figs/baidu_crop.pdf Graphic file (type pdf)
+<use Figs/baidu_crop.pdf>
+Package pdftex.def Info: Figs/baidu_crop.pdf  used on input line 244.
+(pdftex.def)             Requested size: 276.559pt x 140.62723pt.
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
 Package pdftex.def Info: bbk200.pdf  used on input line 244.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [8
 
- <./Figs/cdo_crop.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./Figs/baidu_crop.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<Figs/baidu_crop.pdf, id=104, 808.07597pt x 410.90413pt>
-File: Figs/baidu_crop.pdf Graphic file (type pdf)
-<use Figs/baidu_crop.pdf>
-Package pdftex.def Info: Figs/baidu_crop.pdf  used on input line 254.
-(pdftex.def)             Requested size: 276.559pt x 140.62723pt.
-File: bbk200.pdf Graphic file (type pdf)
-<use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 254.
-(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
-[9
-
  <./Figs/baidu_crop.pdf>]
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 269.
+Package pdftex.def Info: bbk200.pdf  used on input line 259.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
-[10
+[9
 
 ]
 
 pdfTeX warning: pdflatex.exe (file ./Figs/Examples/truex_cover.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figs/Examples/truex_cover.pdf, id=139, 492.81105pt x 344.95976pt>
+<Figs/Examples/truex_cover.pdf, id=128, 492.81105pt x 344.95976pt>
 File: Figs/Examples/truex_cover.pdf Graphic file (type pdf)
 <use Figs/Examples/truex_cover.pdf>
-Package pdftex.def Info: Figs/Examples/truex_cover.pdf  used on input line 273.
+Package pdftex.def Info: Figs/Examples/truex_cover.pdf  used on input line 263.
 
 (pdftex.def)             Requested size: 276.559pt x 193.59723pt.
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 273.
+Package pdftex.def Info: bbk200.pdf  used on input line 263.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
-[11
+[10
 
  <./Figs/Examples/truex_cover.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Figs/Examples/truex_table.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figs/Examples/truex_table.pdf, id=147, 493.56465pt x 168.38208pt>
+<Figs/Examples/truex_table.pdf, id=136, 493.56465pt x 168.38208pt>
 File: Figs/Examples/truex_table.pdf Graphic file (type pdf)
 <use Figs/Examples/truex_table.pdf>
-Package pdftex.def Info: Figs/Examples/truex_table.pdf  used on input line 277.
+Package pdftex.def Info: Figs/Examples/truex_table.pdf  used on input line 267.
 
 (pdftex.def)             Requested size: 276.559pt x 94.34726pt.
 File: bbk200.pdf Graphic file (type pdf)
 <use bbk200.pdf>
-Package pdftex.def Info: bbk200.pdf  used on input line 277.
+Package pdftex.def Info: bbk200.pdf  used on input line 267.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[11
+
+ <./Figs/Examples/truex_table.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/truex_res.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/truex_res.pdf, id=143, 488.38058pt x 393.45796pt>
+File: Figs/Examples/truex_res.pdf Graphic file (type pdf)
+<use Figs/Examples/truex_res.pdf>
+Package pdftex.def Info: Figs/Examples/truex_res.pdf  used on input line 271.
+(pdftex.def)             Requested size: 276.559pt x 222.80246pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 271.
 (pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
 [12
 
- <./Figs
+ <./Figs/Examples/truex_res.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/lu_cover.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/lu_cover.pdf, id=151, 494.40842pt x 243.70146pt>
+File: Figs/Examples/lu_cover.pdf Graphic file (type pdf)
+<use Figs/Examples/lu_cover.pdf>
+Package pdftex.def Info: Figs/Examples/lu_cover.pdf  used on input line 275.
+(pdftex.def)             Requested size: 276.559pt x 136.31943pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 275.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[13
+
+ <./Figs/Examples/lu_cover.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/lu_fig1.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/lu_fig1.pdf, id=159, 493.65549pt x 311.81996pt>
+File: Figs/Examples/lu_fig1.pdf Graphic file (type pdf)
+<use Figs/Examples/lu_fig1.pdf>
+Package pdftex.def Info: Figs/Examples/lu_fig1.pdf  used on input line 279.
+(pdftex.def)             Requested size: 276.559pt x 174.69887pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 279.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[14
+
+ <./Figs/Examples/lu_fig1.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/lu_fig2.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/lu_fig2.pdf, id=166, 494.409pt x 332.15594pt>
+File: Figs/Examples/lu_fig2.pdf Graphic file (type pdf)
+<use Figs/Examples/lu_fig2.pdf>
+Package pdftex.def Info: Figs/Examples/lu_fig2.pdf  used on input line 283.
+(pdftex.def)             Requested size: 276.559pt x 185.79825pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 283.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[15
+
+ <./Figs/Examples/lu_fig2.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/lu_res.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/lu_res.pdf, id=178, 493.6552pt x 381.86665pt>
+File: Figs/Examples/lu_res.pdf Graphic file (type pdf)
+<use Figs/Examples/lu_res.pdf>
+Package pdftex.def Info: Figs/Examples/lu_res.pdf  used on input line 287.
+(pdftex.def)             Requested size: 276.559pt x 213.94292pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 287.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[16
+
+ <./Figs/Examples/lu_res.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/molly_cover.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/molly_cover.pdf, id=185, 490.55098pt x 270.81676pt>
+File: Figs/Examples/molly_cover.pdf Graphic file (type pdf)
+<use Figs/Examples/molly_cover.pdf>
+Package pdftex.def Info: Figs/Examples/molly_cover.pdf  used on input line 291.
+
+(pdftex.def)             Requested size: 276.559pt x 152.68115pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 291.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[17
+
+ <./Figs/Examples/molly_cover.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/molly_res.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/molly_res.pdf, id=192, 490.55058pt x 236.50156pt>
+File: Figs/Examples/molly_res.pdf Graphic file (type pdf)
+<use Figs/Examples/molly_res.pdf>
+Package pdftex.def Info: Figs/Examples/molly_res.pdf  used on input line 295.
+(pdftex.def)             Requested size: 276.559pt x 133.33493pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 295.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[18
+
+ <./Figs/Examples/molly_res.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/molly_counter.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/molly_counter.pdf, id=201, 800.68562pt x 457.94458pt>
+File: Figs/Examples/molly_counter.pdf Graphic file (type pdf)
+<use Figs/Examples/molly_counter.pdf>
+Package pdftex.def Info: Figs/Examples/molly_counter.pdf  used on input line 29
+9.
+(pdftex.def)             Requested size: 276.559pt x 158.1797pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 299.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[19
+
+ <./Figs/Examples/molly_counter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/yan_cover.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/yan_cover.pdf, id=210, 434.12558pt x 426.72623pt>
+File: Figs/Examples/yan_cover.pdf Graphic file (type pdf)
+<use Figs/Examples/yan_cover.pdf>
+Package pdftex.def Info: Figs/Examples/yan_cover.pdf  used on input line 303.
+(pdftex.def)             Requested size: 245.83282pt x 241.64772pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 303.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[20
+
+ <./Figs/Examples/yan_cover.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/yan_table.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/yan_table.pdf, id=217, 465.77403pt x 427.47905pt>
+File: Figs/Examples/yan_table.pdf Graphic file (type pdf)
+<use Figs/Examples/yan_table.pdf>
+Package pdftex.def Info: Figs/Examples/yan_table.pdf  used on input line 307.
+(pdftex.def)             Requested size: 276.559pt x 253.8281pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 307.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[21
+
+ <./Figs/Examples/yan_table.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/yan_res.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/yan_res.pdf, id=224, 432.61855pt x 278.34889pt>
+File: Figs/Examples/yan_res.pdf Graphic file (type pdf)
+<use Figs/Examples/yan_res.pdf>
+Package pdftex.def Info: Figs/Examples/yan_res.pdf  used on input line 311.
+(pdftex.def)             Requested size: 276.559pt x 177.9473pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 311.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[22
+
+ <./Figs/Examples/yan_res.pdf>]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 322.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[23
+
+]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 338.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[24
+
+]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 356.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[25
+
+]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 366.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[26
+
+]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/books.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+<Figs/books.pdf, id=254, 670.2899pt x 307.1475pt>
+File: Figs/books.pdf Graphic file (type pdf)
+<use Figs/books.pdf>
+Package pdftex.def Info: Figs/books.pdf  used on input line 371.
+(pdftex.def)             Requested size: 307.28987pt x 140.80682pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 371.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[27
+
+ <./Figs/books.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/economist.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<Figs/economist.pdf, id=273, 649.33662pt x 351.69292pt>
+File: Figs/economist.pdf Graphic file (type pdf)
+<use Figs/economist.pdf>
+Package pdftex.def Info: Figs/economist.pdf  used on input line 380.
+(pdftex.def)             Requested size: 215.10196pt x 116.50443pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 380.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[28
+
+ <./Figs/economist.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/liu_cover.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<Figs/liu_cover.pdf, id=284, 430.26767pt x 523.46567pt>
+File: Figs/liu_cover.pdf Graphic file (type pdf)
+<use Figs/liu_cover.pdf>
+Package pdftex.def Info: Figs/liu_cover.pdf  used on input line 384.
+(pdftex.def)             Requested size: 184.3758pt x 224.31105pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 384.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[29
+
+ <./Figs/liu_cover.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/Examples/hou_cover.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Figs/Examples/hou_cover.pdf, id=291, 406.1546pt x 454.59436pt>
+File: Figs/Examples/hou_cover.pdf Graphic file (type pdf)
+<use Figs/Examples/hou_cover.pdf>
+Package pdftex.def Info: Figs/Examples/hou_cover.pdf  used on input line 388.
+(pdftex.def)             Requested size: 215.10196pt x 240.76044pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 388.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[30
+
+ <./Figs/Examples/hou_cover.pdf>]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 408.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[31
+
+]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 421.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[32
+
+]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+28.
+(C:\Users\polar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 428.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[33
+
+]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 439.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[34
+
+]
+<Figs/sites_6.pdf, id=325, 377.58577pt x 447.1906pt>
+File: Figs/sites_6.pdf Graphic file (type pdf)
+<use Figs/sites_6.pdf>
+Package pdftex.def Info: Figs/sites_6.pdf  used on input line 463.
+(pdftex.def)             Requested size: 162.3587pt x 192.28821pt.
+
+Overfull \hbox (8.71378pt too wide) in paragraph at lines 463--463
+ [] 
+ []
+
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 463.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[35
+
+ <./Figs/sites_6.pdf>]
+<Figs/cpen.pdf, id=354, 506.75688pt x 59.73637pt>
+File: Figs/cpen.pdf Graphic file (type pdf)
+<use Figs/cpen.pdf>
+Package pdftex.def Info: Figs/cpen.pdf  used on input line 480.
+(pdftex.def)             Requested size: 263.51509pt x 31.06308pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 480.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[36
+
+ <./Figs/cpen.pdf>]
+<Figs/findings.pdf, id=370, 438.1196pt x 220.56203pt>
+File: Figs/findings.pdf Graphic file (type pdf)
+<use Figs/findings.pdf>
+Package pdftex.def Info: Figs/findings.pdf  used on input line 492.
+(pdftex.def)             Requested size: 219.05925pt x 110.28073pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 492.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[37
+
+ <./Figs/findings.pdf>]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 505.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[38
+
+]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 519.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[39
+
+]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 530.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[40
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 551.
+
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 551.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[41
+
+]
+<Figs/selection.pdf, id=426, 730.1763pt x 427.81097pt>
+File: Figs/selection.pdf Graphic file (type pdf)
+<use Figs/selection.pdf>
+Package pdftex.def Info: Figs/selection.pdf  used on input line 565.
+(pdftex.def)             Requested size: 189.84135pt x 111.22823pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 565.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[42
+
+ <./Figs/selection.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Figs/wenshu_crop.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Figs/wenshu_crop.pdf, id=443, 784.83717pt x 586.2512pt>
+File: Figs/wenshu_crop.pdf Graphic file (type pdf)
+<use Figs/wenshu_crop.pdf>
+Package pdftex.def Info: Figs/wenshu_crop.pdf  used on input line 575.
+(pdftex.def)             Requested size: 199.73653pt x 149.1924pt.
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 575.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[43
+
+ <./Figs/wenshu_crop.pdf>]
+File: bbk200.pdf Graphic file (type pdf)
+<use bbk200.pdf>
+Package pdftex.def Info: bbk200.pdf  used on input line 595.
+(pdftex.def)             Requested size: 63.20924pt x 25.2407pt.
+[44
+
+]
+\tf@nav=\write5
+\openout5 = `Using-Data-to-Study-China-MSU.nav'.
+
+\tf@toc=\write6
+\openout6 = `Using-Data-to-Study-China-MSU.toc'.
+
+\tf@snm=\write7
+\openout7 = `Using-Data-to-Study-China-MSU.snm'.
+
+(Using-Data-to-Study-China-MSU.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2022/07/14>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 28172 strings out of 475247
+ 548922 string characters out of 5757792
+ 1927801 words of memory out of 5000000
+ 48814 multiletter control sequences out of 15000+600000
+ 637820 words of font info for 158 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,15n,123p,1028b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/s
+imhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS
+/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:
+/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei
+.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/Users/polar/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/polar/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/polar/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/polar/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/polar/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Users/polar/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/pola
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/pol
+ar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Users/pol
+ar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/pola
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/pola
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Using-Data-to-Study-China-MSU.pdf (44 pages, 12266845 bytes).
+
+PDF statistics:
+ 573 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 45286 words of extra memory for PDF output out of 51595 (max. 10000000)
+
