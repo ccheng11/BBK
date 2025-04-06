@@ -48,8 +48,8 @@ fontsize: 10pt
   \vspace{0.1cm}
   \begin{itemize}
     \item Quant techniques are essential to \textbf{establish patterns} for theory building and policy impact evaluation
-    \item Using numbers also encourage us to rethink the purpose of China studies -- area studies or comparative politics?
-    \item The use of computational and quantitative data/methods by no means undermine the importance of traditional approaches -- \textbf{multi-method/data triangulation} is now the norm
+    \item Using numbers also encourages us to rethink the purpose of China studies -- area studies or comparative politics?
+    \item Use of computational and quantitative data/methods by no means undermine the importance of traditional approaches -- \textbf{multi-method/data triangulation} is now the norm
   \end{itemize}
   \vspace{0.3cm}
   \item Changing \textbf{geopolitical environment} also prompts the computational or even quantitative turn in the study of contemporary China
