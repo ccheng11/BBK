@@ -23,7 +23,7 @@ fontsize: 10pt
 	\item \textbf{About Masterclass}
 	\vspace{0.1cm}
 	\begin{itemize}
-		\item History and learning objectives
+		\item History and objectives
 		\item Weekly syllabus
 		\item Assessment and requirements
 		\item Module contact
