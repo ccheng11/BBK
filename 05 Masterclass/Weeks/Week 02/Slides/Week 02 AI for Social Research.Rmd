@@ -1,0 +1,128 @@
+---
+title: |
+  |
+  |
+  | Masterclass in Social Research
+  |
+  |
+author: |
+  | AI for Social Research: Overview
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# The mysterious case of "AI for Social Research"
+
+TBD
+
+# History and objectives
+
+\begin{itemize}
+\small
+	\item The \textbf{Masterclass in Social Research} is the final compulsory module for \textbf{MSc Social Research} students
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Masterclass was created at the beginning to provide SR students with a variety of methods training
+		\item While serving as a compulsory module for MSc SR students, Masterclass is also open to PGR students
+		\item The topics covered may change from year to year based on staff availability and new developments in social research
+	\end{itemize}
+	\vspace{0.2cm}
+	\item Following recent program restructuring, Masterclass now serves two main objectives
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Produce a new group of competent social researchers with different career and academic objectives
+		\item Showcase cutting-edge social research methods while helping students reflect on some of the most common ones
+	\end{itemize}
+\end{itemize}
+
+# Module organization
+
+\begin{itemize}
+\small
+	\item "Master" lecture series (6-7:30pm)
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Each week will feature a speaker who is an expert in the selected issue and method
+		\item The speakers will decide how they will deliver the lectures, with the use of different pre-sessional and/or in-class activities
+		\item \textbf{The lecture series is open to all taught and research postgraduate students and their participation will not be credited}
+	\end{itemize}
+	\vspace{0.2cm}
+	\item "Pieces-of-the-craft" workshops (7:40-9pm)
+	\begin{itemize}
+		\item Each week will focus on a social research "skill" and the workshop activities will help students complete the required assessment
+		\item Between Weeks 8-11, students will participate in the "dissertation fairs" where they share their research ideas and receive feedback
+		\item \textbf{The workshops are only open to students who are taking Masterclass for credits}
+	\end{itemize}
+	\vspace{0.1cm}
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/syllabus.pdf")
+```
+
+# Assessment (if you are taking Masterclass for credits)
+
+\begin{itemize}
+	\item \textbf{Two blog posts} (40\%): Write a blog post to summarize and reflect on \textbf{two of the lectures}; one lecture from Weeks 2-5 with the other one from Weeks 7-11
+	\vspace{0.2cm}
+	\item \textbf{A critical reflection paper} (60\%)
+	\begin{itemize}
+		\item Write a critical reflection paper (4,000 words max) to discuss how Masterclass helps with you research
+		\item Provide (1) a summary of your research project, (2) a discussion on how AI can help with your project and (3) a response to the questions/comments/critiques you receive during the presentation
+	\end{itemize}
+\end{itemize}
+
+# Role of the moderator (i.e., Chao-yo)
+
+\begin{itemize}
+	\item The moderator will join the lecture series to
+	\vspace{0.1cm}
+	\begin{itemize}
+	  \item Introduce the speaker
+	  \item Moderate the Q\&A or discussion, if necessary
+	\end{itemize}
+	\vspace{0.3cm}
+	\item The moderator will lead the workshops and provide feedback on your assignments 
+	\vspace{0.3cm}
+	\item The moderator is available to answer your questions
+	\vspace{0.1cm}
+	\begin{itemize}
+	  \item Students are encouraged to schedule 1:1 meetings during my office hours (Friday 3-5pm) or by appointment
+	  \item All meetings take place via Teams by default -- email if you'd like to meet in person
+	  \item Read the module handbook for details contact policy
+	\end{itemize}
+\end{itemize}
+
+# Knowing each other
+
+\begin{itemize}
+	\item Please share your name, course, and subject area (e.g., political science) with us
+	\vspace{0.5cm}
+	\item What are the methods you have learned or used previously?
+	\vspace{0.5cm}
+	\item What project are you working on at this moment?
+\end{itemize}
+
+# Recap: Investigating the social world as a vocation
+
+\begin{itemize}
+  \item As a social researcher, we aim to produce "valid" knowledge about the social world
+  \vspace{0.2cm}
+  \item The production of valid knowledge involves a series of careful thinking about ontology/epistemology, theory-building, and methodology (or the theory-empirics alignment)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Reveal nuances of the real world}: constructivism and interpretivism ; theory as approach; interpretation; qualitative; inductive/abductive
+    \item \textbf{Search for the "ultimate" truth}: positivism; theory as paradigm; explanation; quantitative; deductive
+  \end{itemize}
+  \vspace{0.2cm}
+  \item A new definition of "better" social research is emerging as boundaries across subject areas and research methods are constantly being contested and redefined
+\end{itemize}
