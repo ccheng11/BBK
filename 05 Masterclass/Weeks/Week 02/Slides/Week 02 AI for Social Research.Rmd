@@ -90,7 +90,7 @@ knitr::include_graphics("Figs/gain.pdf")
   \item Producing research applications (e.g. develop an outline for research proposal; coding and programming for specified tasks)
 \end{itemize}
 
-# What we can do with AIs: Scale, scope and speed
+# What social researchers can do with GenAI: Scale, scope and speed
 
 \begin{itemize}
   \item Explore human behaviour through "impersonation" (simulation) and human-machine interactions/comparisons -- AI agents and agent-based modeling (ABM)
