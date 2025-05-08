@@ -17,6 +17,146 @@ output:
 fontsize: 10pt
 ---
 
-# The mysterious case of "AI for Social Research"
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/chatgpt.pdf")
+```
 
-TBD
+---
+
+# Large language models: From classification to "generation"
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/llm_comp.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\url{https://artificialanalysis.ai/leaderboards/providers}
+\end{center}
+
+# AI and Social Sciences
+
+\begin{itemize}
+\small
+  \item Use AI to improve social sciences (see the next slide) or other practical uses such as in
+  \begin{itemize}
+    \item Education (for both teachers and students)
+    \item Newsroom
+    \item Healthcare and counseling
+    \item Crime control
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Broad societal impacts of and (potential) changes brought by AI, such as
+  \begin{itemize}
+    \item Misinformation and democratic backsliding
+    \item Group inequality and discrimination
+    \item Climate change and sustainable development
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Development, regulation and governance of AI -- geopolitics of LLMs (e.g., Deepseek)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/anthropic.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude}
+\end{center}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/gain.pdf")
+```
+\begin{center}
+\small
+\url{https://generative-ai-newsroom.com/}
+\end{center}
+
+# "How ChatGPT and Bing can help" (Hendriksen 2023)
+
+\begin{itemize}
+  \item Identifying and adjusting research ideas/questions and relevant literatures (e.g., what has been done in this area?)
+  \vspace{0.4cm}
+  \item Locating relevant co-authors and key researchers in the field (e.g. who has worked on this topic?)
+  \vspace{0.4cm}
+  \item Exposing ideas to simulated and targeted critical readers (e.g. how will my research be received)
+  \vspace{0.4cm}
+  \item Producing research applications (e.g. develop an outline for research proposal; coding and programming for specified tasks)
+\end{itemize}
+
+# What we can do with AIs: Scale, scope and speed
+
+\begin{itemize}
+  \item Explore human behaviour through "impersonation" (simulation) and human-machine interactions/comparisons -- AI agents and agent-based modeling (ABM)
+  \vspace{0.4cm}
+  \item Text annotation and (qualitative) grounded-theory coding -- interviews; natural language processing; discourse, content and thematic analysis (e.g., Geiecke and Jaravel 2024; Korinek 2023; Leek et al 2024)
+  \vspace{0.4cm}
+  \item Design, implement and replicate surveys, including experiments (see Bail 2024)
+  \vspace{0.4cm}
+  \item (Statistical) programming -- "vibe coding" (!?), more in Adv Topics in Quant Social Research
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/yale.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\url{https://www.youtube.com/watch?v=dBh_9pKOxd4&t=118s}
+\end{center}
+
+# Caveats
+
+\begin{itemize}
+  \item Human bias -- sure, but perhaps an opportunity to "reverse engineer" the (re)production of different biases?
+  \vspace{0.2cm}
+  \item Junk science and quality control -- domain-specific retrieval-augmented generation (RAG)?
+  \vspace{0.2cm}
+  \item Ethics, perhaps both as a problem and solution -- deception and simulation?
+  \vspace{0.2cm}
+  \item Transparency and replicability -- performance evaluation, prompt tweaking and model comparison?
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/ai_ethics.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\tiny
+\url{https://www.theatlantic.com/technology/archive/2025/05/reddit-ai-persuasion-experiment-ethics/682676/}
+\end{center}
+
+# Questions to consider
+
+\begin{itemize}
+  \item Now AI has become a possibility -- how might you incorporate AI into your research? How comfortable are you with using AI for research purposes? Why?
+  \vspace{0.7cm}
+  \item Bail (2024) listed a lot of promising research opportunities and questions, which one would like to explore further? What else?
+  \vspace{0.7cm}
+  \item In order to take advantage of AI, what might be the skills that you need to acquire? How much AI do you have to "know?" Perhaps apply the principle of "strategic ignorance" (Linsey McGoey 2019)?
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/ignore.pdf")
+```
+
+# Appendix: GenAI for plausibility checks
+
+\begin{itemize}
+  \item Without using ChatGPT and Bing, imagine how you can integrate AI into your research practice and workflows
+  \vspace{0.5cm}
+  \item Ask ChatGPT and Bing to see what they can do for your research. Are these suggestions at the risk of violating the College's policy on AI and academic integrity?
+  \vspace{0.5cm}
+  \item Ask ChatGPT and Bing in general what they can do for qualitative and/or quantitative (social) researchers
+\end{itemize}
