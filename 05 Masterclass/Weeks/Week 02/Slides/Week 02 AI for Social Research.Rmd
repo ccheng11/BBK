@@ -81,13 +81,13 @@ knitr::include_graphics("Figs/gain.pdf")
 # "How ChatGPT and Bing can help" (Hendriksen 2023)
 
 \begin{itemize}
-  \item Identifying and adjusting research ideas/questions and relevant literatures (e.g., what has been done in this area?)
+  \item Identifying and adjusting research ideas/questions and relevant literatures (e.g. "what has been done in this area?")
   \vspace{0.4cm}
-  \item Locating relevant co-authors and key researchers in the field (e.g. who has worked on this topic?)
+  \item Locating relevant co-authors and key researchers in the field (e.g. "who has worked on this topic?")
   \vspace{0.4cm}
-  \item Exposing ideas to simulated and targeted critical readers (e.g. how will my research be received)
+  \item Exposing ideas to simulated and targeted critical readers (e.g. "how will my research be received")
   \vspace{0.4cm}
-  \item Producing research applications (e.g. develop an outline for research proposal; coding and programming for specified tasks)
+  \item Producing research applications (e.g. "develop an outline for research proposal; coding and programming for specified tasks")
 \end{itemize}
 
 # What social researchers can do with GenAI: Scale, scope and speed
