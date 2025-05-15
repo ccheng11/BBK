@@ -18,7 +18,7 @@ fontsize: 10pt
 ---
 
 \vspace{0.3cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/pandora.pdf")
 ```
 
@@ -58,7 +58,7 @@ knitr::include_graphics("Figs/snake_mit.pdf")
 knitr::include_graphics("Figs/tasks.pdf")
 ```
 
----
+# When "computer-assisted" crime detection goes wrong
 
 \vspace{0.1cm}
 ```{r echo=FALSE, out.width="50%", fig.align="center"}
@@ -68,7 +68,7 @@ knitr::include_graphics("Figs/film02.pdf")
 # Machine learning: Supervised, unsupervised and reinforcement
 
 \begin{itemize}
-  \item Classification (or regression with regularization) -- spam emails
+  \item Classification (or regression with regularization) -- filtering spam emails
   \vspace{0.4cm}
   \item Pattern recognition (or clustering) -- facial recognition
   \vspace{0.4cm}
@@ -151,7 +151,7 @@ knitr::include_graphics("Figs/china.pdf")
 
 ---
 
-```{r echo=FALSE, out.width="77%", fig.align="center"}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/deepseek.pdf")
 ```
 
@@ -160,14 +160,13 @@ knitr::include_graphics("Figs/deepseek.pdf")
 \begin{itemize}
 \small
   \item \textbf{Step 1}: Ask AI to produce a brief definition of critical discourse analysis -- critically evaluate the response provided by AI
-  \vspace{0.1cm}
   \begin{itemize}
     \item What response do you get? Do you agree with it or not? Is it the same as what Margarita discussed last week?
     \item Can you try to engage with AI to "improve" the definition?
   \end{itemize}
-  \vspace{0.3cm}
-  \item \textbf{Step 2}: Upload the "Return to Work" letter and ask AI to carry out a critical discourse analysis based on the definition -- what do you get? 
-  \vspace{0.3cm}
+  \vspace{0.1cm}
+  \item \textbf{Step 2}: Upload the "Return to Work" letter and ask AI to carry out a critical discourse analysis based on the definition -- what do you get? What if you ask AI to incorporate the "critical disability framework?"
+  \vspace{0.1cm}
   \item \textbf{Questions to think about}
   \begin{itemize}
     \item Are you comfortable with what we have just done? Why not? What might be the caveat (Morgan 2023)?
@@ -204,13 +203,13 @@ knitr::include_graphics("Figs/lse.pdf")
 \begin{itemize}
   \item Combining the use of AI with other software packages for qualitative research (e.g., ATLAS.ti and MAXQDA)?
   \vspace{0.4cm}
-  \item "Strategic ignorance" is key -- the priority is to use the tool and treat LLM as a "black" box?
+  \item "Strategic ignorance" is key -- the priority is to use the tool and treat LLM as a "black" box (or not)?
   \vspace{0.4cm}
   \item End of "lone wolf" social researchers? Check out the \textbf{Turing Way}
   \vspace{0.4cm}
   \item "Only because we can does not mean we should" (from Jurassic Park) -- do you agree?
   \vspace{0.4cm}
-  \item Substitute versus empowerment?
+  \item Substitute versus empowerment? Think more carefully about the decision-making process in your research process
 \end{itemize}
 
 ---
@@ -222,4 +221,15 @@ knitr::include_graphics("Figs/turing.pdf")
 \begin{center}
 \scriptsize
 \url{https://book.the-turing-way.org/collaboration/collaboration}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/era_cover.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\tiny
+\url{https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/artificial-intelligence-ai-science_en}
 \end{center}
