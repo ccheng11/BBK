@@ -1,0 +1,21 @@
+Quant
+
+https://docs.anthropic.com/en/docs/claude-code/overview
+
+https://www.youtube.com/watch?v=d8msTyZLoZo
+
+https://code.visualstudio.com/docs/copilot/language-models
+
+https://docs.posit.co/ide/user/ide/guide/tools/copilot.html
+
+Logic
+
+AI agents
+
+vibe coding
+
+simulation
+
+survey design
+
+prompt -- conjoint experiment
