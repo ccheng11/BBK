@@ -1,5 +1,9 @@
 Quant
 
+MIT scandal
+
+Zurich case
+
 https://docs.anthropic.com/en/docs/claude-code/overview
 
 https://www.youtube.com/watch?v=d8msTyZLoZo
@@ -14,8 +18,12 @@ AI agents
 
 vibe coding
 
+LATent variable measurement
+
 simulation
 
 survey design
 
 prompt -- conjoint experiment
+
+https://llmsforsocialscience.net/
