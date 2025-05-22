@@ -25,7 +25,7 @@ knitr::include_graphics("Figs/openai.pdf")
 # Using LLMs to scale up "interviews" (Geiecke and Jaravel 2024)
 
 \vspace{0.3cm}
-```{r echo=FALSE, out.width="95%", fig.align="center"}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/lse.pdf")
 ```
 
@@ -136,25 +136,25 @@ knitr::include_graphics("Figs/llm_agent.pdf")
 \begin{itemize}
 \small
   \item Form a group of three to four students so you can discuss findings among yourselves
-  \vspace{0.2cm}
+  \vspace{0.15cm}
   \item Use LLMs to carry out a "mock" survey
-  \vspace{0.1cm}
   \begin{itemize}
     \item \textbf{Step 1}: Choose a question from YouGov (\url{https://yougov.co.uk/topics/overview/trackers})
     \item \textbf{Step 2}: Ask LLM the same question to see if they return similar responses (you can try to ask if they have any reference for their answers)
     \item \textbf{Step 3}: Create different "respondents" using YouGov's demographic breakdowns
     \item \textbf{Step 4}: Ask LLM the same question to see if they return similar responses based on the demograpic profile; repeat \textbf{Step 4} using different demograpic profiles
   \end{itemize}
-  \vspace{0.2cm}
+  \vspace{0.15cm}
   \item Questions: How reliable are AI-generated responses, using survey data as the benchmark? How do you compare the performance of different LLMs? Does the topic you choose matter?
 \end{itemize}
 
 # Alternative surveys for exercise
 
 \begin{itemize}
+\small
   \item British Social Attitudes (\url{https://natcen.ac.uk/british-social-attitudes})
   \vspace{0.5cm}
-  \item Pew Research Center Datasets (\url{https://www.pewresearch.org/datasets/})
+  \item Pew Research Center (\url{https://www.pewresearch.org/datasets/})
   \vspace{0.5cm}
   \item World Value Survey (\url{https://www.worldvaluessurvey.org/wvs.jsp})
   \vspace{0.5cm}
