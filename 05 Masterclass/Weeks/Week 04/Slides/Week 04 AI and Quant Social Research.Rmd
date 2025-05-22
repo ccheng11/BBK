@@ -6,7 +6,7 @@ title: |
   |
   |
 author: |
-  | AI for Social Research: Qualitative
+  | AI for Social Research: Computational and Quantitative
   |
 output:
   beamer_presentation:
@@ -19,217 +19,202 @@ fontsize: 10pt
 
 \vspace{0.3cm}
 ```{r echo=FALSE, out.width="95%", fig.align="center"}
-knitr::include_graphics("Figs/pandora.pdf")
+knitr::include_graphics("Figs/openai.pdf")
 ```
 
----
+# Using LLMs to scale up "interviews" (Geiecke and Jaravel 2024)
 
 \vspace{0.3cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/logos.pdf")
-```
-
----
-
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/snake_new.pdf")
-```
-\vspace{0.2cm}
-\begin{center}
-\url{https://www.aisnakeoil.com/}
-\end{center}
-
----
-
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/snake_mit.pdf")
-```
-\vspace{0.2cm}
-\begin{center}
-\url{https://www.youtube.com/watch?v=C3TqcUEFR58}
-\end{center}
-
----
-
-\vspace{0.2cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/tasks.pdf")
-```
-
-# When "computer-assisted" crime detection goes wrong
-
-\vspace{0.1cm}
-```{r echo=FALSE, out.width="50%", fig.align="center"}
-knitr::include_graphics("Figs/film02.pdf")
-```
-
-# Machine learning: Supervised, unsupervised and reinforcement
-
-\begin{itemize}
-  \item Classification (or regression with regularization) -- filtering spam emails
-  \vspace{0.4cm}
-  \item Pattern recognition (or clustering) -- facial recognition
-  \vspace{0.4cm}
-  \item Prediction (or forecasting) -- stock market forcasting and GPT (generative predictive transformer)
-\end{itemize}
-
----
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/type.pdf")
-```
-
-# Example: Bots on social media
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/bots.pdf")
-```
-\vspace{0.2cm}
-\begin{center}
-\tiny
-\url{https://www.socialfollowers.uk/blogs/how-social-media-bots-work-and-how-to-detect-them/}
-\end{center}
-
-# Example: Vocal pitch of women politicians
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/congress.pdf")
-```
-\vspace{0.2cm}
-\begin{center}
-\scriptsize
-\url{https://doi.org/10.1017/S0003055419000467}
-\end{center}
-
----
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/congress_fig.pdf")
-```
-
-# Example: Factional politics in post-1949 China
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/china.pdf")
-```
-
-# Generative AI, GPT and large language models (LLMs)
-
-\begin{itemize}
-  \item Fine tuning and/or prompt enigeering?
-  \vspace{0.5cm}
-  \item General and/or domain-specific LLMs?
-  \vspace{0.5cm}
-  \item Metrics for performance evaluation: Intelligent? accurate? efficient (computationally)? transparent? safe? ethical? democratic? open access?
-\end{itemize}
-
----
-
-\begincols
-  \begincol{.4\textwidth}
-    \vspace{0.4cm}
-    \begin{figure}
-    \centering
-    \includegraphics[scale=0.35]{Figs/flowchart}
-    \end{figure}
-  \endcol
-  \hspace{0.2cm}
-  \begincol{.5\textwidth}
-  \pause
-  \vspace{0.2cm}
-  \begin{itemize}
-    \item Is it intuitive to understand?
-    \vspace{1cm}
-    \item Can you try to come up with your prompt to create a (similar) flowchart?
-    \vspace{1cm}
-    \item What is the prompt you use? Share it with us.
-  \end{itemize}
-  \endcol
-\endcols
-
----
-
-```{r echo=FALSE, out.width="80%", fig.align="center"}
-knitr::include_graphics("Figs/deepseek.pdf")
-```
-
-# Exercise: Running critical discourse analysis with AI
-
-\begin{itemize}
-\small
-  \item \textbf{Step 1}: Ask AI to produce a brief definition of critical discourse analysis -- critically evaluate the response provided by AI
-  \begin{itemize}
-    \item What response do you get? Do you agree with it or not? Is it the same as what Margarita discussed last week?
-    \item Can you try to engage with AI to "improve" the definition?
-  \end{itemize}
-  \vspace{0.1cm}
-  \item \textbf{Step 2}: Upload the "Return to Work" letter and ask AI to carry out a critical discourse analysis based on the definition -- what do you get? What if you ask AI to incorporate the "critical disability framework?"
-  \vspace{0.1cm}
-  \item \textbf{Questions to think about}
-  \begin{itemize}
-    \item Are you comfortable with what we have just done? Why not? What might be the caveat (Morgan 2023)?
-    \item Does it make sense to analyze the "discourse" produced by AI or Human-AI interactions? How?
-  \end{itemize}
-\end{itemize}
-
-# Exercise: Analyzing interview transcripts
-
-\begin{itemize}
-\small
-  \item \textbf{Source}: "Urban conceptions of nature during the ongoing COVID-19 pandemic" (Matthew Wood 2021) -- see \url{https://researchdata.bbk.ac.uk/id/eprint/161/}
-  \vspace{0.3cm}
-  \item \textbf{Step 1}: Download the data and skim through the information on BiRD
-  \vspace{0.3cm}
-  \item \textbf{Step 2}: Replicate the prompts used by Morgan (2023) to analyze the interview transcripts
-  \vspace{0.3cm}
-  \item \textbf{Questions to think about}
-  \begin{itemize}
-    \item Are you happy with Morgan's prompts? Can you get around the limitations or issues pointed out by Morgan?
-    \item How do you evaluate the quality of the analysis produced by AI? What might be some useful criteria?
-    \item How do your know AI is more or less nuanced when it comes to coding and \textbf{interpretation}?
-  \end{itemize}
-\end{itemize}
-
-# Exercise: Conducting interviews using AI agent (Geiecke and Jaravel 2024)
-
-```{r echo=FALSE, out.width="85%", fig.align="center"}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/lse.pdf")
 ```
+
+---
+
+\begin{itemize}
+\small
+  \item Use "single" LLM agent (OpenAI's GPT-4o) to carry out interviews on different topics, such as
+  \begin{itemize}
+    \item Meaning of life
+    \item Political preferences (over the 2024 French snap election)
+    \item Educational and occupational choices
+  \end{itemize}
+  \item Evaluate LLM peformance 
+  \begin{itemize}
+    \item Compare AI-generated transcripts to human experts (in this case, sociologists)
+    \item Solicit assessment from respondents, e.g. how well the content of the interview captures their views (or "empathetic") and whether they would prefer to participate in an interview with AI or human researchers
+  \end{itemize}
+  \item Why AI-led/assisted interviews might be a good idea
+  \begin{itemize}
+    \item Scale and cost
+    \item Privacy and sensitivity bias
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lse_llm.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lse_pref.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lse_quality.pdf")
+```
+
+---
+
+# LLMs and quantitative social research 
+
+\begin{itemize}
+  \item Survey and experiments: Using computational tools to design survey and simulate responses (see the NORC piece)
+  \vspace{0.4cm}
+  \item Natural language processing (NLP): Using computational tools to analyze unstructured text, image or audio data (more later in Masterclass)
+  \vspace{0.4cm}
+  \item Agent-based modeling (ABM): Using computational tools to model and similate the social world and human behaviors (e.g., segregation)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/pa_llm.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/ai_game.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+Demo: \url{https://reverie.herokuapp.com/arXiv_Demo/}
+\end{center}
+
+# LLMs for coding and programming
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/logos.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+\small
+  \item Claude Code (\url{https://www.anthropic.com/claude-code})
+  \item Google Gemini Code Assist (\url{https://codeassist.google/})
+  \item OpenAI Codex (\url{https://chatgpt.com/codex})
+\end{itemize}
+
+# LLM rankings (Openrouter)
+
+```{r echo=FALSE, out.width="75%", fig.align="center"}
+knitr::include_graphics("Figs/rankings.pdf")
+```
+
+# AI "agents"
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/llm_agent.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://code.visualstudio.com/api/extension-guides/language-model}
+\end{center}
+
+# Exercise: Simulating survey responses
+
+\begin{itemize}
+\small
+  \item Form a group of three to four students so you can discuss findings among yourselves
+  \vspace{0.2cm}
+  \item Use LLMs to carry out a "mock" survey
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Step 1}: Choose a question from YouGov (\url{https://yougov.co.uk/topics/overview/trackers})
+    \item \textbf{Step 2}: Ask LLM the same question to see if they return similar responses (you can try to ask if they have any reference for their answers)
+    \item \textbf{Step 3}: Create different "respondents" using YouGov's demographic breakdowns
+    \item \textbf{Step 4}: Ask LLM the same question to see if they return similar responses based on the demograpic profile; repeat \textbf{Step 4} using different demograpic profiles
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Questions: How reliable are AI-generated responses, using survey data as the benchmark? How do you compare the performance of different LLMs? Does the topic you choose matter?
+\end{itemize}
+
+# Alternative surveys for exercise
+
+\begin{itemize}
+  \item British Social Attitudes (\url{https://natcen.ac.uk/british-social-attitudes})
+  \vspace{0.5cm}
+  \item Pew Research Center Datasets (\url{https://www.pewresearch.org/datasets/})
+  \vspace{0.5cm}
+  \item World Value Survey (\url{https://www.worldvaluessurvey.org/wvs.jsp})
+  \vspace{0.5cm}
+  \item ... and more
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/pa_llm_critical.pdf")
+```
+
+# Accessing LLMs using API
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/vscode.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://code.visualstudio.com/api/extension-guides/language-model}
+\end{center}
 
 # Concluding remarks
 
 \begin{itemize}
-  \item Combining the use of AI with other software packages for qualitative research (e.g., ATLAS.ti and MAXQDA)?
-  \vspace{0.4cm}
-  \item "Strategic ignorance" is key -- the priority is to use the tool and treat LLM as a "black" box (or not)?
-  \vspace{0.4cm}
-  \item End of "lone wolf" social researchers? Check out the \textbf{Turing Way}
-  \vspace{0.4cm}
-  \item "Only because we can does not mean we should" (from Jurassic Park) -- do you agree?
-  \vspace{0.4cm}
-  \item Substitute versus empowerment? Think more carefully about the decision-making process in your research process
+  \item The past three weeks only allow us to scratch the surface, and yet we have touched upon how GenAI can be used for three major research tasks: Analysis, coding and similation
+  \vspace{0.5cm}
+  \item Learn how to use AI tools creatively to increase your research productivity; critical thinking remains crucial and should not undermine the agency of human researchers
+  \vspace{0.5cm}
+  \item AI hype may as well be a bubble if we look at it again in a decade -- use it with caution (and make sure you talk to your)
+  \vspace{0.5cm}
+  \item Transparency is key: Explain how and why you use AI carefully in your research so your peers can evaluate the quality/rigour of your work
 \end{itemize}
 
----
+# "How People Are Really Using Gen AI in 2025" (Havard Business Review)
 
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/turing.pdf")
+```{r echo=FALSE, out.width="30%", fig.align="center"}
+knitr::include_graphics("Figs/hbr.pdf")
 ```
-\vspace{0.2cm}
+\vspace{0.1cm}
 \begin{center}
 \scriptsize
-\url{https://book.the-turing-way.org/collaboration/collaboration}
+\url{https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025}
 \end{center}
 
 ---
 
-```{r echo=FALSE, out.width="50%", fig.align="center"}
-knitr::include_graphics("Figs/era_cover.pdf")
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/zurich.pdf")
 ```
-\vspace{0.2cm}
-\begin{center}
-\tiny
-\url{https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/artificial-intelligence-ai-science_en}
-\end{center}
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/mit_response.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/mit_case.pdf")
+```
