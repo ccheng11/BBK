@@ -22,7 +22,7 @@ fontsize: 10pt
 knitr::include_graphics("Figs/openai.pdf")
 ```
 
-# Using LLMs to scale up "interviews" (Geiecke and Jaravel 2024)
+# LLMs and "interviews" (Geiecke and Jaravel 2024)
 
 \vspace{0.3cm}
 ```{r echo=FALSE, out.width="80%", fig.align="center"}
@@ -92,7 +92,7 @@ knitr::include_graphics("Figs/pa_llm.pdf")
 
 ---
 
-```{r echo=FALSE, out.width="95%", fig.align="center"}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/ai_game.pdf")
 ```
 \vspace{0.1cm}
