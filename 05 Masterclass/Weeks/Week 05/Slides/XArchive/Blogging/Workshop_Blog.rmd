@@ -1,0 +1,167 @@
+---
+title: |
+  |
+  |
+  | Masterclass in Social Research
+  |
+  |
+author: |
+  | Featuring Research on Social/New Media
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/plats.pdf")
+```
+
+# Podcast for different subject areas
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/blogs_crop.pdf")
+```
+
+# Recommended podcast: New Books Network
+
+\vspace{0.3cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{Figs/nbn_crop}
+    \end{figure}
+    \vspace{0.2cm}
+	\begin{center}
+	\textbf{\url{newbooksnetwork.com}}
+	\end{center}
+  \endcol
+  \begincol{.5\textwidth}
+  	\begin{itemize}
+	\item A consortium of author-interview podcast channels:
+	\vspace{0.3cm}
+	\begin{itemize}
+		\item Aiming to "raise the level of public discourse" by introducing scholars and other serious writers to a wide public via new media
+		\vspace{0.3cm}
+		\item Convering $100+$ subjects, disciplines, and genres
+		\vspace{0.3cm}
+		\item Publishing 50 to 75 episodes every week
+		\vspace{0.3cm}
+		\item Opening to suggestions or pitches
+	\end{itemize}
+	\end{itemize}
+  \endcol
+\endcols
+
+# Short videos
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="110%", fig.align="center"}
+knitr::include_graphics("Figs/bbk3mt1_crop.pdf")
+```
+\vspace{0.5cm}
+\begin{scriptsize}
+\begin{center}
+\textbf{\url{https://youtube.com/playlist?list=PL2Fy-5oxIlb7VLoWUC6j_eq9GJXzSjXfP}}
+\end{center}
+\end{scriptsize}
+
+# Twitter threads
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/paul.pdf")
+```
+\vspace{0.1cm}
+\begin{scriptsize}
+\begin{center}
+\textbf{\url{https://twitter.com/ProfPaulPoast/status/1630305966674640896?s=20}}
+\end{center}
+\end{scriptsize}
+
+# Twitter threads
+
+\begin{itemize}
+	\item \textbf{[Optional]}: Follow Chao-yo (\texttt{@londonmeow0627}) on Twitter
+	\vspace{0.3cm}
+	\item Start with an introduction for spoilers and/or highlights, put concise statements about the research idea (RQ, literature and context/background) and a quick discussion on methods (if the methods are innovative) and findings
+	\vspace{0.3cm}
+	\item Some useful tips:
+	\vspace{0.2cm}
+	\begin{itemize}
+		\item Acknowledge those who inspire your research; give credits to your collaborators
+		\item Include GIFs/memes or short audios/videos to attract attention
+		\item Engage with the replies constructively to boost engagement
+		\item Use Twitter Analytics and other tools (e.g., TweetDeck) to manage tweets
+	\end{itemize}
+\end{itemize}
+
+# Blog posts
+
+\begin{small}
+\begin{itemize}
+	\item \textbf{REF} (Research Excellence Framework) encourages researchers to use blogs to communicate their research with the public
+	\vspace{0.2cm}
+	\item Some key principles:
+	\begin{itemize}
+		\item Use titles for spoilers
+		\item Decide how you want to hook/motivate readers -- narrate in a reflective manner (it can be reasonably personal)
+		\item Present the core of the topics/projects clearly and simply -- use subject-specific vocabulary wisely
+		\item Link additional materials if necessary (not required for this assessment)
+		\item Build your research profile -- organizational position (within and outside Birkbeck), links to social media profiles (e.g., Linkedin), and published works and/or any other research activities (e.g., NGOs or think tanks)
+	\end{itemize}
+	\vspace{0.2cm}
+	\item What blogs are available at Birkbeck: \url{https://www.bbk.ac.uk/blogs}
+\end{itemize}
+\end{small}
+
+# Blog posts
+
+\begin{itemize}
+	\item For Masterclass, you will have to write two 1,000-word (max) \textbf{blog posts} to reflect on two lectures.
+	\vspace{0.3cm}
+	\begin{itemize}
+		\item One should be chosen from Weeks 2-5 (qualitative and historical social research)
+		\vspace{0.1cm}
+		\item One should be chosen from Weeks 7-11 (quantitative and social data science)
+	\end{itemize}
+\end{itemize}
+
+```{=tex}
+%\vspace{0.5cm}
+%\item In the \textbf{critical reflection paper} (4,000 words max), you should also provide a more general discussion on how the lecture series can help with your research projects (e.g., dissertation) and/or ideas.
+```
+
+# Exercise: Composing a blog post on today's lecture
+
+\begin{itemize}
+	\item First, work on the questions by yourself (\textbf{15-20 mins})
+	\vspace{1cm}
+	\item Next, exchange your answers with your group partners (2-3 students) for feedback (\textbf{15 mins}).
+	\vspace{1cm}
+	\item Finally, share what you have with the class (\textbf{20-30 mins})
+\end{itemize}
+
+# Exercise: Composing a blog post on today's lecture
+
+\begin{itemize}
+	\item Write about 500 words (max) to answer the following questions.
+	\begin{itemize}
+		\item Summarize the key highlights of today's lecture to those who did not attend the lecture
+		\item Discuss what have you learned from the lecture, in relation to any relevant research experiences in the past
+			\begin{itemize}
+				\item If you have done surveys before, did today's lecture provide any new insights?
+				\item If you have not done any surveys before, what are some of the most useful things you learned from today's lecture?
+		\end{itemize}
+		\item How can today's lecture help with your research, even if you may not be thinking about using surveys at this moment?
+		\item What else would you like to learn about surveys?
+		\item Provide a short description about yourself as a researcher
+	\end{itemize}
+\end{itemize}

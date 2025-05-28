@@ -1,0 +1,120 @@
+---
+title: |
+  |
+  |
+  | Masterclass in Social Research
+  |
+  |
+author: |
+  | Communicating Social Research
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Recap on Assessments
+
+\begin{itemize}
+	\item Two \textbf{blog posts} (40\%): each \textbf{1,000-word} post to summarize and reflect on two of the lectures (one b/w Weeks 2 and 5; one b/w Weeks 7-11); review materials for Week 2 workshop if needed
+	\vspace{1cm}
+	\item \textbf{Critical reflection paper} (60\%), a \textbf{4,000-word} (max) piece including
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item A summary of your dissertation idea/project (see \textbf{Little 2016})
+		\item A discussion on how AI can help with your research, and
+		\item Brief responses to the questions and/or comments/critiques that emerge from your presentation
+	\end{itemize}
+\end{itemize}
+
+# Social Research Dissertation Fair
+
+\begin{itemize}
+	\item Starting from Week 8, \textbf{in each workshop we will have three to four students} to present their dissertation projects
+	\vspace{0.4cm}
+	\item Each presentation will last for about \textbf{15 minutes}, including discussion and Q\&A moderated by the module convener (15 minutes max); we may \textbf{record your presentation} for internal use
+	\vspace{0.4cm}
+	\item The main objective is to give you the opportunity to \textbf{collect feedback that can help with your dissertation} in a supportive and intimate setting; your project can be in any stage
+	\vspace{0.4cm}
+	\item All students will submit their \textbf{presentation slides} before the designated deadline and address the comments in the \textbf{critical response paper}
+\end{itemize}
+
+# Key Principles for Your Presentation
+
+\begin{itemize}
+	\item \textbf{Structure and Planning}: the extent to which the presentation shows prior planning based on a clear structure and a logical sequencing of topics and ideas
+	\vspace{0.4cm}
+	\item \textbf{Content}: the extent to which the presentation shows evidence of knowledge of the topic and covers relevant ideas and debates
+	\vspace{0.4cm}
+	\item \textbf{Understanding}: the extent to which the presentation shows evidence of sufficient grasp of key issues to offer critical analysis and reflection
+	\vspace{0.4cm}
+	\item \textbf{Communication}: the extent to which the presentation is delivered in the way to maximize communication by interacting with audience, responding to queries, and keeping to time
+\end{itemize}
+
+# Presenting Your Research
+
+\begin{itemize}
+	\item Students are free to arrange their presentations as they consider suitable for their project, but the presentation should clearly address the following items:
+	\vspace{0.3cm}
+	\begin{itemize}
+		\item Introduction -- explicitly discuss motivation and research question
+		\vspace{0.2cm}
+		\item Literature review -- focus on identify the gap and/or justify hypothesis (be brief)
+		\vspace{0.2cm}
+		\item Research design and methods -- make sure you fully explain and justify the methods of use
+		\vspace{0.2cm}
+		\item Preliminary or expected findings and discussion
+		\vspace{0.2cm}
+		\item Concluding remarks -- reflections on big picture ("so what?"), limitations and future directions; issues for which you need feedback from your peers
+	\end{itemize}
+\end{itemize}
+
+# Responding to Comments and Critiques
+
+\begin{itemize}
+	\item At the end of your presentation, there will be a Q\&A session
+	\vspace{0.4cm}
+	\begin{itemize}
+		\item Listen to the comments and questions carefully; the key is to collect as many suggestions as possible so no need respond to everything on the spot
+		\vspace{0.2cm}
+		\item Stay open-minded and do not take things personally; no need to be overly defensive
+	\end{itemize}
+	\vspace{0.5cm}
+	\item Read Humphreys (2017) and Choi (2022) to learn more about how researchers discuss each other's work
+\end{itemize}
+
+# Responding to Comments and Critiques
+
+\begin{itemize}
+	\item After the presentation, compose a written response to the comments and/or critiques in your critical reflection paper, but you should at least
+	\vspace{0.4cm}
+	\begin{itemize}
+		\item Provide a summary of the comments/critiques
+		\vspace{0.2cm}
+		\item Address comments selectively and yet carefully
+		\vspace{0.2cm}
+		\item Disagree with respect if you can (do explain though)
+	\end{itemize}
+	\vspace{0.5cm}
+	\item Read Noble (2017) if necessary
+\end{itemize}
+
+# Exercise: Writing an Abstract for Your Project
+
+\begin{itemize}
+	\item Your abstract is a brief statement to introduce your research (<200 words)
+	\vspace{0.2cm}
+	\begin{itemize}
+		\item What is the main \textbf{research question}?
+		\item What is the \textbf{gap} that your research trying to fill in based on prior literature? What is \textbf{distinctive to your own theory position or intellectual approach}?
+		\item What is the \textbf{context and/or background}? What is the \textbf{scope condition} for general audience?
+		\item What are \textbf{your methods and data sources}? 
+		\item What are your \textbf{benchmark findings}? What "new facts" have you found (or expect to find)? Or what key conclusions do you draw? The value-added or originality of your work within this field?
+	\end{itemize}
+	\vspace{0.4cm}
+	\item Submit (1) the title and (2) complete abstract and (3) a short bio no later than \textbf{1 June 2024}
+\end{itemize}
