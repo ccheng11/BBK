@@ -169,9 +169,15 @@ knitr::include_graphics("Figs/bbk_psrp.pdf")
 	\item Each presentation will last for about \textbf{15 minutes}, including discussion and Q\&A moderated by the module convener (15 minutes max); we may \textbf{record your presentation} for internal use
 	\vspace{0.2cm}
 	\item The main objective is to give you the opportunity to \textbf{collect feedback that can help with your dissertation} in a supportive and intimate setting; your project can be in any stage
-	\vspace{0.2cm}
-	\item During Reading Week: Submit a working title, abstract and your bio to Chao-yo
-	\item Weeks 7-9: Send in your \textbf{presentation slides} before the designated presentation data
+\end{itemize}
+
+---
+
+\begin{itemize}
+	\item During Reading Week: Submit a working title, abstract and your bio to Chao-yo (an MS Form will be circulated)
+	\vspace{0.6cm}
+	\item Weeks 7-9: Send in your \textbf{presentation slides} before the designated presentation date
+	\vspace{0.6cm}
 	\item In your final reflection paper: Address the comments
 \end{itemize}
 
