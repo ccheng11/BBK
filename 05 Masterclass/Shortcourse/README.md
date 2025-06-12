@@ -30,7 +30,7 @@ Lerner, Joshua. 2024. "[The Promise & Pitfalls of AI-Augmented Survey Research](
 
 Mellon, Jonathan, Jack Bailey, Ralph Scott, James Breckwoldt, Marta Miori, and Phillip Schmedeman 2024. "[Do AIs Know What the Most Important Issue Is? Using Language Models to Code Open-text Social Survey Responses at Scale](https://journals.sagepub.com/doi/10.1177/20531680241231468)." *Research & Politics 11*(1). Online first.
 
-## AI and computational social research
+## AI and social data science
 
 Tutorials: Using AI to decode policy documents
 
