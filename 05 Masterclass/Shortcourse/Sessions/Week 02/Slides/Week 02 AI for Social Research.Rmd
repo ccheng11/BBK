@@ -2,11 +2,11 @@
 title: |
   |
   |
-  | Masterclass in Social Research
+  | AI for Social Research
   |
   |
 author: |
-  | AI for Social Research: Overview
+  | 2025 Birkbeck AI Summit
   |
 output:
   beamer_presentation:
@@ -19,26 +19,28 @@ fontsize: 10pt
 
 \vspace{0.2cm}
 ```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("Figs/chatgpt.pdf")
+knitr::include_graphics("Figs/openai.pdf")
 ```
+\vspace{0.2cm}
+\begin{center}
+\url{https://openai.com/research/}
+\end{center}
 
 ---
 
-# Large language models: From classification to "generation"
-
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/llm_comp.pdf")
+knitr::include_graphics("Figs/llm_ranking.pdf")
 ```
 \vspace{0.1cm}
 \begin{center}
-\url{https://artificialanalysis.ai/leaderboards/providers}
+\url{https://openrouter.ai/rankings/science?view=week}
 \end{center}
 
-# AI and Social Sciences
+# LLMs and Social Sciences
 
 \begin{itemize}
 \small
-  \item Use AI to improve social sciences (see the next slide) or other practical uses such as in
+  \item Use AI to improve practical uses such as in
   \begin{itemize}
     \item Education (for both teachers and students)
     \item Newsroom
@@ -78,6 +80,13 @@ knitr::include_graphics("Figs/gain.pdf")
 \url{https://generative-ai-newsroom.com/}
 \end{center}
 
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/deepseek_germany.pdf")
+```
+
 # "How ChatGPT and Bing can help" (Hendriksen 2023)
 
 \begin{itemize}
@@ -89,6 +98,13 @@ knitr::include_graphics("Figs/gain.pdf")
   \vspace{0.4cm}
   \item Producing research applications (e.g. "develop an outline for research proposal; coding and programming for specified tasks")
 \end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/ai_research.pdf")
+```
 
 # What social researchers can do with GenAI: Scale, scope and speed
 
@@ -140,7 +156,7 @@ knitr::include_graphics("Figs/ai_ethics.pdf")
 \begin{itemize}
   \item Now AI has become a possibility -- how might you incorporate AI into your research? How comfortable are you with using AI for research purposes? Why?
   \vspace{0.7cm}
-  \item Bail (2024) listed a lot of promising research opportunities and questions, which one would like to explore further? What else?
+  \item Christopher Bail (PNAS 2024) listed a lot of promising research opportunities and questions, which one would like to explore further? What else?
   \vspace{0.7cm}
   \item In order to take advantage of AI, what might be the skills that you need to acquire? How much AI do you have to "know?" Perhaps apply the principle of "strategic ignorance" (Linsey McGoey 2019)?
 \end{itemize}
@@ -150,6 +166,17 @@ knitr::include_graphics("Figs/ai_ethics.pdf")
 ```{r echo=FALSE, out.width="50%", fig.align="center"}
 knitr::include_graphics("Figs/ignore.pdf")
 ```
+
+# Online shortcourse: "AI for Social Science"
+
+\begin{itemize}
+  \item Session 1: Overview: From GPT to AGI
+  \item Session 2: LLMs and qualitative social research (interviews and discourse/thematic analysis)
+  \item Session 3: LLMs and survey and experimental research
+  \item Session 4: LLMs and social data science I (natural language processing)
+  \item Session 5: LLMs and social data science II (agent-based modeling and similations)
+  \item Session 6: Project workshop and looking ahead
+\end{itemize}
 
 # Appendix: GenAI for plausibility checks
 
