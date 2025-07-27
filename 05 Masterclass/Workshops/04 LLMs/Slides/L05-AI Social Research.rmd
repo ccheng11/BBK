@@ -1,0 +1,515 @@
+---
+title: |
+  |
+  |
+  | AI for Social Research
+  |
+  |
+author: |
+  | Applied Data Science for Law and Social Sciences
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="75%", fig.align="center"}
+knitr::include_graphics("Figs/openai.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\url{https://openai.com/research/}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/rankings.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\url{https://openrouter.ai/rankings/science?view=week}
+\end{center}
+
+# Machine learning: Supervised, unsupervised and reinforcement
+
+\begin{itemize}
+  \item Classification -- e.g., filtering spam emails (or regression with regularization)
+  \vspace{0.4cm}
+  \item Description and pattern recognition -- e.g., facial recognition
+  \vspace{0.4cm}
+  \item Prediction or forecasting -- e.g., stock market forcasting using GPT (generative predictive transformer)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/type.pdf")
+```
+
+# AI4Science: A paradigm shift? 
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/ai4sci}
+    \end{figure}
+  \endcol
+  \hspace{0.2cm}
+  \begincol{.5\textwidth}
+  "AI for Science (AI4S) represents the \textbf{convergence} of artificial intelligence (AI) innovation in scientific research and AI-driven scientific discovery, demonstrating their deep integration1, and the establishment of a transformative research paradigm."
+  \endcol
+\endcols
+
+---
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/ai4sci}
+    \end{figure}
+  \endcol
+  \hspace{0.2cm}
+  \begincol{.5\textwidth}
+  \small
+  "Traditional scientific discovery involves \textbf{generating and validating candidate hypotheses} from a large solution space, often characterized by low efficiency and challenges in identifying high-quality solutions. AI harnesses its \textbf{powerful data processing and analytical capabilities} to navigate solution spaces more efficiently, enabling the generation of high-quality candidate hypotheses."
+  \endcol
+\endcols
+
+# AI and social sciences
+
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ai_for_social.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/bail_pnas_cover.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\url{https://doi.org/10.1073/pnas.2314021121}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/xu_cover.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\url{https://doi.org/10.1016/j.ipm.2024.103665}
+\end{center}
+
+# AI and/for Social Sciences
+
+\begin{itemize}
+\small
+  \item Use AI to improve professional practices, such as in
+  \begin{itemize}
+    \item Education
+    \item Newsroom
+    \item Healthcare and counseling
+    \item Crime control
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Broad societal impacts of and changes brought by AI, such as
+  \begin{itemize}
+    \item Misinformation and democratic backsliding
+    \item Inequality and discrimination
+    \item Climate change and sustainable development
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Development, regulation and governance of the AI sector (and its use) -- geopolitics of LLMs (e.g., Deepseek)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/anthropic.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\url{https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude}
+\end{center}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/gain.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+\url{https://generative-ai-newsroom.com/}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/deepseek.pdf")
+```
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/deepseek_germany.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/ai_research.pdf")
+```
+
+# "How ChatGPT and Bing can help" (Hendriksen 2023)
+
+\begin{itemize}
+  \item Identifying and adjusting research ideas/questions and relevant literatures (e.g. "what has been done in this area?")
+  \vspace{0.4cm}
+  \item Locating relevant co-authors and key researchers in the field (e.g. "who has worked on this topic?")
+  \vspace{0.4cm}
+  \item Exposing ideas to simulated and targeted critical readers (e.g. "how will my research be received")
+  \vspace{0.4cm}
+  \item Producing research applications (e.g. "develop an outline for research proposal; coding and programming for specified tasks")
+\end{itemize}
+
+# What social researchers can do with LLMs: Scale, scope and speed
+
+\begin{itemize}
+  \item Explore human behaviour through "impersonation" (simulation) and human-machine interactions/comparisons -- agent-based modeling (ABM)
+  \vspace{0.4cm}
+  \item Text annotation and (qualitative) grounded-theory coding -- discourse, content and thematic analysis and natural language processing (e.g., Geiecke and Jaravel 2024; Korinek 2023; Leek et al 2024)
+  \vspace{0.4cm}
+  \item Design, implement and replicate surveys, including experiments (see Bail 2024)
+  \vspace{0.4cm}
+  \item (Statistical) programming -- "vibe coding" (!?)
+\end{itemize}
+
+# LLMs for qualitative interviews
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="75%", fig.align="center"}
+knitr::include_graphics("Figs/lse.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+\url{https://dx.doi.org/10.2139/ssrn.4974382}
+\end{center}
+
+---
+
+\begin{itemize}
+\small
+  \item Use "single" LLM agent (OpenAI's GPT-4o) to carry out interviews on different topics, such as
+  \begin{itemize}
+    \item Meaning of life
+    \item Political preferences (over the 2024 French snap election)
+    \item Educational and occupational choices
+  \end{itemize}
+  \item Evaluate LLM peformance 
+  \begin{itemize}
+    \item Compare AI-generated transcripts to human experts (in this case, sociologists)
+    \item Solicit assessment from respondents, e.g. how well the content of the interview captures their views (or "empathetic") and whether they would prefer to participate in an interview with AI or human researchers
+  \end{itemize}
+  \item Why AI-led/assisted interviews might be a good idea
+  \begin{itemize}
+    \item Scale and cost
+    \item Privacy and sensitivity bias
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lse_llm.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lse_pref.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lse_quality.pdf")
+```
+
+# LLMs for quantitative social research and SDS
+
+\begin{itemize}
+\small
+  \item Survey and experiments: Using AI to question development, survey design, data collection, and interviewing to downstream tasks such as response processing, data augmentation, analysis, and weighting (NORC 2025)
+  \vspace{0.4cm}
+  \item Natural language processing (NLP): Using computational tools to analyze unstructured text, image or audio data
+  \vspace{0.4cm}
+  \item Agent-based modeling (ABM): Using computational tools to model and similate the social world and human behaviors (e.g., racial segregation and co-operation)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/pa_llm.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/llm_prediction_cover.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/llm_prediction.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/llm_survey_cover.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/llm_survey.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/ai_game.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+Demo: \url{https://reverie.herokuapp.com/arXiv_Demo/}
+\end{center}
+
+# LLMs for coding and programming
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/logos_llm.pdf")
+```
+\vspace{0.3cm}
+\begin{itemize}
+\small
+  \item Claude Code (\url{https://www.anthropic.com/claude-code})
+  \item Google Gemini Code Assist (\url{https://codeassist.google/})
+  \item OpenAI Codex (\url{https://chatgpt.com/codex})
+  \item ....
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/llm_ranking_coding.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="65%", fig.align="center"}
+knitr::include_graphics("Figs/llm_coding.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/vibe_coding.pdf")
+```
+
+# Caveats
+
+\begin{itemize}
+  \item Human bias -- sure, but perhaps an opportunity to "reverse engineer" the (re)production of different biases?
+  \vspace{0.3cm}
+  \item Ethics, perhaps both as a problem and solution -- deception and simulation?
+  \vspace{0.3cm}
+  \item Robustness, transparency and replicability -- performance evaluation, prompt tweaking and model comparison?
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/evals.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/ai_ethics.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\tiny
+\url{https://www.theatlantic.com/technology/archive/2025/05/reddit-ai-persuasion-experiment-ethics/682676/}
+\end{center}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/snake_new.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\url{https://www.aisnakeoil.com/}
+\end{center}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/snake_tasks.pdf")
+```
+
+# When "computer-assisted" crime detection goes wrong
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="40%", fig.align="center"}
+knitr::include_graphics("Figs/film02.pdf")
+```
+
+# Questions to consider
+
+\begin{itemize}
+  \item Now AI has become a possibility -- how might you incorporate AI into your research? How comfortable are you with using AI for research purposes? Why?
+  \vspace{0.2cm}
+  \item Bail (2024) listed a lot of promising research opportunities and questions, which one would like to explore further? What else?
+  \vspace{0.2cm}
+  \item In order to take advantage of AI, what might be the skills that you need to acquire? How much AI do you have to "know?" Perhaps apply the principle of "strategic ignorance" (Linsey McGoey 2019)?
+  \vspace{0.2cm}
+  \item Learn how to use AI tools creatively to increase your research productivity; critical thinking remains essential
+  \vspace{0.2cm}
+  \item Own the technology: Prompt engineering and more advanced LLM skills (e.g., fine-tuning)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/ignore.pdf")
+```
+
+---
+
+Thank you!
+
+# Accessing LLMs using API
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/vscode.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://code.visualstudio.com/api/extension-guides/language-model}
+\end{center}
+
+# Exercise 1: LLMs for plausibility checks
+
+\begin{itemize}
+  \item Without using ChatGPT and Bing, imagine how you can integrate AI into your research practice and workflows
+  \vspace{0.5cm}
+  \item Ask ChatGPT and Bing to see what they can do for your research. Are these suggestions at the risk of violating the College's policy on AI and academic integrity?
+  \vspace{0.5cm}
+  \item Ask ChatGPT and Bing in general what they can do for qualitative and/or quantitative (social) researchers
+\end{itemize}
+
+# Exercise 2: Ask AI to explain themselves
+
+\begincols
+  \begincol{.4\textwidth}
+    \vspace{0.4cm}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{Figs/flowchart}
+    \end{figure}
+  \endcol
+  \hspace{0.2cm}
+  \begincol{.5\textwidth}
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item Is it intuitive to understand?
+    \vspace{1cm}
+    \item Can you try to come up with your prompt to create a (similar) flowchart?
+    \vspace{1cm}
+    \item What is the prompt you use? Share it with us.
+  \end{itemize}
+  \endcol
+\endcols
+
+# Exercise 3: Analyzing interview transcripts with LLMs
+
+\begin{itemize}
+\small
+  \item \textbf{Source}: "Urban conceptions of nature during the ongoing COVID-19 pandemic" (Matthew Wood 2021) -- see \url{https://researchdata.bbk.ac.uk/id/eprint/161/}
+  \vspace{0.3cm}
+  \item \textbf{Step 1}: Download the data and skim through the information on BiRD
+  \vspace{0.3cm}
+  \item \textbf{Step 2}: Replicate the prompts used by Morgan (2023) to analyze the interview transcripts
+  \vspace{0.3cm}
+  \item \textbf{Questions to think about}
+  \begin{itemize}
+    \item Are you happy with Morgan's prompts? Can you get around the limitations or issues pointed out by Morgan?
+    \item How do you evaluate the quality of the analysis produced by AI? What might be some useful criteria?
+    \item How do your know AI is more or less nuanced when it comes to coding and \textbf{interpretation}?
+  \end{itemize}
+\end{itemize}
+
+# Exercise 4: Simulating survey responses
+
+\begin{itemize}
+\small
+  \item Form a group of three to four students so you can discuss findings among yourselves
+  \vspace{0.15cm}
+  \item Use LLMs to carry out a "mock" survey
+  \begin{itemize}
+    \item \textbf{Step 1}: Choose a question from YouGov (\url{https://yougov.co.uk/topics/overview/trackers})
+    \item \textbf{Step 2}: Ask LLM the same question to see if they return similar responses (you can try to ask if they have any reference for their answers)
+    \item \textbf{Step 3}: Create different "respondents" using YouGov's demographic breakdowns
+    \item \textbf{Step 4}: Ask LLM the same question to see if they return similar responses based on the demograpic profile; repeat \textbf{Step 4} using different demograpic profiles
+  \end{itemize}
+  \vspace{0.15cm}
+  \item Questions: How reliable are AI-generated responses, using survey data as the benchmark? How do you compare the performance of different LLMs? Does the topic you choose matter?
+\end{itemize}
+
+# Alternative surveys for exercise
+
+\begin{itemize}
+\small
+  \item British Social Attitudes (\url{https://natcen.ac.uk/british-social-attitudes})
+  \vspace{0.5cm}
+  \item Pew Research Center (\url{https://www.pewresearch.org/datasets/})
+  \vspace{0.5cm}
+  \item World Value Survey (\url{https://www.worldvaluessurvey.org/wvs.jsp})
+  \vspace{0.5cm}
+  \item ... and more
+\end{itemize}
