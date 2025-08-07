@@ -64,7 +64,7 @@ knitr::include_graphics("Figs/type.pdf")
   \endcol
   \hspace{0.2cm}
   \begincol{.5\textwidth}
-  "AI for Science (AI4S) represents the \textbf{convergence} of artificial intelligence (AI) innovation in scientific research and AI-driven scientific discovery, demonstrating their deep integration1, and the establishment of a transformative research paradigm."
+  "AI for Science (AI4S) represents the \textbf{convergence} of artificial intelligence (AI) innovation in scientific research and AI-driven scientific discovery, demonstrating their deep integration, and the establishment of a transformative research paradigm."
   \endcol
 \endcols
 
@@ -409,7 +409,7 @@ knitr::include_graphics("Figs/film02.pdf")
   \vspace{0.2cm}
   \item Learn how to use AI tools creatively to increase your research productivity; critical thinking remains essential
   \vspace{0.2cm}
-  \item Own the technology: Prompt engineering and more advanced LLM skills (e.g., fine-tuning)
+  \item Own the technology: Prompt/context engineering and more advanced LLM skills (e.g., fine-tuning)
 \end{itemize}
 
 ---
