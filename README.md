@@ -1,21 +1,18 @@
-# Teaching (2024-25)
-
-## Term 1
-
- - Doing Political and Social Research
+# Teaching (2025-26)
 
 ## Term 2
 
+ - Comparative Government
  - Investigating the Social World
- - Chinese Politics in Comparative Perspective
- - Gender and Sexuality Dissertation Research Training
 
 ## Term 3
 
- - Masterclass in Social Research
  - Advanced Topics in Quantitative Social Research
+ - Masterclass in Social Research
 
 ## Archives
 
- - Emerging Powers in World Politics
  - Introduction to International Relations
+ - Chinese Politics in Comparative Perspective
+ - Doing Political Science and Research
+ - Emerging Powers in World Politics
