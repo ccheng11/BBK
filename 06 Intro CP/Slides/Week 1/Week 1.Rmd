@@ -81,7 +81,7 @@ knitr::include_graphics("Figs/bbk_night.pdf")
     \vspace{0.4cm}
     \begin{figure}
     \centering
-    \includegraphics[scale=0.43]{Figs/head}
+    \includegraphics[scale=0.4]{Figs/head}
     \end{figure}
   \endcol
   \begincol{.5\textwidth}
@@ -168,9 +168,46 @@ knitr::include_graphics("Figs/study.pdf")
 # Why and what to compare
 
 \begin{itemize}
-  \item Why compare: From state-sponsored area studies to theory-driven "comparative politics"
+  \item \textbf{Why compare}: From state-sponsored area studies to theory-driven "comparative politics"
   \vspace{0.5cm}
   \item What to compare? 
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Cross-sectional: Cross-national (global/regional) versus single-country
+    \item Over time: Historical versus contemporary
+    \item Key: Scope condition and "variations"
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/jcscott.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://www.nytimes.com/2024/07/28/books/james-scott-dead.html}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/soas.pdf")
+```
+\vspace{0.1cm}
+\pause
+\begin{center}
+\tiny
+\url{https://www.theguardian.com/higher-education-network/gallery/2016/feb/09/one-hundred-years-of-soas-in-pictures}
+\end{center}
+
+# Why and what to compare
+
+\begin{itemize}
+  \item Why compare: From state-sponsored area studies to theory-driven "comparative politics"
+  \vspace{0.5cm}
+  \item \textbf{What to compare?} 
   \vspace{0.1cm}
   \begin{itemize}
     \item Cross-sectional: Cross-national (global/regional) versus single-country
@@ -230,10 +267,12 @@ knitr::include_graphics("Figs/mares.pdf")
     \item Power (capacity) versus authority (rights)
   \end{itemize}
   \vspace{0.3cm}
-  \item Why theory matters or not (Geddes 2003)
+  \item Why theory matters or not
   \vspace{0.1cm}
+  \begin{itemize}
     \item Theory as explanation
     \item Theory as ideology
+  \end{itemize}  
   \vspace{0.3cm}
   \item Question: Can/should culture be used to explain politics? How about "personal" experiences and identity?
 \end{itemize}
