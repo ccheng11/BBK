@@ -53,12 +53,12 @@ knitr::include_graphics("Figs/bbk_night.pdf")
 \vspace{0.3cm}
 \begin{itemize}
 \small
-  \item When: Every Wednesday, 6-8:30pm
-  \item Where: Room G08, Birkbeck Central
+  \item When: Every Wednesday, 6-9pm
+  \item Where: Room 210, Birkbeck Central
   \item Meeting formats
   \begin{itemize}
     \item In-person or recorded lectures
-    \item Seminar discussions
+    \item Seminar discussions: In-person; remote participation is possible for students on \textit{online} or \textit{flexible} routes
   \end{itemize}
 \end{itemize}
 
@@ -66,39 +66,25 @@ knitr::include_graphics("Figs/bbk_night.pdf")
 
 \begin{itemize}
 \small
-  \item \textbf{Weeks 1-5: Varieties of social research}
+  \item \textbf{Weeks 1-5: Varieties of social research} (Dr Chao-Yo Cheng)
   \vspace{0.1cm}
   \begin{itemize}
+    \item What makes good social research
     \item Theory in social research
     \item Epistemology and theory-empirics alignment
     \item Using numbers to study the social world
     \item Comparative and intl research
   \end{itemize}
   \vspace{0.3cm}
-  \item \textbf{Weeks 6-10: Analytical frameworks}
+  \item \textbf{Weeks 6-10: Theorising the social world} (Dr Margarita Aragon)
   \vspace{0.1cm}
   \begin{itemize}
-    \item Rational choice theory
+    \item Knowledge production about the social world
     \item Psychosocial framing
-    \item Decolonizing social research
     \item Intersectional sensibilities
     \item Situating lived experience
+    \item More-than-human worlds
   \end{itemize}
-\end{itemize}
-
----
-
-\vspace{0.2cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/guest.pdf")
-```
-\vspace{0.5cm}
-\begin{itemize}
-  \item Rational choice theory (Dr Chao-Yo Cheng)
-  \item Psychosocial framing (Professor Silvia Posocco)
-  \item Decolonizing social research (Dr Ivana Bevilacqua)
-  \item Intersectional sensibilities (Ms Joy Brooks-Gilzeane)
-  \item Situating lived experience (Dr Sarah Marks)
 \end{itemize}
 
 # Assessment
@@ -118,7 +104,7 @@ knitr::include_graphics("Figs/guest.pdf")
     \item Examine a published \textbf{peer-reviewed} article
     \item Answer \textbf{three} questions; write up to \textbf{500 words} (max) for each response
     \item More will be discussed in \textbf{Week 5}
-    \item Due on \textbf{April 3 2025}
+    \item Due on \textbf{April 2, 2026}
   \end{itemize}
   \vspace{0.7cm}
   \item Analytical essay (60\%)
@@ -133,9 +119,8 @@ knitr::include_graphics("Figs/guest.pdf")
   \vspace{0.1cm}
   \begin{itemize}
     \item Write a 2,500-word essay (max)
-    \item Compare two analytical frameworks to analyze a social science phenomenon
     \item More will be discussed in \textbf{Week 6}
-    \item Due on \textbf{April 21 2025}
+    \item Due on \textbf{April 22, 2026}
   \end{itemize}
 \end{itemize}
 
@@ -165,7 +150,7 @@ knitr::include_graphics("Figs/guest.pdf")
   \noindent \textbf{Module convenor}
   \vspace{0.1cm}
   \begin{itemize}
-    \item Office hours (Friday 3-5pm)
+    \item Office hours (Friday 2-4pm)
     \item \url{c.cheng@bbk.ac.uk}
   \end{itemize}
   \vspace{0.5cm}
@@ -202,10 +187,10 @@ knitr::include_graphics("Figs/student.pdf")
   \item \textbf{Safety}: We all want to keep you safe during your year at Birkbeck but need to work collaboratively with you to make that happen
 \end{itemize}
 
-# Strategic reading in social sciences
+# Strategic/deep reading in social sciences
 
 \begin{itemize}
-  \item Know why you are reading
+  \item Know why you are reading (see the topic statement of each week)
   \vspace{0.1cm}
   \begin{itemize}
     \item Read the weekly description carefully
@@ -219,7 +204,7 @@ knitr::include_graphics("Figs/student.pdf")
   \item Build and use your support system
 \end{itemize}
 
-# Four-step approach (UC Berkeley)
+---
 
 \vspace{0.2cm}
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
@@ -236,7 +221,7 @@ knitr::include_graphics("Figs/ucb.pdf")
   \item \textbf{Responding}: Think again how the reading relates the topic of each week; come up with questions
 \end{itemize}
 
-# Strategic reading in social sciences
+---
 
 \begin{itemize}
   \item Know why you are reading
@@ -265,14 +250,20 @@ knitr::include_graphics("Figs/study.pdf")
 \begin{itemize}
   \item Social sciences as "pseudoscience?"
   \vspace{0.5cm}
-  \item Debates over epistemological positions
+  \item Debates over epistemological positions: Constructivism versus positivism
   \vspace{0.5cm}
-  \item Qualitative v quantitative? Or even computational?
+  \item "Methodology:" Qualitative v quantitative? Or even computational?
   \vspace{0.5cm}
-  \item Identity and representation -- how does "who you are" matter?
+  \item Identity and representation: How do you introduce yourself as a social researcher? How does "who you are" matter?
   \vspace{0.5cm}
   \item Replication, transparency and "open" social sciences
 \end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_cont.pdf")
+```
 
 ---
 
@@ -286,7 +277,7 @@ knitr::include_graphics("Figs/subject_done.pdf")
 knitr::include_graphics("Figs/biases_done.pdf")
 ```
 
-# Conclusion: Investigating the social world as a vocation
+# Concluding remarks (for now): Investigating the social world as a vocation
 
 \begin{itemize}
   \item ISW is a special module, reflecting on the production of "valid" knowledge about the social world

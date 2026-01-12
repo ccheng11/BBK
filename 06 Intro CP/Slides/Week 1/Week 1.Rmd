@@ -6,7 +6,7 @@ title: |
   |
   |
 author: |
-  | Week 5
+  | Dr Chao-Yo Cheng 
   |
 output:
   beamer_presentation:
@@ -17,6 +17,328 @@ output:
 fontsize: 10pt
 ---
 
-# Check
+\begin{center}
+\textbf{Weel 1: Comparing}
+\end{center}
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/week1.pdf")
+```
 
-TBD.
+# Today's plan
+
+\begin{itemize}
+  \item Module organization and logistics (30 mins)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Module organization
+    \item Weekly syllabus and assessment
+    \item Student support and ground rules
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Refresher lecture and Q\&A (1-1.5 hr)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Why and what to compare
+    \item Theory as explanation
+    \item Case selection, empirical strategies and research design
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Reading exercise: "Democratic Development in Africa" (1 hr)
+\end{itemize}
+
+# Module organization
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_night.pdf")
+```
+\vspace{0.3cm}
+\begin{itemize}
+\small
+  \item Students can opt to attend one of the two sections listed below
+  \begin{itemize}
+    \item Tuesdays, 2-5pm (BCB 208): Dr Chao-Yo Cheng (convenor)
+    \item Wednesdays, 6-9pm (BCB 312): Dr Kevin Manton
+  \end{itemize}
+  \item Activities: Q\&A, "refresher" lecture, reading exercise/workshop etc
+\end{itemize}
+
+# Assessment
+
+\begin{itemize}
+  \item Seminar log (20\%): a structured write-up of the discussion addressing both Sections 1 and 2 in the \textbf{lecutre} outline (500 words max)
+  \vspace{0.4cm}
+  \item Mini critical review (20\%): a critical review of a selected \textbf{seminar} article between Weeks 1-4 in light of class discussion of the chosen week (500 words max)
+  \vspace{0.4cm}
+  \item Essay (60\%): a synthetic \textbf{analysis} of based on a recent event in the past 12 months (1,500 words max)
+\end{itemize}
+
+# Student support
+
+\begincols
+  \begincol{.4\textwidth}
+    \vspace{0.4cm}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.43]{Figs/head}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \hspace{0.2cm}
+  \small
+  \noindent \textbf{Module convenor}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Office hours (Friday 2-4pm)
+    \item \url{c.cheng@bbk.ac.uk}
+  \end{itemize}
+  \vspace{0.5cm}
+  \noindent \textbf{Module administration}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Ask (\url{https://www.bbk.ac.uk/ask})
+    \item \url{fhss-edu-sss@bbk.ac.uk}
+  \end{itemize}
+  \vspace{0.5cm}
+  \noindent \textbf{Student Services}
+  \endcol
+\endcols
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/student.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\url{https://www.bbk.ac.uk/student-services}
+\end{center}
+
+# Ground rules and tips
+
+\begin{itemize}
+  \item \textbf{Active learning}: We embrace \textit{interactive} learning; come to in-person seminars/tutorials, having watched the lecture videos and completed the readings for the week
+  \vspace{0.3cm}
+  \item \textbf{Stability with flexibility}: We aim for stability, but acknowledge the need for flexibility
+  \vspace{0.3cm}
+  \item \textbf{Good communication}: We want to make this \textit{fantastic}; please be your own best advocate and give us feedback and constructive suggestions
+  \vspace{0.3cm}
+  \item \textbf{Safety}: We all want to keep you safe during your year at Birkbeck but need to work collaboratively with you to make that happen
+\end{itemize}
+
+# Strategic/deep reading in social sciences (UC Berkeley)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ucb.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+  \item \textbf{Preview}: Get as much information about the reading before you actually read it
+  \vspace{0.1cm}
+  \item \textbf{Annotating}: Read with a pencil and making notes as you read
+  \vspace{0.1cm}
+  \item \textbf{Analyzing}: Break the reading apart to see how different parts relate to each other
+  \vspace{0.1cm}
+  \item \textbf{Responding}: Think again how the reading relates the topic of each week; come up with questions
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/study.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+\url{https://www.bbk.ac.uk/student-services/learning-development}
+\end{center}
+
+# "Refresher" lecture
+
+\begin{itemize}
+  \item Why and what to compare
+  \vspace{0.5cm}
+  \item Theory as explanation
+  \vspace{0.5cm}
+  \item Case selection, empirical strategies and research design
+\end{itemize}
+
+# Why and what to compare
+
+\begin{itemize}
+  \item Why compare: From state-sponsored area studies to theory-driven "comparative politics"
+  \vspace{0.5cm}
+  \item What to compare? 
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Cross-sectional: Cross-national (global/regional) versus single-country
+    \item Over time: Historical versus contemporary
+    \item Key: Scope condition and "variations"
+  \end{itemize}
+\end{itemize}
+
+# Cross-national: Natural resources and authoritarianism
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/ross.pdf")
+```
+
+# Regional: Pandemic and support for regional integration
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/european.pdf")
+```
+
+# National (w/o comparison): Pandemic and attitudes towards benefits in the United Kingdom
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/uk.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/uk2.pdf")
+```
+
+# National (w/ comparison): Community organizations and local public goods provision in rural China
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/tsai.pdf")
+```
+
+# Timing matters: "Endogenous" democratization
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/endogenous.pdf")
+```
+
+# History is useful: German elections in the 19th century
+
+```{r echo=FALSE, out.width="40%", fig.align="center"}
+knitr::include_graphics("Figs/mares.pdf")
+```
+
+# Theory and concepts in comparative politics
+
+\begin{itemize}
+  \item Key concepts
+  \begin{itemize}
+    \item Regime, government and governance (and where institutions fit in?)
+    \item Power (capacity) versus authority (rights)
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Why theory matters or not (Geddes 2003)
+  \vspace{0.1cm}
+    \item Theory as explanation
+    \item Theory as ideology
+  \vspace{0.3cm}
+  \item Question: Can/should culture be used to explain politics? How about "personal" experiences and identity?
+\end{itemize}
+
+# Culture and politics
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/culture.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ross_islam.pdf")
+```
+
+# Methods: Case selection, empirical strategies and research design
+
+\begin{itemize}
+  \item Case selection
+  \begin{itemize}
+    \item Cross-national (global or regional) and single-country
+    \item Representative, exemplary, protypical and deviant
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Research design: Methods of agreement versus methods of difference
+  \vspace{0.3cm}
+  \item Empirical strategies: Qualitative, quantitative and computational (or "mixed")
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/agree.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/diff.pdf")
+```
+
+# Methods: Case selection, empirical strategies and research design
+
+\begin{itemize}
+  \item Case selection
+  \begin{itemize}
+    \item Cross-national (global or regional) and single-country
+    \item Representative, exemplary, protypical and deviant
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Research design: Methods of agreement versus methods of difference
+  \vspace{0.3cm}
+  \item Empirical strategies: Qualitative, quantitative and computational (or "mixed")
+\end{itemize}
+
+# Qualitative: Case study, ethnography and elite interviews
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/chandra.pdf")
+```
+
+# Quantitative: Statistical analysis of survey data
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/dan.pdf")
+```
+
+# Computational: Topic modeling of social media texts
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/kpm_china.pdf")
+```
+
+# Discuss before break
+
+\begin{itemize}
+  \vspace{0.4cm}
+  \item Any particular "cases" or topic would like to explore more?
+  \vspace{0.4cm} 
+  \item How does "globalization" change the study of comparative politics?
+  \vspace{0.4cm}
+  \item Is there anything from the lecture that you would like to know more about? Is there anything from the lecture that you are not clear about?
+\end{itemize}
+
+# Elite politics (political succession) and foreign policymaking in China
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/shirk.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+\begin{columns}
+  \begin{column}{0.5\textwidth}
+  \begin{figure}
+  \includegraphics[width=0.8\linewidth]{Figs/marjan}\\
+  \vspace{0.1cm}
+  \footnotesize Marjane Satrapi
+  \end{figure}
+  \end{column}
+  \hspace{0.1cm}
+  \begin{column}{0.5\textwidth}
+  \small
+    "If I have one message to give to the secular American people, it's that \textbf{the world is not divided into countries}. The world is not divided between East and West. You are American, I am Iranian, we don't know each other, but we talk together and we understand each other perfectly. \textbf{The difference between you and your government is much bigger than the difference between you and me}. And the difference between me and my government is much bigger than the difference between me and you. And our governments are very much the same."
+  \end{column}
+\end{columns}
