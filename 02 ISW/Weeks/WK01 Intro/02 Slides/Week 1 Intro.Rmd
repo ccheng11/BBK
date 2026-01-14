@@ -39,7 +39,7 @@ knitr::include_graphics("Figs/cover.pdf")
     \item Tell us more about you
     \end{itemize}
   \vspace{0.3cm}
-  \item Lecture and discussion: What makes "good" social science research?
+  \item Discussion: What makes "good" social science research?
   \vspace{0.3cm}
   \item Conclusion: "Investigating the social world as a vocation"
 \end{itemize}
@@ -113,12 +113,12 @@ knitr::include_graphics("Figs/bbk_night.pdf")
 # Assessment
 
 \begin{itemize}
-  \item Critical mmethodological review (40\%)
+  \item Critical methodological review (40\%)
   \vspace{0.7cm}
   \item Analytical essay (60\%)
   \vspace{0.1cm}
   \begin{itemize}
-    \item Write a 2,500-word essay (max)
+    \item Write a 2,500-word essay
     \item More will be discussed in \textbf{Week 6}
     \item Due on \textbf{April 22, 2026}
   \end{itemize}
