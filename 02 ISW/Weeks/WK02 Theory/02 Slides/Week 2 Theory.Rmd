@@ -69,17 +69,17 @@ knitr::include_graphics("Figs/wk2.pdf")
   \end{itemize}
 \end{itemize}
 
-# Recap: What makes "good" social sciences research?
+# Recap: What makes "good" social (sciences) research?
 
 \begin{itemize}
   \item Personal stake -- research can be therapeutic (with the use of autoethnography)
-  \vspace{0.4cm}
+  \vspace{0.3cm}
   \item Addresses a compelling or underexplored research question (or connecting existing ideas)
-  \vspace{0.4cm}
+  \vspace{0.3cm}
   \item Employs new or cutting-edge data and methods (e.g, computational techniques)
-  \vspace{0.4cm}
+  \vspace{0.3cm}
   \item Empirical verdict on conventional wisdom and conceptual policy (or ideological) debates
-  \vspace{0.4cm}
+  \vspace{0.3cm}
   \item Motivate follow-up research: Knowledge accumulation (with desk-based research) and expansion of the scope condition (from average/national treatment effect to heterogenenous/local treatment effects)
 \end{itemize}
 
@@ -125,7 +125,7 @@ knitr::include_graphics("Figs/Vox/spending.pdf")
 
 # Counterintuitive argument (also see "The Unknowners" by Linsey McGoey at Essex)
 
-```{r echo=FALSE, out.width="50%", fig.align="cenI ter"}
+```{r echo=FALSE, out.width="50%", fig.align="center"}
 knitr::include_graphics("Figs/Vox/cluelessness.pdf")
 ```
 \begin{center}
@@ -133,9 +133,9 @@ knitr::include_graphics("Figs/Vox/cluelessness.pdf")
 \url{https://doi.org/10.1093/arisoc/aow018}
 \end{center}
 
-# Connecting the dots: intersectionality of identity politics and class' rightward turn in understanding American voting behavior
+# Connecting the dots: intersectionality of identity politics and (White) working class' rightward turn in understanding American voting behavior
 
-```{r echo=FALSE, out.width="60%", fig.align="center"}
+```{r echo=FALSE, out.width="40%", fig.align="center"}
 knitr::include_graphics("Figs/Vox/white.pdf")
 ```
 \vspace{0.2cm}

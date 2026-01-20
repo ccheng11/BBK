@@ -1,0 +1,324 @@
+---
+title: |
+  |
+  |
+  | Comparative Government
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng 
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\begin{center}
+\textbf{Weel 2: Organising}
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/week2.pdf")
+```
+
+# Today's plan
+
+\begin{itemize}
+  \item Logistics: Attendance, class duration and etc
+  \vspace{0.2cm}
+  \item Recap: "Doing Comparative Politics" (30 mins)
+  \vspace{0.2cm}
+  \item Refresher lecture and Q\&A (1-1.5 hr)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Last week: Regimes, government and governance
+    \item Nations, states and nation-states
+    \item How states vary: State capacity and economic development
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Reading exercise: "Democracy and Varieties of Nationalism" (1 hr)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/dcp.pdf")
+```
+\vspace{0.1cm}
+\tiny
+\begin{center}
+\url{https://observer.co.uk/news/international/article/winners-in-the-fight-for-africas-democracies-are-getting-hard-to-find}
+\end{center}
+
+# Recap: "Doing Comparative Politics"
+
+\begin{itemize}
+  \item What is this about? Why is the issue/question this news article attempts to "discuss" or "explain?"
+  \vspace{0.5cm}
+  \item What are the "factors" highlighted by the author? How "convincing" are they? 
+  \vspace{0.5cm}
+  \item What is the comparative method used here?
+\end{itemize}
+
+# Question: The "strange" case of democracies in Africa
+
+\begin{itemize}
+  \item Many democracies in Sub-Saharan Africa have "reverted" back to authoritarianism, as illustrated by a rising number of
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item coups
+    \vspace{0.1cm}
+    \item rigged elections
+    \vspace{0.1cm}
+    \item opposition leaders facing changes or even being "jailed"
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/bbc.pdf")
+```
+\vspace{0.1cm}
+\tiny
+\begin{center}
+\url{https://www.bbc.co.uk/news/articles/c1lr70jg2zgo}
+\end{center}
+
+# Report: "African insights 2024" (Afrobarometer 2025)
+
+\begin{itemize}
+\small
+  \item Support for democracy remains strong but declining
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item 66\% prefer democracy; large majorities reject authoritarian alternatives
+    \item Yet support dropped 7 percentage points over a decade (30 countries), with steep declines in South Africa (-29) and Mali (-23)
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Military rule gaining acceptance
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Opposition to military rule weakened by 11 percentage points, especially in Mali (-40) and Burkina Faso (-36)
+    \item 53\% would accept military takeover if leaders abuse power
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Mixed signals on support for democratic norms
+  \begin{itemize}
+    \item In favor of: accountability, rule of law, term limits, multiparty competition and media freedom
+    \item Support for elections declined 8 points (though majority still favor)
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/afro1.pdf")
+```
+\vspace{0.1cm}
+\tiny
+\begin{center}
+\url{https://www.afrobarometer.org/feature/flagship-report/}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/afro2.pdf")
+```
+\vspace{0.1cm}
+\tiny
+\begin{center}
+\url{https://www.afrobarometer.org/feature/flagship-report/}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/afro3.pdf")
+```
+\vspace{0.1cm}
+\tiny
+\begin{center}
+\url{https://www.afrobarometer.org/feature/flagship-report/}
+\end{center}
+
+# Why democracies in Africa are "fragile"
+
+\begin{itemize}
+  \item Worldwide democratic backsliding and the difficult "state" of global economy (inflation and cost of living crisis)
+  \vspace{0.4cm}
+  \item Weakening of the post-1945 international settlement (and the rise of alternatives)
+  \vspace{0.4cm}
+  \item African democracies are "young;" democratic institutions are "flimsy"
+\end{itemize}
+
+# "Refresher" lecture
+
+\begin{itemize}
+  \item Last week: Regimes, government and governance
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Regime: The principle to rule (institution)
+    \item Government: The organization to rule (organization)
+    \item Governance: The action to rule (behavior)
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Nations, states and nation-states
+  \vspace{0.2cm}
+  \item How states vary: State capacity and economic development
+\end{itemize}
+
+# States, nations, and nation-states
+
+\begin{itemize}
+  \item State(s)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Components: Sovereignty, territory and people (?)
+    \item Building of a state: War, political centralization and resource extraction (armed forces and bureaucracy)
+    \item Different forms of states (look back to history)
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Nation(s)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Building of a nation: \textbf{Imagined Communities} by Benedict Anderson (1983)
+    \item Nations versus race and ethnicity
+    \item Varieties of nationalism: Multiculturalism and populism 
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Nation-state(s): Where nations and states meet each other (do they always align? what if they do not?)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/imagine.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/tax.pdf")
+```
+\vspace{0.1cm}
+\tiny
+\begin{center}
+\url{http://ourworldindata.org/state-capacity}
+\end{center}
+
+# Varieties of states and state-building: Alternative indicators and non-Western experiences
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/states.pdf")
+```
+
+# How states vary
+
+\begin{itemize}
+  \item By political regime: Democracy, anocracy and autocracy (Week 4)
+  \vspace{0.2cm}
+  \item By constitutional design
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Judiciary (Week 3): Supreme (or constitutional) courts (or not -- not every country has one)
+    \item Executive (Week 5): Presidential versus parliamentary; bureaucracy (Week 8)
+    \item Elections (Week 6): Plural/majoritarian versus proportional representation (and mixed-member); political parties (Week 7)
+    \item Legislature: Unicameral versus bicameral
+    \item Central-local relations: Federal versus unitary (and "decentralized")
+  \end{itemize}
+  \vspace{0.2cm}
+  \item By level of economic development: Regime versus state?
+\end{itemize}
+
+# "Freedom in the World" (Freedom House 2025)
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/free.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+\url{https://freedomhouse.org/explore-the-map}
+\end{center}
+
+# Constitute Project (executive power)
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cons_exe.pdf")
+```
+\begin{center}
+\small
+\url{https://www.constituteproject.org/countries}
+\end{center}
+
+# Constitute Project (legislative power)
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cons_leg.pdf")
+```
+\begin{center}
+\small
+\url{https://www.constituteproject.org/countries}
+\end{center}
+
+# Constitute Project (judicial independence)
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cons_judi.pdf")
+```
+\begin{center}
+\small
+\url{https://www.constituteproject.org/countries}
+\end{center}
+
+# Constitute Project (political rights)
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cons_rights.pdf")
+```
+\begin{center}
+\small
+\url{https://www.constituteproject.org/countries}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/dev_book.pdf")
+```
+
+# Democracy and development
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/dev_uk.pdf")
+```
+
+# Democracy and development
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/dev_ukplus.pdf")
+```
+
+# Democracy and development
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/dev_singapore.pdf")
+```
+
+# Democracy and development
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/dev_india.pdf")
+```
+
+# Democracy and development
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/dev.pdf")
+```
