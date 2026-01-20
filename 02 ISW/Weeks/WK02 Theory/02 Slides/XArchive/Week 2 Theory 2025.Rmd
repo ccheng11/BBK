@@ -17,33 +17,8 @@ output:
 fontsize: 10pt
 ---
 
-# Logistics
-
-\begin{itemize}
-\small
-  \item Attendance record on My Birkbeck
-  \vspace{0.2cm}
-  \item Online catch-up sessions (until Week 5)
-  \vspace{0.1cm}
-  \begin{itemize}
-    \item Optional Friday noon time drop-in sessions
-    \item No appointment is needed and all is welcome
-    \item Revise lecture and discussions of the week
-  \end{itemize}
-  \vspace{0.2cm}
-  \item Notes on student engagement for online students
-  \vspace{0.1cm}
-  \begin{itemize}
-    \item Join 5 mins before class begins (to test the audio etc)
-    \item Turn on mic to speak anytime you'd like (and make comments and ideas in chat)
-    \item Discussion among you all and yet feel free to bring it to Friday
-  \end{itemize}
-\end{itemize}
-
----
-
 \begin{center}
-\textbf{Lecture 2: What Theory Does and Why Theory Matters}
+\textbf{Lecture 2: Why Theory Matters and What Theory Does}
 \end{center}
 \vspace{0.7cm}
 ```{r echo=FALSE, out.width="70%", fig.align="center"}
@@ -72,38 +47,38 @@ knitr::include_graphics("Figs/wk2.pdf")
 # Recap: What makes "good" social sciences research?
 
 \begin{itemize}
-  \item Personal stake -- research can be therapeutic (with the use of autoethnography)
+  \item Personal stake
   \vspace{0.4cm}
-  \item Addresses a compelling or underexplored research question (or connecting existing ideas)
+  \item Addresses a compelling research question
   \vspace{0.4cm}
-  \item Employs new or cutting-edge data and methods (e.g, computational techniques)
+  \item Employs new data and methods
   \vspace{0.4cm}
-  \item Empirical verdict on conventional wisdom and conceptual policy (or ideological) debates
+  \item Empirical verdict on conventional wisdom and conceptual policy (or theoretical) debates
   \vspace{0.4cm}
-  \item Motivate follow-up research: Knowledge accumulation (with desk-based research) and expansion of the scope condition (from average/national treatment effect to heterogenenous/local treatment effects)
+  \item Motivate follow-up research: Replication and expansion of the scope condition
 \end{itemize}
 
-# Using field randomized controlled trials (RCTs) to evaluate policy impact
+---
 
-```{r echo=FALSE, out.width="50%", fig.align="center"}
+```{r echo=FALSE, out.width="55%", fig.align="center"}
 knitr::include_graphics("Figs/Vox/malaria.pdf")
 ```
 \begin{center}
-\tiny
+\scriptsize
 \url{https://doi.org/10.1162/qjec.2010.125.1.1}
 \end{center}
 
-# Using large-scale, multi-site research to expand beyond simple "average" treatment effects
+---
 
-```{r echo=FALSE, out.width="60%", fig.align="center"}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
 knitr::include_graphics("Figs/Vox/multisite.pdf")
 ```
 \begin{center}
-\tiny
+\scriptsize
 \url{https://doi.org/10.1002/pam.22154}
 \end{center}
 
-# "Big" data (tax records) and policy-oriented research
+---
 
 ```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/Vox/race_opp.pdf")
@@ -113,7 +88,7 @@ knitr::include_graphics("Figs/Vox/race_opp.pdf")
 \url{https://doi.org/10.1093/qje/qjz042}
 \end{center}
 
-# Knowledge accumulation for an old and yet important question
+---
 
 ```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/Vox/spending.pdf")
@@ -123,9 +98,9 @@ knitr::include_graphics("Figs/Vox/spending.pdf")
 \url{https://www.nber.org/papers/w25368}
 \end{center}
 
-# Counterintuitive argument (also see "The Unknowners" by Linsey McGoey at Essex)
+---
 
-```{r echo=FALSE, out.width="50%", fig.align="center"}
+```{r echo=FALSE, out.width="65%", fig.align="center"}
 knitr::include_graphics("Figs/Vox/cluelessness.pdf")
 ```
 \begin{center}
@@ -133,7 +108,7 @@ knitr::include_graphics("Figs/Vox/cluelessness.pdf")
 \url{https://doi.org/10.1093/arisoc/aow018}
 \end{center}
 
-# Stepping to a new territory where we have more questions than answers
+---
 
 ```{r echo=FALSE, out.width="60%", fig.align="center"}
 knitr::include_graphics("Figs/Vox/ai.pdf")
@@ -157,7 +132,7 @@ knitr::include_graphics("Figs/Vox/ai.pdf")
     \vspace{0.1cm}
     \item What is the most important/famous theory in your subject area? And what makes it important/famous?
     \vspace{0.1cm}
-    \item What is your main takeaway from the TED Talk by Simon Sinek? Do you "like" what you hear? Is there really a "theory" in the talk?
+    \item What is your main takeaway from the TED Talk by Simon Sinek? Do you like what you hear? Is there really a "theory" in the talk?
   \end{itemize}
 \end{itemize}
 
@@ -212,9 +187,9 @@ knitr::include_graphics("Figs/org.pdf")
   \item Theory as interpretation: Ways of "seeing"
   \vspace{0.1cm}
   \begin{itemize}
-    \item Taking a conceptual framework to "construct a creative reading" of the social world
-    \item Stimulating multiple abstractions and different ways to "understanding" the world (hence open door to new conceptual possibilities)
-    \item Likely to be reflexive so as to re-conceptualize a topic or a phenomenon (e.g., racial inequality)
+    \item Taking a conceptual framework to "construct a deep reading" of the social world
+    \item Stimulating multiple abstractions and different ways to "understanding" the world
+    \item Likely to be reflexive so as to re-conceptualize a topic or a phenomenon
   \end{itemize}
   \vspace{0.8cm}
   \item Theory as explanation
@@ -230,7 +205,7 @@ knitr::include_graphics("Figs/org.pdf")
   \item Theory as explanation: Way(s) of "unpacking"
   \vspace{0.1cm}
   \begin{itemize}
-    \item Identifying and establishing the "fundamental processes, mechanisms and structures" underlying the outcomes of interest in the social world
+    \item Identifying and establishing the "fundamental processes, mechanisms and structures" underlying the outcome of interest in the social world
     \item Often assuming an objective stance and working around a limited set of corresponding theoretical resources and concepts
     \item May be useful for forecasting and predictions; "theory of everything"
   \end{itemize}
