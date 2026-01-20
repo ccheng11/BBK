@@ -83,9 +83,9 @@ knitr::include_graphics("Figs/wk2.pdf")
   \item Motivate follow-up research: Knowledge accumulation (with desk-based research) and expansion of the scope condition (from average/national treatment effect to heterogenenous/local treatment effects)
 \end{itemize}
 
-# Using field randomized controlled trials (RCTs) to evaluate policy impact
+# Using field randomized controlled trials (RCTs) to evaluate policy (and some simple intervention can have huge inmpact)
 
-```{r echo=FALSE, out.width="50%", fig.align="center"}
+```{r echo=FALSE, out.width="45%", fig.align="center"}
 knitr::include_graphics("Figs/Vox/malaria.pdf")
 ```
 \begin{center}
@@ -125,12 +125,23 @@ knitr::include_graphics("Figs/Vox/spending.pdf")
 
 # Counterintuitive argument (also see "The Unknowners" by Linsey McGoey at Essex)
 
-```{r echo=FALSE, out.width="50%", fig.align="center"}
+```{r echo=FALSE, out.width="50%", fig.align="cenI ter"}
 knitr::include_graphics("Figs/Vox/cluelessness.pdf")
 ```
 \begin{center}
 \scriptsize
 \url{https://doi.org/10.1093/arisoc/aow018}
+\end{center}
+
+# Connecting the dots: intersectionality of identity politics and class' rightward turn in understanding American voting behavior
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/Vox/white.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\scriptsize
+\url{https://press.princeton.edu/books/paperback/9780691176192/white-backlash}
 \end{center}
 
 # Stepping to a new territory where we have more questions than answers
