@@ -180,9 +180,9 @@ knitr::include_graphics("Figs/Vox/ai.pdf")
   \vspace{1cm}
   \item Do we mean the same thing when we say "theory?" (Short answer: \textbf{NO})
   \vspace{1cm}
-  \item How do we present and formulate your theory?
+  \item How do we present and formulate a theory?
   \vspace{1cm}
-  \item How do we evaluate your theory? (we will be addressing this in the coming week)
+  \item How do we evaluate a theory? (we will be addressing this in the coming week)
 \end{itemize}
 
 ---
