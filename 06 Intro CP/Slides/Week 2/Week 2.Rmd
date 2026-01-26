@@ -18,7 +18,7 @@ fontsize: 10pt
 ---
 
 \begin{center}
-\textbf{Weel 2: Organising}
+\textbf{Week 2: Organising}
 \end{center}
 \vspace{0.3cm}
 ```{r echo=FALSE, out.width="70%", fig.align="center"}

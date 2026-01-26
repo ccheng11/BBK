@@ -1,0 +1,228 @@
+---
+title: |
+  |
+  |
+  | Comparative Government
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng 
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\begin{center}
+\textbf{Week 3: Codifying}
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/week3.pdf")
+```
+
+# Today's plan
+
+\begin{itemize}
+  \item Logistics: Seminar log and mini critical review (20\% each)
+  \vspace{0.25cm}
+  \item Recap: "Nations, States and Nation-States" (40 mins)
+  \vspace{0.25cm}
+  \item Refresher lecture (1-1.5 hr)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Comparing constitutions
+    \item Judiciary in comparative perspective
+  \end{itemize}
+  \vspace{0.25cm}
+  \item Reading exercise: "Constitutions and the Quality of Democracy" (next week)
+\end{itemize}
+
+# Seminar log
+
+\begin{itemize}
+\small
+  \item Due on \textbf{February 13}, 2026 (Friday)
+  \vspace{0.2cm}
+  \item Write a \textbf{500-word} piece of connected prose (max)
+  \vspace{0.2cm}
+  \item Choose one topic from Week 1-4 and answer the questions listed at the end of the lecture outline
+  \vspace{0.2cm}
+  \item Review the readings (both requred and optional ones), the recorded lecture and the refresher lecture in class
+  \vspace{0.2cm}
+  \item Your response should
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item provide an overview of what you have learned and some of the key points you will take with you
+    \item provide thoughts from class discussion to demonstrate your reflection and understanding of the topics/issues, with specific examples
+  \end{itemize}
+\end{itemize}
+
+# Mini critical review
+
+\begin{itemize}
+\small
+  \item Due on \textbf{February 20}, 2026 (Friday)
+  \vspace{0.2cm}
+  \item Write a \textbf{500-word} piece of connected prose (max)
+  \vspace{0.2cm}
+  \item Choose one topic from Week 1-5
+  \vspace{0.2cm}
+  \item In your review:
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item discuss the reading exercise to review relevant topics of the week, based on the questions we discuss in class
+    \item review the answers you heard in class discussion and provide your thoughts
+  \end{itemize} 
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/ga.pdf")
+```
+\begin{center}
+\scriptsize
+\url{https://goodauthority.org/}
+\end{center}
+
+# Exercise: "Democracy and Nationalism" (Eun A. Jo, College of William and Mary)
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/reading.pdf")
+```
+\begin{center}
+\scriptsize
+\url{https://goodauthority.org/news/good-to-know-nationalism-and-democracy/}
+\end{center}
+
+---
+
+\vspace{0.3cm}
+\begin{itemize}
+  \item Is nationalism good or bad for democracy? Why?
+  \vspace{0.3cm}
+  \item Does the "typology" make sense to you? Can you place countries you know in the table? Any exceptions?
+  \vspace{0.3cm}
+  \item What activities can contribute to the construction of shared identity, namely "nation-building?"
+  \vspace{0.3cm}
+  \item The article concludes by saying nationalism needs a better "narrative." What does that mean?
+\end{itemize}
+
+# Recap: Nations, states and nation-states
+
+\begin{itemize}
+\small
+  \item Nations
+  \begin{itemize}
+    \item "Imagined Communities" (see Benedict Anderson 1983)
+    \item Top-down and/or bottom-up construction of shared identity
+  \end{itemize}
+  \vspace{0.1cm}
+  \item States
+  \begin{itemize}
+    \item Political autorities/entities with the legitimacy to use coercive power (see Charles Tilly 1990)
+    \item Centralizred armed forces (military and police), bureaucracy and infrastructure (e.g., transportation)
+    \item Taking various forms in history and contemporary era
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Nations and states do not always align, and when they do not
+  \begin{itemize}
+    \item Intra-state or civil wars and secession/independent movement; Wars in the Balkans in the 1990s
+    \item Multi-ethnic/nation states (or plural societies as put by Arend Lijphart 1977); Northern Ireland after the 1997 Good Friday Agreement
+  \end{itemize}
+\end{itemize}
+
+# Refresher lecture
+
+\begin{itemize}
+  \item Comparing constitutions
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item For legal scholars
+    \item For political scientists
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Judiciary in comparative perspective
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Constitutional review
+    \item Emergency power
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Looking forward: Two visions of democracy
+\end{itemize}
+
+# Comparing constitutions like a legal scholar
+
+\begin{itemize}
+  \item Formats: Cofied versus uncodified? Written versus unwritten?
+  \vspace{0.2cm}
+  \item Texts: Lengthy versus succinnt? Principles or details? Wording of articles? 
+  \vspace{0.2cm}
+  \item Rules to amend and change: How difficult it is to change some parts of or the whole consttitution?
+\end{itemize}
+
+# Debate on UK "constitution"
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ucl_con.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+\url{https://youtu.be/dcdBnn2NXmM}
+\end{center}
+
+# "Constitute Project"
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/con_project.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+\url{https://www.constituteproject.org/}
+\end{center}
+
+# Comparing constitutions like a political scientist
+
+\begin{itemize}
+  \item Varieties of constitutions
+  \vspace{0.1cm}
+  \item Key inquries: Underlying power dynamics driving the "creation" as well as the "practice"
+  \begin{itemize}
+    \item Power concentration and dispersion (Lijphart 1999; Powell 2000)
+    \item Rigid or adapatative constitutions (Levitsky and Murillo 2009; Abramson and Barber 2019)
+  \end{itemize}
+\end{itemize}
+
+# Constitutional "engineering" in plural socieities (Lijphart 1977)
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/lijphart.pdf")
+```
+
+# Supreme courts and constitutional review
+
+Basic logic.
+
+---
+
+USA
+
+---
+
+Germany
+
+---
+
+UK.
+
+# Emergency power.
+
+Collapse of Weimar democracy (check Sherri Berman).
