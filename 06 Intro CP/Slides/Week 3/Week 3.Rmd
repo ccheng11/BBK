@@ -172,7 +172,7 @@ knitr::include_graphics("Figs/reading.pdf")
 # Comparing constitutions like a legal scholar
 
 \begin{itemize}
-  \item Formats: Cofied versus uncodified? Written versus unwritten?
+  \item Formats: Cofied versus uncodified? Written versus unwritten (norms)?
   \vspace{0.2cm}
   \item Texts
   \vspace{0.1cm}
@@ -182,7 +182,7 @@ knitr::include_graphics("Figs/reading.pdf")
     \item Wording of articles? 
   \end{itemize}
   \vspace{0.2cm}
-  \item Rules for changes: Hard versus soft? Strong versus weak? How difficult it is to change some parts of or the whole consttitution? (see Abramson and Barber 2019)
+  \item Rules for changes: Hard/strong versus soft/weak? How difficult it is to change some parts of or the whole consttitution? (see Abramson and Barber 2019)
 \end{itemize}
 
 # "Comparative Constitutions Project"
