@@ -80,6 +80,18 @@ knitr::include_graphics("Figs/week3.pdf")
   \end{itemize} 
 \end{itemize}
 
+# Reminders and tips
+
+\begin{itemize}
+  \item No need to be thorough -- perhaps better to be focused and in-depth
+  \vspace{0.3cm}
+  \item No need to worry too much about citations for these two assignments -- the key is to share your thoughts as informed by readings, lectures and class discussions
+  \vspace{0.3cm}
+  \item Balanace between descriptive versus analytical 
+  \vspace{0.3cm}
+  \item Come to office hours for verbal support
+\end{itemize}
+
 ---
 
 ```{r echo=FALSE, out.width="85%", fig.align="center"}
@@ -162,14 +174,64 @@ knitr::include_graphics("Figs/reading.pdf")
 \begin{itemize}
   \item Formats: Cofied versus uncodified? Written versus unwritten?
   \vspace{0.2cm}
-  \item Texts: Lengthy versus succinnt? Principles or details? Wording of articles? 
+  \item Texts
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Lengthy versus succinnt?
+    \item Principles or details?
+    \item Wording of articles? 
+  \end{itemize}
   \vspace{0.2cm}
-  \item Rules to amend and change: How difficult it is to change some parts of or the whole consttitution?
+  \item Rules for changes: Hard versus soft? Strong versus weak? How difficult it is to change some parts of or the whole consttitution? (see Abramson and Barber 2019)
 \end{itemize}
 
-# Debate on UK "constitution"
+# "Comparative Constitutions Project"
 
-```{r echo=FALSE, out.width="100%", fig.align="center"}
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/ccp.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+\url{https://comparativeconstitutionsproject.org}
+\end{center}
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/ccp_profs.pdf")
+```
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/ccp_ranking.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://comparativeconstitutionsproject.org/ccp-rankings/}
+\end{center}
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/george2.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://constitution-unit.com/2016/06/06/countries-with-longer-constitutions-are-poorer-and-more-corrupt-evidence-from-the-oecd/}
+\end{center}
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/ucl_con.pdf")
 ```
 \vspace{0.1cm}
@@ -178,27 +240,27 @@ knitr::include_graphics("Figs/ucl_con.pdf")
 \url{https://youtu.be/dcdBnn2NXmM}
 \end{center}
 
-# "Constitute Project"
-
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/con_project.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\small
-\url{https://www.constituteproject.org/}
-\end{center}
-
 # Comparing constitutions like a political scientist
 
 \begin{itemize}
-  \item Varieties of constitutions
+\small
+  \item Varieties of constitutional democracy
   \vspace{0.1cm}
-  \item Key inquries: Underlying power dynamics driving the "creation" as well as the "practice"
   \begin{itemize}
-    \item Power concentration and dispersion (Lijphart 1999; Powell 2000)
-    \item Rigid or adapatative constitutions (Levitsky and Murillo 2009; Abramson and Barber 2019)
+    \item Executive system: presidential versus parliamentary
+    \item Electoral system: majoritarian/plurality, PR and mixed-member (and the resulting party system)
+    \item Legislative system: uni- or bi-cameral
+    \item Central-local relations: federal, unitary and decentralized
   \end{itemize}
+  \vspace{0.2cm}
+  \item Key inquries: Underlying power dynamics driving the "creation" as well as the "practice"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Power concentration and dispersion (Lijphart 1999; Powell 2000), and the resulting design of judiciary
+    \item Rigid or adapatative constitutions (Levitsky and Murillo 2009)
+  \end{itemize}
+  \vspace{0.1cm}
+  \item Two visions of democracy: Westminster Model versus Concensus Model as a response to "Madison's dilemma"
 \end{itemize}
 
 # Constitutional "engineering" in plural socieities (Lijphart 1977)
@@ -207,22 +269,94 @@ knitr::include_graphics("Figs/con_project.pdf")
 knitr::include_graphics("Figs/lijphart.pdf")
 ```
 
+# Consociational democracy: Power-sharing among groups
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ireland.pdf")
+```
+
 # Supreme courts and constitutional review
 
-Basic logic.
+\begin{itemize}
+  \item Judiciary in the constitution organizes relations between the executive and legislative branches of government:
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item \textbf{Parliamentary supremacy}: a principle according to which judges' decisions remain subordinate to decisions of the legislative majority (e.g., UK before 2009)
+    \item \textbf{Judicial review}: the ability of a country's high court to invalidate laws the legislature has enacted by declaring them unconstitutional (e.g., USA, Germany and UK after 2009)
+  \end{itemize}
+  \vspace{0.3cm}
+  \item What explans the adoption of either principle? What is the "politics" behind the operation of these principles?
+\end{itemize}
 
 ---
 
-USA
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/usa.pdf")
+```
 
 ---
 
-Germany
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/germany.pdf")
+```
 
 ---
 
-UK.
+\vspace{1.5cm}
+"Domestic intelligence cannot push for a ban on the party -- that can only go through the \textbf{two houses of parliament}, \textbf{government} or \textbf{the constitutional court} -- but its latest decision could encourage others to start the process."
 
-# Emergency power.
+---
 
-Collapse of Weimar democracy (check Sherri Berman).
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/uk.pdf")
+```
+
+# "Why Govts Call A State of Emergency" (Bjørnskov and Voigt 2018)
+
+\begin{itemize}
+  \item Countries w/o constitutionalized emergency provisions declare states of emergency (SoE) significantly more often than those that have them
+  \vspace{0.2cm}
+  \item When the cost to declare SoE is low, governments will do so more frequently for natural disasters (but not for political "turmoils")
+  \vspace{0.2cm}
+  \item Large natural disasters are more likely to lead to an official SOE when the legislature holds more power
+  \vspace{0.2cm}
+  \item Takeaway lessons
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Constitutioal provisions (as institutional checks) matter
+    \item Not all SoEs are idential
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/soe_india.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://www.thehindu.com/books/a-list-of-books-documenting-emergency-in-india-its-excesses-and-consequences/article69734711.ece}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/soe_usa.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://www.whitehouse.gov/presidential-actions/2025/08/declaring-a-crime-emergency-in-the-district-of-columbia/}
+\end{center}
+
+# Case study: (Absence) of SoE declaration for the pandemic in the UK
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/soe_uk.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://constitution-unit.com/2016/06/06/countries-with-longer-constitutions-are-poorer-and-more-corrupt-evidence-from-the-oecd/}
+\end{center}
