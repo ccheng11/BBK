@@ -131,21 +131,21 @@ knitr::include_graphics("Figs/reading.pdf")
 \small
   \item Nations
   \begin{itemize}
-    \item "Imagined Communities" (see Benedict Anderson 1983)
+    \item "Imagined Communities" (Benedict Anderson 1983)
     \item Top-down and/or bottom-up construction of shared identity
   \end{itemize}
   \vspace{0.1cm}
   \item States
   \begin{itemize}
-    \item Political autorities/entities with the legitimacy to use coercive power (see Charles Tilly 1990)
-    \item Centralizred armed forces (military and police), bureaucracy and infrastructure (e.g., transportation)
+    \item Political autorities/entities with the legitimacy to use coercive power (Charles Tilly 1990)
+    \item Centralizred armed forces (military and police), bureaucracy, and "infrastructure" (e.g., transportation)
     \item Taking various forms in history and contemporary era
   \end{itemize}
   \vspace{0.1cm}
   \item Nations and states do not always align, and when they do not
   \begin{itemize}
-    \item Intra-state or civil wars and secession/independent movement; Wars in the Balkans in the 1990s
-    \item Multi-ethnic/nation states (or plural societies as put by Arend Lijphart 1977); Northern Ireland after the 1997 Good Friday Agreement
+    \item Nations without states: armed conflicts and secession/independent movement; "Wars in the Balkans" in the 1990s
+    \item Multi-ethnic/nation states: plural societies as put by Arend Lijphart 1977; Northern Ireland after the 1997 Good Friday Agreement
   \end{itemize}
 \end{itemize}
 
@@ -172,18 +172,38 @@ knitr::include_graphics("Figs/reading.pdf")
 # Comparing constitutions like a legal scholar
 
 \begin{itemize}
+  \item Ideology (e.g., the Federalist Papers)
+  \vspace{0.2cm}
   \item Formats: Cofied versus uncodified? Written versus unwritten (norms)?
   \vspace{0.2cm}
   \item Texts
   \vspace{0.1cm}
   \begin{itemize}
-    \item Lengthy versus succinnt?
-    \item Principles or details?
-    \item Wording of articles? 
+    \item Length: Lengthy or succinnt?
+    \item Substance: Principles or details?
+    \item Wording: Simple or sophisticated? 
   \end{itemize}
   \vspace{0.2cm}
   \item Rules for changes: Hard/strong versus soft/weak? How difficult it is to change some parts of or the whole consttitution? (see Abramson and Barber 2019)
+  \vspace{0.2cm}
+  \item Key inquries: Coming up with a "perfect" constitutional law
 \end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/federalist.pdf")
+```
+\begin{center}
+\scriptsize
+\url{https://guides.loc.gov/federalist-papers/full-text}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/philly.pdf")
+```
 
 # "Comparative Constitutions Project"
 
@@ -197,7 +217,7 @@ knitr::include_graphics("Figs/ccp.pdf")
 \url{https://comparativeconstitutionsproject.org}
 \end{center}
 
----
+# "Comparative Constitutions Project"
 
 \vspace{0.1cm}
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
@@ -218,11 +238,11 @@ knitr::include_graphics("Figs/ccp_ranking.pdf")
 
 ---
 
-\vspace{0.1cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/george2.pdf")
 ```
-\vspace{0.1cm}
+\vspace{0.2cm}
 \begin{center}
 \tiny
 \url{https://constitution-unit.com/2016/06/06/countries-with-longer-constitutions-are-poorer-and-more-corrupt-evidence-from-the-oecd/}
@@ -230,11 +250,11 @@ knitr::include_graphics("Figs/george2.pdf")
 
 ---
 
-\vspace{0.1cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/ucl_con.pdf")
 ```
-\vspace{0.1cm}
+\vspace{0.2cm}
 \begin{center}
 \small
 \url{https://youtu.be/dcdBnn2NXmM}
