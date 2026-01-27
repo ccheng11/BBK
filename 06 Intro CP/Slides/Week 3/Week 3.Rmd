@@ -89,7 +89,13 @@ knitr::include_graphics("Figs/week3.pdf")
   \vspace{0.3cm}
   \item Balanace between descriptive versus analytical 
   \vspace{0.3cm}
-  \item Come to office hours for verbal support
+  \item Support is available
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item My office hours
+    \item College Study Skills Team (\url{https://www.bbk.ac.uk/student-services/learning-development})
+    \item School of Social Sciences Learning Dev Team (\url{https://www.bbk.ac.uk/school/social-sciences/learning-development})
+  \end{itemize}
 \end{itemize}
 
 ---
