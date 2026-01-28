@@ -88,7 +88,7 @@ Dr OiYan Poon (CAF Co-Lab)
 "'The founders of CRT critiqued liberal ideologies, and that they called on research scholars to seek out and understand the roots of why racial disparities are so persistent, and \textbf{to systematically dismantle racism}.'"
 \end{small}
 
-# "The statistical theory of racism and sexism"
+# The economic theory of racism and sexism
 
 ```{r echo=FALSE, out.width="27%", fig.align="center"}
 knitr::include_graphics("Figs/becker.pdf")
@@ -108,7 +108,7 @@ knitr::include_graphics("Figs/becker.pdf")
   \vspace{0.6cm}
   \item Last week: "\textbf{Theory comes to rescue}" (!)
   \vspace{0.6cm}
-  \item Coming weeks: "\textbf{Empirics comes to rescue}" (!?)
+  \item Starting from this week: "\textbf{Empirics comes to rescue}" (!?)
   \vspace{0.2cm}
   \begin{itemize}
     \item How do social researchers use theory and data in their work? 
@@ -155,14 +155,14 @@ knitr::include_graphics("Figs/kkv_hd.pdf")
   \vspace{0.1cm}
   \begin{itemize}
     \item Pros: Generate ideas and concepts to reveal nuances of the social world
-    \item Cons: "Everyone is right" -- a collection of opinions and (analytical) perspectives? 
+    \item Cons: "Everyone is right" -- a collection of opinions and (analytical) viewpoints? 
   \end{itemize}
   \vspace{0.3cm}
   \item Theory as a way of explaining
   \vspace{0.1cm}
   \begin{itemize}
     \item Pros: Lay out a specific and parsimonious process and mechanisms through which the social world "works" 
-    \item Cons: "Everyone loses" -- domination and loss of complexities
+    \item Cons: "Everyone loses" -- domination and loss of complexities and nuances
   \end{itemize}
 \end{itemize}
 \vspace{0.6cm}
@@ -170,34 +170,34 @@ knitr::include_graphics("Figs/kkv_hd.pdf")
 What do you think? Do you have a preference here?
 \end{center}
 
-# Why empirics: The "sandcastle" pitfall
+# Why empirics: The "Sand Castle" curse of social sciences research
 
 \vspace{0.2cm}
-\begincols
-  \begincol{.4\textwidth}
-    \begin{figure}
-    \centering
-    \includegraphics[scale=0.35]{Figs/castles}
-    \end{figure}
-  \endcol
-  \begincol{.5\textwidth}
-  "'My name is Ozymandias, king of kings:\
-  Look on my works, ye Mighty, and despair!'\
-  Nothing beside remains. Round the decay'\
-  Of that colossal wreck, boundless and bare\
-  The lone and level sands stretch far away."\
-  $\qquad$ from Percy Bysshe Shelley, "Ozymandias"
-  \endcol
-\endcols
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/barbara.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/barbara_quote.pdf")
+```
+\pause
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item Researchers "\textit{did not ignore evidence, but they used it \textbf{selectively} to develop, support, or test theories. ... Few scholars working on these issues either collected \textbf{systematic} evidence or used such evidence as had been assembled by others}."
+  \item Shaky empirics leads to shaky theoretical insights and hinders knowledge accumulation in social sciences research
+\end{itemize}
 
 # How theory aligns with empirics
 
 \begin{itemize}
-  \item Induction: Seeking possibilities
+  \item Induction: Seeking possibilities (or "imaginations")
   \vspace{0.6cm}
-  \item Deduction: Seeking confirmation
+  \item Deduction: Seeking confirmation (or adjudication)
   \vspace{0.6cm}
-  \item Abduction: Seeking improvement (enrichment)
+  \item Abduction: Seeking improvement (or enrichment)
 \end{itemize}
 
 ---
@@ -207,7 +207,7 @@ What do you think? Do you have a preference here?
   \vspace{0.1cm}
   \begin{itemize}
     \item Producing broad claims based on our observations showing systematic patterns
-    \item Using (non-exhaustive) observations to inform theory-building possibilities
+    \item Using (non-exhaustive) observations to inform (theory-building) possibilities
     \item Prone to any unfair or unwarranted rejections with only an (or a few) "exception" or "outlier"
   \end{itemize}
   \vspace{0.6cm}
@@ -224,7 +224,7 @@ What do you think? Do you have a preference here?
   \item \textbf{Deduction}: Seeking confirmation
   \vspace{0.1cm}
   \begin{itemize}   
-    \item Evaluating theoretical claims by using data to "test" the hypotheses based from these claims
+    \item Evaluating theoretical claims by using data to "test the hypotheses" based from these claims
     \item Ideal if attempting to adjudicate competing theoretical claims; often in line with positivism
     \item Rejecting hypotheses does not necessarily rule out the theory (but it does reduce our faith in the theory, however)
   \end{itemize}
@@ -242,7 +242,7 @@ What do you think? Do you have a preference here?
   \item \textbf{Abduction}: Seeking improvement
    \vspace{0.1cm}
   \begin{itemize}
-    \item Starting by (surprisingly) finding that a hypothesis does NOT work well and may trigger the need for new data and interpretations/explanations
+    \item Starting by (surprisingly) finding that a hypothesis does NOT work well and may trigger the need for new observations/data and/or interpretations/explanations
     \item Can be seen as a sequential integration of deductive-inductive processes
     \item Common for the task of theoretical refinement (or improvement)
   \end{itemize}
