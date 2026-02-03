@@ -1,0 +1,313 @@
+---
+title: |
+  |
+  |
+  | Comparative Government
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng 
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\begin{center}
+\textbf{Week 4: Ruling}
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/week4.pdf")
+```
+
+# Today's plan
+
+\begin{itemize}
+  \item Logistics: Attendance and assessment 
+  \vspace{0.3cm}
+  \item Recap from previous weeks
+  \begin{itemize}
+    \item Nationalism and democracy (and varieties of democracy)
+    \item Reading exercise: "Constitutional Design and Quality of Democracy"
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Refresher lecture: Democracy versus autocracy
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Political development and regime change
+    \item Comparative authoritarianism
+  \end{itemize}
+\end{itemize}
+
+# Reading exercise summary: Nationalism and democracy
+
+\begin{itemize}
+  \item Nationalism is one of the most important political ideologies in contemporary era as it is tied to the creation of nation-states
+  \vspace{0.2cm}
+  \item Nationalism may or may not go along with democracy, as with a strong sense of shared identities
+  \begin{itemize}
+    \item is crucial for a "healthy" democracy with strong civic culture; see Robert Putnam's \textit{Making Democracy Work} (1993)
+    \item can pave the foundation for far-right movements against minorities (e.g., India under BJP) and political repression in dicatatorships (e.g., North Korea)
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Nationalism could be categorized by (1) the narrative content (inclusive versus exclusive) and (2) the degree to which the narrative is open to contestation (open versus close)
+  \vspace{0.2cm}
+  \item Further questions to reflect on "British nationalism" 
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/reading_con.pdf")
+```
+
+# Recap: Varieties of democratic constitutions
+
+\begin{itemize}
+\small
+  \item Varieties of constitutional democracy
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Executive system: presidential versus parliamentary
+    \item Electoral system: majoritarian/plurality, PR and mixed-member (and the resulting party system)
+    \item Legislative system: uni- or bi-cameral
+    \item Central-local relations: federal, unitary and decentralized
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Two visions of democracy: Majoritarian Model versus Consensus Model
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Power concentration and dispersion (Lijphart 1999; Powell 2000), and the resulting design of judiciary
+    \item Rigid or adaptive constitutions (Levitsky and Murillo 2009)
+  \end{itemize}
+  \item Democratic constitutional design is a response to "Madison's Dilemma" -- creating a government strong enough to govern while limited enough to protect civil liberties
+\end{itemize}
+
+# Refresher lecture
+
+\begin{itemize}
+  \item Political development and regime change
+  \begin{itemize}
+    \item By driving force
+    \item By starting point
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Comparative authoritarianism
+  \begin{itemize}
+    \item Definition, terminology and typology
+    \item Tactics of authoritarian governance: Repression, co-optation and information control
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Regime type and development
+\end{itemize}
+
+# Regime change and political development
+
+\begin{itemize}
+\small
+  \item "Modernization" as the key driving force
+  \begin{itemize}
+    \item Economic modernization (?)
+    \item Cultural modernization (?) 
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Regime change can start from anywhere
+  \begin{itemize}
+    \item Internal: Top-down (elites) and/or bottom-up (civil society)
+    \item External: Foreign powers and/or diaspora
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/adamp.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/error_cover.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/error.pdf")
+```
+
+--- 
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/berlin.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+Monday demonstrations in East Germany (1989-1991)
+\end{center}
+
+--- 
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/egypt.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+Arab Spring and the fall of Mubarak in Egypt (2011)
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/weimar.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/backsliding.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/weimar.pdf")
+```
+
+# Further questions to think about
+
+\begin{itemize}
+  \item By the underlying driving force and starting point, how many combinations are possible here? 
+  \vspace{0.3cm}
+  \item Do regime changes always lead to democratization?  Democratic transition versus consolidation?
+  \vspace{0.3cm}
+  \item Recent trend of "autocratization" and "democratic backsliding" -- why?
+\end{itemize}
+
+# Comparative authoritarianism: Definition and terminology
+
+\begin{itemize}
+\small
+  \item Cheibub et al (2010): For a regime to be democratic, both the \textbf{chief executive office} and the \textbf{legislative body} must be filled by regular and competitive elections (ex ante uncertainty, ex post irreversibility and repeatability)
+  \vspace{0.2cm}
+  \item Geddes et al (2015)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item An executive achieved power through undemocratic means; \textbf{"undemocratic" refers to any means besides direct, reasonably fair, competitive elections} 
+    \item The government achieved power through democratic means, but subsequently changed the formal or informal rules
+    \item The military prevented parties that substantial numbers of citizens who would be expected to vote for from competing and/or dictated important policy choices
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Terminology: Dictatorships and autocracies; authoritarianism and totalitarianism
+\end{itemize}
+
+# Varieties of authoritarianism (typology versus dichotomy)
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/GWF/type.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/GWF/survival.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+  \item Military regimes are most prone to collapse
+  \item Monarchies and single-party regimes are the most resilient
+\end{itemize}
+
+# Governing authoritarian regimes
+
+\vspace{0.3cm}
+\begin{columns}
+  \begin{column}{0.3\textwidth}
+  \begin{figure}
+  \includegraphics[width=0.6\linewidth]{Figs/handbook}\\
+  \end{figure}
+  \end{column}
+  \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item Physical repression and coercion
+    \vspace{0.3cm}
+    \item Information control and censorship
+    \vspace{0.3cm}
+    \item Co-optation and mobilization through institutions and patronage
+    \end{itemize}
+  \end{column}
+\end{columns}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/toolkit.pdf")
+```
+
+---
+
+\begin{itemize}
+  \item Against individuals versus general population
+  \vspace{0.3cm}
+  \item Logistics of political repression
+  \begin{itemize}
+    \item Information dilemma
+    \item Principal-agent delegation
+    \item Loyalty versus coercion
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/lee2.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+Lee Hsien Loong: "No one should be denied medical care because they cannot afford it and that is my commitment to you. I introduced the \textbf{Pioneer Generation Package} (PGP) in 2014. Now, the Government will be rolling out the `Merdeka Package' to those in their 60s, who had just missed out on qualifying for the PGP."
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/voting.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/dprk.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+General elections in North Korea (2014)
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/elections.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/electoral.pdf")
+```
+
+# Recap: Regime type and economic development
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/dev_book.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+  \item Rule of law, constraints on executive power and private property rights
+  \item Electoral accountability and government responsiveness
+\end{itemize}
