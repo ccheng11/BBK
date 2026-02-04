@@ -68,6 +68,32 @@ knitr::include_graphics("Figs/cover.pdf")
 knitr::include_graphics("Figs/epis_binary.pdf")
 ```
 
+# Wrapping up the loose ends: Epistemology and theory-empirics alignment
+
+\begin{itemize}
+  \item Using induction
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item As a positivist: Any data-driven quantitative projects
+    \item As a constructivist: The World Bank project "Voices of the Poor" 
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Using deduction: Common for theory-driven quantitative projects (hence only positivist), such as "Oil, Islam, and Women" (Ross 2008)
+  \vspace{0.5cm}
+  \item Using abduction
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item As a positivist: "Why China's Economic Reforms Have Delayed Democracy" by Mary Gallagher (2002)
+    \item As a constructivst: "Translating the Devil" by Birgit Meyer (1999)
+  \end{itemize}
+\end{itemize}
+
+# Wrapping up loose ends: More on induction
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/kpm_china.pdf")
+```
+
 # Wrapping up loose ends: More on deduction
 
 \begin{itemize}
@@ -88,7 +114,7 @@ knitr::include_graphics("Figs/epis_binary.pdf")
   \end{itemize}
 \end{itemize}
 
-# Do different electoral systems influence the use of mass repression in dictatorships?
+---
 
 \vspace{0.4cm}
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
@@ -101,8 +127,8 @@ knitr::include_graphics("Figs/electoral.pdf")
 \small
   \item \textbf{Argument}
   \begin{itemize}
-    \item Dictators use plurality or majoritarian systems to demonstrate control and signal invincibility
-    \item Dictators use proportional representation (PR) to engineer political co-optation
+    \item Dictators use plurality or majoritarian systems to mobilize "control" and signal invincibility
+    \item Dictators use proportional representation (PR) to mobilize political "co-optation" of opposition forces
   \end{itemize}
   \vspace{0.1cm}
   \item \textbf{Main hypothesis}: Electoral dictatorships using proportional representation are less repressive than other dictatorships
@@ -123,6 +149,29 @@ knitr::include_graphics("Figs/electoral.pdf")
 ```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/soo_civil_new.pdf")
 ```
+
+# Wrapping up loose ends: More on abduction
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/mg_china.pdf")
+```
+
+---
+
+\begin{itemize}
+  \item Modernization theories say countries are more likely to go through democratic transition as the economy grows
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Economic growth leads to the creation of the middle class
+    \item The newly created middle class can urge the dictator to open up political space for taxation or to avoid protests 
+  \end{itemize}
+  \vspace{0.2cm}
+  \item China defies the prediction given by modernization theories -- why? does that mean modernization theories are "wrong" or China is simply an exception?
+  \vspace{0.2cm}
+  \item A closer look at China's market reform shows that, unlike other typical cases (e.g., Britain in the 19th century) supporting modernization theories, economic growth in the country has not led to an autonomous middle class
+  \vspace{0.2cm}
+  \item The case of China helps to enrich the "missing" nuances regarding the relationship between modernization and regime change
+\end{itemize}
 
 ---
 

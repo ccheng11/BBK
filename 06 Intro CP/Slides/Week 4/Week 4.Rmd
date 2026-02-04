@@ -88,6 +88,17 @@ knitr::include_graphics("Figs/reading_con.pdf")
   \item Democratic constitutional design is a response to "Madison's Dilemma" -- creating a government strong enough to govern while limited enough to protect civil liberties
 \end{itemize}
 
+# Democracy and economic development
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/dev_book.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+  \item Rule of law, constraints on executive power and private property rights
+  \item Electoral accountability and government responsiveness
+\end{itemize}
+
 # Refresher lecture
 
 \begin{itemize}
@@ -164,12 +175,6 @@ Arab Spring and the fall of Mubarak in Egypt (2011)
 ---
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/weimar.pdf")
-```
-
----
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/backsliding.pdf")
 ```
 
@@ -229,7 +234,7 @@ knitr::include_graphics("Figs/GWF/survival.pdf")
 \begin{columns}
   \begin{column}{0.3\textwidth}
   \begin{figure}
-  \includegraphics[width=0.6\linewidth]{Figs/handbook}\\
+  \includegraphics[width=1\linewidth]{Figs/handbook}\\
   \end{figure}
   \end{column}
   \begin{column}{0.5\textwidth}
@@ -300,14 +305,3 @@ knitr::include_graphics("Figs/elections.pdf")
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/electoral.pdf")
 ```
-
-# Recap: Regime type and economic development
-
-```{r echo=FALSE, out.width="80%", fig.align="center"}
-knitr::include_graphics("Figs/dev_book.pdf")
-```
-\vspace{0.2cm}
-\begin{itemize}
-  \item Rule of law, constraints on executive power and private property rights
-  \item Electoral accountability and government responsiveness
-\end{itemize}

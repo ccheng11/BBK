@@ -5,7 +5,7 @@
   \vspace{0.1cm}
   \begin{itemize}
     \item As a positivist: Common for data-driven quantitative projects
-    \item As a constructivist: The World Bank project "Voices of the Poor" 9
+    \item As a constructivist: The World Bank project "Voices of the Poor" 
   \end{itemize}
   \vspace{0.5cm}
   \item Using deduction: Common for theory-driven quantitative projects (hence only positivist)?

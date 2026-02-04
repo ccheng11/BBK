@@ -52,7 +52,7 @@ knitr::include_graphics("Figs/week3.pdf")
   \vspace{0.2cm}
   \item Choose one topic from Week 1-4 and answer the questions listed at the end of the lecture outline
   \vspace{0.2cm}
-  \item Review the readings (both requred and optional ones), the recorded lecture and the refresher lecture in class
+  \item Review the readings (both required and optional ones), the recorded lecture and the refresher lecture in class
   \vspace{0.2cm}
   \item Your response should
   \vspace{0.1cm}
@@ -87,7 +87,7 @@ knitr::include_graphics("Figs/week3.pdf")
   \vspace{0.3cm}
   \item No need to worry too much about citations for these two assignments -- the key is to share your thoughts as informed by readings, lectures and class discussions
   \vspace{0.3cm}
-  \item Balanace between descriptive versus analytical 
+  \item Balance between descriptive versus analytical 
   \vspace{0.3cm}
   \item Support is available
   \vspace{0.1cm}
@@ -143,8 +143,8 @@ knitr::include_graphics("Figs/reading.pdf")
   \vspace{0.1cm}
   \item States
   \begin{itemize}
-    \item Political autorities/entities with the legitimacy to use coercive power (Charles Tilly 1990)
-    \item Centralizred armed forces (military and police), bureaucracy, and "infrastructure" (e.g., transportation)
+    \item Political authorities/entities with the legitimacy to use coercive power (Charles Tilly 1990)
+    \item Centralized armed forces (military and police), bureaucracy, and "infrastructure" (e.g., transportation)
     \item Taking various forms in history and contemporary era
   \end{itemize}
   \vspace{0.1cm}
@@ -180,19 +180,19 @@ knitr::include_graphics("Figs/reading.pdf")
 \begin{itemize}
   \item Ideology (e.g., the Federalist Papers)
   \vspace{0.2cm}
-  \item Formats: Cofied versus uncodified? Written versus unwritten (norms)?
+  \item Formats: Codified versus uncodified? Written versus unwritten (norms)?
   \vspace{0.2cm}
   \item Texts
   \vspace{0.1cm}
   \begin{itemize}
-    \item Length: Lengthy or succinnt?
+    \item Length: Lengthy or succinct?
     \item Substance: Principles or details?
     \item Wording: Simple or sophisticated? 
   \end{itemize}
   \vspace{0.2cm}
   \item Rules for changes: Hard/strong versus soft/weak? How difficult it is to change some parts of or the whole consttitution? (see Abramson and Barber 2019)
   \vspace{0.2cm}
-  \item Key inquries: Coming up with a "perfect" constitutional law
+  \item Key inquiries: Coming up with a "perfect" constitutional law
 \end{itemize}
 
 ---
@@ -279,14 +279,14 @@ knitr::include_graphics("Figs/ucl_con.pdf")
     \item Central-local relations: federal, unitary and decentralized
   \end{itemize}
   \vspace{0.2cm}
-  \item Key inquries: Underlying power dynamics driving the "creation" as well as the "practice"
+  \item Key inquiries: Underlying power dynamics driving the "creation" as well as the "practice"
   \vspace{0.1cm}
   \begin{itemize}
     \item Power concentration and dispersion (Lijphart 1999; Powell 2000), and the resulting design of judiciary
-    \item Rigid or adapatative constitutions (Levitsky and Murillo 2009)
+    \item Rigid or adaptive constitutions (Levitsky and Murillo 2009)
   \end{itemize}
   \vspace{0.1cm}
-  \item Two visions of democracy: Westminster Model versus Concensus Model as a response to "Madison's dilemma"
+  \item Two visions of democracy: Majoritarian Model versus Consensus Model as a response to "Madison's dilemma"
 \end{itemize}
 
 # Constitutional "engineering" in plural socieities (Lijphart 1977)
@@ -311,7 +311,7 @@ knitr::include_graphics("Figs/ireland.pdf")
     \item \textbf{Judicial review}: the ability of a country's high court to invalidate laws the legislature has enacted by declaring them unconstitutional (e.g., USA, Germany and UK after 2009)
   \end{itemize}
   \vspace{0.3cm}
-  \item What explans the adoption of either principle? What is the "politics" behind the operation of these principles?
+  \item What explains the adoption of either principle? What is the "politics" behind the operation of these principles?
 \end{itemize}
 
 ---
@@ -349,8 +349,8 @@ knitr::include_graphics("Figs/uk.pdf")
   \item Takeaway lessons
   \vspace{0.1cm}
   \begin{itemize}
-    \item Constitutioal provisions (as institutional checks) matter
-    \item Not all SoEs are idential
+    \item Constitutional provisions (as institutional checks) matter
+    \item Not all SoEs are identical
   \end{itemize}
 \end{itemize}
 
