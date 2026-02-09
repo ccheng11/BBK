@@ -28,7 +28,7 @@ knitr::include_graphics("Figs/week5.pdf")
 # Today's plan
 
 \begin{itemize}
-  \item Logistics: Attendance and assessment 
+  \item Logistics: Seminar log due this Friday 
   \vspace{0.3cm}
   \item Recap from previous weeks
   \begin{itemize}
@@ -202,7 +202,7 @@ Having a president does not mean the country is a presidential democracy because
 
 # Presidential versus parliamentary democracies from a delegation perspective
 
-```{r echo=FALSE, out.width="80%", fig.align="center"}
+```{r echo=FALSE, out.width="85%", fig.align="center"}
 knitr::include_graphics("Figs/type_recap.pdf")
 ```
 \vspace{0.2cm}
@@ -333,10 +333,10 @@ Close to half of countries around the world have bicameral legislatures (in gree
 
 ---
 
-```{r echo=FALSE, out.width="100%", fig.align="center"}
+```{r echo=FALSE, out.width="104%", fig.align="center"}
 knitr::include_graphics("Figs/legislature/examples.pdf")
 ```
-\vspace{0.1cm}
+\vspace{0.3cm}
 \begin{itemize}
   \small
   \item Japan: House of Representatives (lower) and Hose of Councilors (upper)
