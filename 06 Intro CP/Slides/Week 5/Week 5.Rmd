@@ -1,0 +1,403 @@
+---
+title: |
+  |
+  |
+  | Comparative Government
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng 
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\begin{center}
+\textbf{Week 5: Leading}
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/week5.pdf")
+```
+
+# Today's plan
+
+\begin{itemize}
+  \item Logistics: Attendance and assessment 
+  \vspace{0.3cm}
+  \item Recap from previous weeks
+  \begin{itemize}
+    \item Regime change and democratic transition
+    \item Comparative authoritarianism and authoritarian governance
+    \item Reading exercise: "US Descent Into Authoritarianism"
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Refresher lecture: Executive and legislature branches
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Executive system: Presidental versus parliamentary democracies
+    \item Unicameral and bicameral legislatures
+    \item Recap: Supreme/constitutional courts and judicial review
+  \end{itemize}
+\end{itemize}
+
+# Reading exercise summary: "Flawed" constitutions and democracies
+
+To be added tmr
+
+---
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/reading_trump.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\tiny
+\url{https://www.theguardian.com/us-news/ng-interactive/2025/mar/22/trump-administration-authoritarianism}
+\end{center}
+
+---
+
+Questions here
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/backslide.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://doi.org/10.1017/S104909652300063X}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/backslide_overall.pdf")
+```
+
+# Recap: Democratic backsliding 
+
+\begin{itemize}
+  \item Competitiveness of elections, including incumbency (dis)advantage
+  \vspace{0.3cm}
+  \item Constraints on executive power
+  \vspace{0.3cm}
+  \item Freedom of press (and other civil liberties)
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/backslide_comp.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item Unified government control peaked at 55\% around 2010; while higher than the 1990s, it remains well below the pre-1990s high of 70\%
+  \item Electoral Competitiveness for both executive and legislative indices shows a clear upward trend, indicating a global increase in multi-party competition and election contestability
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/backslide_exec.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item Post-Cold War, term limits, dismissal rules, and succession procedures surged; while term limits have recently plateaued, dismissal and succession rules continue a slight upward trend
+  \item Between 2000 and 2018, 26\% of term-limited leaders (all in authoritarian or hybrid regimes) attempted to evade limits, with a 57\% success rate and no clear chronological trend
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/backslide_media.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item Jails for "anti-state" or professional reasons have risen steadily since 2000, marking a decade-long deterioration
+  \item Conversely, fatalities peaked in the early 2000s and have decreased consistently since 2008
+\end{itemize}
+
+---
+
+\begin{itemize}
+\small
+  \item Varieties of constitutional democracy
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Executive system}: presidential, parliamentary and semi-presidential
+    \item \textbf{Legislative system}: uni- or bi-cameral
+    \item Electoral system: majoritarian/plurality, PR and mixed-member (and the resulting party system)
+    \item Central-local relations: federal, unitary and decentralized
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Democratic constitutional design is a response to "\textbf{Madison's Dilemma}"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item the goal is to create a government strong enough to govern while limited enough to protect civil liberties
+    \item Two visions of democracy: Majoritarian Model (power concentration) versus Consensus Model (power dispersion)
+  \end{itemize}
+\end{itemize}
+
+# Refresher lecture
+
+\begin{itemize}
+  \item Executive structures
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Presidential versus parliamentary democracies (and semi-presidentalism)
+    \item "Perils of presidentialism"
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Unicameral and bicameral legislatures
+  \vspace{0.1cm}
+  \begin{itemize}
+      \item Why bicamerialism?
+      \item Different types of bicameralism: (a)symmetry and (incongrence) 
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Recap: Supreme/constitutional courts and judicial review (skim by yourself)
+\end{itemize}
+
+# Presidential versus parliamentary systems
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/type.pdf")
+```
+
+---
+
+\begin{itemize}
+  \item Is the government responsible for the legislative assembly?
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Separation of origin
+    \item Separation of survival
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Is there a "head of state" elected for a fixed term in office?
+\end{itemize}
+
+# Presidential versus parliamentary democracies from a delegation perspective
+
+```{r echo=FALSE, out.width="75%", fig.align="center"}
+knitr::include_graphics("Figs/type_delegate.pdf")
+```
+\vspace{0.2cm}
+\pause
+\begin{center}
+\small
+Having a president does not mean the country is a presidential democracy because "president" can mean different things in different countries!
+\end{center}
+
+# Presidential versus parliamentary democracies from a delegation perspective
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/type_recap.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+Having a president does not mean the country is a presidential democracy because "president" can mean different things in different countries!
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/pps_india.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/pps_germany.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/germany_fifa.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+Merkel and Gauck in Rio de Janeiro, FIFA World Cup 2014
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/trend.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/trend_global.pdf")
+```
+
+# Presidential democracies are much less likely to survive
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/perils.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/coup.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+Rio de Janeiro, April 1, 1964
+\end{center}
+
+# Perils of presidentialism
+
+\begin{itemize}
+  \item The nature of executive-legislature relationship is different between parliamentary and presidential democracies
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Presidential: Separation of origin and survival
+    \item Parliamentary: Legislative responsibility
+  \end{itemize}
+  \vspace{0.3cm}
+  \item What if the executive and legislature do not agree with each other?
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Presidential: Locked in with temporal rigidity (and hence \textbf{policy} stability)
+    \item Parliamentary: Vote of confidence by the govt \textbf{OR} vote of no confidence by the parliament
+  \end{itemize}
+\end{itemize}
+
+---
+
+\begin{itemize}
+  \item Presidential: Extreme policy stability leads to gridlock and regime (or democratic) instability
+  \vspace{0.5cm}
+  \item Parliamentary: Extreme policy stability leads to government (or cabinet) instability
+\end{itemize}
+
+# Varieties of presidentialism
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/president.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/power1.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/power2.pdf")
+```
+
+# Unicameral and bicameral legislatures in the world
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/legislature/trend.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+Close to half of countries around the world have bicameral legislatures (in green), while more countries have unicameral legislatures (in blue). Data: Rice University and OpenStax.
+\end{center}
+
+# Why bicameralism
+
+\begin{itemize}
+  \item History and constitutional design
+  \vspace{0.3cm}
+  \item Different forms of political "representation"
+  \begin{itemize}
+    \item By constitueny (e.g., House of Representatives in Japan)
+    \item By region (e.g., Senate in the US)
+    \item By socioeconomic class (e.g., House of Lords in the UK)
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Malapportionment: When the distribution of political representation between constituencies does not match the constituency's relative population
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/legislature/examples.pdf")
+```
+\vspace{0.1cm}
+\begin{itemize}
+  \small
+  \item Japan: House of Representatives (lower) and Hose of Councilors (upper)
+  \item Germany: Bundestag (lower) and Bundesrat (upper)
+  \item India: Lok Sabha (lower) and Rajya Sabha (upper)
+  \item Russia: State Duna (lower) and Federal Council (upper)
+\end{itemize}
+
+# (A)symmetry and (in)congrence bicameralism 
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/legislature/bicameralism.pdf")
+```
+\vspace{0.1cm}
+\begin{itemize}
+  \item (A)Symmetry: Relative powers between two chambers/houses
+  \item (In)Congruence: Relative preferences (and interests) between two chambers/houses
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/legislature/ipu.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\url{http://ipu.org/}
+\end{center}
+
+# Recap: Supreme/constitutional courts and judicial review
+
+\begin{itemize}
+  \item Judiciary in the constitution organizes relations between the executive and legislative branches of government:
+  \vspace{0.2cm}
+  \begin{itemize}
+    \item \textbf{Parliamentary supremacy}: a principle according to which judges' decisions remain subordinate to decisions of the legislative majority (e.g., UK before 2009)
+    \item \textbf{Judicial review}: the ability of a country's high court to invalidate laws the legislature has enacted by declaring them unconstitutional (e.g., USA, Germany and UK after 2009)
+  \end{itemize}
+  \vspace{0.3cm}
+  \item What explains the adoption of either principle? What is the "politics" behind the operation of these principles?
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/usa.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/germany.pdf")
+```
+
+---
+
+\vspace{1.5cm}
+"Domestic intelligence cannot push for a ban on the party -- that can only go through the \textbf{two houses of parliament}, \textbf{government} or \textbf{the constitutional court} -- but its latest decision could encourage others to start the process."
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/uk.pdf")
+```
