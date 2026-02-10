@@ -48,7 +48,17 @@ knitr::include_graphics("Figs/week5.pdf")
 
 # Reading exercise summary: "Flawed" constitutions and democracies
 
-To be added tmr
+\begin{itemize}
+  \item In addition to the technical details, "who" is behind the making of the constitution also matters a lot
+  \vspace{0.2cm}
+  \item Many democracies did not rewrite their constitutions when they went through the democratic transition; that is, regime change does not always lead to constitutional changes
+  \vspace{0.2cm}
+  \item Democratic constitutions can be "flawed" or "biased" when outgoing autocrats took part in or led the designing of the new constitution of the new democratic government by giving them unfair advantage (how?)
+  \vspace{0.2cm}
+  \item "Correcting" flawed constitutions requires patience and shrewd statecraft
+  \vspace{0.2cm}
+  \item Both history and leadership matter for the practice of constitutions
+\end{itemize}
 
 ---
 
@@ -63,7 +73,13 @@ knitr::include_graphics("Figs/reading_trump.pdf")
 
 ---
 
-Questions here
+\begin{itemize}
+  \item What are the indicators that the US might be rolling into "authoritarianism?"
+  \vspace{0.3cm}
+  \item Are there any indicators being left out?
+  \vspace{0.3cm}
+  \item Can you use the US anecdote to come up with the measurement of democratic backsliding? 
+\end{itemize}
 
 ---
 
@@ -80,6 +96,12 @@ knitr::include_graphics("Figs/backslide.pdf")
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/backslide_overall.pdf")
+```
+
+# Democracy as "polyarchy" (Robert Dahl 1971)
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/polyarchy_cropped.pdf")
 ```
 
 # Recap: Democratic backsliding 
