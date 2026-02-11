@@ -30,11 +30,11 @@ knitr::include_graphics("Figs/cover.pdf")
 \vspace{0.4cm}
 \begin{itemize}
   \item Why comparative and intl analysis
-  \vspace{0.7cm}
+  \vspace{0.5cm}
   \item Move from case studies to social science (Bates 2007; Pepinsky 2019)
-  \vspace{0.7cm}
+  \vspace{0.5cm}
   \item Practical guides for generalization
-  \vspace{0.7cm}
+  \vspace{0.5cm}
   \item Conclusion: Investigating the social world as a vocation
 \end{itemize}
 
@@ -44,6 +44,16 @@ knitr::include_graphics("Figs/cover.pdf")
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/rosenbluth.pdf")
 ```
+
+# Why international and comparative research
+
+\begin{itemize}
+  \item Mitigating selection bias; the cases you choose affect the answers you generalization
+  \vspace{0.3cm}
+  \item Scaling up the importance and relevance of your research (i.e., generalization) by clarifying the scope scope conditions
+  \vspace{0.3cm}
+  \item Avoiding the "perils" of essentialist thinking (see \textit{Suicide: A Study in Sociology} by Émile Durkheim)
+\end{itemize}
 
 # The cases you choose affect the answers you get (Geddes 1990)
 
@@ -65,7 +75,7 @@ knitr::include_graphics("Figs/rosenbluth.pdf")
 
 # Labor repression and economic growth, 1970-81 (Geddes 2003)
 
-```{r echo=FALSE, out.width="85%", fig.align="center"}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/sample.pdf")
 ```
 \begin{center}
@@ -75,12 +85,12 @@ When we only consider East Asian countries, labor repression seems to induce eco
 
 # Labor repression and economic growth, 1970-81 (Geddes 2003)
 
-```{r echo=FALSE, out.width="85%", fig.align="center"}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/all.pdf")
 ```
 \begin{center}
 \small
-When we consider all countries, however, there exists no clear statistical association
+When we consider all countries, however, there exists no clear statistical association between these two variables!
 \end{center}
 
 # Scope condition is key for comparative and intl analysis
@@ -106,7 +116,7 @@ knitr::include_graphics("Figs/singh_new.pdf")
 Can Singh's theoretical insights to other cases? What cases? How do we make sure the new cases are comparable to Singh's choice in the article?
 \end{center}
 
-# Exploring and extending Singh's scope condition (by a former ISW student)
+# Defining and extending Singh's scope condition (by a former ISW student)
 
 \begin{itemize}
 \small
@@ -122,19 +132,17 @@ Can Singh's theoretical insights to other cases? What cases? How do we make sure
 # Be aware of the "pitfalls" of essentialism (Phillips 2010)
 
 \begin{itemize}
+\small
   \item Essentialism can take at least the following four different forms in social research (Phillips 2010)
-  \vspace{0.3cm}
+  \vspace{0.2cm}
   \begin{itemize}
     \item \textbf{Ignoring individual agency and micro-level variation}: Attribution of certain characteristics to all observations subsumed within a particular category
-    \vspace{0.1cm}
     \item \textbf{Naturalizing things that are socially and historically constructed}: Attribution to the category by itself
-    \vspace{0.1cm}
     \item \textbf{Sustaining stereotype and prejudice}: Invocation of a collectivity, presuming a homogenized and unified group
-    \vspace{0.1cm}
     \item \textbf{Impeding innovation by suffocating contestation}: Sanctioning deviations from the presumed collective category uncritically
   \end{itemize}
   \pause
-  \vspace{0.4cm}
+  \vspace{0.3cm}
   \item \textbf{Discussion}: Can you think of any examples in daily life or research you have read? Is attribution to categories always a bad idea? How can we get around these potential pitfalls?
 \end{itemize}
 
