@@ -46,6 +46,12 @@ knitr::include_graphics("Figs/week5.pdf")
   \end{itemize}
 \end{itemize}
 
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/bad_bunny_cropped.pdf")
+```
+
 # Reading exercise summary: "Flawed" constitutions and democracies
 
 \begin{itemize}
