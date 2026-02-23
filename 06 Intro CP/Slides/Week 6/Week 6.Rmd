@@ -52,7 +52,7 @@ knitr::include_graphics("Figs/week6.pdf")
 knitr::include_graphics("Figs/type.pdf")
 ```
 
-# (A)symmetry and (in)congrence bicameralism 
+# Recap: (A)symmetry and (in)congruence bicameralism 
 
 ```{r echo=FALSE, out.width="55%", fig.align="center"}
 knitr::include_graphics("Figs/legislature/bicameralism.pdf")
@@ -105,7 +105,7 @@ knitr::include_graphics("Figs/trump_sc_vote.pdf")
 # Refresher lecture
 
 \begin{itemize}
-  \item Electoral systems: 
+  \item Electoral systems
   \vspace{0.1cm}
   \begin{itemize}
     \item Definition and types: Plurality/majoritarian, proportional representation and mixed-member systems
@@ -159,7 +159,7 @@ knitr::include_graphics("Figs/elecs_calendar.pdf")
   "A country is democratic to the extent that its most powerful collective decision-makers are selected through \textbf{\textit{fair, honest, and periodic elections}} in which candidates freely compete for votes and in which virtually all the adult population is eligible to vote."
 \end{columns}
 
-# How elections work?
+# How do elections work?
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/cand_voting.pdf")
@@ -201,7 +201,7 @@ knitr::include_graphics("Figs/elecworld_map.pdf")
 \begin{itemize}
   \item Plurality and majoritarian systems
   \vspace{0.3cm}
-  \item Proposal representation systems
+  \item Proportional representation systems
   \vspace{0.3cm}
   \item Mixed-member systems
 \end{itemize}
@@ -290,11 +290,11 @@ knitr::include_graphics("Figs/nationalism.pdf")
 # Proportional representation (PR) systems
 
 \begin{itemize}
-  \item Voters cast votes for a particular party; each voter is provided with a "list" of politicians from each political party
+  \item Voters cast votes for a particular party; voters are provided with a "list" of candidates from each political party
   \vspace{0.2cm}
   \item Seats are allocated to parties based on each party's vote share (with certain thresholds, such as Germany and Turkey)
   \vspace{0.2cm}
-  \item A key component of "consociational" democracy; More "permissive" than plurality and majoritarian systems; why?
+  \item A key component of "consociational" democracy; more "permissive" than plurality and majoritarian systems. Why?
 \end{itemize}
 
 ---
@@ -373,11 +373,11 @@ knitr::include_graphics("Figs/gender_system2.pdf")
   \vspace{0.1cm}
   \begin{itemize}
     \item Candidate quality (e.g., education)
-    \item Inclusivenss (e.g., voter registration, voter ID) 
+    \item Inclusiveness (e.g., voter registration, voter ID) 
     \item Integrity (e.g., vote buying and ballot box manipulation)
   \end{itemize}
   \vspace{0.2cm}
-  \item Electoral violence -- what does it happen and how can we stop it?
+  \item Electoral violence -- why does it happen and how can we stop it?
   \vspace{0.2cm}
   \item Descriptive representation of marginalized social groups and discrimination
   \vspace{0.2cm}
@@ -391,7 +391,7 @@ knitr::include_graphics("Figs/gender_system2.pdf")
   \begin{itemize}
     \item Disproportionality: Largest two parties will get disproportionally more seats than other parties
     \vspace{0.4cm}
-    \item Strategic voting: Voters do not wish to "waste" their votes on candidates with to realistic chance of winning
+    \item Strategic voting: Voters do not wish to "waste" their votes on candidates with no realistic chance of winning
   \end{itemize}
   \column{0.46\linewidth}
   \centering
@@ -445,12 +445,14 @@ knitr::include_graphics("Figs/dic_voting.pdf")
 
 ---
 
+\vspace{0.1cm}
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/dic_elections.pdf")
+knitr::include_graphics("Figs/elecs_change.pdf")
 ```
 
 ---
 
+\vspace{0.1cm}
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/dic_rep.pdf")
 ```
