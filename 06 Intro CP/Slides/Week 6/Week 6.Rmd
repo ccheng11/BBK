@@ -154,10 +154,16 @@ knitr::include_graphics("Figs/elecs_calendar.pdf")
 \begin{columns}
   \column{0.38\linewidth}
   \centering
-  \includegraphics[scale=0.2]{Figs/visions}
+  \includegraphics[scale=0.25]{Figs/visions}
   \column{0.5\linewidth}
   "A country is democratic to the extent that its most powerful collective decision-makers are selected through \textbf{\textit{fair, honest, and periodic elections}} in which candidates freely compete for votes and in which virtually all the adult population is eligible to vote."
 \end{columns}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/polyarchy_cropped.pdf")
+```
 
 # How do elections work?
 
@@ -436,6 +442,17 @@ knitr::include_graphics("Figs/voxdev.pdf")
 \scriptsize
 \url{https://voxdev.org/topic/institutions-political-economy/getting-good-politicians-politics}
 \end{center}
+
+---
+
+\begin{itemize}
+  \item According to Gulzar and Khan (2024), what does it mean to be a "good" politician? Do you agree with their definition?
+  \vspace{0.3cm}
+  \item How do they produce the empirical evidence to demonstrate "social" encouragement can lead to "better" politicians?
+  \vspace{0.3cm} 
+  \item Can you find comparable cases of local elections in Pakistan? Will the pattern hold in the case you choose?
+\end{itemize}
+
 
 # Extra: Elections in authoritarian regimes
 
