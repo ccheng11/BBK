@@ -18,11 +18,11 @@ fontsize: 10pt
 ---
 
 \begin{center}
-\textbf{Week 6: Choosing}
+\textbf{Week 7: Mobilising}
 \end{center}
 \vspace{0.3cm}
 ```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("Figs/week6.pdf")
+knitr::include_graphics("Figs/week7.pdf")
 ```
 
 # Today's plan
@@ -30,96 +30,21 @@ knitr::include_graphics("Figs/week6.pdf")
 \begin{itemize}
   \item Logistics: Start thinking about your final essay 
   \vspace{0.3cm}
-  \item Recap from Week 5
+  \item Recap from Week 6: Elections
   \begin{itemize}
-    \item Executive structures and legislatures
-    \item Supreme/constitutional courts and judicial review
+    \item Electoral systems and politics
+    \item Additional things to explore
+    \item Extra: Elections in dictatorships
   \end{itemize}
   \vspace{0.3cm}
-  \item Refresher lecture: Elections and parties
+  \item Refresher lecture: Political parties and party systems
   \vspace{0.1cm}
   \begin{itemize}
-    \item Electoral system: Definitions and types
-    \item Political consequences of electoral system
-    \item Extra: Elections in authoritarian regimes
+    \item Political parties in "modern" democracies
+    \item Where political parties come from: Institutional and societal explanations
+    \item Extra: Political parties in authoritarian regimes (Ben Smith 2005)
     \item Reading exercise: "Getting Good Politicians into Politics"
   \end{itemize}
-\end{itemize}
-
-# Recap: Presidential versus parliamentary democracies
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/type.pdf")
-```
-
-# Recap: (A)symmetry and (in)congruence bicameralism 
-
-```{r echo=FALSE, out.width="55%", fig.align="center"}
-knitr::include_graphics("Figs/legislature/bicameralism.pdf")
-```
-\vspace{0.2cm}
-\begin{itemize}
-\small
-  \item (A)Symmetry: Relative powers between two chambers/houses
-  \item (In)Congruence: Relative preferences (and interests) between two chambers/houses
-\end{itemize}
-
----
-
-\vspace{1cm}
-"A presidential democracy with a symmetric and incongrent bicameral system is most prone to regime collapse."\
-\pause
-\vspace{0.5cm}
-Why?
-
-# Recap: Supreme/constitutional courts and judicial review
-
-\begin{itemize}
-  \item Judiciary in the constitution organizes relations between the executive and legislative branches of government:
-  \vspace{0.2cm}
-  \begin{itemize}
-    \item \textbf{Parliamentary supremacy}: a principle according to which judges' decisions remain subordinate to decisions of the legislative majority (e.g., UK before 2009)
-    \item \textbf{Judicial review}: the ability of a country's high court to invalidate laws the legislature has enacted by declaring them unconstitutional (e.g., USA, Germany and UK after 2009)
-  \end{itemize}
-  \vspace{0.3cm}
-  \item What explains the adoption of either principle? What is the "politics" behind the operation of these principles?
-\end{itemize}
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/trump.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\scriptsize
-\url{https://www.bbc.co.uk/news/articles/cd9g0e7zd8wo}
-\end{center}
-
----
-
-```{r echo=FALSE, out.width="62%", fig.align="center"}
-knitr::include_graphics("Figs/trump_sc_vote.pdf")
-```
-
-# Refresher lecture
-
-\begin{itemize}
-  \item Electoral systems
-  \vspace{0.1cm}
-  \begin{itemize}
-    \item Definition and types: Plurality/majoritarian, proportional representation and mixed-member systems
-    \item Policy consequences of electoral systems: Income inequality and gender gap
-  \end{itemize}
-  \vspace{0.2cm}
-  \item Duverger's law: Party system as the consequences of electoral systems
-  \vspace{0.1cm}
-  \begin{itemize}
-      \item Disproportionality 
-      \item Strategic voting
-  \end{itemize}
-  \vspace{0.2cm}
-  \item Reading exercise: "Getting Good Politicians into Politics"
 \end{itemize}
 
 ---
@@ -143,44 +68,13 @@ knitr::include_graphics("Figs/trump_sc_vote.pdf")
   \end{itemize}
 \end{itemize}
 
-# Number of elections in a year
+# Recap: Electoral systems and their consequences
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/elecs_calendar.pdf")
+knitr::include_graphics("Figs/elecworld_tree.pdf")
 ```
-
-# Elections as instruments of democracy
-
-\begin{columns}
-  \column{0.38\linewidth}
-  \centering
-  \includegraphics[scale=0.25]{Figs/visions}
-  \column{0.5\linewidth}
-  "A country is democratic to the extent that its most powerful collective decision-makers are selected through \textbf{\textit{fair, honest, and periodic elections}} in which candidates freely compete for votes and in which virtually all the adult population is eligible to vote."
-\end{columns}
 
 ---
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/polyarchy_cropped.pdf")
-```
-
-# How do elections work?
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/cand_voting.pdf")
-```
-\vspace{0.3cm}
-\begin{itemize}
-\small
-  \item For political parties and candidates: Winning thresholds; term limits; campaign finances
-  \vspace{0.1cm}
-  \item For voters: Mandatory turnout; secret ballot; absentee voting
-  \vspace{0.1cm}
-  \item ... and much more
-\end{itemize}
-
-# A typology of electoral systems
 
 \begin{itemize}
   \item \textbf{Ballot structure}: Vote for party or individual candidate? Perhaps both?
@@ -190,174 +84,9 @@ knitr::include_graphics("Figs/cand_voting.pdf")
   \item \textbf{District magnitude}: How many seats should be elected from a district? Single-member or multi-member?
 \end{itemize}
 
----
+# Electoral systems and their corresponding democratic visions
 
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/elecworld_tree.pdf")
-```
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/elecworld_map.pdf")
-```
-
----
-
-\begin{itemize}
-  \item Plurality and majoritarian systems
-  \vspace{0.3cm}
-  \item Proportional representation systems
-  \vspace{0.3cm}
-  \item Mixed-member systems
-\end{itemize}
-
-# Plurality and majoritarian systems
-
-\begin{itemize}
-  \item Single-member districts
-  \vspace{0.1cm}
-  \begin{itemize}
-    \item First-past-the-post (FPTP)
-    \item Majority runoff system
-    \item Alternative vote: Voters rank candidates; lowest vote-getter eliminated and his votes
-transferred to the next one ranked; repeat until someone has a majority
-  \end{itemize}
-  \vspace{0.2cm}
-  \item Multi-member districts, such as single non-transferrable voting system (or SNTV)
-\end{itemize}
-
----
-
-\begin{columns}
-\column{0.38\linewidth}
-  \centering
-  \includegraphics[scale=0.35]{Figs/india1}
-\column{0.5\linewidth}
-  \begin{itemize}
-  \item The largest (parliamentary) "democracy" in the world
-  \item FPTP for Lok Sabha election
-  \item At least one election for every 5 years
-  \end{itemize}
-\end{columns} 
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/india2.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\scriptsize
-Electronic voting machine (EVM) in India
-\end{center}
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/india3.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\scriptsize
-Govt officials carry EVM to a polling station in Himachal Pradesh (May 12, 2009)
-\end{center}
-
----
-
-```{r echo=FALSE, out.width="80%", fig.align="center"}
-knitr::include_graphics("Figs/france1.pdf")
-```
-\vspace{0.1cm}
-\begin{itemize}
-  \item Fifth Republic (established by CDG) known for semi-presidential system
-  \item Separation of origin for the executive and legislative branches; "cohabitation" is norm
-  \item President popularly elected for a fixed term of 5 years
-\end{itemize}
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/france2.pdf")
-```
-
----
-
-\vspace{0.1cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/nationalism.pdf")
-```
-\vspace{0.2cm}
-\begin{center}
-\small
-"Financial globalisation and Islamist globalisation are helping each other out. Those two ideologies want to bring France to its knees," said Marine Le Pen.
-\end{center}
-
-# Proportional representation (PR) systems
-
-\begin{itemize}
-  \item Voters cast votes for a particular party; voters are provided with a "list" of candidates from each political party
-  \vspace{0.2cm}
-  \item Seats are allocated to parties based on each party's vote share (with certain thresholds, such as Germany and Turkey)
-  \vspace{0.2cm}
-  \item A key component of "consociational" democracy; more "permissive" than plurality and majoritarian systems. Why?
-\end{itemize}
-
----
-
-\begin{itemize}
-  \item Closed-list PR: Party determines the ranking of candidates on the party list
-  \vspace{0.5cm}
-  \item Open-list PR: Voters' preferences the ranking of candidates on the party list
-\end{itemize}
-
----
-
-```{r echo=FALSE, out.width="80%", fig.align="center"}
-knitr::include_graphics("Figs/hungary.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-Closed-list PR voting ballot in Hungary
-\end{center}
-
----
-
-```{r echo=FALSE, out.width="45%", fig.align="center"}
-knitr::include_graphics("Figs/denmark.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-Open-list PR voting ballot in Denmark
-\end{center}
-
-# Mixed-member system and parallel voting: Japan
-
-```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("Figs/japan1.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\small
-In Japanese lower house elections, voters have two choices, but must write in the party name and the candidate name
-\end{center}
-
----
-
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/japan2.pdf")
-```
-
-# Mixed-member system and parallel voting: Germany
-
-```{r echo=FALSE, out.width="40%", fig.align="center"}
-knitr::include_graphics("Figs/germany.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\small
-Here, the voter enters two \textbf{X} marks -- one for a party on the left side, and the other for a district candidate on the right side
-\end{center}
+Permissive?
 
 # Policy consequences of electoral systems: Income inequality
 
@@ -390,6 +119,44 @@ knitr::include_graphics("Figs/gender_system2.pdf")
   \item Why "good" elections do not lead to responsiveness governments?
 \end{itemize}
 
+---
+
+Candidate quality.
+
+---
+
+Integrity -- Susan Hyde
+
+---
+
+Electoral violence
+
+---
+
+Representation and discrimination
+
+---
+
+Good elections and responsiveness govt
+
+# Refresher lecture
+
+# Why parties
+
+Summary of John Aldrich.
+
+# Parties in modern democracy
+
+# Parties versus interest group
+
+# Where parties come from
+
+# Societal divide
+
+---
+
+Subaltern or ethnic/religious parties
+
 # Duverger's law: "Plurality rule in single-member districts tends to produce a two-party system"
 
 \begin{columns}
@@ -403,6 +170,8 @@ knitr::include_graphics("Figs/gender_system2.pdf")
   \centering
   \includegraphics[scale=0.5]{Figs/duverger}
 \end{columns}
+
+# Effective number of political parties
 
 # Electoral disproportionality
 
@@ -422,59 +191,14 @@ where $n$ refer to the number of parties contesting in the election. Also, $v_i$
 knitr::include_graphics("Figs/uk2015.pdf")
 ```
 
-# Concluding remarks
-
-\begin{itemize}
-  \item The choice of electoral systems reflects a country's preferred democratic vision between (majoritarian versus proportional)
-  \vspace{0.3cm}
-  \item Different electoral systems can generate different institutional, behavioral, and policy outcomes to democratic governance
-  \vspace{0.3cm}
-  \item Party system is the product of electoral systems (or is it)?
-\end{itemize}
-
 # Reading exercise
 
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/voxdev.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\scriptsize
-\url{https://voxdev.org/topic/institutions-political-economy/getting-good-politicians-politics}
-\end{center}
+TBD
+
+# Extra: Parties in authoritarian regimes
+
+Ben
 
 ---
 
-\begin{itemize}
-  \item According to Gulzar and Khan (2024), what does it mean to be a "good" politician? Do you agree with their definition?
-  \vspace{0.3cm}
-  \item How do they produce the empirical evidence to demonstrate "social" encouragement can lead to "better" politicians?
-  \vspace{0.3cm} 
-  \item Can you find comparable cases of local elections in Pakistan? Will the pattern hold in the case you choose?
-\end{itemize}
-
-
-# Extra: Elections in authoritarian regimes
-
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/dic_voting.pdf")
-```
-
----
-
-\vspace{0.1cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/elecs_change.pdf")
-```
-
----
-
-\vspace{0.1cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/dic_rep.pdf")
-```
-\vspace{0.1cm}
-\begin{center}
-\scriptsize
-\url{https://doi.org/10.1016/j.electstud.2024.102791}
-\end{center}
+China
