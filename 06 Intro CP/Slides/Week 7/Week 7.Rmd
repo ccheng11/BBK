@@ -56,7 +56,7 @@ knitr::include_graphics("Figs/week7.pdf")
   \begin{itemize}
     \item Executive system: presidential, parliamentary and semi-presidential
     \item Legislative system: uni- or bi-cameral
-    \item \textbf{Electoral system}: majoritarian/plurality, PR and mixed-member (and the resulting party system)
+    \item \textbf{Electoral system}: majoritarian/plurality, PR and mixed-member (and the resulting \textbf{party system})
     \item Central-local relations: federal, unitary and decentralized
   \end{itemize}
   \vspace{0.3cm}
@@ -70,12 +70,6 @@ knitr::include_graphics("Figs/week7.pdf")
 
 # Recap: Electoral systems and their consequences
 
-```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/elecworld_tree.pdf")
-```
-
----
-
 \begin{itemize}
   \item \textbf{Ballot structure}: Vote for party or individual candidate? Perhaps both?
   \vspace{0.3cm}
@@ -84,9 +78,11 @@ knitr::include_graphics("Figs/elecworld_tree.pdf")
   \item \textbf{District magnitude}: How many seats should be elected from a district? Single-member or multi-member?
 \end{itemize}
 
-# Electoral systems and their corresponding democratic visions
+---
 
-Permissive?
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/elecworld_tree.pdf")
+```
 
 # Policy consequences of electoral systems: Income inequality
 
@@ -129,7 +125,7 @@ Integrity -- Susan Hyde
 
 ---
 
-Electoral violence
+Electoral violence: Japan, Africa and comparative
 
 ---
 
@@ -139,23 +135,56 @@ Representation and discrimination
 
 Good elections and responsiveness govt
 
-# Refresher lecture
+# Refresher lecture: Parties and party systems
 
-# Why parties
+\begin{itemize}
+  \item Parties and political parties
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Why parties and what they do (in contrast to interest groups)
+    \item Where parties come from: Institutional and societal explanations
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Political parties in authoritarian regimes
+  \vspace{0.3cm}
+  \item Reading exercise
+\end{itemize}
+
+# Why parties and what they do
 
 Summary of John Aldrich.
 
-# Parties in modern democracy
-
 # Parties versus interest group
+
+Explain the difference
 
 # Where parties come from
 
-# Societal divide
+\begin{itemize}
+  \item Political parties and social "cleavages" (Seymour Martin Lipset and Stein Rokkan 1967)
+  \vspace{0.5cm}
+  \item Electoral and party systems: Duverger's law (Maurice Duverger; Gary Cox 1997)
+\end{itemize}
+
+# The "cleavage" theory of political parties
+
+Explain
 
 ---
 
-Subaltern or ethnic/religious parties
+Barisan Nasional (or "National Front") in Malaysia
+
+---
+
+Ethnic favoritism and voting
+
+---
+
+People's parties
+
+---
+
+Green parties
 
 # Duverger's law: "Plurality rule in single-member districts tends to produce a two-party system"
 
@@ -170,8 +199,6 @@ Subaltern or ethnic/religious parties
   \centering
   \includegraphics[scale=0.5]{Figs/duverger}
 \end{columns}
-
-# Effective number of political parties
 
 # Electoral disproportionality
 
@@ -197,8 +224,12 @@ TBD
 
 # Extra: Parties in authoritarian regimes
 
-Ben
+Hegemonic party regimes are more likely to survive
 
 ---
 
-China
+Ben Smith
+
+---
+
+Lenin and Communist Parties/China: CQ and Joseph Fewsmith
