@@ -318,7 +318,7 @@ knitr::include_graphics("Figs/cleavage.pdf")
   \item Individuals as repertoire of identity attributes and strategic electoral mobilization: Cross-cutting or reinforcing 
 \end{itemize}
 
-# Ruling coalition by different ethnic parties
+# Ruling coalition by different ethnic parties in Malaysia
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/malaysia.pdf")
@@ -330,7 +330,7 @@ knitr::include_graphics("Figs/malaysia.pdf")
 knitr::include_graphics("Figs/people.pdf")
 ```
 
-# Green Party as "new" politics in post-industrial socieities
+# Green Party as "new" politics in post-industrial European socieities
 
 \vspace{0.1cm}
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
