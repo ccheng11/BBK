@@ -28,15 +28,13 @@ knitr::include_graphics("Figs/week7.pdf")
 # Today's plan
 
 \begin{itemize}
-  \item Logistics: Start thinking about your final essay 
-  \vspace{0.3cm}
   \item Recap from Week 6: Elections
   \begin{itemize}
     \item Electoral systems and politics
     \item Additional things to explore
     \item Extra: Elections in dictatorships
   \end{itemize}
-  \vspace{0.3cm}
+  \vspace{0.4cm}
   \item Refresher lecture: Political parties and party systems
   \vspace{0.1cm}
   \begin{itemize}
@@ -56,7 +54,7 @@ knitr::include_graphics("Figs/week7.pdf")
   \begin{itemize}
     \item Executive system: presidential, parliamentary and semi-presidential
     \item Legislative system: uni- or bi-cameral
-    \item \textbf{Electoral system}: majoritarian/plurality, PR and mixed-member (and the resulting \textbf{party system})
+    \item Electoral system: majoritarian/plurality, PR and mixed-member (and the resulting \textbf{party system})
     \item Central-local relations: federal, unitary and decentralized
   \end{itemize}
   \vspace{0.3cm}
@@ -68,14 +66,29 @@ knitr::include_graphics("Figs/week7.pdf")
   \end{itemize}
 \end{itemize}
 
-# Recap: Electoral systems and their consequences
+# Recap: Electoral systems around the world
 
 \begin{itemize}
+\small
   \item \textbf{Ballot structure}: Vote for party or individual candidate? Perhaps both?
-  \vspace{0.3cm}
+  \vspace{0.2cm}
   \item \textbf{Electoral formula}: How are votes translated into seats? Should we search for relative vs. absolute majority (i.e., how "permissive" should the formula be)? 
-  \vspace{0.3cm}
+  \vspace{0.2cm}
   \item \textbf{District magnitude}: How many seats should be elected from a district? Single-member or multi-member?
+\end{itemize}
+
+# All of these determine how "\textit{permissive}" elections can be
+
+\begin{itemize}
+  \item For a candidate, it is easier to be elected when
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item Running for elections as part of the party list
+    \vspace{0.2cm}
+    \item Running for elections that do not require majority to win
+    \vspace{0.2cm}
+    \item Running in a district in which more than one candidate can win
+  \end{itemize} 
 \end{itemize}
 
 ---
@@ -84,13 +97,7 @@ knitr::include_graphics("Figs/week7.pdf")
 knitr::include_graphics("Figs/elecworld_tree.pdf")
 ```
 
-# Policy consequences of electoral systems: Income inequality
-
-```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("Figs/gini_system.pdf")
-```
-
-# Policy consequences of electoral systems: Gender gap
+# Electoral systems and gender gap
 
 ```{r echo=FALSE, out.width="80%", fig.align="center"}
 knitr::include_graphics("Figs/gender_system2.pdf")
@@ -117,23 +124,107 @@ knitr::include_graphics("Figs/gender_system2.pdf")
 
 ---
 
-Candidate quality.
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/voxdev.pdf")
+```
 
 ---
 
-Integrity -- Susan Hyde
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/crime_mv.pdf")
+```
 
 ---
 
-Electoral violence: Japan, Africa and comparative
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/crime_cyc.pdf")
+```
+
+# The NELDA dataset
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/nelda_people.pdf")
+```
 
 ---
 
-Representation and discrimination
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/russia1.pdf")
+```
 
 ---
 
-Good elections and responsiveness govt
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/russia2.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/russia3.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/violence.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/cameroon.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/japan1.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/japan2.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/violence_england.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+The Brentford Election, 1768
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/violence_england2.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+The Election Riot in the Market Place, Nottingham 1865
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/india.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/mala.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ofosu.pdf")
+```
 
 # Refresher lecture: Parties and party systems
 
@@ -156,35 +247,15 @@ Summary of John Aldrich.
 
 # Parties versus interest group
 
-Explain the difference
+Explain the difference (check the textbook)
 
 # Where parties come from
 
 \begin{itemize}
-  \item Political parties and social "cleavages" (Seymour Martin Lipset and Stein Rokkan 1967)
+  \item Duverger's law: Electoral and party systems:  (Maurice Duverger; Gary Cox 1997)
   \vspace{0.5cm}
-  \item Electoral and party systems: Duverger's law (Maurice Duverger; Gary Cox 1997)
+  \item Political parties and social "cleavages" (Seymour Martin Lipset and Stein Rokkan 1967)
 \end{itemize}
-
-# The "cleavage" theory of political parties
-
-Explain
-
----
-
-Barisan Nasional (or "National Front") in Malaysia
-
----
-
-Ethnic favoritism and voting
-
----
-
-People's parties
-
----
-
-Green parties
 
 # Duverger's law: "Plurality rule in single-member districts tends to produce a two-party system"
 
@@ -214,8 +285,43 @@ where $n$ refer to the number of parties contesting in the election. Also, $v_i$
 
 ---
 
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/uk2024.pdf")
+```
+
+---
+
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/uk2015.pdf")
+knitr::include_graphics("Figs/cleavage.pdf")
+```
+
+# The "cleavage" theory of political parties
+
+Explain (check the book)
+
+# Ruling coalition by different ethnic parties
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/malaysia.pdf")
+```
+
+# "People's" parties in Europe
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/people.pdf")
+```
+
+# Green Party as "new" politics?
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/uk_green.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/uk_green_win.pdf")
 ```
 
 # Reading exercise
@@ -224,12 +330,24 @@ TBD
 
 # Extra: Parties in authoritarian regimes
 
-Hegemonic party regimes are more likely to survive
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/geddes.pdf")
+```
 
 ---
 
-Ben Smith
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/smith1.pdf")
+```
 
 ---
 
-Lenin and Communist Parties/China: CQ and Joseph Fewsmith
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/smith2.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/fewsmith.pdf")
+```
