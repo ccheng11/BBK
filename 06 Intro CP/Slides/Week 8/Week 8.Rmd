@@ -1,0 +1,371 @@
+---
+title: |
+  |
+  |
+  | Comparative Government
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng 
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\begin{center}
+\textbf{Week 8: Managing}
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/week8.pdf")
+```
+
+# Today's plan
+
+\begin{itemize}
+\small
+  \item Quick go-around: Cases for final essay
+  \vspace{0.2cm}
+  \item Recap from Week 7: Parties and party system
+  \begin{itemize}
+    \item Parties in democracy and where parties come from
+    \item Party nationalization (Scott Morgenstern 2017)
+    \item Extra: Parties in authoritarian regimes
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Refresher lecture: Bureaucratic politics
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Bureaucracies and politics of delegation (Kiewiet and McCubbins 1991)
+    \item Corruption and ways to counter it (Treisman 2000; Olken 2007)
+    \item Extra: "Bureaucracies" as Party-state agents in China (Yang 2004; Cai 2014)
+    \item Reading exercise: "Corruption and Inefficiency in Local Public Infrastructure"
+  \end{itemize}
+\end{itemize}
+
+# Looking back: What we have accomplished
+
+\begin{itemize}
+\small
+  \item Varieties of constitutional democracy
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Executive system: presidential, parliamentary and semi-presidential
+    \item Legislative system: uni- or bi-cameral
+    \item Electoral system: majoritarian/plurality, PR and mixed-member (and the resulting party system)
+    \item Central-local relations: federal, unitary and decentralized
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Democratic constitutional design is a response to "\textbf{Madison's Dilemma}"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item The goal is to create a government strong enough to govern while limited enough to protect civil liberties
+    \item Two visions of democracy: Majoritarian Model (power concentration) versus Consensus Model (power dispersion)
+  \end{itemize}
+\end{itemize}
+
+# Recap: Parties and party system
+
+\begin{itemize}
+\small
+  \item Why parties: Political parties serve as the pillar of representative democracy in modern era
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Recruit and train political elites (and as we discussed this may no longer hold)
+    \item Mobilize the mass and political participation
+    \item Build and coordinate the links between voters and elected representatives
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Where parties and party system come from
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Institutional explanation: Duverger's law (electoral disproportionality and strategic voting)
+    \item Sociological explanation: Cleavage theory of political parties
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/uk_greens.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+\url{https://www.bbc.co.uk/news/articles/cr453rvy6kvo}
+\end{center}
+
+# An ongoing partisan realignment in the UK?
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/uk_greens_2.pdf")
+```
+
+# "Party nationalization" (Scott Morgenstern 2017)
+
+\begin{columns}
+\column{0.38\linewidth}
+  \centering
+  \includegraphics[scale=0.30]{Figs/national}
+\column{0.5\linewidth}
+\hspace{0.15cm}
+  \begin{itemize}
+  \small
+    \item The degree of homogeneity in the geographic distribution of a party's vote
+    \vspace{0.4cm}
+    \item The degree to which national events are reflected in the change in a party's electoral support in all regions of the country
+    \end{itemize}
+\end{columns} 
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/germany_greens.pdf")
+```
+
+# Extra: Parties in authoritarian regimes
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/geddes.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/smith1.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/smith2.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/smith_table.pdf")
+```
+
+# China: A "modernised" Leninist party managing to resolve the chanllenge of political succession
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/fewsmith.pdf")
+```
+
+# Refresher lecture: Bucreaucracy and bureaucratic politics
+
+\begin{itemize}
+  \item Bucreaucracy and politics of delegation (Kiewiet and McCubbins 1991)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Bureaucrats, technocrats and elected politicians
+    \item Politics of delegation: Moral hazard, adverse selection and agency loss
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Corruption and ways to counter it (Treisman 2000; Olken 2007)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Definining and measuring corruption
+    \item Petty versus grant corruption
+    \item How to counter corruption
+  \end{itemize}
+  \vspace{0.2cm} 
+  \item Extra: "Bureaucracies" as Party-state agents in China (Yang 2004; Cai 2014)
+\end{itemize}
+
+# Bureaucrats versus elected politicians
+
+\begin{itemize}
+  \item Bureaucrats perform most of the tasks of government; the formulation of policies and their implementation cannot get away from bureaucrats
+  \item Elected politicians face term limits or are put under the pressure of reelection, thus being incentivized to be responsive to voters or perform well to be relected
+  \begin{itemize}
+    \item Policy-seeking politicians
+    \item Office-seeking politicians
+  \end{itemize}
+  \item What drives bureaucrats' behaviors at the absence of electoral accountability?
+  \item An utopian idea: Technocrats in politics?
+\end{itemize}
+
+# Bureaucratic politics through the lens of delegation
+
+\begin{itemize}
+  \item Delegation involves a dyad interaction between principal(s) and agent(s)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Principal selects agent(s) to complete certain tasks that require certain expertise
+    \item Agent(s) have incentives to shirk from their assigned responsibilities
+    \item Principal may not be aware of agent(s) shirking due to \textbf{information assymetry}
+    \item The \textbf{agency loss} incurred during delegation can be enormous
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Delegation is ubiquitous in democratic politics (see the next slide) for the sake of expertise (and implicitly), efficiency
+  \vspace{0.2cm}
+  \item Delegation gets more complicated in a complex organization involving multiple principals and agents
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/delegation.pdf")
+```
+
+# How delegation leads to agency loss due to information gap between principal and agent(s)
+
+\begin{columns}
+\column{0.38\linewidth}
+  \centering
+  \includegraphics[scale=0.25]{Figs/michigan}
+\column{0.5\linewidth}
+  \begin{itemize}
+  \small
+    \item \textbf{Adverse selection} occurs when the principal cannot fully observe the agent's "type" (e.g., motivation, ability and preferences) (Akerlof 1970)
+    \vspace{0.3cm}
+    \item \textbf{Moral hazard} occurs when the agent has the opportunity to take actions that are hidden from the principal
+  \end{itemize}
+\end{columns}
+
+# Corruption as a agency loss
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/olken_indonesia.pdf")
+```
+\vspace{0.3cm}
+\begin{itemize}
+  \item "Police patrol" mechanism: A "top-down" inspection (e.g., central audits) imposed by the "principal" to curb or deter corruption
+  \item "Fire alarm" mechanism: Use "third-party" stakeholders (e.g., grassroots organizations) to monitor corruption 
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/olken_monitoring.pdf")
+```
+\vspace{0.4cm}
+\begin{center}
+Which one works better?
+\end{center}
+
+
+# Corruption Perceptions Index by Transparency International (2025)
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ti_2025.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+\url{https://www.transparency.org/en/cpi/2025}
+\end{center}
+
+# Measuring corruption
+
+\begin{itemize}
+  \item Using surveys
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Experts versus citizens?
+    \item Perceptions versus experiences?
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Using legal investigations and prosecutions (or other official records) (e.g., Yuhua Wang's China’s Corruption Investigations Dataset)
+\end{itemize}
+
+# Types of corruption: Decentralized versus centralized (William Easterly 2001)
+
+\begin{columns}
+\column{0.38\linewidth}
+  \centering
+  \includegraphics[scale=0.25]{Figs/easterly}
+\column{0.5\linewidth}
+  \begin{itemize}
+  \small
+    \item Under \textbf{decentralized} corruption, there are many bribe takers, and their imposition of bribes is not coordinated among them
+    \vspace{0.3cm}
+    \item Under \textbf{centralized} corruption, a government leader organizes all corruption activity in the economy and
+determines the shares of each official in the ill-gotten proceeds
+  \end{itemize}
+\end{columns}
+
+# Types of corruption
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/ang.pdf")
+```
+\vspace{0.1cm}
+\begin{itemize}
+\small
+  \item Speed money: Petty bribes paid to low-level bureaucrats to circumvent hurdles or delays
+  \item Access money: High-stakes rewards offered by elite capitalists to powerful officials in exchange for exclusive, lucrative privileges
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ang_compare.pdf")
+```
+
+# "Causes" of corruption (Treisman 2000)
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/corruption_cover.pdf")
+```
+
+---
+
+\begin{itemize}
+  \item Corruption is lower in
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item countries with common law systems
+    \item Britain and its former colonies
+    \item countries with a Protestant tradition
+    \item democratic countries and those with a freer press and more vigorous civic associations
+    \item more economically developed countries, where populations are more educated and literate, and where the normative separation between "public" and "private" is clearer
+    \item countries with higher relative salaries in public office
+    \item countries where political stability os greater
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/corruption_results.pdf")
+```
+
+# Bureaucrats as Party-state agents in China
+
+\begin{columns}
+\column{0.38\linewidth}
+  \centering
+  \includegraphics[scale=0.30]{Figs/yang_levi}
+\column{0.5\linewidth}
+\hspace{0.15cm}
+  \begin{itemize}
+  \small
+    \item Govt officials are selected by the ruling party (redness/loyalty versus competence/expertise)
+    \vspace{0.1cm}
+    \item The ruling party provides career incentives for officials act upon (e.g., the promotion tournament model of bureaucratic behaviors); see Oi (1998)
+    \vspace{0.1cm}
+    \item China presents a case of "adverse" accountability, where all accountability measures such as inspections and audits come from above
+    \vspace{0.1cm}
+    \item Media censorship is strategically imposed to reveal local official corruption (Lorentzen 2014)
+  \end{itemize}
+\end{columns} 
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/glf.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/jiang_china.pdf")
+```

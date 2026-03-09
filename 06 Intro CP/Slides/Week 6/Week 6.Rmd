@@ -236,7 +236,9 @@ transferred to the next one ranked; repeat until someone has a majority
 \column{0.5\linewidth}
   \begin{itemize}
   \item The largest (parliamentary) "democracy" in the world
+  \vspace{0.2cm}
   \item FPTP for Lok Sabha election
+  \vspace{0.2cm}
   \item At least one election for every 5 years
   \end{itemize}
 \end{columns} 
