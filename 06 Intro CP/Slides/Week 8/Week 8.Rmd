@@ -125,6 +125,18 @@ knitr::include_graphics("Figs/uk_greens_2.pdf")
 ---
 
 ```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/uk_green_cropped.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/uk_reform_cropped.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
 knitr::include_graphics("Figs/germany_greens.pdf")
 ```
 
@@ -164,7 +176,7 @@ knitr::include_graphics("Figs/fewsmith.pdf")
   \item Bucreaucracy and politics of delegation (Kiewiet and McCubbins 1991)
   \vspace{0.1cm}
   \begin{itemize}
-    \item Bureaucrats, technocrats and elected politicians
+    \item Bureaucrats, elected politicians and technocrats
     \item Politics of delegation: Moral hazard, adverse selection and agency loss
   \end{itemize}
   \vspace{0.2cm}
@@ -182,32 +194,45 @@ knitr::include_graphics("Figs/fewsmith.pdf")
 # Bureaucrats versus elected politicians
 
 \begin{itemize}
+\small
   \item Bureaucrats perform most of the tasks of government; the formulation of policies and their implementation cannot get away from bureaucrats
+  \vspace{0.2cm}
   \item Elected politicians face term limits or are put under the pressure of reelection, thus being incentivized to be responsive to voters or perform well to be relected
+  \vspace{0.1cm}
   \begin{itemize}
     \item Policy-seeking politicians
     \item Office-seeking politicians
   \end{itemize}
-  \item What drives bureaucrats' behaviors at the absence of electoral accountability?
-  \item An utopian idea: Technocrats in politics?
+  \vspace{0.2cm}
+  \item What drives bureaucrats' behaviors at the absence of electoral accountability? An utopian idea: Technocrats in politics?
 \end{itemize}
 
 # Bureaucratic politics through the lens of delegation
 
 \begin{itemize}
+\small
   \item Delegation involves a dyad interaction between principal(s) and agent(s)
   \vspace{0.1cm}
   \begin{itemize}
     \item Principal selects agent(s) to complete certain tasks that require certain expertise
-    \item Agent(s) have incentives to shirk from their assigned responsibilities
+    \item Agent(s) have incentives to shirk from their assigned responsibilities for their self-interest
     \item Principal may not be aware of agent(s) shirking due to \textbf{information assymetry}
     \item The \textbf{agency loss} incurred during delegation can be enormous
   \end{itemize}
   \vspace{0.2cm}
   \item Delegation is ubiquitous in democratic politics (see the next slide) for the sake of expertise (and implicitly), efficiency
-  \vspace{0.2cm}
-  \item Delegation gets more complicated in a complex organization involving multiple principals and agents
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Voters (principals) delegate governance to politicians (agents)
+    \item Politicians (principals) delegate governance tasks to bureaucrats (agents)
+  \end{itemize}
 \end{itemize}
+
+# Elected democratic government as "principaled" agents (of whom)?
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/besley_cropped.pdf")
+```
 
 ---
 
@@ -225,7 +250,7 @@ knitr::include_graphics("Figs/delegation.pdf")
   \begin{itemize}
   \small
     \item \textbf{Adverse selection} occurs when the principal cannot fully observe the agent's "type" (e.g., motivation, ability and preferences) (Akerlof 1970)
-    \vspace{0.3cm}
+    \vspace{0.5cm}
     \item \textbf{Moral hazard} occurs when the agent has the opportunity to take actions that are hidden from the principal
   \end{itemize}
 \end{columns}
@@ -238,6 +263,7 @@ knitr::include_graphics("Figs/olken_indonesia.pdf")
 \vspace{0.3cm}
 \begin{itemize}
   \item "Police patrol" mechanism: A "top-down" inspection (e.g., central audits) imposed by the "principal" to curb or deter corruption
+  \vspace{0.1cm}
   \item "Fire alarm" mechanism: Use "third-party" stakeholders (e.g., grassroots organizations) to monitor corruption 
 \end{itemize}
 
