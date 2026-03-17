@@ -1,0 +1,319 @@
+---
+title: |
+  |
+  |
+  | Comparative Government
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng 
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\begin{center}
+\textbf{Week 9: Communicating}
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/week9.pdf")
+```
+
+# Today's plan
+
+\begin{itemize}
+\small
+  \item Quick go-around: Citations for final essay
+  \vspace{0.2cm}
+  \item Recap from Week 8: Bureaucratic politics and political corruption
+  \begin{itemize}
+    \item Sources of corruption
+    \item Corruption and inequality (Uslaner)
+    \item Reading exercise: "Corruption and Inefficiency in Local Public Infrastructure"
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Refresher lecture: Political communication in the digital age
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Media freedom and democracy
+    \item How social media reshapes political communication
+    \item Extra: Media censorship and propaganda in authoritarian regimes
+    \item Reading exercise: "AI and Democracy"
+  \end{itemize}
+\end{itemize}
+
+# Recap: Political corruption
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/Corruption/ti_2025.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\small
+\url{https://www.transparency.org/en/cpi/2025}
+\end{center}
+
+# Measuring corruption
+
+\begin{itemize}
+  \item Using surveys
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Experts versus citizens?
+    \item Perceptions versus experiences?
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Using legal investigations and prosecutions (or other official records) -- e.g., Yuhua Wang's (Harvard) China’s Corruption Investigations Dataset
+\end{itemize}
+
+# Types of corruption: Decentralized versus centralized (William Easterly 2001)
+
+\begin{columns}
+\column{0.38\linewidth}
+  \centering
+  \includegraphics[scale=0.25]{Figs/Corruption/easterly}
+\column{0.5\linewidth}
+  \begin{itemize}
+  \small
+    \item Under \textbf{decentralized} corruption, there are many bribe takers, and their imposition of bribes is not coordinated among them
+    \vspace{0.3cm}
+    \item Under \textbf{centralized} corruption, a government leader organizes all corruption activity in the economy and
+determines the shares of each official in the ill-gotten proceeds
+  \end{itemize}
+\end{columns}
+
+# Types of corruption (Yuen Yuen Ang 2020)
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/Corruption/ang.pdf")
+```
+\vspace{0.1cm}
+\begin{itemize}
+\small
+  \item Speed money: Petty bribes paid to low-level bureaucrats to circumvent hurdles or delays
+  \item Access money: High-stakes rewards offered by elite capitalists to powerful officials in exchange for exclusive, lucrative privileges
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/Corruption/ang_compare.pdf")
+```
+
+# "Causes" of corruption (Treisman 2000)
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/Corruption/corruption_cover.pdf")
+```
+
+---
+
+\begin{itemize}
+  \item Corruption is \textbf{lower} in
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item countries with common law systems
+    \item Britain and its former colonies
+    \item countries with a Protestant tradition
+    \item democratic countries and those with a freer press and more vigorous civic associations
+    \item more economically developed countries, where populations are more educated and literate, and where the normative separation between "public" and "private" is clearer
+    \item countries with higher relative salaries in public office
+    \item countries where political stability os greater
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/Corruption/uslaner_1.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/Corruption/corruption_results.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/Corruption/uslaner.pdf")
+```
+
+# Refresher lecture: Political communication in the digital age
+
+\begin{itemize}
+\small
+  \item Media freedom and democracy
+    \vspace{0.2cm}
+    \item Democracy and social media
+    \begin{itemize}
+      \item Echo chamber and polarization
+      \item Loss of "local" politics
+      \item Misinformation and disinformation
+    \end{itemize}
+    \vspace{0.2cm}
+    \item Extra: Media censorship and propaganda in authoritarian regimes
+    \begin{itemize}
+      \item Media censorship (King, Pan, and Roberts 2013; Lorentzen 2014)
+      \item Propaganda (Wedeen 1999; Huang 2015)
+    \end{itemize}
+    \vspace{0.2cm}
+    \item Reading exercise: "AI and Democracy"
+\end{itemize}
+
+# World Press Freedom Index 2025 by Reporters Without Borders
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/rsf.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\url{https://rsf.org/en/index}
+\end{center}
+
+# How social media drives political polarization through "echo" chambers
+
+\begin{itemize}
+  \item \textbf{Ideological sorting}: Platforms provide the infrastructure for politically like-minded individuals to identify and congregate with one another easily
+  \vspace{0.2cm}
+  \item \textbf{Reinforcement loops}: Users are primarily exposed to content that validates their existing worldviews, strengthening their current beliefs rather than challenging them
+  \vspace{0.2cm}
+  \item \textbf{Algorithmic filtering}: Ranking algorithms prioritize engagement, often hiding opposing viewpoints to keep users within a "filter bubble" of familiar information
+  \vspace{0.2cm}
+  \item \textbf{Political isolation}: This environment creates a digital silo that effectively shields citizens from diverse perspectives and healthy democratic dissent
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/truth.pdf")
+```
+
+# "Is Online Political Communication More Than an Echo Chamber?" (Barberá et al 2015)
+
+\begin{itemize}
+  \item \textbf{Context-Dependent Echo Chambers}: Communication resembles an "echo chamber" primarily during political events (e.g., elections, government shutdowns), whereas nonpolitical events (e.g., the Super Bowl) foster a more unified "national conversation"
+  \vspace{0.2cm}
+  \item \textbf{Dynamic Polarization}: Some topics, such as the Newtown shootings, can shift over time, beginning as a broad national discussion before transitioning into a polarized exchange
+  \vspace{0.2cm}
+  \item \textbf{Ideological Asymmetry}: Liberals are more likely than conservatives to engage in cross-ideological information sharing, a trend the authors link to underlying psychological and motivational differences
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/left_authoritarianism.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+\url{https://www.bps.org.uk/research-digest/left-wing-authoritarianism-real-and-needs-be-taken-seriously-political-psychology}
+\end{center}
+
+# Decline of local news (and why is it problematic)
+
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/local_uk.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/local_usa.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/local_usa2.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/local_usa2_results.pdf")
+```
+
+# Misinformation versus disinformation
+
+\begin{itemize}
+  \item Misinformation is fake news that is created and spread \textbf{by mistake}, often by someone who does not realise that it it false
+  \vspace{0.4cm}
+  \item Disinformation is fake news that is created and spread \textbf{deliberately} by someone who knows full well that it is false.
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/meta.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+\url{https://www.bbc.co.uk/news/articles/cly74mpy8klo}
+\end{center}
+
+# Censorshop in authoritarian regimes
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/censor_cover.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+\url{doi:10.1017/S0003055413000014}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/censor_results.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/peter_1.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/wedeen.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/huang.pdf")
+```
+
+# Reading exercise: "AI and democracy"
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/guardian.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\tiny
+\url{https://www.theguardian.com/technology/2026/jan/22/experts-warn-of-threat-to-democracy-by-ai-bot-swarms-infesting-social-media}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/science.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\small
+\url{https://www.science.org/doi/10.1126/science.adz1697}
+\end{center}
