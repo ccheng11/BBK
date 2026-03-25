@@ -164,16 +164,16 @@ knitr::include_graphics("Figs/smith2.pdf")
 knitr::include_graphics("Figs/smith_table.pdf")
 ```
 
-# China: A "modernised" Leninist party managing to resolve the chanllenge of political succession
+# China: A "modernised" Leninist party managing to resolve the challenge of political succession
 
 ```{r echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics("Figs/fewsmith.pdf")
 ```
 
-# Refresher lecture: Bucreaucracy and bureaucratic politics
+# Refresher lecture: Bureaucracy and bureaucratic politics
 
 \begin{itemize}
-  \item Bucreaucracy and politics of delegation (Kiewiet and McCubbins 1991)
+  \item Bureaucracy and politics of delegation (Kiewiet and McCubbins 1991)
   \vspace{0.1cm}
   \begin{itemize}
     \item Bureaucrats, elected politicians and technocrats
@@ -183,8 +183,8 @@ knitr::include_graphics("Figs/fewsmith.pdf")
   \item Corruption and ways to counter it (Treisman 2000; Olken 2007)
   \vspace{0.1cm}
   \begin{itemize}
-    \item Definining and measuring corruption
-    \item Petty versus grant corruption
+    \item Defining and measuring corruption
+    \item Petty versus grand corruption
     \item How to counter corruption
   \end{itemize}
   \vspace{0.2cm} 
@@ -197,7 +197,7 @@ knitr::include_graphics("Figs/fewsmith.pdf")
 \small
   \item Bureaucrats perform most of the tasks of government; the formulation of policies and their implementation cannot get away from bureaucrats
   \vspace{0.2cm}
-  \item Elected politicians face term limits or are put under the pressure of reelection, thus being incentivized to be responsive to voters or perform well to be relected
+  \item Elected politicians face term limits or are put under the pressure of reelection, thus being incentivized to be responsive to voters or perform well to be reelected
   \vspace{0.1cm}
   \begin{itemize}
     \item Policy-seeking politicians
@@ -216,7 +216,7 @@ knitr::include_graphics("Figs/fewsmith.pdf")
   \begin{itemize}
     \item Principal selects agent(s) to complete certain tasks that require certain expertise
     \item Agent(s) have incentives to shirk from their assigned responsibilities for their self-interest
-    \item Principal may not be aware of agent(s) shirking due to \textbf{information assymetry}
+    \item Principal may not be aware of agent(s) shirking due to \textbf{information asymmetry}
     \item The \textbf{agency loss} incurred during delegation can be enormous
   \end{itemize}
   \vspace{0.2cm}
@@ -255,7 +255,7 @@ knitr::include_graphics("Figs/delegation.pdf")
   \end{itemize}
 \end{columns}
 
-# Corruption as a agency loss
+# Corruption as an agency loss
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/olken_indonesia.pdf")
@@ -354,7 +354,7 @@ knitr::include_graphics("Figs/corruption_cover.pdf")
     \item democratic countries and those with a freer press and more vigorous civic associations
     \item more economically developed countries, where populations are more educated and literate, and where the normative separation between "public" and "private" is clearer
     \item countries with higher relative salaries in public office
-    \item countries where political stability os greater
+    \item countries where political stability is greater
   \end{itemize}
 \end{itemize}
 

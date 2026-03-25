@@ -124,7 +124,7 @@ knitr::include_graphics("Figs/Corruption/corruption_cover.pdf")
     \item democratic countries and those with a freer press and more vigorous civic associations
     \item more economically developed countries, where populations are more educated and literate, and where the normative separation between "public" and "private" is clearer
     \item countries with higher relative salaries in public office
-    \item countries where political stability os greater
+    \item countries where political stability is greater
   \end{itemize}
 \end{itemize}
 
@@ -245,7 +245,7 @@ knitr::include_graphics("Figs/local_usa2_results.pdf")
 # Misinformation versus disinformation
 
 \begin{itemize}
-  \item Misinformation is fake news that is created and spread \textbf{by mistake}, often by someone who does not realise that it it false
+  \item Misinformation is fake news that is created and spread \textbf{by mistake}, often by someone who does not realise that it is false
   \vspace{0.4cm}
   \item Disinformation is fake news that is created and spread \textbf{deliberately} by someone who knows full well that it is false.
 \end{itemize}
@@ -261,7 +261,7 @@ knitr::include_graphics("Figs/meta.pdf")
 \url{https://www.bbc.co.uk/news/articles/cly74mpy8klo}
 \end{center}
 
-# Censorshop in authoritarian regimes
+# Censorship in authoritarian regimes
 
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/censor_cover.pdf")

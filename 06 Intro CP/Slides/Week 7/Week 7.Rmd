@@ -119,7 +119,7 @@ knitr::include_graphics("Figs/gender_system2.pdf")
   \vspace{0.2cm}
   \item Descriptive representation of marginalized social groups and discrimination
   \vspace{0.2cm}
-  \item Why "good" elections do not lead to responsiveness governments?
+  \item Why "good" elections do not lead to responsive governments?
 \end{itemize}
 
 # Getting "good" politicians into politics
@@ -282,7 +282,7 @@ knitr::include_graphics("Figs/mala.pdf")
 \begin{equation}
   \text{Disproportionality} = \frac{1}{n}\sum_i^n |v_i - s_i|, 
 \end{equation}
-where $n$ refer to the number of parties contesting in the election. Also, $v_i$ and $s_i$ refer to the vote share and seat share of party $i$, respectively.
+where $n$ refers to the number of parties contesting in the election. Also, $v_i$ and $s_i$ refer to the vote share and seat share of party $i$, respectively.
 \vspace{0.2cm}
 \begin{figure}
 \centering
@@ -330,7 +330,7 @@ knitr::include_graphics("Figs/malaysia.pdf")
 knitr::include_graphics("Figs/people.pdf")
 ```
 
-# Green Party as "new" politics in post-industrial European socieities
+# Green Party as "new" politics in post-industrial European societies
 
 \vspace{0.1cm}
 ```{r echo=FALSE, out.width="90%", fig.align="center"}

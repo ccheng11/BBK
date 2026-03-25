@@ -67,7 +67,7 @@ knitr::include_graphics("Figs/legislature/bicameralism.pdf")
 ---
 
 \vspace{1cm}
-"A presidential democracy with a symmetric and incongrent bicameral system is most prone to regime collapse."\
+"A presidential democracy with a symmetric and incongruent bicameral system is most prone to regime collapse."\
 \pause
 \vspace{0.5cm}
 Why?
@@ -310,7 +310,7 @@ knitr::include_graphics("Figs/nationalism.pdf")
 \begin{itemize}
   \item Closed-list PR: Party determines the ranking of candidates on the party list
   \vspace{0.5cm}
-  \item Open-list PR: Voters' preferences the ranking of candidates on the party list
+  \item Open-list PR: Voters' preferences determine the ranking of candidates on the party list
 \end{itemize}
 
 ---
@@ -389,7 +389,7 @@ knitr::include_graphics("Figs/gender_system2.pdf")
   \vspace{0.2cm}
   \item Descriptive representation of marginalized social groups and discrimination
   \vspace{0.2cm}
-  \item Why "good" elections do not lead to responsiveness governments?
+  \item Why "good" elections do not lead to responsive governments?
 \end{itemize}
 
 # Duverger's law: "Plurality rule in single-member districts tends to produce a two-party system"
@@ -411,7 +411,7 @@ knitr::include_graphics("Figs/gender_system2.pdf")
 \begin{equation}
   \text{Disproportionality} = \frac{1}{n}\sum_i^n |v_i - s_i|, 
 \end{equation}
-where $n$ refer to the number of parties contesting in the election. Also, $v_i$ and $s_i$ refer to the vote share and seat share of party $i$, respectively.
+where $n$ refers to the number of parties contesting in the election. Also, $v_i$ and $s_i$ refer to the vote share and seat share of party $i$, respectively.
 \vspace{0.2cm}
 \begin{figure}
 \centering
