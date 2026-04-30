@@ -1,0 +1,240 @@
+---
+title: |
+  |
+  |
+  | Masterclass in Social Research
+  |
+  |
+author: |
+  | Welcome and Introduction
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Plan for today
+
+\begin{itemize}
+	\item \textbf{About Masterclass}
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item History and module objectives
+		\item Weekly syllabus
+		\item Assessment and requirements
+		\item Module contacts
+	\end{itemize}
+	\vspace{0.3cm}
+	\item \textbf{Introduction}: Tell us about yourself
+	\vspace{0.3cm}
+	\item \textbf{Exercise}: The mysterious case of "AI for Social Research"
+\end{itemize}
+
+# History and objectives
+
+\begin{itemize}
+\small
+	\item \textbf{Masterclass in Social Research} is the final compulsory module for \textbf{MSc/PgDip Social Research} students
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Masterclass was created at first to provide SR students with a variety of methods training
+		\item While serving as a compulsory module for SR students, Masterclass is also open to PGR students
+		\item The topics covered may change from year to year based on staff availability and new developments in social research
+	\end{itemize}
+	\vspace{0.2cm}
+	\item Following recent program restructuring, Masterclass now serves two main objectives
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Produce a new group of competent social researchers with different career objectives and academic ambitions
+		\item Showcase cutting-edge social research methods while helping students reflect on some of the most common ones
+	\end{itemize}
+\end{itemize}
+
+# Module organization
+
+\begin{itemize}
+\small
+	\item "Master" lecture series (6-7:30pm)
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Each week will feature a speaker who is an expert in the selected issue and method
+		\item The speakers will decide how they will deliver the lectures, with the use of different pre-sessional and/or class activities
+		\item \textbf{The lecture series is open to postgraduate research students and their participation will not be credited}
+	\end{itemize}
+	\vspace{0.2cm}
+	\item "Pieces-of-the-craft" workshops (7:40-9pm)
+	\begin{itemize}
+		\item Each week will focus on a social research "skill" and the workshop activities will help students complete the required assessment
+		\item Between Weeks 6-9, students will participate in the "Social Research Dissertation Fairs," where they share their research ideas and receive feedback
+		%\item \textbf{The workshops unless otherwise are only open to students who are taking Masterclass for credits}
+	\end{itemize}
+	\vspace{0.1cm}
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/masterclass_2026.pdf")
+```
+
+# Plan for Pieces-of-the-craft (PoC) Workshops
+
+\begin{itemize}
+	\item \textbf{Weeks 2-4}: "AI for Social Research"
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Week 2: Introduction
+		\item Week 3: AI and qualitative social research (interviews and discourse analysis)
+		\item Week 4: AI and Quantitative Social Research (synthetic data and agentic data analytical pipelines)
+	\end{itemize}	
+	\vspace{0.3cm}
+	\item \textbf{Week 5}: Communicating Your Research
+	\vspace{0.3cm}
+	\item \textbf{Weeks 6-9}: Social Research Dissertation Fairs
+\end{itemize}
+
+# Assessment (if you are taking Masterclass for credits)
+
+\begin{itemize}
+	\item Two \textbf{blog posts} (40\%): Write a blog post to summarize and reflect on \textbf{two of the lectures}; one lecture from Weeks 2-5 with the other one from Weeks 6-10
+	\vspace{0.3cm}
+	\item A \textbf{critical reflection paper} (60\%): (4,000 words max) to discuss how Masterclass helps  you advance/rethink social research by providing
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item a summary of your research project, 
+		\item a discussion on how AI can change/help with your project and
+		\item point-to-point responses to the questions and/or comments you receive during the presentation
+	\end{itemize}
+\end{itemize}
+
+# Role of the moderator (i.e., Chao-yo)
+
+\begin{itemize}
+	\item The moderator will join the lecture series to
+	\vspace{0.1cm}
+	\begin{itemize}
+	  \item Introduce the speaker
+	  \item Moderate the Q\&A or discussion, if necessary
+	\end{itemize}
+	\vspace{0.3cm}
+	\item The moderator will lead the workshops and provide feedback on your assignments 
+	\vspace{0.3cm}
+	\item The moderator is available to answer your questions about the module
+	\vspace{0.1cm}
+	\begin{itemize}
+	  \item Students are encouraged to schedule 1:1 meetings during my office hours (Friday 2-4pm) or by appointment
+	  \item All meetings take place via Teams by default -- email if you'd like to meet in person
+	  %\item Read the module handbook for details contact policy
+	\end{itemize}
+\end{itemize}
+
+# Notes for students who are auditing Masterclass
+
+\begin{itemize}
+    \item Attendance at the speaker series and the ``AI for Social Research'' workshops is selective and entirely at your discretion
+    \vspace{0.3cm}
+    \item Attendance is voluntary and will not be recorded
+    \vspace{0.3cm}
+    \item Please consult your supervisor beforehand to ensure that your participation contributes meaningfully to your doctoral research
+    \vspace{0.3cm}
+    \item You will be invited to contribute to a blog post at the end of the term
+\end{itemize}
+
+# Knowing each other
+
+\begin{itemize}
+	\item Please share your name, course, and subject area (e.g., political science) with us
+	\vspace{0.5cm}
+	\item What are the methods you have learned or used previously?
+	\vspace{0.5cm}
+	\item What project are you working on at this moment?
+\end{itemize}
+
+# Recap: Investigating the social world as a vocation
+
+\begin{itemize}
+  \item As a social researcher, we aim to produce "valid" knowledge about the social world
+  \vspace{0.2cm}
+  \item The production of valid knowledge involves a series of careful thinking about ontology/epistemology, theory-building, and methodology (or the theory-empirics alignment)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Reveal nuances of the real world}: constructivism and interpretivism ; theory as approach; interpretation; qualitative; inductive/abductive
+    \item \textbf{Search for the "ultimate" truth}: positivism; theory as paradigm; explanation; quantitative; deductive
+  \end{itemize}
+  \vspace{0.2cm}
+  \item A new definition of "better" social research is emerging as boundaries across subject areas and research methods are constantly being contested and redefined
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/biases_done.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/subject_done.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="75%", fig.align="center"}
+knitr::include_graphics("Figs/openai.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\url{https://openai.com/research}
+\end{center}
+
+# AI-4-Science: A paradigm shift? 
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/ai4sci}
+    \end{figure}
+  \endcol
+  \hspace{0.2cm}
+  \begincol{.5\textwidth}
+  "AI for Science (AI4S) represents the \textbf{convergence} of artificial intelligence (AI) innovation in scientific research and AI-driven scientific discovery, demonstrating their deep integration, and the establishment of a transformative research paradigm."
+  \endcol
+\endcols
+
+---
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/ai4sci}
+    \end{figure}
+  \endcol
+  \hspace{0.2cm}
+  \begincol{.5\textwidth}
+  \small
+  "Traditional scientific discovery involves \textbf{generating and validating candidate hypotheses} from a large solution space, often characterized by low efficiency and challenges in identifying high-quality solutions. AI harnesses its \textbf{powerful data processing and analytical capabilities} to navigate solution spaces more efficiently, enabling the generation of high-quality candidate hypotheses."
+  \endcol
+\endcols
+
+# AI and social sciences
+
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ai_for_social.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/pandora.pdf")
+```

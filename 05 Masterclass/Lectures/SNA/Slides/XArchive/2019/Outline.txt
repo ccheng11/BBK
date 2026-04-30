@@ -1,0 +1,81 @@
+Social Network Analysis in Comparative Politics
+Chao-Yo Cheng
+University of California, Los Angeles
+
+Preparation: Linear algebra (math camp materials)
+
+Motivation (WK1)
+	What is network? Complex system, network, and social network
+	Why network?
+	Network as the bridge between micro- and macro-perspectives
+	Network as an interdisciplinary enterprise: Math, computer science, physics, management, biology and life sciences, engineering, and humanities, social sciences
+
+Network and its components
+	Graph (network)
+	Nodes (vertices)
+	Edges (links)
+	Neighbors
+	Vector and sets / adjacency matrix (sociomatrix) / edgelist
+
+Descriptives of networks
+	Degree
+	Path
+	Geodesic distance
+	Density
+
+Centrality
+	Degree and eigenvector
+	Betweenness and closeness
+	... and more
+
+ERGM
+	Moving from descriptive statistics to generative models
+
+Things to consider
+	Reflect on your area(s) of substantive interest: Substance before methods
+	Pick a particular structure/phenomenon/pattern of "relations"
+	Describe how it might be represented using networks
+		- What would the nodes represent?
+		- What would the edges represent?
+		- Should you use an undirected or a directed network?
+		- Should you use a weighted or binary network?
+		- Should you use an unipartite or bipartite?
+	Reflect on the advantages and disadvantages of your chosen representation.
+	What important features do you capture?
+	What features might be distorted or left out?
+
+Data sources
+	Interviews and questionnaires
+	Sociometric & egocentric observation
+	Archival & 3rd party records
+	Experiment
+	Sampling (snowball, random walk, respondent-driven)
+	See Mark Newman's collection of network data: http://www-personal.umich.edu/~mejn/netdata/ (check out "Dolphin social network")
+
+Exercise
+	Using R: Get to know the packages (manuals and vignettes) -- network and igraph
+	Example: Florentine wedding data (see Padgett)
+			Plot
+			Degree
+			Path
+			Geodesic distance
+			Density
+			Centrality
+			ERGM
+
+SNA in comparative politics
+	State building
+		Acemoglu, Daron, Camilo Garcia-Jimeno, and James A. Robinson. 2015. "State Capacity and Economic Development: A Network Approach." American Economic Review 105(8): 2364–409.
+	Regime change
+		Linos, Katerina. 2011. "Diffusion through Democracy." American Journal of Political Science 55(3): 678–95.
+		Naidu, Suresh, James A. Robinson, and Lauren E. Young. 2015. "Social Origins of Dictatorships: Elite Networks and Political Transitions in Haiti." Working paper.
+	Information diffusion
+		Larson, Jennifer M., and Janet I. Lewis. 2017, "Ethnic Networks." American Journal of Political Science 61(2): 350-64.
+	Voting and electoral accountability
+		Arias, Eric, Pablo Balan, Horacio Larreguy, John Marshall, and Pablo Querubin. 2017. "How Social Networks Help Voters Coordinate around Information Provision to Improve Electoral Accountability: Evidence from Mexico." Working paper.
+		Cruz, Cesi, Julien Labonne, and Pablo Querubin. 2017. "Politician Family Networks and Electoral Outcomes: Evidence from the Philippines." American Economic Review 107(10): 3006-37.
+	Legislative behaviors
+		Bratton, Kathleen A., and Stella M. Rouse. 2011. "Networks in the Legislative Arena: How Group Dynamics Affect Cosponsorship." Legislative Studies Quarterly 36(3): 423-60.
+
+Discussion and questions
+	What to do in the Chinese context?

@@ -1,0 +1,220 @@
+---
+title: |
+  |
+  |
+  | Masterclass in Social Research
+  |
+  |
+author: |
+  | Week 1: Welcome and Introduction
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Plan for today
+
+\begin{itemize}
+	\item \textbf{About the Masterclass}
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item History and learning objectives
+		\item Weekly syllabus
+		\item Assessment and requirements
+		\item Module contact
+	\end{itemize}
+	\vspace{0.3cm}
+	\item \textbf{Introduction}: Tell us about yourself
+	\vspace{0.3cm}
+	\item \textbf{Exercise}: Finding your research buddies
+\end{itemize}
+
+# History and objectives
+
+\begin{itemize}
+\small
+	\item The \textbf{Masterclass in Social Research} is the final 30-credit compulsory module for \textbf{MSc Social Research} students.
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item The Masterclass was created at the beginning of the Postgraduate Social Research Programmes to provide students at Birkbeck with a variety of methods training.
+		\item While serving as a compulsory module for MSc students, the Masterclass is also open to research postgraduate students.
+		\item The topics covered by the Masterclass may change from year to year based on staff availability and new developments in social research.
+	\end{itemize}
+	\vspace{0.2cm}
+	\item Following recent program restructuring, the Masterclass now serves two main objectives
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Produce a new group of competent social researchers with different career and academic interests
+		\item Showcase cutting-edge social research methods while helping students reflect on some of the most common methods
+	\end{itemize}
+\end{itemize}
+
+# Module organization
+
+\begin{itemize}
+\small
+	\item "Master" lecture series (6-7:30pm)
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Each week will feature a speaker from an SSHP department who is an expert in the selected issue and method.
+		\item The speakers will decide how they will deliver the lectures, with the use of different pre-sessional and/or in-class activities.
+		\item \textbf{The lecture series is open to all taught and research postgraduate students and their participation will not be credited.}
+	\end{itemize}
+	\vspace{0.2cm}
+	\item "Pieces-of-the-craft" workshops (7:40-9pm)
+	\begin{itemize}
+		\item Each week will focus on a social research "skill" and the workshop activities will help students complete the required assessment.
+		\item Between Weeks 8-11, students will participate in the "dissertation fairs" where they share their research ideas and receive feedback.
+		\item \textbf{The workshops are only open to students who are taking the Masterclass for credits}.
+	\end{itemize}
+	\vspace{0.1cm}
+\end{itemize}
+
+# Weekly lecture series
+
+\begin{small}
+\begin{itemize}
+	\item \textbf{Week 1}: Welcome and introduction
+	\vspace{0.25cm}
+	\item \textbf{Weeks 2-5}: Quantitative/Computational Social Science
+	\begin{itemize}
+		\item Surveys (Barry Maydom, Politics)
+		\item Social network analysis (Chao-yo Cheng, Politics)
+		\item Natural language processing (Laszlo Horvath, Politics)
+		\item Geographic data science (Joana Barros, Geography)
+	\end{itemize}
+	\vspace{0.25cm}
+	\item \textbf{Weeks 7-9}: Critical Qualitative Social Research
+	\begin{itemize}
+		\item Mix methods: Merits and pitfalls (Penny Vera-Sanso, Geography)
+		\item Ethnography (Ben Gidley, Psychosocial)
+		\item Discourse analysis (Margarita Aragon, Psychosocial)
+	\end{itemize}
+	\vspace{0.25cm}
+	\item \textbf{Weeks 10-11}: Historical research and archives
+	\begin{itemize}
+		\item Data and quantification (Brodie Waddell, HCA)
+		\item Visual, material and environmental (Kat Hill, HCA)
+	\end{itemize}
+\end{itemize}
+\end{small}
+
+# Weekly workshops (tenative)
+
+\begin{itemize}
+	\item \textbf{Week 2}: When social research meets social media (academic blog posts)
+	\vspace{0.2cm}
+	\item \textbf{Week 3}: AI in Social research (AI for social goods)
+	\vspace{0.2cm}
+	\item \textbf{Week 4}: Using AI for social research (\texttt{ChatGPT} and social research)
+	\vspace{0.2cm}
+	\item \textbf{Week 5}: Communicating social research (presentation and peer-review process)
+	\vspace{0.2cm}
+	\item \textbf{Week 7}: Transparency and "open" social science (pre-analysis, replication tools, and desk-based research)
+	\vspace{0.2cm}
+	\item \textbf{Weeks 8-11}: Dissertation fairs (student presentations)
+\end{itemize}
+
+# Assessment (if you are taking MSR for credits)
+
+\begin{itemize}
+	\item \textbf{A blog post} (20\%): Write a blog post to summarize and reflect on \textbf{two of the lectures}; one lecture from Weeks 2-5 with the other one from Weeks 7-11.
+	\vspace{0.2cm}
+	\item \textbf{Presentation} (20\%): Deliver a talk of 6-10 minutes to present your dissertation (or any research) and submit your presentation slides.
+	\vspace{0.2cm}
+	\item \textbf{A critical reflection paper} (40\%)
+	\begin{itemize}
+		\item Write a critical reflection paper (3,500-4,000 words) to discuss how the Masterclass helps with you research.
+		\item Provide (1) a summary of your research project, (2) a discussion on how the lecture series help with your project, and (3) a response to the questions/comments/critiques you receive during the presentation.
+	\end{itemize}
+\end{itemize}
+
+# Role of the moderator
+
+\begin{itemize}
+	\item The moderator will join the lecture series to
+	\vspace{0.1cm}
+	\begin{itemize}
+	  \item Introduce the speaker
+	  \item Moderate the Q\&A or discussion, if necessary
+	\end{itemize}
+	\vspace{0.3cm}
+	\item The moderator will lead the workshops and provide feedback on your assignments. 
+	\vspace{0.3cm}
+	\item The moderator is available to answer your questions.
+	\vspace{0.1cm}
+	\begin{itemize}
+	  \item Students are encouraged to schedule an 1:1 meeting during my office hours (Friday 3-5pm) or by appointment.
+	  \item All meetings take place via Teams by default -- email if you'd like to meet in person.
+	  \item Read the module handbook for details contact policy.
+	\end{itemize}
+	
+\end{itemize}
+
+# Plan for next week
+
+\begin{itemize}
+	\item Lecture series: Surveys (Barry Maydom, Politics)
+	\vspace{0.4cm}
+	\item PoC workshops: Academic blogging
+	\vspace{0.1cm}
+	\begin{itemize}
+		\item Before you come: Finish the LSE post and browse one of the examples
+		\item In class: Use the lecture on surveys as a practice
+	\end{itemize}
+\end{itemize}
+
+# Introduction
+
+\begin{itemize}
+	\item Please share your name, course, and subject area (e.g., political science) with us.
+	\vspace{0.5cm}
+	\item What are the methods you have learned or used previously?
+	\vspace{0.5cm}
+	\item What project are you working on at this moment?
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/subject_done.pdf")
+```
+
+# Exercise: Social research and social "sciences"
+
+\begin{itemize}
+  \item Share your subject area with each other.
+  \vspace{0.3cm}
+  \item Is your subject area a social "science?" 
+  \vspace{0.3cm}
+  \item Is your subject area "suffering" from any "bias" named by Grossmann?
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Individual diversity: Demographic, geographical, and political
+    \item Scientific practice: Methodological, disciplinary, and institutional
+    \item Innate difficulties: Temporal, cognitive, and application
+  \end{itemize}
+  \vspace{0.3cm}
+  \item If there is more than one subject area being named in your group, is any subject area "more scientific" than others? Why?
+\end{itemize}
+
+# Recap: Investigating the social world as a vocation
+
+\begin{itemize}
+  \item As a social researcher, we aim to produce "valid" knowledge about the social world.
+  \vspace{0.2cm}
+  \item The production of valid knowledge involves a series of careful thinking about ontology/epistemology, theory-building, and methodology (or the theory-empirics alignment).
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Reveal nuances of the real world}: constructivism and interpretivism ; theory as approach; interpretation; qualitative; inductive/abductive
+    \item \textbf{Search for the "ultimate" truth}: positivism; theory as paradigm; explanation; quantitative; deductive
+  \end{itemize}
+  \vspace{0.2cm}
+  \item A new definition of "better" social research is emerging as boundaries across subject areas and research methods are constantly being contested and redefined.
+\end{itemize}
