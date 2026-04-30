@@ -92,10 +92,10 @@ knitr::include_graphics("Figs/masterclass_2026.pdf")
 		\item Week 3: AI and qualitative social research (interviews and discourse analysis)
 		\item Week 4: AI and Quantitative Social Research (synthetic data and agentic data analytical pipelines)
 	\end{itemize}	
-	\vspace{0.3cm}
-	\item \textbf{Week 5}: Communicating Your Research
-	\vspace{0.3cm}
-	\item \textbf{Weeks 6-9}: Social Research Dissertation Fairs
+	\vspace{0.4cm}
+	\item \textbf{Week 5}: Communicating Your Research (enrolled students only)
+	\vspace{0.4cm}
+	\item \textbf{Weeks 6-9}: Social Research Dissertation Fairs  (enrolled students only)
 \end{itemize}
 
 # Assessment (if you are taking Masterclass for credits)
