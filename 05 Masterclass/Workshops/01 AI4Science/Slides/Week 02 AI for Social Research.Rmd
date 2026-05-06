@@ -1,0 +1,263 @@
+---
+title: |
+  |
+  |
+  | AI for Social Research
+  |
+  |
+author: |
+  | 2026 Masterclass in Social Research
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Plan for today 
+
+\begin{itemize}
+  \item Motivation and objectives
+  \vspace{0.5cm}
+  \item The "magic" and reality
+  \vspace{0.5cm}
+  \item AI for social sciences
+  \vspace{0.5cm}
+  \item Looking ahead
+\end{itemize}
+
+# Motivation and objectives
+
+\begin{itemize}
+  \item A moment of existential crisis? AI is reshaping how "knowledge" is produced
+  \vspace{0.2cm}
+  \item Competing narratives: hype versus skepticism -- both contain truth
+  \vspace{0.2cm}
+  \item Social sciences face a specific challenge: AI both \textit{is} a social
+  phenomenon and \textit{transforms} how we study social phenomena
+  \vspace{0.2cm}
+  \item Goal: develop an informed, critical, and productive relationship with (gen-)AI tools
+\end{itemize}
+
+# What Makes LLMs Groundbreaking: Statistical Learning at Scale
+
+\begin{itemize}
+  \item \textbf{Statistical learning} -- LLMs learn probability distributions over language: predicting the next token given context, with no hand-crafted rules or symbolic representations
+  \vspace{0.2cm}
+  \item \textbf{Scaling laws} -- model capability improves \textit{predictably} with compute, parameters and data (Kaplan et al.\ 2020); intelligence as an emergent property of scale rather than explicit programming
+  \vspace{0.2cm}
+  \item A huge amount of \textbf{training data} -- models trained on internet-scale corpora absorb linguistic patterns, factual associations, and implicit cultural knowledge across domains and languages
+  \vspace{0.2cm}
+  \item \textbf{Hardware} -- GPU parallelism makes billion-parameter training feasible; compute constraints now shape the geopolitics of AI (chip export controls, sovereign AI infrastructure)
+\end{itemize}
+
+# How do LLMs actually work?
+
+\begin{itemize}
+  \item At its core, an LLM is a \textbf{next-token predictor} -- given a sequence of words, it estimates the most probable continuation
+  \vspace{0.3cm}
+  \item This is not retrieval (looking something up) and not reasoning (following logical rules) -- it is \textbf{pattern completion} learned from statistical regularities in text
+  \vspace{0.3cm}
+  \item The surprising result: predicting text at sufficient scale produces behaviour that \textit{looks like} understanding, translation, coding, and argumentation -- without any of these being explicitly programmed
+  \vspace{0.3cm}
+  \item Implication for researchers: the model has no beliefs, intentions, or knowledge -- only \textbf{learned associations between tokens}
+\end{itemize}
+
+# Training data: The world encoded as text
+
+\begin{itemize}
+  \item LLMs are trained on internet-scale corpora: web pages, books, code, academic papers, social media, legal documents
+  \vspace{0.3cm}
+  \item The model does not \textit{store} this text -- it \textbf{compresses} it into billions of numerical parameters (weights) that encode statistical relationships between concepts
+  \vspace{0.3cm}
+  \item What the model "knows" reflects what was \textit{written down, in languages represented online, by people with internet access} -- a deeply non-representative sample of human knowledge
+  \vspace{0.3cm}
+  \item \textbf{Knowledge cutoff}: the model has no awareness of events after its training data ends -- it cannot update in real time (without retrieval augmentation)
+\end{itemize}
+
+# Scaling laws and emergent behaviour
+
+\begin{itemize}
+  \item Kaplan et al.\ (2020) showed that LLM performance improves
+  \textit{predictably} with three factors: model size (parameters),
+  training data volume, and compute
+  \vspace{0.3cm}
+  \item More surprising: certain capabilities -- multi-step reasoning,
+  language translation, analogical thinking -- \textbf{emerge abruptly}
+  at scale thresholds, without being explicitly trained
+  \vspace{0.3cm}
+  \item This makes frontier LLMs qualitatively different from earlier
+  ML tools: their capabilities are \textbf{difficult to anticipate
+  in advance} and difficult to fully audit after the fact
+  \vspace{0.3cm}
+  \item For social researchers: you are working with a tool whose
+  full capability envelope is not yet known -- even to its developers
+\end{itemize}
+
+# The Hallucination Problem: Fluent Does Not Mean True
+
+\begin{itemize}
+  \item Because LLMs predict \textit{plausible} text rather than \textit{true} text, they routinely produce confident, fluent, \textbf{factually wrong outputs} -- including fabricated citations,
+  invented statistics, and non-existent court cases
+  \vspace{0.3cm}
+  \item This is not a bug to be fixed -- it is a \textbf{structural feature} of how the models work; accuracy is not what they are optimised for
+  \vspace{0.3cm}
+  \item The danger for researchers: errors are \textit{difficult to detect} precisely because they are stylistically indistinguishable from correct outputs
+  \vspace{0.3cm}
+  \item Practical rule: \textbf{never use an LLM output as a primary source}; always verify factual claims, citations, and quotations independently
+\end{itemize}
+
+# How the use of AI has changed: From GPT to AGI
+
+\begin{itemize}
+  \item \textbf{Chatbot and API interface} -- "conversational" AI; direct prompt--response interaction
+  \vspace{0.2cm}
+  \item \textbf{Prompt engineering and context} -- structured prompting, chain-of-thought, and retrieval-augmented generation (RAG)
+  \vspace{0.2cm}
+  \item \textbf{Fine-tuning domain-specific models} -- adapting pretrained LLMs to specialized corpora and tasks
+  \vspace{0.2cm}
+  \item \textbf{Agentic AI and automated pipelines} -- multi-step reasoning, tool use, and autonomous task execution
+  \vspace{0.2cm}
+  \item \textbf{Agentic frameworks and harness engineering} -- orchestrating agents at scale (e.g., OpenClaw, Claude Skills)
+\end{itemize}
+
+# LLMs and social sciences: Three domains
+
+\begin{itemize}
+\small
+  \item \textbf{Applied uses} -- AI augmenting professional practice, such as creative arts, education (teachers and students), newsrooms, healthcare and counseling, and crime control
+  \vspace{0.2cm}
+  \item \textbf{Human-centered AI} and \textbf{human-AI interactions} -- AI as a force of structural change in human society, such as
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Misinformation and democratic backsliding
+    \item Climate change and sustainable development
+    \item Labour market and economic development
+  \end{itemize}
+  \vspace{0.2cm}
+  \item \textbf{Geopolitics/governance of AI} -- development, regulation and governance, such as the Deepseek moment and US-China AI competition
+\end{itemize}
+
+# AI as a research assistant: Practical starting points
+
+\begin{itemize}
+  \item Identifying and refining research ideas, questions, and relevant literatures (e.g., "what has been done in this area?") -- Hendriksen (2023)
+  \vspace{0.3cm}
+  \item Locating potential co-authors and key/influential researchers in a field
+  \vspace{0.3cm}
+  \item Stress-testing ideas via simulated critical readers (e.g., "how will my reviewers respond?")
+  \vspace{0.3cm}
+  \item Drafting research applications, proposals, and code (with caution)
+\end{itemize}
+
+# What social researchers can (should?) do with AI: Scale, scope, speed
+
+\begin{itemize}
+  \item \textbf{Simulation} -- explore human behaviour through AI "impersonation"; agent-based modeling (ABM) and human-machine comparisons
+  \vspace{0.3cm}
+  \item \textbf{Data analysis and generation} -- annotation, grounded-theory coding, NLP, discourse and thematic analysis (Geiecke \& Jaravel 2024; Korinek 2023;
+  Leek et al.\ 2024)
+  \vspace{0.3cm}
+  \item \textbf{Survey and experimental research} -- design, implementation and replication of surveys and experiments (Bail 2024)
+  \vspace{0.3cm}
+  \item \textbf{Statistical programming} -- "vibe coding" and beyond (more in Advanced Topics in Quantitative Social Research)
+\end{itemize}
+
+---
+
+Bail
+
+# Caveats: What can go wrong
+
+\begin{itemize}
+  \item \textbf{Human bias encoded at scale} -- but also an opportunity to reverse-engineer how biases are (re)produced
+  \vspace{0.2cm}
+  \item \textbf{Junk science and quality control} -- "hallucination" and confabulation; domain-specific, context engineering, RAG and evaluation frameworks as partial solutions
+  \vspace{0.2cm}
+  \item \textbf{Ethics as both problem and solution} -- issues of deception, consent and simulation in AI-assisted research
+  \vspace{0.2cm}
+  \item \textbf{Transparency and replicability} -- performance evaluation, prompt versioning, and systematic model comparison
+\end{itemize}
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/film02.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/ai_ethics.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+\tiny
+\url{https://www.theatlantic.com/technology/archive/2025/05/reddit-ai-persuasion-experiment-ethics/682676/}
+\end{center}
+
+# How should researchers respond?
+
+\begin{itemize}
+  \item Principle of \textbf{strategic ignorance} (McGoey 2019) -- you do not need to understand AI fully to use it wisely; know enough to ask the right questions
+  \vspace{0.5cm}
+  \item Identify the \textbf{skills that matter to you}: prompt/context/harness engineering, critical
+  evaluation of outputs, understanding model limitations (at least at an intuitive level)
+  \vspace{0.5cm}
+  \item Follow \textbf{institutional guidance}: Birkbeck and LSE policies on AI use and academic integrity
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("Figs/ignore.pdf")
+```
+
+# Questions for discussion
+
+\begin{itemize}
+  \item Now that AI is a real possibility -- how might \textit{you} incorporate it into your research? How comfortable are you with using AI for research purposes, and why?
+  \vspace{0.5cm}
+  \item Christopher Bail (PNAS 2024) identifies many promising research opportunities -- which would you most like to explore? What opportunities does he miss?
+  \vspace{0.5cm}
+  \item What skills do you need to acquire to take genuine advantage of AI? How much do you actually need to \textit{know} about how AI works?
+\end{itemize}
+
+# Online short course: "AI for Social Research" (in planning)
+
+\begin{itemize}
+\small
+  \item \textbf{Session 1}: Overview -- From GPT to AGI
+  \vspace{0.1cm}
+  \item \textbf{Session 2}: LLMs and qualitative social research
+  \vspace{0.1cm}
+  \item \textbf{Session 3}: LLMs for survey research
+  \begin{itemize}
+    \item questionnaire design and pretesting
+    \item synthetic respondents and experiments
+    \item replication and validation
+  \end{itemize}
+  \vspace{0.1cm}
+  \item \textbf{Sessions 4-6}: LLMs in social data science
+  \begin{itemize}
+    \item natural language processing
+    \item agent-based modeling and simulations
+    \item agentic data analytical pipelines
+  \end{itemize}
+  \vspace{0.1cm}
+  \item \textbf{Session 7}: Project workshop and looking ahead
+\end{itemize}
+
+# Appendix: GenAI for plausibility checks
+
+\begin{itemize}
+  \item Without using any conversational AI tools (e.g., ChatGPT, Claude and Gemini), imagine how you can integrate AI into your research practice and workflows
+  \vspace{0.5cm}
+  \item Ask the tools you prefer to see what they can say/do for your research (both in terms of the topic and methods)
+  \vspace{0.5cm}
+  \item Do these suggestions make sense to you? Any notable differences in terms of the quality of generated responses?
+\end{itemize}
