@@ -1,0 +1,83 @@
+---
+title: |
+  |
+  |
+  | Comparative Government
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng 
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\begin{center}
+\textbf{Final Essay}
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("essay.pdf")
+```
+
+# Submission details \& format
+
+\begin{itemize}
+  \item \textbf{Deadline}: April 9, 2026, by 12pm (midday/noon)
+  \vspace{0.3cm}
+  \item \textbf{Word Count}: 1,500 words maximum (includes in-text references)
+  \vspace{0.3cm}
+  \item \textbf{Style}: Formal case study (no personal commentary)
+  \vspace{0.3cm}
+  \item \textbf{Referencing}: 
+  \begin{itemize}
+    \item Use a professional style (Harvard/APSA)
+    \item In-text citations must include page numbers
+    \item Full bibliography required
+  \end{itemize}
+\end{itemize}
+
+# Core requirements
+
+\begin{itemize}
+  \item \textbf{Event Selection}: One or two locations based on events from the last 12 months
+  \vspace{0.2cm}
+  \item \textbf{Theoretical Application}: Address \textbf{one} specific prompt using module readings and lectures
+  \vspace{0.2cm}
+  \item \textbf{Sourcing}: 
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Use news sources (e.g., \textit{Financial Times}) and thinktank reports for factual basis.
+    \item Prioritize Moodle materials and academic journals.
+    \item Engage thoroughly with course textbooks and lectures.
+  \end{itemize}
+\end{itemize}
+
+# Questions
+
+\begin{itemize}
+  \item \textbf{[Minorities]} Why are some states more tolerant of minorities than others?
+  \vspace{0.25cm} 
+  \item \textbf{[Constitutions]} Why do some constitutions protect rights better than others?
+  \vspace{0.25cm}
+  \item \textbf{[Authoritarianism and Democratic Backsliding]} Why do some states move toward authoritarianism while others do not?
+  \vspace{0.25cm}
+  \item \textbf{[Legislatures]} What is the role of legislatures in defending democracy?
+  \vspace{0.25cm}
+  \item \textbf{[Elections]} Why do some elections attract higher voter turnout than others?
+\end{itemize}
+
+# Exercise
+
+\begin{itemize}
+  \item Identify your event(s)
+  \vspace{0.4cm}
+  \item Explain how the chosen event(s) speak to one of the questions
+  \vspace{0.4cm}
+  \item Specify relevant weeks for your essay
+\end{itemize}
