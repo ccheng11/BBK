@@ -1,0 +1,34 @@
+---
+title: "Week 3 Reading Questions"
+date: today
+date-format: long
+fontsize: 12pt
+papersize: letter
+indent: true
+format:
+ pdf:
+  keep-tex: false
+  linestretch: 1
+  number-sections: true
+  shift-heading-level-by: 0
+  reference-links: true
+  reference-location: document
+  toc: false
+  pdf-engine: "xelatex"
+---
+
+# Ross
+
+ - Was Ross' question a 'good' research question? 
+
+ - Did Ross' article answer his question? Would another question have fitted his research better?
+
+ - What else could Ross have done to answer his research question?
+
+# Matthews
+
+ - Who was/wasn't interviewed? How might this have affected the results?
+
+ - How might the 'elite' nature of the interviewees have affected their answers to Matthews' questions?
+
+ - How reliable are the results? How would you improve the study? What other methods could have been used?

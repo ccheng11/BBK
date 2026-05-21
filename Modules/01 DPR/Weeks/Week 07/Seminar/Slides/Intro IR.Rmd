@@ -1,0 +1,177 @@
+---
+title: |
+  |
+  |
+  | Introduction to IR
+  |
+  |
+author: |
+  | WK2 Seminar
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Welcome back
+
+\begin{itemize}
+  \item Questions?
+  \vspace{1cm}
+  \item Study/Writing Skills workshops
+  \vspace{1cm}
+  \item Why you should attend seminars
+\end{itemize}
+
+# WWI as a critical juncture in IR
+
+\begin{itemize}
+  \item Why WWI is so important?
+  \vspace{1.5cm}
+  \item Can you name at least one ancient/recent event of similar importance but perhaps for a different reason?
+\end{itemize}
+
+# History and IR
+
+\begin{itemize}
+  \item What issues might come up when we use history to support our claims?
+  \vspace{1.5cm}
+  \item How can we avoid the potential pitfalls?
+  \vspace{1.5cm}
+  \item Is Kennedy's article a good example of using history to study IR? Why and/or why not?
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/iraq}
+    \end{figure}
+  \endcol
+  \pause
+  \begincol{.5\textwidth}
+  \textbf{Daily political life in dictatorships largely remains a black box.}
+  \pause
+  \vspace{0.4cm}
+  \begin{small}
+    \begin{itemize}
+      \item What did the Ba'thist regime actually know about its citizens?
+      \vspace{0.15cm}
+      \item Why did it use blunt, seemingly suboptimal, forms of punishment against its population?
+      \vspace{0.15cm}
+      \item What explains variation in the types of compliance and resistance behaviors undertaken by Iraqis during Hussein’s dictatorship?
+    \end{itemize}
+  \end{small}  
+  \endcol
+\endcols
+
+---
+
+\vspace{0.3cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/iraq}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+    \begin{small}
+    \vspace{0.2cm}
+    \textbf{Archives.}
+    \vspace{0.2cm}
+    \begin{itemize}
+      \item "The Iraqi Secret Police Files" (University of Colorado Boulder)
+      \vspace{0.2cm}
+      \item Miscellaneous tapes and associated transcripts (Hoover Institution)
+    \end{itemize}
+    \vspace{0.8cm}
+    \textbf{Interviews} via the Iraq Memory Foundation.
+    \end{small}
+  \endcol
+\endcols
+
+# General principles of historical research in IR
+
+\vspace{0.3cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{Figs/history}
+    \end{figure}
+  \endcol
+  \pause
+  \begincol{.5\textwidth}
+  \begin{small}
+  \begin{itemize}
+    \item Be clear about the questions. Think through the strategies (induction v deduction).
+    \vspace{0.1cm}
+    \item Be mindful of the underlying politics of information production, conservation, and declassification.
+    \vspace{0.1cm}
+    \item Be transparent as you are trying to form your interpretations (as well as the selection of details to be reported).
+    \vspace{0.1cm}
+    \item Be patient and open-minded -- read (and document) as much information as possible. Do not jump into conclusion.
+  \end{itemize}
+  \end{small}
+  \endcol
+\endcols
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/hoover.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.hoover.org/library-archives}
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/loc.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.loc.gov/}
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/bl.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.bl.uk/}
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/nas.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.nationalarchives.gov.uk/}
+\end{scriptsize}
+\end{center}

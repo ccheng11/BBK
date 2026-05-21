@@ -1,0 +1,240 @@
+---
+title: |
+  |
+  |
+  | Doing Political and Social Research
+  |
+  |
+author: |
+  | Week 7
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Quiz 1
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/quiz1.pdf")
+```
+
+# Recap: Case studies
+
+\begin{itemize}
+  \item Evaluate the analytical strength/relevance of some specified arguments
+  \vspace{0.4cm}
+  \item Comparative studies v single-case study?
+  \vspace{0.4cm}
+  \item Additional things to consider
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Alternative or rival theories?
+    \item Alternative methods (interviews, ethnography and archival research)?
+    \item Can you combine all of them?
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/treisman.pdf")
+```
+
+# General principles of archival research
+
+\vspace{0.3cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{Figs/history}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{small}
+  \begin{itemize}
+    \item Be clear about the questions; think through the strategies (induction v deduction)
+    \vspace{0.1cm}
+    \item Be mindful of the underlying politics of information production, conservation, and declassification
+    \vspace{0.1cm}
+    \item Be transparent as you are trying to form your interpretations (as well as the selection of details to be reported)
+    \vspace{0.1cm}
+    \item Be patient and open-minded -- read (and document) as much information as possible; do not jump into conclusion
+  \end{itemize}
+  \end{small}
+  \endcol
+\endcols
+
+---
+
+\vspace{0.3cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/iraq}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \textbf{RQ: Daily political life in dictatorships largely remains a black box}
+  \vspace{0.4cm}
+  \begin{small}
+    \begin{itemize}
+      \item What did the Ba'thist regime actually know about its citizens?
+      \vspace{0.15cm}
+      \item Why did it use blunt, seemingly suboptimal, forms of punishment against its population?
+      \vspace{0.15cm}
+      \item What explains variation in the types of compliance and resistance behaviors undertaken by Iraqis during Hussein’s dictatorship?
+    \end{itemize}
+  \end{small}  
+  \endcol
+\endcols
+
+---
+
+\vspace{0.3cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/iraq}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+    \begin{small}
+    \vspace{0.2cm}
+    \textbf{Archives}
+    \vspace{0.2cm}
+    \begin{itemize}
+      \item "The Iraqi Secret Police Files" (University of Colorado Boulder)
+      \vspace{0.2cm}
+      \item Miscellaneous tapes and associated transcripts (Hoover Institution)
+    \end{itemize}
+    \vspace{0.8cm}
+    \textbf{Interviews} via the Iraq Memory Foundation
+    \end{small}
+  \endcol
+\endcols
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/eic_cover.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/eic_source.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/eic_content.pdf")
+```
+\pause
+\vspace{0.2cm}
+\begin{center}
+\small
+Digitalization, deskwork, sampling and reading
+\end{center}
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/hoover.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.hoover.org/library-archives}
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/bl.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.bl.uk/}
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/loc.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://www.loc.gov/}
+\end{scriptsize}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/vdem.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://v-dem.net/}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/freedom.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://freedomhouse.org/}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/dd.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://sites.google.com/site/joseantoniocheibub/datasets/dd}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/polity.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://www.systemicpeace.org/polityproject.html}
+\end{center}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/gwf.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\scriptsize
+\url{https://sites.psu.edu/dictators/}
+\end{center}
