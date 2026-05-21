@@ -2,17 +2,17 @@
 
 ## Term 2
 
- - Comparative Government
- - Investigating the Social World
+ - Comparative Government (UG)
+ - Investigating the Social World (PG)
 
 ## Term 3
 
- - Advanced Topics in Quantitative Social Research
- - Masterclass in Social Research
+ - Advanced Topics in Quantitative Social Research (PG)
+ - Masterclass in Social Research (PG)
 
 ## Archives
 
- - Introduction to International Relations
- - Chinese Politics in Comparative Perspective
- - Doing Political Science and Research
- - Emerging Powers in World Politics
+ - Introduction to Global Politics (UG)
+ - Doing Political and Socoial Research (UG)
+ - Chinese Politics in Comparative Perspective (UG/PG)
+ - Emerging Powers in World Politics (PG)
