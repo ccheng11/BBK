@@ -1,0 +1,425 @@
+---
+title: |
+  | 
+  |
+  | CP$^2$ Week 10: Control and Co-optation
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Plan for today
+
+\begin{itemize} 
+  \item Assessment: Reminders and Q\&A
+  \vspace{0.4cm}
+  \item Lecture: Control and co-optation
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Puzzle: "The dictator's dilemma"
+    \item Coercive control as the means to prevent elite split and societal collective action
+    \item Co-optation and representation (and yet without electoral accountability) as the means to stay responsive and give the mass a stake in the regime's survival 
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Discussion (also to be continued next week): The Covid-19 crisis in China
+\end{itemize}
+
+# End-of-term Dim Sum Party
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/chinatown}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+    \item Date TBD, but likely after the learning journal is due
+    \vspace{0.8cm}
+    \item More details to out after the final lecture via email
+    \vspace{0.8cm}
+    \item Everyone is welcome -- let me know if you have any dietary restrictions
+  \end{itemize}
+  \endcol
+\endcols
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="45%", fig.align="center"}
+knitr::include_graphics("Figs/doc.pdf")
+```
+\vspace{0.15cm}
+\begin{center}
+\small
+"\textbf{I Want To Be A People's Representative}" by Zhitan Jia (2013)
+\end{center}
+
+# "The dictator's dilemma" (Wintrobe 1998)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{Figs/wintrobe}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \small
+  \begin{itemize}
+  \small
+  \item Contrary to the popular belief, the use of repression can be counter-productive for dictators, usually dictatorship operates through political exchange (co-optation)
+  \vspace{0.4cm}
+  \item The dictators seek the loyal support of interest groups, especially among the military and other political and social forces having the strongest capacity to depose them
+\end{itemize}
+  \endcol
+\endcols
+
+# "The dictator's dilemma" (Wintrobe 1998)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{Figs/wintrobe}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \small
+  \begin{itemize}
+  \small
+  \item Co-optation can be done by redistribution and incorporating groups into the regime apparatus
+  \vspace{0.5cm}
+  \item democracies do not necessarily redistribute more than dictatorships; autocrats may distribute more to buy support
+\end{itemize}
+  \endcol
+\endcols
+
+# "The Dictator's Handbook" (Bdm et al 2011)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.28]{Figs/bdm}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+  \item The key to political survival is to properly manage the "3-D Politics": \textbf{Nominal selectorate}, {real selectorate} and {winning coalition}
+  \vspace{0.4cm}
+  \item Any political leader, if conditions permitted, can reshuffle the members of these groups
+  \vspace{0.4cm}
+  \item The relative size of real selectorate and winning coalition will determine the preference of redistribution using public goods or particularistic private benefits
+\end{itemize}
+  \endcol
+\endcols
+
+# Relative size of real selectorate and winning coalition is important
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/selectorate.pdf")
+```
+
+# "Spin Dictators" (Guriev and Treisman 2022)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.28]{Figs/spin_auto}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+  \item \textbf{Fear dictators} maintains power by violently repressing and punishing opposition, controlling all communication tools, denouncing the pluralist democracy and blocking cross-border flows of information and people
+  \vspace{0.4cm}
+  \item \textbf{Spin dictators}, in contrast, focus on shaping public opinion than directly repressing people, which appears to be a more efficient and less costly alternative
+  \end{itemize}
+  \endcol
+\endcols
+
+# "Spin Dictators" (Guriev and Treisman 2022)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.28]{Figs/spin_auto}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+  \item Examples of "fear" dictators: Stalin in the former Soviet Union, Hitler in Nazi Germany and Mao in China
+  \vspace{0.5cm}
+  \item Examples of "spin" dictators: Victor Orbán in Hungary, Lee Hsien Loong in Singapore and Erdoğan in Turkey
+  \vspace{0.5cm}
+  \item Do you agree with the typology? Any other examples you can come up with?
+  \end{itemize}
+  \endcol
+\endcols
+
+# Placing the discussion in the Chinese context
+
+\begin{itemize}
+  \item Coercion and control: Preventing elite split and collective action
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Elite purges
+    \item Surveillance over civil society
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Co-optation and representation: Giving the mass a stake of the regime's survival
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Natl and local legislatures
+    \item Local elections
+    \item Party membership
+    \item Party-state employees
+  \end{itemize}
+\end{itemize}
+
+# Coercion and control: Elite purges
+
+\begin{itemize}
+  \item Cultural revolution under Mao, see Liu, Shih and Zhang (2018)
+  \vspace{1cm}
+  \item Anti-corruption campaign under Xi (allegedly), see Lorentzen and Lu (2018)
+\end{itemize}
+
+# "The Fall of the Old Guards" (Liu, Shih and Zhang 2018)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/res_liuetal.pdf")
+```
+\vspace{0.1cm}
+\begin{small}
+"The Cultural Revolution radically reoriented the composition of the elite selectorate from one favoring central agencies to one favoring local interests."
+\end{small}
+
+# Lorentzen and Lu 2018
+
+\begincols
+  \begincol{.5\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.36]{Figs/res_ll}
+    \end{figure}
+  \endcol
+  \hspace{0.6cm}
+  \begincol{.3\textwidth}
+  \small
+  \small
+  "Almost no individuals connected to the Premier were arrested, but connections to the broader Politburo Standing Committee were not protective."
+  \endcol
+\endcols
+
+# Coercion and control: Surveillance over civil society
+
+\begin{itemize}
+  \item Propaganda and media censorship (Week 9)
+  \vspace{0.4cm}
+  \item Strategic repression of "key" societal groups, such as
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Women and LGBT groups
+    \item Non-core ethnicities
+    \item Religious activities
+  \end{itemize}
+  \vspace{0.4cm}
+  \item Innovative
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Outsourcing state coercion to "thugs" (Ong 2018)
+    \item Societal atomization and technology-assisted "cellular" street-level governance (Zhou 2022)
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/social.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ong_both.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/zhou.pdf")
+```
+
+# Co-optation through natl and local legislatures
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.42]{Figs/manion}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+  \item Representation in a Leninist party regime might take one of the following forms: Mandate, Lennist and Trustee
+  \vspace{0.25cm}
+  \item Chinese legislature as an institution of "authoritarian parochialism:" Deliever targeted public goods to geograpgic constituency through extra-legislative means
+  \vspace{0.25cm}
+  \item The People's Congress system provides a key solution to alleviate the classical "dictator's dilemma:" Information and loyalty
+  \vspace{0.25cm}
+  \item Responsive without accountable?
+\end{itemize}
+  \endcol
+\endcols
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/res_manion.pdf")
+```
+\vspace{0.1cm}
+\begin{small}
+Survey data shows that Chinese local congressmen and women view themselves and act as "delegates."
+\end{small}
+
+# Co-optation through local elections
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.28]{Figs/election}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+  \item Currently, the Party allows for village elections as well as local elections for the People's Congress delegates
+  \vspace{0.4cm}
+  \item While elections are not uncommon among authoritarian regimes, few have national and executive elections
+  \end{itemize}
+  \endcol
+\endcols
+
+# Co-optation through local elections
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.28]{Figs/election}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+  \item In the case of village elections, they were introduced in the 1990s to tackle peasant grienvances when it comes to fees collection (Berstein and Lu 2003)
+  \vspace{0.4cm}
+  \item Broadly speaking, they provided an opportunity to monitor local officials and hold them accountable (Mayling Birney 2010)
+  \end{itemize}
+  \endcol
+\endcols
+
+# Co-optation through Party
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.28]{Figs/party}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+  \item People who joined the party under Mao were more likely to report ideological reasons; those in the post-1989 cohort mostly joined for the career benefits, and not just to work for the party or the government (Dickson 2013)
+  \vspace{0.3cm}
+  \item Jiang Zemin's "Three Represents" opened the Party's door to entrepreneurs, and it appears as a good business opportunity especially when these entrepreneurs were "elected" into the People's Congress (Truex 2014)
+  \vspace{0.3cm}
+  \item The demographic composition of the Party Congress has changed a lot in the past two decades
+  \end{itemize}
+  \endcol
+\endcols
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/party_elite.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/party_join.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/hanzhang_both.pdf")
+```
+
+# Conclusion
+
+\begin{itemize}
+  \item Dictators rarely rule by force only, and they will try all means to induce compliance and loyalty
+   \vspace{0.3cm}
+  \item Authoritarian governance involves intense coalition building (within and outside the inner circle) and strikes the general equilibrium of coercion and co-optation
+   \vspace{0.3cm}
+  \item China is no exception, and yet a number of puzzles remain to be answered:
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item How can the Party sustain a system of responsiveness without complete electoral accountability?
+    \item How can the Party strike the balance between the stick and carrot?
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.1cm}
+\begin{center}
+\textbf{Next week: Looking back at China's Covid-19 crisis}
+\end{center}
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/covid.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+See you next week!
+\end{center}

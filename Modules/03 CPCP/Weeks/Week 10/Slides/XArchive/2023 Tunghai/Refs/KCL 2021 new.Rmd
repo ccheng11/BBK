@@ -1,0 +1,278 @@
+---
+title: |
+  | Autonomy in Autocracy:
+  | Local Decentralization and Nation-State Building in Post-1949 China
+author: |
+  | Chao-Yo Cheng
+  | (London School of Economics and Political Science)
+  |
+date: "13 September 2021"
+output:
+  beamer_presentation:
+    theme: metropolis # CambridgeUS
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+fontsize: 10pt
+---
+
+## Motivation
+
+\vspace{0.1cm}
+\begincols
+\begincol{.5\textwidth}
+  Racial and ethnic diversity is often associated with a variety of economic and political predicaments.
+  \vspace{0.1cm}
+  \begin{small}
+  \begin{itemize}
+  \item Corruption and political rent-seeking
+  \item Income inequality and discrimination
+  \item Lack of local public goods provision and government services
+  \item Conflicts within and across different states
+  \end{itemize}
+  \end{small}
+\endcol
+\begincol{.4\textwidth}
+  \begin{figure}
+  \centering
+  \includegraphics[scale=0.45]{Figs/Books/al}
+  \end{figure}
+  \endcol
+\endcols
+
+## Motivation
+
+\vspace{0.1cm}
+\begincols
+\begincol{.5\textwidth}
+  How do autocratic leaders overcome these potential predicaments brought by racial and ethnic diversity?
+  \vspace{0.25cm}
+  \begin{small}
+  \begin{itemize}
+    \item Conventional wisdom asserts that autocrats usually dismiss and oppress ethnic cleavages.
+    \vspace{0.15cm}
+    \item History has seen dictators accommodating the needs of ethnic minority or non-core groups.
+  \end{itemize}
+  \end{small}
+\endcol
+\begincol{.4\textwidth}
+  \begin{figure}
+  \centering
+  \includegraphics[scale=0.25]{Figs/Books/tm}
+  \end{figure}
+\endcol
+\endcols
+
+## Questions
+
+\begin{itemize}
+  \item Why do autocrats grant \textbf{ethnic local autonomy}?
+  \vspace{0.15cm}
+  \item When and where will autocrats designate \textbf{ethnic autonomous territories} (EATs)?
+  \vspace{0.15cm}
+  \item How can local (policy/administrative) decentralization contribute to political centralization?
+\end{itemize}
+
+## Ethnic local autonomy in post-1949 China
+
+\vspace{0.1cm}
+\begincols
+\begincol{.4\textwidth}
+  \begin{figure}
+  \centering
+  \includegraphics[scale=1.1]{Figs/local}
+  \end{figure}
+\endcol
+\begincol{.5\textwidth}
+  \begin{itemize}
+    \item 5 \textbf{Ethnic autonomous regions}: Inner Mongolia (1947), Xinjiang (1955), Guangxi (1958), Ningxia (1958), and Tibet (1965).
+    \vspace{0.2cm}
+    \item 30 \textbf{Ethnic autonomous prefectures}.
+    \vspace{0.2cm}
+    \item 120 \textbf{Ethnic autonomous counties}.
+  \end{itemize}
+\endcol
+\endcols
+
+## Ethnic local autonomy in post-1949 China
+
+\vspace{0.4cm}
+\begin{itemize}
+  \item About 14\% of the total population live in EATs.
+  \item EATs account are present in more than $2/3$ of provinces.
+\end{itemize}
+\vspace{0.2cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.37]{Figs/map}
+\end{figure}
+\begin{center}
+[Partial map of China]
+\end{center}
+
+## Ethnic local autonomy in post-1949 China
+
+\vspace{0.4cm}
+The designation of EATs has exhibited significant changes both over time and across different jurisdictional levels in the country since 1949.
+\vspace{0.2cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{Figs/create}
+  \caption{Number of EAT designations, 1949-2003}
+\end{figure}
+
+## Ethnic local autonomy in post-1949 China
+
+\vspace{0.4cm}
+Compared with provincial EATs (e.g., Tibet and Xinjiang), subprovincial EATs are more active in exercising their granted local autonomy.
+\vspace{0.1cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.7]{Figs/autointro}
+  \caption{EATs with autonomous regulations.}
+\end{figure}
+
+## Common views (and why they are problematic)
+
+\vspace{0.2cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.6]{Figs/common}
+\end{figure}
+
+## Main argument
+
+Ethnic local autonomy helps the Chinese central leader address \textbf{the dilemma of delegation} and minimize \textbf{agency loss}.
+  \begin{small}
+  \begin{itemize}
+    \item The central leader designates EATs to constrain the power of provincial elites who are likely to resist his command.
+    \item The central leader is more likely to create EATs when he faces strong rivals within the central leadership.
+  \end{itemize}
+  \end{small}
+Ethnic local autonomy empowers \textbf{local non-Han cadres} in selected jurisdictions where \textbf{Han provincial elites} only have limited control.
+\vspace{0.1cm}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{Figs/chain}
+  \caption{Delegation dynamics between the central leader, provincial elites, and sub-provincial jurisdictions.}
+\end{figure}
+
+## Hypotheses
+
+\begin{itemize}
+  \item EAT designations tend to take place when the central leader faces agent problems within and outside the central leadership.
+  \begin{itemize}
+	  \item The central leader is \textbf{more} likely to create EATs when the central leadership is fragmented.
+	  \item The central leader is \textbf{more} likely to create EATs in provinces where the provincial leader has an independent, embedded local power base outside his reach.
+	  \item The central leader is \textbf{less} likely to create EATs in provinces where the provincial leader has a connection with the center.
+  \end{itemize}
+\end{itemize}
+
+## Empirical strategy: Qualitative
+
+\begincols
+\begincol{.43\textwidth}
+  \begin{small}
+  \begin{itemize}
+  \item \textbf{Archival research} in the US, Hong Kong, and Mainland China.
+  \item \textbf{Expert interviews}: Conversations with Han and non-Han cadres at the central and local levels across different provinces.
+  \item \textbf{Comparative case studies}: Process tracing the designation of ethnic autonomous prefectures in post-1949 China.
+  \end{itemize}
+  \end{small}
+\endcol
+\begincol{.5\textwidth}
+  \vspace{0.5cm}
+  \begin{figure}
+  \centering
+  \includegraphics[scale=0.43]{Figs/sites_6}
+\end{figure}
+\endcol
+\endcols
+
+## Empirical strategy: Quantitative
+
+\begin{itemize}
+	\item \textbf{Supervised machine learning} and \textbf{social network analysis}: Capturing the \textit{connectedness} and \textit{network structure} among/between central and local cadres based on an original biographical dataset of Chinese political elites (1949-2003).
+	\begin{itemize}
+	  \item Between the pair of cadres, I create the indices of \textbf{connectedness} based on their \textbf{biographical simularity}.
+	  \begin{figure}
+  \centering
+  \includegraphics[scale=0.52]{Figs/cpen}
+\end{figure}
+	  \item The same connectedness measure can be used to construct the information network of Politburo members and measure the degree of \textbf{central leadership fragmentation} by \textbf{community detection}.
+	\end{itemize}
+	\item \textbf{Multivariate regression}: Modeling the number of active EATs as a function of different explanatory and control variables.
+\end{itemize}
+
+## Findings
+
+\begin{itemize}
+  \item \textit{Ethnic local autonomy acts as an institution of agent control}.
+  \begin{figure}
+    \centering
+    \includegraphics[scale=0.51]{Figs/findings}
+  \end{figure}
+  \item \textit{EATs can act as enclaves that constrain provincial elites' power}.
+  \begin{itemize}
+    \begin{small}
+    \item Sub-provincial EATs are \textbf{more} likely to pass and revise autonomous regulations when the provincial elites are potentially defiant.
+    \item Ruling non-Han cadres in sub-provincial EATs are \textbf{less} likely to have worked at the provincial level prior to their appointments.
+    \end{small}
+  \end{itemize}
+\end{itemize}
+
+## Extension: Beyond ethnic local autonomy in post-1949 China
+
+\begin{itemize}
+	\item Going \textbf{cross-national}: Post-WWII authoritarian regimes are more likely to introduce regional autonomy to ethnic minorities when their ruling power is contested within the inner circle.
+	\vspace{0.2cm}
+	\item Going back to \textbf{history}: Post-civil war \textit{decentralization} and \textit{state power consolidation} in imperial and Republican China:
+	\begin{small}
+	\begin{itemize}
+	  \item Western Han dynasty (202 BC–220 AD): Kingdoms and marquis states.
+	  \item The Kuomintang (KMT) regime (1928-1949 AD): Countering recalcitrant provincial warlords through the county-level self-government movement. 
+	\end{itemize}
+	\end{small}
+\end{itemize}
+
+---
+
+\vspace{0.35cm}
+\begincols
+\begincol{.5\textwidth}
+  \begin{figure}
+  \centering
+  \includegraphics[scale=0.35]{Figs/wanwan2}
+  \end{figure}
+  \centering
+  \vspace{0.1cm}
+  (56 ethnic groups in China -- Do you recognize any of them?)
+\endcol
+\begincol{.4\textwidth}
+  Thank you!\
+	\vspace{0.5cm}
+	Email: \url{c.cheng23@lse.ac.uk}.
+\endcol
+\endcols
+
+## Appendix: Ethnic local autonomy in post-1949 China
+
+\begin{itemize}
+	\item 1949-1958: Accommodation/toleration via the official recognition of non-Han ethnic categories and EAT designations.
+	\item 1958-1978: Repressive assimilation during the Great Leap Forward and the suspension of ethnic local autonomy during the Cultural Revolution.
+	\item 1978-1992: Restoration and expansion (the Law on Ethnic Local Autonomy was passed in 1984).
+	\item 1992-current: EATs as the destination of patronage and subsidies. 
+\end{itemize}
+
+## Appendix: Regression analysis	
+
+\begin{itemize}
+	\item Dependent variable: Number of active EAT designations -- the creation, suspension, and restoration.
+	\item Explanatory variables:	
+	\begin{itemize}
+	  \item Central fragmentation: The modularity of the Politburo network.
+	  \item Local embeddedness: The connectedness between the provincial Party secretary and governor.
+	  \item Central-local connectedness: The (relative) connectedness between the provincial Party secretary and the formal Party head.
+	\end{itemize}
+	\item Controls: Ethnic demography, economic productivity, provincial leadership turnover, provincial fixed effects, latent time trend, etc.
+\end{itemize}

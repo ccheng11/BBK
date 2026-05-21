@@ -1,0 +1,28 @@
+# Assessment: Essay (70%)
+
+\begin{itemize}
+\small
+  \item The questions are currently under review and we expect to release them next week
+  \vspace{0.2cm}
+  \item You will choose one of the questions and write an original essay of 3,000 words
+  \vspace{0.2cm}
+  \item You are tasked to demonstrate an adequate understanding of the subject matter and relevant literature, which means
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item You will use any readings or additional references listed on Moodle and in lecture slides
+    \item You will need to produce original insights based on the lectures and class discussions
+  \end{itemize}
+  \item Resources outside the classroom: 1:1 meetings with Chao-yo and Birkbeck's Study Skills workshops
+  \vspace{0.2cm}
+  \item Due on \textbf{18 April 2024} (midday or 12pm), about a month after the term ends
+\end{itemize}
+
+# Assessment: Learning journal (30%)
+
+\begin{itemize}
+  \item Briefly introduce the article you choose: Who are the authors? What is the main subeject matter (e.g., research questions, arguments and empirical strategies)? 
+  \vspace{0.3cm}
+  \item Briefly explain how you will answer the questions: What countries does the article attempt to compare with China? Why? Does the comparison make sense to you? 
+  \vspace{0.3cm}
+  \item Any questions you would like to ask?
+\end{itemize}
