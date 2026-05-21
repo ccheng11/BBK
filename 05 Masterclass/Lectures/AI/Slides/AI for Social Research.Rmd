@@ -299,13 +299,6 @@ knitr::include_graphics("Figs/ai_research.pdf")
 
 \vspace{0.1cm}
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
-knitr::include_graphics("Figs/lse.pdf")
-```
-
----
-
-\vspace{0.1cm}
-```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/llm_survey_cover.pdf")
 ```
 
@@ -350,6 +343,71 @@ knitr::include_graphics("Figs/pa_llm_critical.pdf")
 ```{r echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("Figs/ai_game.pdf")
 ```
+
+---
+
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/lse.pdf")
+```
+
+# LLMs and "interviews" (Geiecke and Jaravel 2024)
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/lse.pdf")
+```
+
+---
+
+\begin{itemize}
+\small
+  \item Use "single" LLM agent (OpenAI's GPT-4o) to carry out interviews on different topics, such as
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Meaning of life
+    \item Political preferences (over the 2024 French snap election)
+    \item Educational and occupational choices
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Evaluate LLM peformance 
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Compare AI-generated transcripts to human experts (in this case, "sociologists")
+    \item Solicit assessment from respondents, e.g. how well the content of the interview captures their views (or "empathetic") and whether they would prefer to participate in an interview with AI or human researchers
+  \end{itemize}
+  \vspace{0.3cm}
+  \item Why AI-led/assisted interviews might be a good idea? What else can AI should be used? What else can we do to improve the design? Or should we just drop the idea?
+  %\begin{itemize}
+  %  \item Scale and cost
+  %  \item Privacy and sensitivity bias
+  %\end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lse_llm.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lse_pref.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lse_quality.pdf")
+```
+
+---
+
+
 
 # Caveats: What can go wrong
 
