@@ -1,0 +1,280 @@
+---
+title: |
+  |
+  |
+  | Investigating the Social World
+  |
+  |
+author: |
+  | Week 11
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\vspace{0.7cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/lego.pdf")
+```
+\vspace{0.5cm}
+\begin{center}
+Welcome back!
+\end{center}
+
+---
+
+\vspace{0.8cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/cgg.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\textbf{Comparative and international analysis}
+\end{center}
+
+---
+
+\vspace{0.4cm}
+\begin{itemize}
+  \item Why comparative and intl analysis
+  \vspace{0.7cm}
+  \item Move from case studies to social science
+  \vspace{0.7cm}
+  \item Practical guides for generalization
+  \vspace{0.7cm}
+  \item Conclusion: Investigating the social world as a vocation
+\end{itemize}
+
+# Why comparative and intl analysis
+
+\begin{itemize}
+  \item Prevent selection bias (Geddes 1990; Collier and Mahoney 1996)
+  \vspace{1cm}
+  \item Get around essentialism (Fuchs 2001; Phillips 2010)
+  \vspace{1cm}
+  \item Boost significance/importance
+\end{itemize}
+
+# The cases you choose affect the answers you get
+
+\begin{itemize}
+  \item The cases you choose can be problematic for the purpose of generalization.
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item The cases you choose may only represent one or a small number of similar cases in the domain/universe.
+    \item Without identifying the domain/universe/population, it is very difficult to ascertain the nature of your cases (typical/representation OR deviant/outlier/niche) and their analytical value (Gerring 2006).
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Selecting cases on dependent variable is very likely to produce faulty inference. 
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Jumping into the conclusion that any characteristic shared by the selected cases is the cause.
+    \item Jumping into the conclusion that the observed pattern can be extended to cases not included in the study.
+  \end{itemize}
+\end{itemize}
+
+# Labor repression and economic growth, 1970-81 (Geddes 2003)
+
+```{r echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics("Figs/sample.pdf")
+```
+\begin{center}
+\small
+When we only consider countries in Asia, labor repression seems to drive economic growth.
+\end{center}
+
+# Labor repression and economic growth, 1970-81 (Geddes 2003)
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/all.pdf")
+```
+\begin{center}
+\small
+When we consider all countries, there exists no clear statistical association.
+\end{center}
+
+# Be aware of the "pitfalls" of essentialism 
+
+\begin{itemize}
+  \item Essentialism can take at least the following four different forms in social research (Phillips 2010)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Attribution of certain characteristics to all observations subsumed within a particular category (ignoring individual agency and micro-level variation)
+    \item Attribution to the category by itself (naturalizing things that are socially and historically constructed)
+    \item Invocation of a collectivity, presuming a homogenized and unified group (sustaining stereotype)
+    \item Policing of the presumed collective category uncritically (impeding innovation by suffocating contestation)
+  \end{itemize}
+  \pause
+  \vspace{0.4cm}
+  \item \textbf{Discussion}: Is attribution to categories always a bad idea? How can we get around these potential issues?
+\end{itemize}
+
+# From case studies to social science: Two forms of "comprehension"
+
+\begin{itemize}
+  \item Apprehension
+  \vspace{1cm}
+  \item Explanation
+\end{itemize}
+
+# From case studies to social science: Two forms of "comprehension"
+
+\begin{itemize}
+  \item Apprehension
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item "Immersion" (often via ethnography) as the key foundation of learning and understanding to inform judgment and sharpen intuition.
+    \item The experiences in the field often provides a "bullshit meter" (or more commonly as we put, "plausibility check").
+    \item The first step "comes in the field itself" before "the researcher begins to separate from the field" and moves towards "explanation." 
+  \end{itemize}
+  \vspace{0.7cm}
+  \item Explanation
+\end{itemize}
+
+# From case studies to social science: Two forms of "comprehension"
+
+\begin{itemize}
+  \item Apprehension
+  \vspace{0.7cm}
+  \item Explanation
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item The movement towards "explanation" involves the "recoding" of the observations and encounters in the field.
+    \item Explanation establishes \textbf{the} lines of logic to link causes and consequences; the \textbf{thick} description provides the underpinnings for the exercise of abstraction and theory-building.
+    \item Explanation is different from \textbf{interpretation}, which focuses on providing "a" meaning of the descriptions.
+  \end{itemize}
+\end{itemize}
+
+# Economic behaviors of coffee growers in East Africa and Colombia
+
+\begin{itemize}
+  \item Use the field to search for potentially testable and generalizable insight (through ethnography)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item The behavior of the coffee growers represented a choice by rational actor under varying institutional environment
+    \item Be cautious about the temptation of using culture to explain the consequences
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Scope through the initial cases for plausibility check and theory building (through archival research and interviews)
+  \vspace{0.2cm}
+  \item Pave the road to conviction with small-N and large-N evidence
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Test the proposed logic in comparable new cases
+    \item Test the proposed logic with large-N (muiltivariate) regression
+  \end{itemize}
+\end{itemize}
+
+# Some practical suggestions for generalization
+
+\begin{small}
+\begin{itemize}
+  \item A researcher can be driven by the general question rather than the case (e.g., Rob Bates and David Laitin).
+  \vspace{0.12cm}
+  \item If possible, think outside the box by formulating the research questions within and outside the given case (i.e., de-contextualization).
+  \vspace{0.12cm}
+  \item Define the \textbf{scope} condition carefully and explicitly -- that is, what are the comparable cases out there and why? Where does the case of interest come from?
+  \vspace{0.12cm}
+  \item Use the key stakeholders and factors in the case to search for the possibility of comparable cases.
+  \vspace{0.12cm}
+  \item Be careful with any cultural explanations as they may create some issues (e.g., reverse causality; circularity and tautology; loss of agency).
+  \vspace{0.12cm}
+  \item Do not force generalization when it is not the main objective of your research. Do not be delusional and mislead yourself and your audiences.
+\end{itemize}
+\end{small}
+
+---
+
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/mason.pdf")
+```
+\begin{center}
+\begin{scriptsize}
+Mason, Jennifer. 2002. \textit{Qualitative researching} (2nd). London: Sage, p.18.
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.3cm}
+\begincols
+  \begincol{.4\textwidth}
+    \vspace{0.4cm}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/laitin}
+    \end{figure}
+    \vspace{0.2cm}
+    \begin{center}
+    \textbf{David D. Laitin} (Stanford)
+    \end{center}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{small}
+  \begin{itemize}
+    \item \textit{Why Muslim Integration Fails in \textbf{Christian-Heritage Societies}} (Cambridge: Harvard University Press, 2016) with Claire Adida and Marie-Anne Valfort
+    \vspace{0.2cm}
+    \item \textit{Identity in Formation: the \textbf{Russian-speaking} Populations in the Near Abroad} (Oxford: Oxford University Press, 2007)
+    \vspace{0.2cm}
+    \item \textit{Nations, States and Violence} (Ithaca: Cornell University Press, 1998)
+    \vspace{0.2cm}
+    \item \textit{Language Repertoires and State Construction in \textbf{Africa}} (Cambridge: Cambridge University Press, 1992)
+  \end{itemize}
+  \end{small}
+  \endcol
+\endcols
+
+# Conclusion: Investigating the social world as a vocation
+
+\begin{itemize}
+  \item ISW is a special module, reflecting on the production of "valid" knowledge about the social world.
+  \begin{itemize}
+    \item You need to know what you do and how to explain the objectives of your scholarly inquiry;
+    \item You need to know how to tell the differences between different objectives and engage other researchers' work constructively and effectively.
+  \end{itemize}
+  \item Social research involves a series of careful thinking about ontology/epistemology, theory-building, and methodology.
+  \begin{itemize}
+    \item \textbf{Reveal nuances of the real world}: constructivism; theory as approach; interpretation; qualitative; inductive/abductive
+    \item \textbf{Search for the "ultimate" truth}: positivism; theory as paradigm; explanation; quantitative; deductive
+  \end{itemize}
+  \item Exceptions always exist and boundaries are constantly being contested and redefined (e.g., Bates).
+\end{itemize}
+
+---
+
+\vspace{0.7cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_cont.pdf")
+```
+
+# Discussion: "Solidary Groups, Informal Accountability, and Local Public Goods Provision" (Tsai 2007)
+
+\begin{itemize}
+  \item What is the main research question? What is the scope condition?
+  \vspace{0.5cm}
+  \item Can you summarize her main theoretical argument? Can/should culture serve as the alternative explanation?
+  \vspace{0.5cm}
+  \item Are the findings significant and/or valid? Can you come up with another research project to extend this line of inquiry?
+\end{itemize}
+
+---
+
+More questions to consider about the research design and methods:
+\vspace{0.4cm}
+\begin{itemize}
+  \item Measurement of key analytical variables (solidary groups and local public goods provision)
+  \vspace{0.2cm}
+  \item Choice of estimator (seemingly unrelated regression)
+  \vspace{0.2cm}
+  \item Identification strategy (instrumental variable)
+  \vspace{0.2cm}
+  \item Robustness and additional/critical tests
+  \vspace{0.2cm}
+  \item Extension and further analysis?
+\end{itemize}

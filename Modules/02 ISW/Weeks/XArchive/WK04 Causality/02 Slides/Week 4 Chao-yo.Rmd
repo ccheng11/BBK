@@ -1,0 +1,326 @@
+---
+title: |
+  |
+  |
+  | Investigating the Social World
+  |
+  |
+author: |
+  | Week 4
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\vspace{0.7cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/lego.pdf")
+```
+\vspace{0.5cm}
+\begin{center}
+Welcome back!
+\end{center}
+
+# Recap: Using "numbers" to investigate the social world
+
+\begin{itemize}
+	\item Quantitative and qualitative social research can be very different.
+	\vspace{0.2cm}
+	\begin{itemize}
+		\item Ontology/epistemology: \textbf{Positivist} v \textbf{constructivist}
+		\item Size of observations: \textbf{Large-N} v \textbf{small-N}
+		\item Nature of theoretical claims: \textbf{Theory as paradigm} v \textbf{theory as approach}
+		\item Nature of conclusion: \textbf{Probabilistic} v \textbf{deterministic}
+		\item Goal of inquiry: \textbf{Capturing the "universal" truth} v \textbf{dlineating multiple "realities"}
+  \end{itemize}
+	\vspace{0.3cm}
+	\item However, very often their differences may be misplaced or exaggerated.
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_com.pdf")
+```
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_cont.pdf")
+```
+\begin{center}
+\begin{scriptsize}
+Sumner, A, and M Tribe. 2008. \textit{International Development Studies}. London: Sage, p.72.
+\end{scriptsize}
+\end{center}
+
+# Recap: Using "numbers" to investigate the social world	
+
+\begin{itemize}
+  \item Quantitative social research focuses on producing systematic "inference" based on numeric data (Tufte 1974; KKV 1994).
+  \vspace{0.5cm}
+ 	\begin{itemize}
+ 	  \item \textbf{Descriptive}: Use basic statistics (e.g., mean, median, and standard deviations) to describe noticeable patterns in the data
+ 	  \vspace{0.5cm}
+ 	  \item \textbf{Statistical/causal}: Use (multiple) linear/non-linear regression to evaluate the relationship between \textbf{explanatory} (or "independent") and \textbf{outcome} (or "dependent") variables
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Our focus today is \textbf{causality}; namely, we will talk about why \textbf{causal inference} has been growing to dominate (quantitative) social research.
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/jqd.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\begin{scriptsize}
+\url{https://twitter.com/journalqd}
+\end{scriptsize}
+\end{center}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/ols.pdf")
+```
+
+---
+
+\vspace{0.8cm}
+```{r echo=FALSE, out.width="75%", fig.align="center"}
+knitr::include_graphics("Figs/end3.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\textbf{Causality in social research}
+\end{center}
+
+# Why causality matters
+
+\begin{itemize}
+	\item Social science research is often motivated by simple (and yet important and difficult) \textbf{cause-and-effect} questions. To name a few:
+	\vspace{0.2cm}
+	\begin{itemize}
+	\item American politics: Does historical black slavery have a lasting impact on voters' attitudes toward the African American people?
+	\vspace{0.1cm}
+	\item Comparative politics: Does the descriptive representation of women and racial minorities in the legislature mitigate people's bias against them?
+	\vspace{0.1cm}
+	\item Political economy: Do cash-transfer programs reduce poverty?
+	\vspace{0.1cm}
+	\item International relations: Does international peacekeeping reduce conflicts? Does foreign aid work?
+	\end{itemize}
+	\vspace{0.2cm}
+	\item Causality is in particular crucial for "evidence-based" policymaking.
+\end{itemize}
+
+# Causality is hard to establish
+
+\begin{itemize}
+  \item Presence of confounders or common causes
+  \vspace{1cm}
+  \item True counterfactural cannot be observed
+  \vspace{1cm}
+  \item Causality is a complicated concept
+\end{itemize}
+
+# Challenge 1: Correlation and common causes (confounders)
+
+\begin{itemize}
+  \item Two variables $X$ (independent or explanatory) and $Y$ (dependent or outcome) can be \textbf{correlated} with each other under at least \textbf{three} conditions.
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item $X$ causes $Y$.
+    \item $X$ and $Y$ have a common \textbf{cause}.
+    \item $X$ and $Y$ have a common \textbf{outcome}.
+  \end{itemize}
+  \vspace{0.2cm}
+  \item To make sure $X$ causes $Y$, we have to rule out the influence from all common \textbf{causes}, namely the \textbf{confounders}, though \textbf{statistical controls} in multiple regression.
+  \vspace{0.2cm}
+  \item It is simply impossible and unrealistic to include all possible confounders in multiple regression.
+\end{itemize}
+
+---
+
+\vspace{0.4cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/assn.pdf")
+```
+\vspace{0.6cm}
+\begin{center}
+\textbf{Correlation with or without causation}. In the directed acyclic graph (DAG), we use \textbf{arrows} to denote causality between two variables. Here $X$, $Y$, and $C$ refer to \textbf{cause}, \textbf{outcome}, and \textbf{confounders} respectively.
+\end{center}
+
+---
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.61]{Figs/b2}
+\end{figure}
+\vspace{0.4cm}
+\begin{itemize}
+  \item On average, neighborhoods that have more police officers also see more residents killed by gun violence.
+  \vspace{0.2cm}
+  \item Is the police incompetent? Or even worse, are the police officers involved in some covert collusion with the local crime syndicate?
+\end{itemize}
+
+---
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.61]{Figs/b3}
+\end{figure}
+\vspace{0.4cm}
+\begin{itemize}
+  \item On average, no statistically significant results exist to show that UN peacekeeping troops reduce the likelihood of communal violence.
+  \vspace{0.2cm}
+  \item Is sending UN peacekeeping troops a waste of time and money?
+\end{itemize}
+
+# Challenge 2: Counterfactural virtually does not exist
+
+\begin{itemize}
+  \item Causal inference is difficult also because of the famous "fundamental problem of causal inference."
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item For any individual, we can never observe what actually happens under \textbf{counterfactural} in real life (Holland 1986).
+    \item Instead of comparing the difference at the \textbf{individual} level, we can compare the \textbf{average difference} in terms of the outcome of interest between \textbf{two (comparable) groups of people}.
+  \end{itemize}
+  \vspace{0.2cm}
+  \item The comparison is not straightforward due to the presence of \textbf{confounders}.
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Researchers usually attempt to \textbf{eliminate the influence of confounders on the cause} by randomly assigning our observations (e.g., survey respondents) into one of the experiment groups.
+    \item \textbf{Randomization may not be a perfect solution} (Deaton and Cartwright 2018).
+  \end{itemize}
+\end{itemize}
+
+# Challenge 3: Causality is more complicated than we thought
+
+\begin{itemize}
+  \item Getting a complete picture of causality is hard.
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Existence: Does $X$ cause $Y$? If yes, what is the direction?
+    \item Importance: If yes, $X$ have a non-trivial impact on $Y$? How do we quantify the size of effect? How do we know an effect is big or small?
+    \item Mechanism: How and why does $X$ affect $Y$? \textbf{Causal mediation analysis} and (qualitative) \textbf{process tracing} are commonly used to unpack a causal mechanism.
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Tradeoff between \textbf{internal} and \textbf{external} validity: It is also hard to generalize from our findings.
+\end{itemize}
+
+# Causal inference in action: Field and "natural" experiments
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/dunning.pdf")
+```
+
+# Example: White et al (APSR 2015)
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/whites.pdf")
+```
+\begin{itemize}
+	\item Do local election officials in the US respond to voters of different ethnicities differently?
+	\item 7,000 email requests were sent to local election offices; each request has a fictional voter from a uniquely "randomized" ethnicity (Latino v non-Latino).
+	\item Emails sent from Latino aliases were less likely to receive a response or more likely to receive a response of lower quality. 
+\end{itemize}
+
+# Example: Cheng and Urpelainen (SCID 2019)
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cheng.pdf")
+```
+\begin{small}
+\begin{itemize}
+	\item Does the election of criminal politicians undermine socioeconomic development in rural India?
+	\item Analysis draws on fine-grained village-level (on local public goods and socioeconomic development) and constituency-level data (on candidate characteristics).
+	\item Identification considers the victory of criminal politicians in close election "as-if" random.
+	\item Criminal politicians may undermine household-level poverty alleviation while having no statistically discernible impact on infrastructure construction (e.g., paved roads). 
+\end{itemize}
+\end{small}
+
+# How causal "revolution" changes social research
+
+\begin{itemize}
+  \item Qualitative and multi-method researchers in demand
+  \vspace{1cm}
+  \item Design-based "identification" precedes model-based inference
+	\vspace{1cm}
+	\item Statistical learning: The rise of "causal" learning
+\end{itemize}
+
+# How causal "revolution" changes social research
+
+\begin{itemize}
+  \item Qualitative and multi-method researchers in demand
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Qualitative information is important for research design and the search for proper setting for natural experiments (Dunning 2015).
+    \item It is possible to use qualitative methods/information to strengthen causal estimation (Glynn and Ichino 2015) and the study of mechanisms (Walder 2012).
+  \end{itemize}
+  \vspace{1cm}
+  \item Design-based "identification" precedes model-based inference
+	\vspace{1cm}
+	\item Statistical learning: The rise of "causal" learning
+\end{itemize}
+
+# How causal "revolution" changes social research
+
+\begin{itemize}
+  \item Qualitative and multi-method researchers in demand
+  \vspace{1cm}
+  \item Design-based "identification" precedes model-based inference
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item The conventional approach is to include "all" possible predictors in multiple regression (i.e., the notorious "kitchen-sink" approach).
+    \item Design-based causal "identification" urges us to think hard about the distinction between the "cause" and pre-treatment/control variables.
+  \end{itemize}
+	\vspace{1cm}
+	\item Statistical learning: The rise of "causal" learning
+\end{itemize}
+
+# How causal "revolution" changes social research
+
+\begin{itemize}
+  \item Qualitative and multi-method researchers in demand
+  \vspace{1cm}
+  \item Design-based "identification" precedes model-based inference
+	\vspace{1cm}
+	\item Statistical learning: The rise of "causal" learning
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item (Supervised) machine learning techniques may help with variable selection in multiple regression.
+    \item Statistical learning may also help with the analysis of "heterogeneous" causal effects.
+  \end{itemize}
+\end{itemize}
+
+# What we offer at Birkbeck
+
+\begin{itemize}
+  \item Advanced topics in quantitative social research (Cheng)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Generalized/non-linear multiple regression
+    \item Multilevel/hierarchical modeling
+    \item Basic tools for (observational) causal inference
+  \end{itemize}
+  \vspace{1cm}
+  \item Experiments in social science (Maydom)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Lab and lab-in-the-field experiments
+    \item Survey experiments
+    \item Natural experiments
+  \end{itemize}
+\end{itemize}

@@ -1,0 +1,94 @@
+---
+
+\vspace{0.2cm}
+\begin{center}
+\textbf{Part II}
+\end{center}
+\vspace{0.1cm}
+```{r echo=FALSE, out.width="55%", fig.align="center"}
+knitr::include_graphics("Figs/theme_2.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\textbf{Building rigor in social research by aligning theory and empirics}
+\end{center}
+
+# What is rigor according to AI
+
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/theme_2}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{small}
+  \begin{itemize}
+    \item The image showcases a large, fortress-like structure made of books and \textbf{scientific instruments}, symbolizing the strength and solid foundation of rigorous research.
+    \vspace{0.3cm}
+    \item This structure is encircled by a moat of flowing \textbf{data and statistics}, highlighting the \textbf{depth and thoroughness} required in research.
+  \end{itemize}
+  \end{small}
+  \endcol
+\endcols
+
+# What is rigor according to AI
+
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{Figs/theme_2}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{small}
+  \begin{itemize}
+    \item Atop the fortress, researchers are depicted using telescopes, microscopes, and computers, representing their \textbf{meticulous and detailed} work.
+    \vspace{0.3cm}
+    \item The clear and bright sky above the structure suggests the \textbf{clarity and enlightenment} achieved through rigorous study.
+  \end{itemize}
+  \end{small}
+  \endcol
+\endcols
+
+
+
+
+
+
+# How theory aligns with empirics
+
+\begin{itemize}
+  \item \textbf{Induction}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Producing broad claims based on our observations showing systematic patterns
+    \item 
+    \item Better for showing the existence a "theoretical" possibility awaiting further research
+  \end{itemize}
+  \vspace{0.6cm}
+  \item Deduction
+  \vspace{0.6cm}
+  \item Abduction
+\end{itemize}
+
+# How theory aligns with empirics
+
+
+
+# How theory aligns with empirics
+
+
+
+
+
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/epis_bin.pdf")
+```
+

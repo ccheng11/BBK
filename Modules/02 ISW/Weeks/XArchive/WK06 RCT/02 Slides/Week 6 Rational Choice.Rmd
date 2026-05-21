@@ -1,0 +1,360 @@
+---
+title: |
+  |
+  |
+  | Investigating the Social World
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+# Masterlcass (2025 version) announced
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/masterclass.pdf")
+```
+\vspace{0.2cm}
+\begin{center}
+An invitation to audit will be sent to all PG students
+\end{center}
+
+# Before Reading Week: Varieties of social research
+
+\begin{itemize}
+\small
+  \item ISW is a special module, as we aim to reflect on the production of "valid" knowledge about the social world
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Know what you do and explain the objectives of your scholarly endeavors;
+    \item Know the differences between various objectives and engage other researchers' work constructively and effectively
+  \end{itemize}
+  \vspace{0.2cm}
+  \item Social research involves a series of careful thinking about epistemology, theory-building and methodology; hence \textbf{theory-empirics alignment} is key to rigour
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item \textbf{Reveal nuances of the "real" world}: Constructivism; (interpretative) theory as approach; qualitative; inductive/abductive
+    \item \textbf{Search for the "ultimate" truth}: Positivism; (explanatory) theory as paradigm; quantitative; deductive
+  \end{itemize}
+\end{itemize}
+
+# Exceptions exist -- norms are constantly being contested and redefined
+
+\pause
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/epis_bin.pdf")
+```
+
+# Thinking beyond your case to boost contribution
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lachlan.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/lachlan2.pdf")
+```
+
+# Weeks 6-10: Analytical (or investigative) frameworks
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/guest.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+\small
+  \item Rational choice theory (Dr Chao-Yo Cheng)
+  \item Psychosocial framing (Professor Silvia Posocco)
+  \item Decolonizing social research (Dr Ivana Bevilacqua)
+  \item Intersectional sensibilities (Ms Joy Brooks-Gilzeane)
+  \item Situating lived experience (Dr Sarah Marks)
+\end{itemize}
+
+# Assessment II: Analytical essay (60%)
+
+\begin{itemize}
+  \item You will write an essay of 2,500 words in length
+  \vspace{0.3cm}
+  \item The idea is to choose \textbf{TWO} frameworks introduced after Reading Week to analyze an issue or problem of your choice
+  \vspace{0.3cm}
+  \item You are free to carry out any necessary outside/additional research; cite references properly (e.g., APA or MLA)
+  \vspace{0.3cm}
+  \item You can come to my office hours to discuss your preliminary responses with me; the goal is not to give you a mark before the deadline but to clear any confusion
+  \vspace{0.3cm}
+  \item Instructions and sample submissions available on Moodle now
+\end{itemize}
+
+---
+
+\begin{center}
+\textbf{Lecture: Rational choice}
+\end{center}
+\vspace{0.7cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cover.pdf")
+```
+\vspace{0.1cm}
+\pause
+\begin{center}
+\scriptsize
+"Anyone fancies an end-of-term happy hour?"
+\end{center}
+
+# Plan for today
+
+\begin{itemize}
+  \item Rational choice and beyond
+  \vspace{0.4cm}
+  \item Workshop: "Analytical narratives"
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Principles
+    \item Critiques and responses
+    \item Examples
+    \item Exercise
+  \end{itemize}
+\end{itemize}
+
+# Barbara's "verdict:" Breaking mis-perceptions
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/castles}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+  \small
+    \item Rational choice does not assume people are "selfish"
+    \vspace{0.3cm}
+    \item Rational choice does not assume people are driven by material interests
+    \vspace{0.3cm}
+    \item Rational choice does not assume preferences are stable or fixed
+    \vspace{0.3cm}
+    \item Rational choice does not ignore/discard ideology and/or history
+  \end{itemize}
+  \endcol
+\endcols
+
+# Rational choice is an "approach," not much of a "theory" per se
+
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("Figs/voice.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item Rational choice highlights the importance of "rationality" and yet how rationality should treated as a construct, not a given constant
+  \item Rational choice does not dictate a single or universal explanation/predictio (hence not "a" theory)
+  \item Rational choice provides a \textbf{micro-foundation} to research the social world
+\end{itemize}
+
+# John Levi Martin's take on rational choice (theory)
+
+\vspace{0.2cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{Figs/martin}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \begin{itemize}
+    \small
+    \item A useful "modelling exercise" for deductive reasoning
+    \vspace{0.3cm}
+    \item Cautioning against using it as a "total" theory of society (which can grow into a form of intellectual imperialism)
+    \vspace{0.3cm}
+    \item \textbf{Caveats abound}, alas -- Do we have a "choice?" How about structures? In favor of parsimony at the sacrifice of complexities and nuances? Ad hoc? How do we handle unintended or unexpected outcomes?
+    \vspace{0.3cm}
+    \item \textbf{Question for all}: To what extend would Martin align with Geddes?
+  \end{itemize}
+  \endcol
+\endcols
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/envy_book.pdf")
+```
+
+# Examples: "Envy in Politics" (McClendon 2018) 
+
+\begin{itemize}
+  \item \textbf{Paradox}: Why do rich people support redistribution? Why do governments fail to provide and act responsively?
+  \vspace{0.2cm}
+  \item \textbf{Argument}: \textit{Status sentiment} matters -- envy, spite and pursuit of admiration will influence political behaviors 
+  \vspace{0.2cm}
+  \item \textbf{Literature}: Drawing on anthropology, social psychology, behavior economics and so on
+  \vspace{0.2cm}
+  \item \textbf{Empirics}: Case studies and quantitative analysis, especially surveys and election/admin data (see "Applications" in the book)
+  \vspace{0.2cm}
+  \item \textbf{Implications}: Inequality is the key driving force of various political issues we are observing, but may not manifest in a way we expect 
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/envy_reg.pdf")
+```
+
+# Using rational choice to research the social world
+
+\begin{itemize}
+  \item Identify "paradox" to challenge the "conventional" wisdom (e.g., things taken for granted or so but turn out to be quite counterintuitive)
+  \vspace{0.3cm}
+  \item Define "actors" involved, laying down their different outcomes and actions
+  \vspace{0.3cm}
+  \item Set "utilities" to help the search for their "incentives" or "optimal" strategies; whether one action will be taken or not, can be an "interactive" and "repeated" process
+  \vspace{0.3cm}
+  \item Note that "utilities" do not come out of nowhere, and actors may be constrained by their "information" environment
+\end{itemize}
+
+# Example: Prisoner's dilemma
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/pd_1.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item Suppose A and B are arrested; the police puts them in two different interrogation rooms, but they both know (i.e., common knowledge)
+  \begin{itemize}
+    \item If both confess, both get 10 years in prison
+    \item If none of them confesses, both get 5 years in prison
+    \item For both A and B, they can get away if only the other side confesses, and the other side will get 20 years in prison
+  \end{itemize}
+\end{itemize}
+
+# Example: Prisoner's dilemma
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/pd_2.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item A would not know what B will do (unless they make a deal beforehand)
+  \item If B confesses, A should confess as well
+  \item If B does not confess, A should confess, too
+  \item So regardless what B will do, \textbf{A should confess}
+\end{itemize}
+
+# Example: Prisoner's dilemma
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/pd_3.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+\small
+  \item Likewise, B would not know what A will do
+  \item If A confesses, B should confess as well
+  \item If A does not confess, B should confess, too
+  \item So regardless what A will do, \textbf{B should also confess}
+\end{itemize}
+
+# Example: Prisoner's dilemma
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/pd_4.pdf")
+```
+\vspace{0.2cm}
+\begin{itemize}
+  \item As a result, both actors are stuck in the situation such that both will confess -- this is counterintuitive, as ideally none of them should
+  \item What can we do to get away from this conundrum -- of course, we would not want to set suspects on loose, but let's put that aside
+  \item Any other comments or questions?
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/analytic.pdf")
+```
+\vspace{0.5cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/analytic_people.pdf")
+```
+
+# Rationale and principle
+
+\begin{itemize}
+\small
+  \item Using game theoretical models to explain particular political economy cases that may generate broad theoretical implications, such as
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Political order as equilibria
+    \item How domestic politics and intl relations shape each other
+    \item Institutions matter for political economy of development
+  \end{itemize}
+  \vspace{0.3cm}
+  \item The process is \textbf{deductive}, developing "thick" narratives as "guided" by rational-choice like argument (as some sort of empirical tests)
+  \vspace{0.3cm}
+  \item Inspires the EITM (empirical implications of theoretical models) school in the United States
+  \vspace{0.3cm}
+  \item Check out examples in the book for demonstration
+\end{itemize}
+
+# Critiques: A case of "excessive" ambition (Jon Elster 2000)
+
+\begin{itemize}
+  \item Too ambitious -- is rational choice theory a "universal" theory? Theory- or problem-driven (Green and Shapiro 1994)?
+  \vspace{0.3cm}
+  \item The assumption for "rational" actors is too much, while rational choice is able to accommodate non-material or non-selfish interests
+  \vspace{0.3cm}
+  \item While the model is based on "individuals," aggregation of preferences may not be that straightforward (e.g., Arrow's impossibility theorem)
+  \vspace{0.3cm}
+  \item How about "beliefs" or "intentions?" And uncertainty, after all? The provided explanation is often ad hoc and unrealistic
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/eitm.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\url{https://eitminstitute.org/}
+\end{center}
+
+# Exercise
+
+What is the issue you'd like to deal with in your analytical essay? Share with your group members -- do you find the approach of "analytical narratives" useful, even with all the caveats associated with the rational choice framework?
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/books.pdf")
+```
+
+---
+
+\vspace{0.5cm}
+\begin{center}
+Thank you!
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_tv.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\texttt{c.cheng@bbk.ac.uk}
+\end{center}

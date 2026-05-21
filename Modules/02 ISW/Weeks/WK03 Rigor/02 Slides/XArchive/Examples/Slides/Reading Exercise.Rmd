@@ -1,0 +1,207 @@
+---
+title: |
+  |
+  | ISW Reading Workshop
+  |
+author: |
+  |
+  | Chao-Yo Cheng
+  |
+#date: "13 September 2021"
+output:
+  beamer_presentation:
+    #theme: metropolis # CambridgeUS
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+fontsize: 10pt
+---
+
+# Strategic reading: Four-step approach (UC Berkeley)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ucb.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+  \item \textbf{Preview}: Get as much information about the reading before you actually read it
+  \vspace{0.35cm}
+  \item \textbf{Annotating}: Read with a pencil and making notes as you read
+  \vspace{0.35cm}
+  \item \textbf{Analyzing}: Break the reading apart to see how different parts relate to each other
+  \vspace{0.35cm}
+  \item \textbf{Responding}: Think again how the reading relates the topic of each week; come up with summary, comments and questions
+\end{itemize}
+
+# Strategic reading: Four-step approach (UC Berkeley)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ucb.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+  \item \textbf{Preview}: Get as much information about the reading before you actually read it
+  \vspace{0.35cm}
+  \begin{itemize}
+    \item Why are you reading it (\textbf{hint: read session statement on Moodle})?
+    \item What can the title tell you about the reading?
+    \item How is the reading structured?
+    \item What info is available from the introductory and concluding paragraphs?
+    \item What is conveyed by the opening/topic sentences?
+    \item What is the main thesis? What are the main points?
+  \end{itemize}
+\end{itemize}
+
+# Strategic reading: Four-step approach (UC Berkeley)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ucb.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+  \item \textbf{Annotating}: Read with a pencil and making notes as you read
+  \vspace{0.35cm}
+  \begin{itemize}
+    \item Mark the thesis and main points
+    \item Write signposts to reorganize the reading
+    \item Note the main evidence to support the argument
+    \item Mark key terms and unfamiliar words and note confusing/challenging parts
+    \item Write down your questions/comments and/or experiences
+    \item Underline the sources (\textbf{hint: skim through the reference list and further readings on Moodle})
+  \end{itemize}
+\end{itemize}
+
+# Strategic reading: Four-step approach (UC Berkeley)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ucb.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+  \item \textbf{Analyzing}: Break the reading apart to see how different parts relate to each other
+  \vspace{0.35cm}
+  \begin{itemize}
+    \item Examine the evidence: Adequate? Relevant?
+    \item Evaluate sources: Relevant? Credible? Current?
+    \item Consider assumptions: What do we have to believe for the argument to be true?
+    \item Watch out for author bias
+  \end{itemize}
+\end{itemize}
+
+# Strategic reading: Four-step approach (UC Berkeley)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ucb.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+  \item \textbf{Responding}: Think again how the reading relates the topic of each week; come up with summary, comments and questions
+  \vspace{0.35cm}
+  \begin{itemize}
+    \item Write a response to the reading
+    \item Keep a notebook
+    \item Discuss the reading with others
+  \end{itemize}
+\end{itemize}
+
+---
+
+\begin{center}
+\textbf{Now, discuss the following questions in small groups/pairs.}
+\end{center}
+\vspace{0.5cm}
+\begin{itemize}
+  \item What is the main research question in each reading? Do these two readings share a common topic?
+  \vspace{0.2cm}
+  \item What is the epistemological stance of each reading? Why? What are the methods employed?
+  \vspace{0.2cm}
+  \item What is the nature of their theoretical claims (ideology, paradigm, and/or approach)? Also, what are the main objectives of their theoretical claims (description, interpretation, and/or explanation/prediction)?
+  \vspace{0.2cm}
+  \item How does each author align their empirical evidence with the theory induction, deduction, and/or abduction)?
+  \vspace{0.2cm}
+  \item Can you summarize the main thesis? Are their findings valid and significant? Why or why not?
+\end{itemize}
+
+# Unpacking Nunn and Meyer: Research questions
+
+\begin{itemize}
+	\item Nunn: "Do colonial missionaries have a lasting impact on people's religious identity today?"
+	\vspace{1cm}
+	\item Meyer: How has the "local \textbf{appropriations} of Christian beliefs" transformed Peki Ewe through the (re)imagination of the notion of devil?
+\end{itemize}
+\vspace{1cm}
+\begin{center}
+\textbf{What is the common topic of these two readings?}
+\end{center}
+
+# Unpacking Nunn and Meyer: Epistemology and methods
+
+\begin{itemize}
+	\item Nunn: \textbf{Positivist} and \textbf{quantitative}; multiple regression was being employed to establish the correlation between the location of historical missionaries and people's religious identity (see \textbf{Sections II} and \textbf{III}).
+	\vspace{1cm}
+	\item Meyer: \textbf{Constructivist} and \textbf{qualitative}; archival research (in Germany and the UK) and ethnography (in Ghana) were employed to document various living experiences as an outsider (see \textbf{THE RESEARCH} on pg. xxiii). 
+\end{itemize}
+\vspace{1cm}
+\begin{center}
+\textbf{Do these two authors perceive the dynamics of religious affiliation differently?}
+\end{center}
+
+# Unpacking Nunn and Meyer: Theory
+
+\begin{itemize}
+	\item Nunn: Theory as \textbf{paradigm} -- providing (simple and intuitive) theoretical accounts to explain why and how historical missionaries can have a lasing impact.
+	\vspace{1cm}
+	\item Meyer: Theory as \textbf{approach} -- providing theoretical claims to enrich Max Weber's theoretical framework by considering a more complicated, nuanced process of religious conversion.
+\end{itemize}
+\vspace{1cm}
+\begin{center}
+\textbf{Does the nature of each theoretical claim speak to their respective epistemological stance?}
+\end{center}
+
+# Unpacking Nunn and Meyer: Theory and empirics
+
+\begin{itemize}
+	\item Nunn: \textbf{Deductive}; theory $\to$ hypothesis $\to$ data/empirical analysis.
+	\vspace{1cm}
+	\item Meyer: \textbf{Abductive}; grand theory $\to$ observations $\to$ revised/improved theoretical perspectives.
+\end{itemize}
+\vspace{1cm}
+\begin{center}
+\textbf{Is abduction/deduction necessarily better or useful?}
+\end{center}
+
+# Comparing Nunn and Meyer
+
+\textit{Meyer states (pg. xix): ``The point I wish to make is that Christianity at the grassroots level cannot be reduced to the intentions and actions of Western colonial missionaries. African Christianity is not merely an extension of the missionary impact, but a continuously developing product which is shaped by a great number of experiences.''}
+
+\vspace{0.2cm}
+\begin{itemize}
+  \item Does this mean that her findings refute Nunn's? Is Nunn wrong? Misguided?
+  \vspace{0.1cm}
+  \item Is Meyer's evidence of the continued salience of Ewe gods and spirits to Christians evidence against Nunn's claims?
+\end{itemize}
+
+\vspace{0.5cm}
+\begin{figure}
+\centering
+  \includegraphics[scale=0.55]{Figs/authors}
+\end{figure}
+
+# Assessment I: The methodological review
+
+\begin{itemize}
+  \item You are going to examine \textbf{one} published peer-reviewed article (we will provide about 10 articles for you to choose).
+  \vspace{0.2cm}
+  \item You are going to answer \textbf{three} questions (they will resemble the questions we have for this exercise) and write up to \textbf{500 words} for each question. 
+  \vspace{0.2cm}
+  \item The articles and questions will be released on \textbf{10 February 2023}; the assignment is due midday \textbf{31 March 2023}.
+  \vspace{0.2cm}
+  \item No outside/additional research is needed. You will not need any citations. You will not need to quote anything.
+  \vspace{0.2cm}
+  \item \textbf{It is not a test} -- there is no rubric, and feel free to surprise us. You can come to my office hours to discuss any questions and/or your preliminary responses with me.
+\end{itemize}

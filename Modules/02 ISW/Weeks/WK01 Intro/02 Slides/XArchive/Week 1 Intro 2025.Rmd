@@ -1,0 +1,346 @@
+---
+title: |
+  |
+  |
+  | Investigating the Social World
+  |
+  |
+author: |
+  | Dr Chao-Yo Cheng
+  |
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle.tex
+  slidy_presentation: default
+  ioslides_presentation: default
+fontsize: 10pt
+---
+
+\begin{center}
+\textbf{Lecture 1: Welcome to Investigating the Social World}
+\end{center}
+\vspace{0.7cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/cover.pdf")
+```
+
+# Today's plan
+
+\begin{itemize}
+  \item Introduction: Welcome to the club
+  \vspace{0.1cm}
+    \begin{itemize}
+    \item Module organization
+    \item Weekly syllabus and roadmap
+    \item Assessment
+    \item Student support
+    \item Ground rules and tips
+    \item Tell us more about you
+    \end{itemize}
+  \vspace{0.3cm}
+  \item Lecture and discussion: What makes "good" social science research?
+  \vspace{0.3cm}
+  \item Conclusion: "Investigating the social world as a vocation"
+\end{itemize}
+
+# Module organization
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_night.pdf")
+```
+\vspace{0.3cm}
+\begin{itemize}
+\small
+  \item When: Every Wednesday, 6-8:30pm
+  \item Where: Room G08, Birkbeck Central
+  \item Meeting formats
+  \begin{itemize}
+    \item In-person or recorded lectures
+    \item Seminar discussions
+  \end{itemize}
+\end{itemize}
+
+# Weekly syllabus and roadmap
+
+\begin{itemize}
+\small
+  \item \textbf{Weeks 1-5: Varieties of social research}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Theory in social research
+    \item Epistemology and theory-empirics alignment
+    \item Using numbers to study the social world
+    \item Comparative and intl research
+  \end{itemize}
+  \vspace{0.3cm}
+  \item \textbf{Weeks 6-10: Analytical frameworks}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Rational choice theory
+    \item Psychosocial framing
+    \item Decolonizing social research
+    \item Intersectional sensibilities
+    \item Situating lived experience
+  \end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/guest.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+  \item Rational choice theory (Dr Chao-Yo Cheng)
+  \item Psychosocial framing (Professor Silvia Posocco)
+  \item Decolonizing social research (Dr Ivana Bevilacqua)
+  \item Intersectional sensibilities (Ms Joy Brooks-Gilzeane)
+  \item Situating lived experience (Dr Sarah Marks)
+\end{itemize}
+
+# Assessment
+
+\begin{itemize}
+  \item Critical methodological review (40\%)
+  \vspace{1cm}
+  \item Analytical essay (60\%)
+\end{itemize}
+
+# Assessment
+
+\begin{itemize}
+  \item Critical methodological review (40\%)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Examine a published \textbf{peer-reviewed} article
+    \item Answer \textbf{three} questions; write up to \textbf{500 words} (max) for each response
+    \item More will be discussed in \textbf{Week 5}
+    \item Due on \textbf{April 3 2025}
+  \end{itemize}
+  \vspace{0.7cm}
+  \item Analytical essay (60\%)
+\end{itemize}
+
+# Assessment
+
+\begin{itemize}
+  \item Critical mmethodological review (40\%)
+  \vspace{0.7cm}
+  \item Analytical essay (60\%)
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Write a 2,500-word essay (max)
+    \item Compare two analytical frameworks to analyze a social science phenomenon
+    \item More will be discussed in \textbf{Week 6}
+    \item Due on \textbf{April 21 2025}
+  \end{itemize}
+\end{itemize}
+
+# Is the module right for you?
+
+\begin{itemize}
+  \item MSc/PgDip Social Research: Complete the transition from methods technicians to informed social researchers
+  \vspace{1cm}
+  \item MA Sociology (or Psychosocial Studies): Learn more about more possibilities of social sciences research
+  \vspace{1cm}
+  \item All other subject areas: Introduce you to the study of social sciences
+\end{itemize}
+
+# Student support
+
+\begincols
+  \begincol{.4\textwidth}
+    \vspace{0.4cm}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.43]{Figs/head}
+    \end{figure}
+  \endcol
+  \begincol{.5\textwidth}
+  \hspace{0.2cm}
+  \small
+  \noindent \textbf{Module convenor}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Office hours (Friday 3-5pm)
+    \item \url{c.cheng@bbk.ac.uk}
+  \end{itemize}
+  \vspace{0.5cm}
+  \noindent \textbf{Module administration}
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Ask (\url{https://www.bbk.ac.uk/ask})
+    \item \url{fhss-edu-sss@bbk.ac.uk}
+  \end{itemize}
+  \vspace{0.5cm}
+  \noindent \textbf{Student Services}
+  \endcol
+\endcols
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/student.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\url{https://www.bbk.ac.uk/student-services}
+\end{center}
+
+# Ground rules and tips
+
+\begin{itemize}
+  \item \textbf{Active learning}: We embrace \textit{interactive} learning; come to in-person seminars/tutorials, having watched the lecture videos and completed the readings for the week
+  \vspace{0.3cm}
+  \item \textbf{Stability with flexibility}: We aim for stability, but acknowledge the need for flexibility
+  \vspace{0.3cm}
+  \item \textbf{Good communication}: We want to make this \textit{fantastic}; please be your own best advocate and give us feedback and constructive suggestions
+  \vspace{0.3cm}
+  \item \textbf{Safety}: We all want to keep you safe during your year at Birkbeck but need to work collaboratively with you to make that happen
+\end{itemize}
+
+# Strategic reading in social sciences
+
+\begin{itemize}
+  \item Know why you are reading
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Read the weekly description carefully
+    \item Skim first before you dive in
+    \item Pay attention to the big picture
+    \item Find the key information and read closely
+    \item Formulate your response and views
+    \item Know there is always more to read (e.g., further readings)
+  \end{itemize}
+  \vspace{0.5cm}
+  \item Build and use your support system
+\end{itemize}
+
+# Four-step approach (UC Berkeley)
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/ucb.pdf")
+```
+\vspace{0.5cm}
+\begin{itemize}
+  \item \textbf{Preview}: Get as much information about the reading before you actually read it
+  \vspace{0.1cm}
+  \item \textbf{Annotating}: Read with a pencil and making notes as you read
+  \vspace{0.1cm}
+  \item \textbf{Analyzing}: Break the reading apart to see how different parts relate to each other
+  \vspace{0.1cm}
+  \item \textbf{Responding}: Think again how the reading relates the topic of each week; come up with questions
+\end{itemize}
+
+# Strategic reading in social sciences
+
+\begin{itemize}
+  \item Know why you are reading
+  \vspace{0.5cm}
+  \item Build and use your support system
+  \vspace{0.1cm}
+  \begin{itemize}
+    \item Study Skills workshops and online tutorials
+    \item Personal/module tutor office hours
+    \item Study clubs
+  \end{itemize}
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/study.pdf")
+```
+\vspace{0.1cm}
+\begin{center}
+\url{https://www.bbk.ac.uk/student-services/learning-development}
+\end{center}
+
+# Breaking the ice: Humanities and social sciences in crisis
+
+\begin{itemize}
+  \item Social sciences as "pseudoscience?"
+  \vspace{0.5cm}
+  \item Debates over epistemological positions
+  \vspace{0.5cm}
+  \item Qualitative v quantitative? Or even computational?
+  \vspace{0.5cm}
+  \item Identity and representation -- how does "who you are" matter?
+  \vspace{0.5cm}
+  \item Replication, transparency and "open" social sciences
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/subject_done.pdf")
+```
+
+---
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("Figs/biases_done.pdf")
+```
+
+# Conclusion: Investigating the social world as a vocation
+
+\begin{itemize}
+  \item ISW is a special module, reflecting on the production of "valid" knowledge about the social world
+  \begin{itemize}
+    \item You need to know what you do and how to explain the objectives of your scholarly inquiry;
+    \item You need to know how to tell the differences between different objectives and engage other researchers' work constructively and effectively.
+  \end{itemize}
+  \item Social research involves a series of careful thinking about ontology/epistemology, theory-building, and methodology
+  \begin{itemize}
+    \item \textbf{Reveal nuances of the real world}: constructivism; theory as approach; interpretation; qualitative; inductive/abductive
+    \item \textbf{Search for the "ultimate" truth}: positivism; theory as paradigm; explanation; quantitative; deductive
+  \end{itemize}
+  \item Paradigm shift and innovations: Boundaries are constantly being contested and redefined
+\end{itemize}
+
+---
+
+```{r echo=FALSE, out.width="95%", fig.align="center"}
+knitr::include_graphics("Figs/vox.pdf")
+```
+
+# Discussion
+
+\begin{itemize}
+  \item Which one of the 12 studies is your favorite, why?
+  \vspace{0.3cm}
+  \item What makes a social science research important? What makes a "good" social research?
+  \vspace{0.3cm}
+  \item We are now the fifth year into the 2020s, what are some of the topics that should (and can) be addressed by social researchers?
+\end{itemize}
+
+# Next week: Theory comes to rescue
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/simon.pdf")
+```
+\begin{itemize}
+\small
+  \item Have you taken any module with "theory" in the title?
+  \item What is the most important/famous theory in your subject area? And what makes it important/famous?
+  \item What is your main takeaway from the TED Talk by Simon Sinek? Do you "like" what you hear (and does this matter)? Is there really a "theory" in the talk?
+\end{itemize}
+
+---
+
+\vspace{0.5cm}
+\begin{center}
+Thank you!
+\end{center}
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("Figs/bbk_tv.pdf")
+```
+\vspace{0.3cm}
+\begin{center}
+\texttt{c.cheng@bbk.ac.uk}
+\end{center}
