@@ -21,103 +21,17 @@ fontsize: 10pt
 
 \begin{itemize}
 	\item Two \textbf{blog posts} (each 20\%): each \textbf{1,000-word} post to summarize and reflect on two of the lectures (one from Weeks 2-5 and Reading Week; one from Weeks 6-10)
-	\vspace{1.5cm}
+	\vspace{2cm}
 	\item \textbf{Critical reflection paper} (60\%), a \textbf{4,000-word} (max) piece including
-	\vspace{0.1cm}
-	\begin{itemize}
-		\item A summary of your dissertation idea/project (see \textbf{Little 2016})
-		\item A discussion on how AI can help with your research project, and
-		\item Brief responses to the questions and/or comments/critiques that emerge from your presentation
-	\end{itemize}
-\end{itemize}
-
----
-
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="80%", fig.align="center"}
-knitr::include_graphics("Figs/plats.pdf")
-```
-
-# Podcast for different subject areas
-
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="90%", fig.align="center"}
-knitr::include_graphics("Figs/blogs_crop.pdf")
-```
-
-# Recommended podcast: New Books Network
-
-\vspace{0.3cm}
-\begincols
-  \begincol{.4\textwidth}
-    \begin{figure}
-    \centering
-    \includegraphics[scale=0.5]{Figs/nbn_crop}
-    \end{figure}
-    \vspace{0.2cm}
-	\begin{center}
-	\textbf{\url{newbooksnetwork.com}}
-	\end{center}
-  \endcol
-  \begincol{.5\textwidth}
-  	\begin{itemize}
-	\item A consortium of author-interview podcast channels:
-	\vspace{0.3cm}
-	\begin{itemize}
-		\item Aiming to "raise the level of public discourse" by introducing scholars and other serious writers to a wide public via new media
-		\vspace{0.3cm}
-		\item Convering $100+$ subjects, disciplines, and genres
-		\vspace{0.3cm}
-		\item Publishing 50 to 75 episodes every week
-		\vspace{0.3cm}
-		\item Opening to suggestions or pitches
-	\end{itemize}
-	\end{itemize}
-  \endcol
-\endcols
-
-# Short videos
-
-\vspace{0.3cm}
-```{r echo=FALSE, out.width="110%", fig.align="center"}
-knitr::include_graphics("Figs/bbk3mt1_crop.pdf")
-```
-\vspace{0.5cm}
-\begin{scriptsize}
-\begin{center}
-\textbf{\url{https://youtube.com/playlist?list=PL2Fy-5oxIlb7VLoWUC6j_eq9GJXzSjXfP}}
-\end{center}
-\end{scriptsize}
-
-# Social media threads
-
-\vspace{0.2cm}
-```{r echo=FALSE, out.width="80%", fig.align="center"}
-knitr::include_graphics("Figs/paul.pdf")
-```
-\vspace{0.1cm}
-\begin{scriptsize}
-\begin{center}
-\textbf{\url{https://twitter.com/ProfPaulPoast/status/1630305966674640896?s=20}}
-\end{center}
-\end{scriptsize}
-
----
-
-\begin{itemize}
-	\item Start with an introduction for spoilers and/or highlights, put concise statements about the research idea (RQ, literature and context/background) and a quick discussion on methods (if the methods are innovative) and findings
-	\vspace{0.4cm}
-	\item Some useful tips:
 	\vspace{0.2cm}
 	\begin{itemize}
-		\item Acknowledge those who inspire your research; give credits to your collaborators
-		\item Include GIFs/memes or short audios/videos to attract attention
-		\item Engage with the replies constructively to boost engagement
-		\item Use Twitter Analytics and other tools (e.g., TweetDeck) to manage tweets
+		\item A summary of your dissertation idea/project (see \textbf{Little 2016})
+		\item A discussion on how AI can help with your research project (see "POC Workshops: AI for Social Research"), and
+		\item Brief responses to the questions and/or comments/critiques that emerge from your presentation (see \textbf{Noble 2017})
 	\end{itemize}
 \end{itemize}
 
-# Blog posts
+# Blog Posts
 
 \begin{small}
 \begin{itemize}
@@ -149,32 +63,20 @@ knitr::include_graphics("Figs/bbk_psrp.pdf")
 \end{center}
 \end{scriptsize}
 
-# Discussion: Composing a blog post on today's lecture
+# Social Research Dissertation Fairs
 
 \begin{itemize}
-	\item Summarize the key highlights of today's lecture to those who did not attend the lecture
-	\vspace{0.5cm}
-	\item Discuss what have you learned from the lecture, in relation to any relevant research experiences in the past
-	\vspace{0.5cm}
-	\item How can today's lecture help with or relate to your research?
-	\vspace{0.5cm}
-	\item What else would you like to learn about today's topic?
-\end{itemize}
-
-# Social Research Dissertation Fair
-
-\begin{itemize}
-	\item Starting from Week 7, in each workshop \textbf{we will have three to four students} present their dissertation/research projects
-	\vspace{0.2cm}
-	\item Each presentation will last for about \textbf{15 minutes}, including discussion and Q\&A moderated by the module convener (15 minutes max); we may \textbf{record your presentation} for internal use
-	\vspace{0.2cm}
+	\item Between Weeks 6-9, in each workshop \textbf{we will have three to four students} present their dissertation/research projects
+	\vspace{0.3cm}
+	\item Each presentation will last for about \textbf{15 minutes}, including discussion and Q\&A moderated by the module convener (15 minutes max); may \textbf{record your presentation} for personal use
+	\vspace{0.3cm}
 	\item The main objective is to give you the opportunity to \textbf{collect feedback that can help with your dissertation} in a supportive and intimate setting; your project can be in any stage
 \end{itemize}
 
 ---
 
 \begin{itemize}
-	\item During Reading Week: Submit a working title, abstract and your bio to Chao-yo (an MS Form will be circulated)
+	\item During Reading Week: Submit a working title, abstract and your bio to Chao-yo (an MS Form will be circulated over the weekend)
 	\vspace{0.6cm}
 	\item Weeks 7-9: Send in your \textbf{presentation slides} before the designated presentation date
 	\vspace{0.6cm}
@@ -241,6 +143,18 @@ knitr::include_graphics("Figs/bbk_psrp.pdf")
 	\item Read Noble (2017) if necessary
 \end{itemize}
 
+# Pracrice: Composing a Blog Post on Today's lecture
+
+\begin{itemize}
+	\item Summarize the key highlights of today's lecture to those who did not attend the lecture
+	\vspace{0.5cm}
+	\item Discuss what have you learned from the lecture, in relation to any relevant research experiences in the past
+	\vspace{0.5cm}
+	\item How can today's lecture help with or relate to your research?
+	\vspace{0.5cm}
+	\item What else would you like to learn about today's topic?
+\end{itemize}
+
 # Pracrice: Writing an Abstract for Your Project
 
 \begin{itemize}
@@ -252,5 +166,91 @@ knitr::include_graphics("Figs/bbk_psrp.pdf")
 		\item What is the \textbf{context and/or background}? What is the \textbf{scope condition} for general audience?
 		\item What are \textbf{your methods and data sources}? 
 		\item What are your \textbf{benchmark findings}? What "new facts" have you found (or expect to find)? Or what key conclusions do you draw? The value-added or originality of your work within this field?
+	\end{itemize}
+\end{itemize}
+
+---
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/plats.pdf")
+```
+
+# Extra: Podcast for Different Subject Areas
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="90%", fig.align="center"}
+knitr::include_graphics("Figs/blogs_crop.pdf")
+```
+
+---
+
+\vspace{0.3cm}
+\begincols
+  \begincol{.4\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{Figs/nbn_crop}
+    \end{figure}
+    \vspace{0.2cm}
+	\begin{center}
+	\textbf{\url{newbooksnetwork.com}}
+	\end{center}
+  \endcol
+  \begincol{.5\textwidth}
+  	\begin{itemize}
+	\item A consortium of author-interview podcast channels:
+	\vspace{0.3cm}
+	\begin{itemize}
+		\item Aiming to "raise the level of public discourse" by introducing scholars and other serious writers to a wide public via new media
+		\vspace{0.3cm}
+		\item Convering $100+$ subjects, disciplines, and genres
+		\vspace{0.3cm}
+		\item Publishing 50 to 75 episodes every week
+		\vspace{0.3cm}
+		\item Opening to suggestions or pitches
+	\end{itemize}
+	\end{itemize}
+  \endcol
+\endcols
+
+# Extra: Short Videos
+
+\vspace{0.3cm}
+```{r echo=FALSE, out.width="110%", fig.align="center"}
+knitr::include_graphics("Figs/bbk3mt1_crop.pdf")
+```
+\vspace{0.5cm}
+\begin{scriptsize}
+\begin{center}
+\textbf{\url{https://youtube.com/playlist?list=PL2Fy-5oxIlb7VLoWUC6j_eq9GJXzSjXfP}}
+\end{center}
+\end{scriptsize}
+
+# Extra: Social Media Threads
+
+\vspace{0.2cm}
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("Figs/paul.pdf")
+```
+\vspace{0.1cm}
+\begin{scriptsize}
+\begin{center}
+\textbf{\url{https://twitter.com/ProfPaulPoast/status/1630305966674640896?s=20}}
+\end{center}
+\end{scriptsize}
+
+---
+
+\begin{itemize}
+	\item Start with an introduction for spoilers and/or highlights, put concise statements about the research idea (RQ, literature and context/background) and a quick discussion on methods (if the methods are innovative) and findings
+	\vspace{0.4cm}
+	\item Some useful tips:
+	\vspace{0.2cm}
+	\begin{itemize}
+		\item Acknowledge those who inspire your research; give credits to your collaborators
+		\item Include GIFs/memes or short audios/videos to attract attention
+		\item Engage with the replies constructively to boost engagement
+		\item Use Twitter Analytics and other tools (e.g., TweetDeck) to manage tweets
 	\end{itemize}
 \end{itemize}
