@@ -2,7 +2,7 @@
 
 ## Term 1
 
- - UBEL Foundations of Research in Practice
+ - UBEL DTP Foundations of Research in Practice (PGR)
 
 ## Term 2
 
