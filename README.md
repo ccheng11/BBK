@@ -1,4 +1,8 @@
-# Teaching (2025-26)
+# Teaching (2026-27)
+
+## Term 1
+
+ - UBEL Foundations of Research in Practice
 
 ## Term 2
 
