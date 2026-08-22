@@ -1,15 +1,15 @@
 # Teaching (2026-27)
 
-## Term 1
+## Term 1 (Autumn)
 
  - UBEL DTP Foundations of Research in Practice (PGR)
 
-## Term 2
+## Term 2 (Spring)
 
  - Comparative Government (UG)
  - Investigating the Social World (PG)
 
-## Term 3
+## Term 3 (Summer)
 
  - Advanced Topics in Quantitative Social Research (PG)
  - Masterclass in Social Research (PG)
